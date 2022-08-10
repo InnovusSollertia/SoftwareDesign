@@ -1,2 +1,0 @@
-D:\Projects\Software\c_cpp_x86-x64\https_server_ulugbek\Debug\https_server_ulugbek.exe
-D:\Projects\Software\c_cpp_x86-x64\https_server_ulugbek\Debug\https_server_ulugbek.pdb
