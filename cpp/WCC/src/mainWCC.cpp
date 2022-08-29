@@ -3,6 +3,7 @@
 #include <vector>
 #include <iterator>
 #include <string>
+#include <cmath>
 
 struct Legs {
     std::string squats = "> Do 5 sets of squats for 5 reps";
