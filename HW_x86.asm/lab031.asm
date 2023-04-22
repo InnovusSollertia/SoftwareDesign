@@ -1,0 +1,38 @@
+SECTION .data 
+	msgStart: DB 'Enter massage: ', 5
+	startLen: EQU $-msgStart
+	msgEnd: DB 'Your messaage is: '
+	endLen: EQU $-msgEnd
+SECTION .bss 		; Секция не инициированных данных
+	buf1: RESB 80 	; Буфер размером 80 байт
+SECTION .text 		; Код программы
+GLOBAL _start 		; Начало программы
+_start:
+	mov eax,  4 	; Просим пользователя ввести сообщение
+	mov ebx, 1
+	mov ecx, msgStart
+	mov edx, startLen
+	int 80h
+
+	mov eax, 3 	; Системный вызов для чтения (sys_read)
+	mov ebx, 0 	; Дескриптор файла
+		   	; 0 - стандартный ввод
+ 	mov ecx, buf1 	; Адрес буфера под вводимую строку
+	mov edx, 80 	; Длина вводимой строки
+	int 80h 	; Вызов ядра
+	
+	mov eax, 4	; Выводим сообщение пользователя
+	mov ebx, 1
+	mov ecx, msgEnd	
+	mov edx, endLen
+	int 80h
+
+	mov eax, 4
+	mov ebx, 1
+	mov ecx, buf1
+	mov edx, 80
+	int 80h
+
+	mov eax,1 	; Системный вызов для выхода (sys_exit)
+	mov ebx,0 	; Выход с кодом возврата 0 (без ошибок)
+	int 80h 	; Вызов ядра

@@ -1,0 +1,143 @@
+<html>
+<body>
+<pre>
+<h1>�Vision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: �Vision V5.23.0.0
+Copyright (C) 2017 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: vafaev laziz, dosti, LIC=----
+ 
+Tool Versions:
+Toolchain:       MDK-Lite  Version: 5.23
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.06 update 4 (build 422)
+Assembler:       Armasm.exe V5.06 update 4 (build 422)
+Linker/Locator:  ArmLink.exe V5.06 update 4 (build 422)
+Library Manager: ArmAr.exe V5.06 update 4 (build 422)
+Hex Converter:   FromElf.exe V5.06 update 4 (build 422)
+CPU DLL:         SARMCM3.DLL V5.23
+Dialog DLL:      DCM.DLL V1.15.0.0
+Target DLL:      STLink\ST-LINKIII-KEIL_SWO.dll V2.0.18.0
+Dialog DLL:      TCM.DLL V1.27.0.0
+ 
+<h2>Project:</h2>
+C:\Users\����� ������\Desktop\f407_lcd\MDK-ARM\f407_lcd.uvprojx
+Project File Date:  04/01/2021
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.06 update 4 (build 422)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Build target 'f407_lcd'
+compiling DHT.c...
+../Inc/DHT.h(26): error:  #20: identifier "GPIO_TypeDef" is undefined
+  	GPIO_TypeDef *DHT_Port;	//Порт датчика (GPIOA, GPIOB, etc)
+../Inc/DHT.h(27): error:  #20: identifier "uint16_t" is undefined
+  	uint16_t DHT_Pin;		//Номер пина датчика (GPIO_PIN_0, GPIO_PIN_1, etc)
+../Inc/DHT.h(29): error:  #20: identifier "uint8_t" is undefined
+  	uint8_t pullUp;			//Нужна ли подтяжка к питанию (0 - нет, 1 - да)
+../Inc/DHT.h(33): error:  #20: identifier "uint32_t" is undefined
+  	uint32_t lastPollingTime;//Время последнего опроса датчика
+..\Src\DHT.c(9): error:  #20: identifier "GPIO_InitTypeDef" is undefined
+  	GPIO_InitTypeDef GPIO_InitStruct = {0};
+..\Src\DHT.c(12): warning:  #223-D: function "HAL_GPIO_WritePin" declared implicitly
+    
+ineUp();
+..\Src\DHT.c(12): error:  #20: identifier "GPIO_PIN_SET" is undefined
+    
+ineUp();
+..\Src\DHT.c(16): error:  #20: identifier "GPIO_MODE_OUTPUT_OD" is undefined
+    GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_OD; 	//Открытый сток
+..\Src\DHT.c(18): error:  #20: identifier "GPIO_PULLUP" is undefined
+  	  GPIO_InitStruct.Pull = GPIO_PULLUP;						//Подтяжка к питанию
+..\Src\DHT.c(20): error:  #20: identifier "GPIO_NOPULL" is undefined
+  	  GPIO_InitStruct.Pull = GPIO_NOPULL;						//Без подтяжки
+..\Src\DHT.c(23): error:  #20: identifier "GPIO_SPEED_FREQ_HIGH" is undefined
+    GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_HIGH; //Высокая скорость работы порта
+..\Src\DHT.c(24): warning:  #223-D: function "HAL_GPIO_Init" declared implicitly
+    HAL_GPIO_Init(sensor->DHT_Port, &GPIO_InitStruct);
+..\Src\DHT.c(28): error:  #20: identifier "GPIO_InitTypeDef" is undefined
+    GPIO_InitTypeDef GPIO_InitStruct = {0};
+..\Src\DHT.c(32): error:  #20: identifier "GPIO_MODE_INPUT" is undefined
+    GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+..\Src\DHT.c(34): error:  #20: identifier "GPIO_PULLUP" is undefined
+  	  GPIO_InitStruct.Pull = GPIO_PULLUP;						//Подтяжка к питанию
+..\Src\DHT.c(36): error:  #20: identifier "GPIO_NOPULL" is undefined
+  	  GPIO_InitStruct.Pull = GPIO_NOPULL;						//Без подтяжки
+..\Src\DHT.c(38): warning:  #223-D: function "HAL_GPIO_Init" declared implicitly
+    HAL_GPIO_Init(sensor->DHT_Port, &GPIO_InitStruct);
+..\Src\DHT.c(47): error:  #20: identifier "uint16_t" is undefined
+  	uint16_t pollingInterval;
+..\Src\DHT.c(55): warning:  #223-D: function "HAL_GetTick" declared implicitly
+  	if (HAL_GetTick()-sensor->lastPollingTime < pollingInterval) {
+..\Src\DHT.c(60): warning:  #223-D: function "HAL_GetTick" declared implicitly
+  	sensor->lastPollingTime = HAL_GetTick();
+..\Src\DHT.c(67): warning:  #223-D: function "HAL_GPIO_WritePin" declared implicitly
+  	
+ineDown();
+..\Src\DHT.c(67): error:  #20: identifier "GPIO_PIN_RESET" is undefined
+  	
+ineDown();
+..\Src\DHT.c(68): warning:  #223-D: function "HAL_Delay" declared implicitly
+  	
+elay(15);
+..\Src\DHT.c(70): error:  #20: identifier "GPIO_PIN_SET" is undefined
+  	
+ineUp();
+..\Src\DHT.c(74): error:  #20: identifier "uint16_t" is undefined
+  	uint16_t timeout = 0;
+..\Src\DHT.c(76): warning:  #223-D: function "HAL_GPIO_ReadPin" declared implicitly
+  	while(
+etLine()) {
+..\Src\DHT.c(82): warning:  #223-D: function "HAL_GPIO_ReadPin" declared implicitly
+  	while(!
+etLine()) {
+..\Src\DHT.c(88): warning:  #223-D: function "HAL_GPIO_ReadPin" declared implicitly
+  	while(
+etLine()) {
+..\Src\DHT.c(94): error:  #20: identifier "uint8_t" is undefined
+  	uint8_t rawData[5] = {0,0,0,0,0};
+..\Src\DHT.c(95): error:  #20: identifier "uint8_t" is undefined
+  	for(uint8_t a = 0; a < 5; a++) {
+..\Src\DHT.c(96): error:  #20: identifier "uint8_t" is undefined
+  		for(uint8_t b = 7; b != 255; b--) {
+..\Src\DHT.c(97): error:  #20: identifier "uint32_t" is undefined
+  			uint32_t hT = 0, lT = 0;
+..\Src\DHT.c(99): warning:  #223-D: function "HAL_GPIO_ReadPin" declared implicitly
+  			while(!
+etLine()) lT++;
+..\Src\DHT.c(102): warning:  #223-D: function "HAL_GPIO_ReadPin" declared implicitly
+  			while(
+etLine()) hT++;
+..\Src\DHT.c(108): error:  #20: identifier "uint8_t" is undefined
+  	if((uint8_t)(rawData[0] + rawData[1] + rawData[2] + rawData[3]) == rawData[4]) {
+..\Src\DHT.c(111): error:  #20: identifier "uint16_t" is undefined
+  			data.hum = (float)(((uint16_t)rawData[0]<<8) | rawData[1])*0.1f;
+..\Src\DHT.c(111): error:  #18: expected a ")"
+  			data.hum = (float)(((uint16_t)rawData[0]<<8) | rawData[1])*0.1f;
+..\Src\DHT.c(114): error:  #18: expected a ")"
+  				data.temp = (float)(((uint16_t)rawData[2]<<8) | rawData[3])*0.1f;
+..\Src\DHT.c(117): error:  #18: expected a ")"
+  				data.temp = (float)(((uint16_t)rawData[2]<<8) | rawData[3])*-0.1f;
+..\Src\DHT.c: 12 warnings, 27 errors
+"f407_lcd\f407_lcd.axf" - 27 Error(s), 12 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.5.7.0.pack
+                ARM::CMSIS:CORE:5.4.0
+                CMSIS (Cortex Microcontroller Software Interface Standard)
+   * Component: CORE Version: 5.4.0
+
+<h2>Collection of Component include folders:</h2>
+  .\RTE\_f407_lcd
+  C:\Users\����� ������\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include
+  C:\Users\����� ������\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:5.4.0
+Target not created.
+Build Time Elapsed:  00:00:00
+</pre>
+</body>
+</html>

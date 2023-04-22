@@ -1,0 +1,69 @@
+     1                                  SECTION .data 
+     2 00000000 577269746520736F6D-     	offer: DB 'Write some text: ', 10
+     2 00000009 6520746578743A200A 
+     3                                  	offerLen: EQU $-offer
+     4 00000012 596F75722072657665-     	result: DB 'Your reversed text: ', 10
+     4 0000001B 727365642074657874-
+     4 00000024 3A200A             
+     5                                  	resultLen: EQU $-result
+     6                                  
+     7                                  SECTION .bss
+     8 00000000 <res 00000050>          	original: RESB 80
+     9 00000050 <res 00000050>          	reversed: RESB 80
+    10                                  
+    11                                  SECTION .text
+    12                                  GLOBAL _start
+    13                                  
+    14                                  _start: 
+    15 00000000 B804000000              	mov eax, 4
+    16 00000005 BB01000000              	mov ebx, 1
+    17 0000000A B9[00000000]            	mov ecx, offer
+    18 0000000F BA12000000              	mov edx, offerLen
+    19 00000014 CD80                    	int 80h
+    20                                  	
+    21 00000016 B803000000              	mov eax, 3
+    22 0000001B BB00000000              	mov ebx, 0
+    23 00000020 B9[00000000]            	mov ecx, original
+    24 00000025 BA50000000              	mov edx, 80
+    25 0000002A CD80                    	int 80h
+    26                                  
+    27 0000002C B900000000              	mov ecx, 0
+    28 00000031 BE[00000000]            	mov esi, original
+    29 00000036 BA[50000000]            	mov edx, reversed
+    30                                  	
+    31                                  ;	mov eax, 5
+    32                                  ;	mov ebx, ecx
+    33                                  ;	mov esi, reversed
+    34                                  
+    35                                  _steps: 
+    36 0000003B 678A06                  	mov al, byte[esi]
+    37 0000003E 3C0A                    	cmp al, 10
+    38 00000040 7408                    	je _reverse
+    39 00000042 6650                    	push ax
+    40 00000044 FFC6                    	inc esi
+    41 00000046 FFC1                    	inc ecx
+    42 00000048 EBF1                    	jmp _steps
+    43                                   
+    44                                  _reverse: 
+    45 0000004A 6658                    	pop ax
+    46 0000004C 678802                  	mov byte[edx], al
+    47 0000004F FFC2                    	inc edx
+    48 00000051 E2F7                    	loop _reverse
+    49                                  	
+    50 00000053 67C6020A                	mov byte [edx], 10
+    51                                  
+    52 00000057 B804000000              	mov eax, 4
+    53 0000005C BB01000000              	mov ebx, 1
+    54 00000061 B9[12000000]            	mov ecx, result,
+    55 00000066 BA15000000              	mov edx, resultLen
+    56 0000006B CD80                    	int 80h
+    57                                  	
+    58 0000006D B804000000              	mov eax, 4
+    59 00000072 BB01000000              	mov ebx, 1
+    60 00000077 B9[50000000]            	mov ecx, reversed
+    61 0000007C BA50000000              	mov edx, 80
+    62 00000081 CD80                    	int 80h
+    63                                  	
+    64 00000083 B801000000              	mov eax, 1
+    65 00000088 BB00000000              	mov ebx, 0
+    66 0000008D CD80                    	int 80h	

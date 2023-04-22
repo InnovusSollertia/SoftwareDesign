@@ -1,0 +1,121 @@
+(ExpressProject "NE555_LED"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2019 P001 (3823098) [10/7/2019]-[03/19/23]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    ("Allegro Netlist Directory" "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\ne555_led.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Board_sim_option "VHDL_flow")
+    ("Allegro Netlist Output Board File" ".\allegro\ne555_led.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE"))
+  (Folder "Layout"
+    (File ".\allegro\ne555_led.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\ne555_led.brd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "1")))
+  (Folder "Outputs"
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (Folder "Logs")
+  (PartMRUSelector
+    (C
+      (FullPartName "C.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (c
+      (FullPartName "c.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG_P.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VCC
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (CON2
+      (FullPartName "CON2.Normal")
+      (LibraryName "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (C_elect
+      (FullPartName "C_elect.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0"))
+    (Sw_tClose
+      (FullPartName "Sw_tClose.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ANL_MISC.OLB")
+      (DeviceIndex "0"))
+    (555B
+      (FullPartName "555B.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ANL_MISC.OLB")
+      (DeviceIndex "0"))
+    (ALK_9V
+      (FullPartName "ALK_9V.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\BATTERY.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName
+         "C:\CADENCE\SPB_17.4\TOOLS\CAPTURE\LIBRARY\PSPICE\ANALOG.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "User")
+  (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_17.4\tools\capture\library")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Layout")
+      (Path "Outputs")
+      (Select "Design Resources"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 539"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 1009 24 557")
+        (Scroll "419 442")
+        (Zoom "146")
+        (Occurrence "/"))
+      (Path "D:\.WORKSHOP\PROGRAMMING\LOWLEVEL\PCB\NE555\NE555_LED.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))

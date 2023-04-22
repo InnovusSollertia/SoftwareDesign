@@ -1,0 +1,63 @@
+     1                                  SECTION .bss
+     2 00000000 <res 00000050>          	answer: RESB 80
+     3                                  
+     4                                  SECTION .data 
+     5                                  
+     6 00000000 D09FD0BED0BBD0B4D0-     	question: DB 'Полдень наступил?'
+     6 00000009 B5D0BDD18C20D0BDD0-
+     6 00000012 B0D181D182D183D0BF-
+     6 0000001B D0B8D0BB3F         
+     7                                  	questionLen: EQU $-question
+     8 00000020 D094D0BED0B1D180D0-     	morning: DB 'Доброе утро!'
+     8 00000029 BED0B520D183D182D1-
+     8 00000032 80D0BE21           
+     9                                  	morningLen: EQU $-morning
+    10 00000036 D094D0BED0B1D180D1-     	day: DB 'Добрый день!'
+    10 0000003F 8BD0B920D0B4D0B5D0-
+    10 00000048 BDD18C21           
+    11                                  	dayLen: EQU $-day
+    12                                  
+    13                                  SECTION .text
+    14                                  
+    15                                  GLOBAL _start
+    16                                  
+    17                                  _start:
+    18 00000000 B804000000              	mov eax, 4
+    19 00000005 BB01000000              	mov ebx, 1
+    20 0000000A B9[00000000]            	mov ecx, question
+    21 0000000F BA20000000              	mov edx, questionLen
+    22 00000014 CD80                    	int 80h
+    23                                  	
+    24                                  	mov eax, 
+    24          ******************       error: invalid combination of opcode and operands
+    25 00000016 BB00000000              	mov ebx, 0
+    26 0000001B B9[00000000]            	mov ecx, answer
+    27 00000020 BA50000000              	mov edx, 80
+    28 00000025 CD80                    	int 80h
+    29                                  	
+    30 00000027 803C25[00000000]79      	cmp byte[answer], 'y'
+    31 0000002F 740C                    	je _showDay
+    32 00000031 803C25[00000000]6E      	cmp byte[answer], 'n'
+    33 00000039 741A                    	je _showMorning
+    34                                  
+    35 0000003B EBC3                    	jmp _start
+    36                                  
+    37                                  _showDay: 
+    38 0000003D B804000000              	mov eax, 4
+    39 00000042 BB01000000              	mov ebx, 1
+    40 00000047 B9[36000000]             	mov ecx, day
+    41 0000004C BA16000000              	mov edx, dayLen
+    42 00000051 CD80                    	int 80h
+    43 00000053 EB18                    	jmp end
+    44                                  
+    45                                  _showMorning:
+    46 00000055 B804000000              	mov eax, 4
+    47 0000005A BB01000000              	mov ebx, 1
+    48 0000005F B9[20000000]             	mov ecx, morning
+    49 00000064 BA16000000              	mov edx, morningLen
+    50 00000069 CD80                    	int 80h
+    51 0000006B EB00                    	jmp end
+    52                                  end: 
+    53 0000006D B801000000              	mov eax, 1
+    54 00000072 BB00000000              	mov ebx, 0
+    55 00000077 CD80                    	int 80h
