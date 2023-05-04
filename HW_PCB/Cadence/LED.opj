@@ -1,0 +1,79 @@
+(ExpressProject "LED"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "22.1 S001 (4077794)  [12/9/2022]-[05/03/23]")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    ("Allegro Netlist Directory" "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\led.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Board_sim_option "Verilog_Flow")
+    (PSPICE_Regenerate_Netlist_Flag "TRUE"))
+  (Folder "Layout")
+  (Folder "Outputs"
+    (File ".\led-pspicefiles\sch_main\sch_main.net"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs")
+  (PartMRUSelector
+    (166JNF-A285HM
+      (FullPartName "166JNF-A285HM.Normal")
+      (LibraryName "C:\CADENCE\SPB_22.1\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (CON1
+      (FullPartName "CON1.Normal")
+      (LibraryName "C:\CADENCE\SPB_22.1\TOOLS\CAPTURE\LIBRARY\CONNECTOR.OLB")
+      (DeviceIndex "0"))
+    (R
+      (FullPartName "R.Normal")
+      (LibraryName "C:\CADENCE\SPB_22.1\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (LED
+      (FullPartName "LED.Normal")
+      (LibraryName "C:\CADENCE\SPB_22.1\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0"))
+    (VCC
+      (LibraryName "C:\CADENCE\SPB_22.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (GND_POWER
+      (LibraryName "C:\CADENCE\SPB_22.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "X:\Projects\Engineering\ProjectScience\HW_PCB\Cadence\led.dsn")
+      (Path "Design Resources"
+         "X:\Projects\Engineering\ProjectScience\HW_PCB\Cadence\led.dsn"
+         "SCH_MAIN")
+      (Path "Outputs"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 500"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 2 3 -1 -1 5 24 5 1009 24 518")
+        (Scroll "273 318")
+        (Zoom "200")
+        (Occurrence "/"))
+      (Path "X:\PROJECTS\ENGINEERING\PROJECTSCIENCE\HW_PCB\CADENCE\LED.DSN")
+      (Schematic "SCH_MAIN")
+      (Page "MAIN")))
+  (LastUsedLibraryBrowseDirectory "C:\Cadence\SPB_22.1\tools\capture\library"))

@@ -1,0 +1,6 @@
+.ALIASES
+X_D1            D1() CN @LED.SCH_MAIN(sch_1):INS48@DISCRETE.LED.Normal(chips)
+R_R1            R1(1=VCC 2=N00150 ) CN @LED.SCH_MAIN(sch_1):INS73@DISCRETE.R.Normal(chips)
+_    _(GND_POWER=GND_POWER)
+_    _(VCC=VCC)
+.ENDALIASES
