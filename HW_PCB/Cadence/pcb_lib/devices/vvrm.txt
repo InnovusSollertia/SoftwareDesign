@@ -1,0 +1,13 @@
+(DEVICE FILE: vvrm)
+
+PACKAGE vvrm
+CLASS IO
+PINCOUNT 2
+
+PINORDER vvrm  1 2
+
+PINSWAP vvrm  1 2
+
+FUNCTION vvrm vvrm  2 1
+
+END

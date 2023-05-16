@@ -1,0 +1,30 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    DBDOCTOR                                                         )
+(                                                                     )
+(    Drawing          : led.brd                                       )
+(    Software Version : 22.1S001                                      )
+(    Date/Time        : Mon May 15 10:31:24 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+Regenerating DRC
+  Original DRC errors:   0
+  Updated DRC errors:    0
+  DRC elapsed time:      00:00:01
+
+0 warnings, 0 errors detected, 0 errors  fixed.
+
+Number of Xnets before update: 0        after update: 0
+Number of Diff Pairs before update: 0   after update: 0
+
+
+<<< Design Uprev Warnings >>>
+
+Mon May 15 10:31:24 2023				Page     1
+
+
+Performing DRC...
+No DRC errors detected.

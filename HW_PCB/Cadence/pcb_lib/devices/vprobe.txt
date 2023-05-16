@@ -1,0 +1,11 @@
+(DEVICE FILE: vprobe)
+
+PACKAGE vprobe
+CLASS IO
+PINCOUNT 1
+
+PINORDER vprobe  1
+
+FUNCTION vprobe vprobe  1
+
+END
