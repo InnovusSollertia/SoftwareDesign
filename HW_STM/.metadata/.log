@@ -5333,3 +5333,24 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-05-11 08:27:41.034
 !MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2023-09-02 22:19:34.118 -----------------------------------------------
+eclipse.buildId=Version 1.12.1
+java.version=11.0.17
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data X:\Projects\Engineering\ProjectScience\HW_STM
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2023-09-02 22:19:52.713
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.genuitec.eclipse.meexplorer/com.genuitec.eclipse.meexplorer.breadcrumb.e4.BreadCrumbContainer
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-09-02 22:19:54.346
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-09-02 22:19:54.365
+!MESSAGE Log4j2 initialized with config file X:\Projects\Engineering\ProjectScience\HW_STM\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-09-02 22:20:06.414
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 2 0 2023-09-03 00:12:08.973
+!MESSAGE Could not remove temporary backup directory (it is safe to manually delete it and its contents): C:\Users\INNOVU~1\AppData\Local\Temp\STM32CubeIDE_e92cb759-6ae1-40e2-b954-31b82f9bba6b
