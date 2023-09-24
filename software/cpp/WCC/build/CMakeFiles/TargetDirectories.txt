@@ -1,0 +1,3 @@
+/home/unix/workshop/sciencex/cpp/WCC/build/CMakeFiles/mainWCC.dir
+/home/unix/workshop/sciencex/cpp/WCC/build/CMakeFiles/edit_cache.dir
+/home/unix/workshop/sciencex/cpp/WCC/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,4 @@
+* source 010
+R_R1         N00114 N00121  1k TC=0,0 
+C_C1         0 N00121  1u  TC=0,0 
+V_V1         N00114 0 DC 0Vdc AC 1Vac 

@@ -1,8 +1,0 @@
-13:11:30 **** Incremental Build of configuration Debug for project 20230410 ****
-make -j4 all 
-Error: Cannot find the specified linker script. Check the linker settings in the build configuration.
-make: *** [makefile:88: fail-specified-linker-script-missing] Error 2
-"make -j4 all" terminated with exit code 2. Build might be incomplete.
-
-13:11:30 Build Failed. 2 errors, 0 warnings. (took 534ms)
-

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;MPS-2.1_FINAL/Final.ioc&apos; to &apos;MPS-2.1_FINAL.ioc&apos;" description="Rename resource &apos;Final.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Final.ioc" name="MPS-2.1_FINAL.ioc" stamp="1682147156158" updateReferences="true"/>
+</session>

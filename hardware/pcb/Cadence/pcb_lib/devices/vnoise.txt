@@ -1,0 +1,13 @@
+(DEVICE FILE: vnoise)
+
+PACKAGE vnoise
+CLASS IC
+PINCOUNT 2
+
+PINORDER vnoise  1 2
+
+PINSWAP vnoise  1 2
+
+FUNCTION vnoise vnoise  2 1
+
+END

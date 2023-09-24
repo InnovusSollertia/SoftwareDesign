@@ -1,0 +1,27 @@
+--cpu=Cortex-M4.fp
+"f407_lcd\startup_stm32f407xx.o"
+"f407_lcd\system_stm32f4xx.o"
+"f407_lcd\main.o"
+"f407_lcd\stm32f4xx_hal_msp.o"
+"f407_lcd\stm32f4xx_it.o"
+"f407_lcd\lcd_i2cmodule.o"
+"f407_lcd\stm32f4xx_hal.o"
+"f407_lcd\stm32f4xx_hal_pwr_ex.o"
+"f407_lcd\stm32f4xx_hal_i2c_ex.o"
+"f407_lcd\stm32f4xx_hal_flash_ramfunc.o"
+"f407_lcd\stm32f4xx_hal_gpio.o"
+"f407_lcd\stm32f4xx_hal_cortex.o"
+"f407_lcd\stm32f4xx_hal_dma.o"
+"f407_lcd\stm32f4xx_hal_flash.o"
+"f407_lcd\stm32f4xx_hal_pwr.o"
+"f407_lcd\stm32f4xx_hal_tim_ex.o"
+"f407_lcd\stm32f4xx_hal_tim.o"
+"f407_lcd\stm32f4xx_hal_i2c.o"
+"f407_lcd\stm32f4xx_hal_rcc_ex.o"
+"f407_lcd\stm32f4xx_hal_flash_ex.o"
+"f407_lcd\stm32f4xx_hal_dma_ex.o"
+"f407_lcd\stm32f4xx_hal_rcc.o"
+--library_type=microlib --strict --scatter "f407_lcd\f407_lcd.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "f407_lcd.map" -o f407_lcd\f407_lcd.axf

@@ -1,0 +1,1 @@
+D:\.workshop\Programming\sciencex\cpp\RotricsConsole\x64\Debug\RotricsConsole.exe

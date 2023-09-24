@@ -1,0 +1,5 @@
+﻿  Render.cpp
+D:\.workshop\Programming\sciencex\Raytracing\HitShap.h(71,31): warning C4244: аргумент: преобразование "double" в "float", возможна потеря данных
+D:\.workshop\Programming\sciencex\Raytracing\Render.cpp(11,37): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+D:\.workshop\Programming\sciencex\Raytracing\Render.cpp(31,5): warning C4056: переполнение при арифметических операциях с константой с плавающей точкой
+  Raytracing.vcxproj -> D:\.workshop\Programming\sciencex\Raytracing\x64\Debug\Raytracing.exe

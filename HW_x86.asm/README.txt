@@ -1,1 +1,0 @@
-Windows 32-bit console type applications.
