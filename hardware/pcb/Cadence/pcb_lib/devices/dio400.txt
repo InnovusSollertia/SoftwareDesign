@@ -1,6 +1,0 @@
-(device file for dio400)
-package dio400
-class discrete
-pincount 2
-end
-
