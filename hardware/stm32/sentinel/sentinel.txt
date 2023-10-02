@@ -1,0 +1,60 @@
+Configuration	sentinel
+STM32CubeMX 	6.9.1
+Date	10/02/2023
+MCU	STM32H750VBTx
+
+
+
+PERIPHERALS	MODES	FUNCTIONS	PINS
+DEBUG	Serial Wire	DEBUG_JTCK-SWCLK	PA14 (JTCK/SWCLK)
+DEBUG	Serial Wire	DEBUG_JTMS-SWDIO	PA13 (JTMS/SWDIO)
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PH0-OSC_IN (PH0)
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PH1-OSC_OUT (PH1)
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+12	PH0-OSC_IN (PH0)	RCC_OSC_IN	
+13	PH1-OSC_OUT (PH1)	RCC_OSC_OUT	
+72	PA13 (JTMS/SWDIO)	DEBUG_JTMS-SWDIO	
+76	PA14 (JTCK/SWCLK)	DEBUG_JTCK-SWCLK	
+PERIPHERALS	MODES	FUNCTIONS	PINS
+DEBUG	Serial Wire	DEBUG_JTCK-SWCLK	PA14 (JTCK/SWCLK)
+DEBUG	Serial Wire	DEBUG_JTMS-SWDIO	PA13 (JTMS/SWDIO)
+RCC	Crystal/Ceramic Resonator	RCC_OSC_IN	PH0-OSC_IN (PH0)
+RCC	Crystal/Ceramic Resonator	RCC_OSC_OUT	PH1-OSC_OUT (PH1)
+
+
+
+Pin Nb	PINs	FUNCTIONs	LABELs
+12	PH0-OSC_IN (PH0)	RCC_OSC_IN	
+13	PH1-OSC_OUT (PH1)	RCC_OSC_OUT	
+72	PA13 (JTMS/SWDIO)	DEBUG_JTMS-SWDIO	
+76	PA14 (JTCK/SWCLK)	DEBUG_JTCK-SWCLK	
+
+
+
+SOFTWARE PROJECT
+
+Project Settings : 
+Project Name : sentinel
+Project Folder : X:\Projects\Engineering\ProjectScience\hardware\stm32\sentinel
+Toolchain / IDE : STM32CubeIDE
+Firmware Package Name and Version : STM32Cube FW_H7 V1.11.1
+
+
+Code Generation Settings : 
+STM32Cube MCU packages and embedded software packs : Copy only the necessary library files
+Generate peripheral initialization as a pair of '.c/.h' files per peripheral : No
+Backup previously generated files when re-generating : No
+Delete previously generated files when not re-generated : Yes
+Set all free pins as analog (to optimize the power consumption) : No
+
+
+Toolchains Settings : 
+Compiler Optimizations : 
+
+
+
+
+
