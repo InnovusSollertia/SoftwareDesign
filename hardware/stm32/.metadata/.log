@@ -5427,3 +5427,21 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY org.eclipse.cdt.core 1 0 2023-10-02 09:47:01.205
 !MESSAGE Indexed 'sentinel' (24 sources, 85 headers) in 14.7 sec: 7,735 declarations; 53,881 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.0032%)
+!SESSION 2023-10-06 11:21:14.560 -----------------------------------------------
+eclipse.buildId=Version 1.13.1
+java.version=17.0.6
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2023-10-06 11:21:48.344
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.genuitec.eclipse.meexplorer/com.genuitec.eclipse.meexplorer.breadcrumb.e4.BreadCrumbContainer
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2023-10-06 11:21:49.972
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2023-10-06 11:21:49.989
+!MESSAGE Log4j2 initialized with config file X:\Projects\Engineering\ProjectScience\hardware\stm32\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2023-10-06 11:22:09.071
+!MESSAGE Started RMI Server, listening on port 41337
