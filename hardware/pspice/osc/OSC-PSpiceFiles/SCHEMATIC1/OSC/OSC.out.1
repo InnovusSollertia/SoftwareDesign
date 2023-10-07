@@ -1,0 +1,43 @@
+
+**** 10/06/23 14:28:54 **** PSpice 22.1.0 (9 December 2022) *** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-OSC"  [ X:\Projects\Engineering\ProjectScience\hardware\pspice\osc\OSC-PSpiceFiles\SCHEMATIC1\OSC.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "OSC.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\Users\InnovusSollertia\AppData\Roaming\SPB_Data\cdssetup\OrCAD_PSpice\22.1.0\PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.STEP LIN V1 1 5 0.1 
+.TEMP 27
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source OSC
+R_R1         N00164 N00188  1k TC=0,0 
+C_C1         0 N00188  1n  TC=0,0 
+V_V2         N00164 0 DC 5  0.5
+
+**** RESUMING OSC.cir ****
+.END
+
+ERROR(ORPSIM-15090): STEP device V1 is undefined
+
