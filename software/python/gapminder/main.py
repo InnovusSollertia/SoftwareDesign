@@ -11,7 +11,7 @@ with open('X:\Projects\Engineering\ProjectScience\software\python\gapminder\GDP.
     for row in plots:
         x.append((row[0]))
         y.append((row[0]))
-  
+          
 plt.bar(x, y, color = 'g', width = 0.5, label = "Graphics 1") 
 plt.xlabel('date') 
 plt.ylabel('description') 
