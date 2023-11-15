@@ -1,3 +1,0 @@
-X:/Projects/Engineering/ProjectScience/hardware/stm32/sentinel/build/debug/build/CMakeFiles/sentinel.dir
-X:/Projects/Engineering/ProjectScience/hardware/stm32/sentinel/build/debug/build/CMakeFiles/edit_cache.dir
-X:/Projects/Engineering/ProjectScience/hardware/stm32/sentinel/build/debug/build/CMakeFiles/rebuild_cache.dir
