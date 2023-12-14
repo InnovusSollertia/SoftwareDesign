@@ -1,6 +1,6 @@
 (ExpressProject "FirstPCB"
   (ProjectVersion "19981106")
-  (SoftwareVersion "23.1 P001 (4147275)  [9/30/2023]-[11/19/23]")
+  (SoftwareVersion "23.1 P001 (4147275)  [9/30/2023]-[12/02/23]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
@@ -51,14 +51,14 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 354"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 474"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 2 3 -1 -1 5 24 5 753 24 372")
-        (Scroll "-145 0")
-        (Zoom "44")
+        (Placement "44 0 1 -1 -1 5 24 5 1290 24 492")
+        (Scroll "-5 0")
+        (Zoom "128")
         (Occurrence "/"))
       (Path
          "C:\USERS\USEROOT\DOCUMENTS\GITHUB\ME\PROJECTSCIENCE\HARDWARE\PCB\FIRSTPCB.DSN")
