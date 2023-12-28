@@ -1,0 +1,3 @@
+/home/unix/workshop/sciencex/cpp/pet-https/build/CMakeFiles/mainHTTPS.dir
+/home/unix/workshop/sciencex/cpp/pet-https/build/CMakeFiles/edit_cache.dir
+/home/unix/workshop/sciencex/cpp/pet-https/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,10 @@
+13:48:59 **** Incremental Build of configuration Debug for project F676_INIT ****
+make -j12 all 
+arm-none-eabi-size  F676_INIT.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15948	    340	   3236	  19524	   4c44	F676_INIT.elf
+Finished building: default.size.stdout
+ 
+
+13:48:59 Build Finished. 0 errors, 0 warnings. (took 307ms)
+

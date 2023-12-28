@@ -1,0 +1,10 @@
+14:31:47 **** Incremental Build of configuration Debug for project F429_INIT ****
+make -j12 all 
+arm-none-eabi-size  F429_INIT.elf 
+   text	   data	    bss	    dec	    hex	filename
+  53932	    136	  38288	  92356	  168c4	F429_INIT.elf
+Finished building: default.size.stdout
+ 
+
+14:31:48 Build Finished. 0 errors, 0 warnings. (took 461ms)
+

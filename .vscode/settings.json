@@ -1,0 +1,5 @@
+{
+    "cmake.sourceDirectory": "${workspaceFolder}/pet-https",
+    "C_Cpp.default.configurationProvider": "go2sh.cmake-integration",
+    "cmake.configureOnOpen": false
+}

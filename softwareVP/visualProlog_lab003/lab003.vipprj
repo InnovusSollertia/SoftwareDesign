@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<projectData-map auto-formatting="true" debug_directory="deb" description="lab003" final_directory="exe" intermediate_directory="obj" pattern="One class" rules="Console" version="6">
+  <include_directory-list>
+    <include_directory>.</include_directory>
+    <include_directory>$(ProDir)</include_directory>
+  </include_directory-list>
+  <item-set key="filename">
+    <item-map filename="$(ProDir)Lib\vipInit.lib" />
+    <item-map filename="$(ProDir)Lib\vipKernel.lib" />
+    <item-map filename="$(ProDir)Lib\vipRun.lib" />
+    <item-map filename="$(ProDir)Lib\win32.lib" />
+    <item-map filename="main.manifest" />
+    <item-map filename="main.pack" />
+  </item-set>
+  <setting-set key="target">
+    <setting-map target="Win32">
+      <var-list>
+        <var-map name="Target.Machine" value="x86" />
+      </var-list>
+    </setting-map>
+    <setting-map hidden="true" target="x64">
+      <var-list>
+        <var-map name="Target.Machine" value="x64" />
+        <var-map name="Target.DirPrefix" value="64" />
+      </var-list>
+    </setting-map>
+  </setting-set>
+</projectData-map>

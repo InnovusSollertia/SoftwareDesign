@@ -1,0 +1,10 @@
+14:10:28 **** Incremental Build of configuration Debug for project L476_INIT ****
+make -j12 all 
+arm-none-eabi-size  L476_INIT.elf 
+   text	   data	    bss	    dec	    hex	filename
+  12288	     20	   1708	  14016	   36c0	L476_INIT.elf
+Finished building: default.size.stdout
+ 
+
+14:10:28 Build Finished. 0 errors, 0 warnings. (took 305ms)
+
