@@ -1,9 +1,0 @@
-﻿#include @"main.ph"
-
-% privately used packages
-#include @"pfc\stream\stream.ph"
-#include @"pfc\fileSystem\fileSystem.ph"
-#include @"pfc\core.ph"
-#include @"pfc\console\console.ph"
-% implementations
-#include @"main.pro"

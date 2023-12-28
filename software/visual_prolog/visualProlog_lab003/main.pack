@@ -1,5 +1,0 @@
-﻿#include @"main.ph"
-
-% privately used packages
-% implementations
-#include @"main.pro"

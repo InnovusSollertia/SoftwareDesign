@@ -1,3 +1,0 @@
-/home/unix/workshop/sciencex/cpp/SCA/build/CMakeFiles/mainSCA.dir
-/home/unix/workshop/sciencex/cpp/SCA/build/CMakeFiles/edit_cache.dir
-/home/unix/workshop/sciencex/cpp/SCA/build/CMakeFiles/rebuild_cache.dir

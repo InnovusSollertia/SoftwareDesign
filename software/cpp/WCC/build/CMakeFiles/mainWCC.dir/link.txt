@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/mainWCC.dir/src/mainWCC.cpp.o -o mainWCC 
