@@ -1,0 +1,49 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/robots/gctronic/e-puck/protos/E-puck.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/containers/protos/CardboardBox.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.30472027875611446 0.6837222501562935 0.6630757395320769 1.0426863025435604
+  position -0.11855668044322507 1.8983070127755712 0.12524258374346076
+  follow "e-puck"
+  followType "Mounted Shot"
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+RectangleArena {
+  name "Arena"
+  floorSize 2 4
+  floorTileSize 4 8
+  wallThickness 0.025
+  wallHeight 0.25
+}
+E-puck {
+  hidden position_0_0 6921.794992668436
+  hidden position_0_1 7445.615562839144
+  hidden linearVelocity_0 1.5386509546076748e-11 4.3579139704282474e-10 6.564338169331071e-10
+  hidden angularVelocity_0 4.309299277904089e-08 1.5763850788101284e-10 1.168989821565384e-10
+  hidden rotation_1 0 -1 0 2.275215843468345
+  hidden linearVelocity_1 1.6188006245314644e-11 2.157747321935734e-10 6.466536772600743e-10
+  hidden angularVelocity_1 -3.139999800016599 1.0720827379235614e-07 -2.0176226372416993e-09
+  hidden rotation_2 0 -1 0 6.2422114758452345
+  hidden linearVelocity_2 1.6177232545810866e-11 2.2482856879364758e-10 6.387361387840485e-10
+  hidden angularVelocity_2 -3.1399998000162004 -1.0495670691135025e-07 -1.6403589272826196e-08
+  translation -0.04391512438115054 1.9632278601474014 -4.1571174013736376e-05
+  rotation 0.002040789792476626 -0.0020407927604328205 0.999995835162293 1.5708004913416895
+  controller "EPUCK_MYCONTROLLER_ONE"
+}
+CardboardBox {
+  translation -3.2674970028801486e-17 -1.2915100625540092e-16 0.04960657476162474
+  rotation -0.06098905534203337 -1.2784063484606613e-15 0.9981384348518428 1.3980398255557882e-16
+  size 0.1 0.1 0.1
+  mass 1
+  locked TRUE
+}
