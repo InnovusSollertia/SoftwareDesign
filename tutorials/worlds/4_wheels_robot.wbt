@@ -1,0 +1,278 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/floors/protos/Floor.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/factory/containers/protos/CardboardBox.proto"
+
+WorldInfo {
+  basicTimeStep 16
+}
+Viewpoint {
+  orientation -0.22526786498315754 -0.6577592318689194 0.7187539091352056 5.3177439118956995
+  position -0.872317430124559 0.6357263665075502 0.8015080500075772
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Floor {
+  size 1 1
+}
+DEF WALL_1 Solid {
+  translation 0.5 0 0.05
+  children [
+    DEF WALL_SHAPE Shape {
+      appearance PBRAppearance {
+        baseColor 0.12549 0.368627 0.729412
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.02 0.98 0.1
+      }
+    }
+  ]
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_2 Solid {
+  translation -0.5 0 0.05
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(1)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_3 Solid {
+  translation 0 -0.5 0.05
+  rotation 0 0 1 1.5708
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(2)"
+  boundingObject USE WALL_SHAPE
+}
+DEF WALL_4 Solid {
+  translation 0 0.5 0.05
+  rotation 0 0 1 1.5708
+  children [
+    USE WALL_SHAPE
+  ]
+  name "solid(3)"
+  boundingObject USE WALL_SHAPE
+}
+Robot {
+  translation -0.229162 -0.130382 0.0395035
+  rotation 0.0011007995630647745 0.0018926392487635488 0.9999976030756252 1.06243
+  children [
+    DEF BODY Shape {
+      appearance PBRAppearance {
+        baseColor 0.917647 0.145098 0.145098
+        roughness 1
+        metalness 0
+      }
+      geometry Box {
+        size 0.2 0.1 0.05
+      }
+    }
+    DEF WHEEL1 HingeJoint {
+      jointParameters HingeJointParameters {
+        position 43.022933439356855
+        axis 0 1 0
+        anchor 0.05 0.06 0
+      }
+      device [
+        RotationalMotor {
+          name "wheel1"
+        }
+      ]
+      endPoint Solid {
+        translation 0.05 0.06 0
+        rotation -0.8055019527000368 0.41902584305115675 -0.4190273822218486 4.497762662732949
+        children [
+          DEF WHEEL Shape {
+            appearance PBRAppearance {
+              baseColor 0.305882 0.898039 0.25098
+              roughness 1
+              metalness 0
+            }
+            geometry Cylinder {
+              height 0.02
+              radius 0.04
+              subdivision 24
+            }
+          }
+        ]
+        boundingObject USE WHEEL
+        physics Physics {
+        }
+      }
+    }
+    DEF WHEEL2 HingeJoint {
+      jointParameters HingeJointParameters {
+        position 43.02293485523475
+        axis 0 1 0
+        anchor 0.05 -0.06 0
+      }
+      device [
+        RotationalMotor {
+          name "wheel2"
+        }
+      ]
+      endPoint Solid {
+        translation 0.05 -0.06 0
+        rotation -0.8055024418179741 0.4190253729317673 -0.4190269121007322 4.497763256022046
+        children [
+          USE WHEEL
+        ]
+        name "solid(1)"
+        boundingObject USE WHEEL
+        physics Physics {
+        }
+      }
+    }
+    DEF WHEEL3 HingeJoint {
+      jointParameters HingeJointParameters {
+        position 43.022944593264725
+        axis 0 1 0
+        anchor -0.05 0.06 0
+      }
+      device [
+        RotationalMotor {
+          name "wheel3"
+        }
+      ]
+      endPoint Solid {
+        translation -0.05 0.06 0
+        rotation -0.8055058058319636 0.4190221395623611 -0.4190236787194495 4.497767336487943
+        children [
+          USE WHEEL
+        ]
+        name "solid(2)"
+        boundingObject USE WHEEL
+        physics Physics {
+        }
+      }
+    }
+    DEF WHEEL4 HingeJoint {
+      jointParameters HingeJointParameters {
+        position 43.0229426232834
+        axis 0 1 0
+        anchor -0.05 -0.06 0
+      }
+      device [
+        RotationalMotor {
+          name "wheel4"
+        }
+      ]
+      endPoint Solid {
+        translation -0.05 -0.06 0
+        rotation -0.8055051253007832 0.41902279366758866 -0.41902433282707957 4.49776651102151
+        children [
+          USE WHEEL
+        ]
+        name "solid(3)"
+        boundingObject USE WHEEL
+        physics Physics {
+        }
+      }
+    }
+    DEF DS_RIGHT DistanceSensor {
+      translation 0.1 -0.03 0
+      rotation 0 0 1 -0.3
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.184314 0.596078 0.847059
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+      name "ds_right"
+    }
+    DEF DS_LEFT DistanceSensor {
+      translation 0.1 0.03 0
+      rotation 0 0 1 0.3
+      children [
+        Shape {
+          appearance PBRAppearance {
+            baseColor 0.184314 0.596078 0.847059
+            roughness 1
+            metalness 0
+          }
+          geometry Box {
+            size 0.01 0.01 0.01
+          }
+        }
+      ]
+      name "ds_left"
+    }
+  ]
+  boundingObject USE BODY
+  physics Physics {
+    density -1
+    mass 1
+  }
+  controller "4WHEELS_PY"
+}
+CardboardBox {
+  hidden linearVelocity_0 9.179050977231713e-07 4.774546777233649e-09 -1.0540715304222989e-08
+  hidden angularVelocity_0 3.4188299183113963e-07 -9.145742888644878e-06 1.0645553473994818e-05
+  translation -0.4314628618623197 -0.021034526572704503 0.04980397441560942
+  rotation 0.09505911576075363 0.9954716291344643 -9.957889829067419e-06 -3.1414429918223985
+  size 0.1 0.1 0.1
+  mass 2
+}
+CardboardBox {
+  translation 0.37371 -0.176243 0.049682
+  rotation 0.09505911576075363 0.9954716291344643 -9.957889829067419e-06 -3.1414429918223985
+  name "cardboard box(1)"
+  size 0.1 0.1 0.1
+  mass 2
+}
+CardboardBox {
+  translation 0.403993 -0.0191334 0.0496767
+  rotation 0.09505911576075363 0.9954716291344643 -9.957889829067419e-06 -3.1414429918223985
+  name "cardboard box(2)"
+  size 0.1 0.1 0.1
+  mass 2
+}
+CardboardBox {
+  translation 0.302845 0.142939 0.0496917
+  rotation 0.09505911576075363 0.9954716291344643 -9.957889829067419e-06 -3.1414429918223985
+  name "cardboard box(4)"
+  size 0.1 0.1 0.1
+  mass 2
+}
+CardboardBox {
+  translation -0.322629 0.120922 0.0497858
+  rotation 0.09505911576075363 0.9954716291344643 -9.957889829067419e-06 -3.1414429918223985
+  name "cardboard box(3)"
+  size 0.1 0.1 0.1
+  mass 2
+}
+CardboardBox {
+  translation -0.146946 0.239817 0.0497591
+  rotation 0.09505911576075363 0.9954716291344643 -9.957889829067419e-06 -3.1414429918223985
+  name "cardboard box(5)"
+  size 0.1 0.1 0.1
+  mass 2
+}
+CardboardBox {
+  translation -0.0192963 0.215208 0.0497396
+  rotation 0.09505911576075363 0.9954716291344643 -9.957889829067419e-06 -3.1414429918223985
+  name "cardboard box(6)"
+  size 0.1 0.1 0.1
+  mass 2
+}
+CardboardBox {
+  translation 0.118173 0.188709 0.0497188
+  rotation 0.09505911576075363 0.9954716291344643 -9.957889829067419e-06 -3.1414429918223985
+  name "cardboard box(7)"
+  size 0.1 0.1 0.1
+  mass 2
+}
