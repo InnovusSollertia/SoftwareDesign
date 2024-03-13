@@ -25,29 +25,35 @@
     (Folder "Include Files"
       (Sort User)))
   (Folder "Logs")
-  (PartMRUSelector)
+  (PartMRUSelector
+    (XC7K325T-2FFG676C
+      (FullPartName "XC7K325T-2FFG676C.Normal")
+      (LibraryName
+         "C:\USERS\USEROOT\DOCUMENTS\GITHUB\DOSTI\CADENCEEMD\FPGA\XILINIX_KINTEX_XC7K325T-2FFG676C.OLB")
+      (DeviceIndex "0")))
   (MPSSessionName "useroot")
   (GlobalState
     (FileView
       (Path "Design Resources")
       (Path "Design Resources"
          "C:\Users\useroot\Documents\GitHub\Me\ProjectScience\hardwarePCB\Kintex7\kintex7.dsn")
-      (Path "Design Resources" "Library")
-      (Select "Design Resources" "Library"))
+      (Path "Design Resources" "Library"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 218 0 518"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 518"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 976 24 536")
-        (Scroll "0 0")
-        (Zoom "132")
+        (Placement "44 0 1 -1 -1 -1 -1 5 994 24 536")
+        (Scroll "1285 315")
+        (Zoom "120")
         (Occurrence "/"))
       (Path
          "C:\USERS\USEROOT\DOCUMENTS\GITHUB\ME\PROJECTSCIENCE\HARDWAREPCB\KINTEX7\KINTEX7.DSN")
       (Schematic "SCHEMATIC1")
-      (Page "PAGE1"))))
+      (Page "PAGE1")))
+  (LastUsedLibraryBrowseDirectory
+     "C:\Users\useroot\Documents\GitHub\DOSTI\CadenceEMD\FPGA"))
