@@ -1,6 +1,6 @@
 (ExpressProject "Kintex7"
   (ProjectVersion "19981106")
-  (SoftwareVersion "23.1 P001 (4147275)  [9/30/2023]-[03/15/24]")
+  (SoftwareVersion "23.1 P001 (4147275)  [9/30/2023]-[03/16/24]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
@@ -26,6 +26,26 @@
       (Sort User)))
   (Folder "Logs")
   (PartMRUSelector
+    (HSMD-C150
+      (FullPartName "HSMD-C150.Normal")
+      (LibraryName
+         "C:\USERS\USEROOT\DOCUMENTS\GITHUB\DOSTI\CADENCEEMD\MAIN_LIBRARIES\LED_SMD_HSMD-C150.OLB")
+      (DeviceIndex "0"))
+    (COM-16346
+      (FullPartName "COM-16346.Normal")
+      (LibraryName
+         "C:\USERS\USEROOT\DOCUMENTS\GITHUB\DOSTI\CADENCEEMD\MAIN_LIBRARIES\LED_SMD_COM-16346.OLB")
+      (DeviceIndex "0"))
+    (CRGH1206F4K64
+      (FullPartName "CRGH1206F4K64.Normal")
+      (LibraryName
+         "C:\USERS\USEROOT\DOCUMENTS\GITHUB\DOSTI\CADENCEEMD\MAIN_LIBRARIES\RESISTOR_SMD_CRGH1206F4K64.OLB")
+      (DeviceIndex "0"))
+    (95C06A3RAT
+      (FullPartName "95C06A3RAT.Normal")
+      (LibraryName
+         "C:\USERS\USEROOT\DOCUMENTS\GITHUB\DOSTI\CADENCEEMD\MAIN_LIBRARIES\SWITCH_BUTTON_TACTILE_95C06A3RAT.OLB")
+      (DeviceIndex "0"))
     (09185407904
       (FullPartName "09185407904.Normal")
       (LibraryName
@@ -59,11 +79,6 @@
       (LibraryName
          "C:\USERS\USEROOT\DOCUMENTS\GITHUB\DOSTI\CADENCEEMD\MAIN\HEADER_PIN_FEMALE_SMM-115-02-S-D-LC-K-TR.OLB")
       (DeviceIndex "0"))
-    (CRGH1206F4K64
-      (FullPartName "CRGH1206F4K64.Normal")
-      (LibraryName
-         "C:\USERS\USEROOT\DOCUMENTS\GITHUB\DOSTI\CADENCEEMD\REMAKE\CRGH1206F4K64.OLB")
-      (DeviceIndex "0"))
     (XC7K325T-2FFG676C
       (FullPartName "XC7K325T-2FFG676C.Normal")
       (LibraryName
@@ -72,20 +87,19 @@
   (MPSSessionName "useroot")
   (GlobalState
     (FileView
-      (Path "Design Resources")
-      (Select "Design Resources" ".\kintex7.dsn"))
+      (Path "Design Resources"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 184 0 612"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 121 0 540"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1271 24 630")
-        (Scroll "875 42")
-        (Zoom "160")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1334 24 558")
+        (Scroll "202 282")
+        (Zoom "320")
         (Occurrence "/"))
       (Path
          "C:\USERS\USEROOT\DOCUMENTS\GITHUB\ME\PROJECTSCIENCE\HARDWAREPCB\KINTEX7\KINTEX7.DSN")
