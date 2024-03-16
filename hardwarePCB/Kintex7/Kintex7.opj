@@ -1,6 +1,6 @@
 (ExpressProject "Kintex7"
   (ProjectVersion "19981106")
-  (SoftwareVersion "23.1 P001 (4147275)  [9/30/2023]-[03/13/24]")
+  (SoftwareVersion "23.1 P001 (4147275)  [9/30/2023]-[03/15/24]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
@@ -26,6 +26,44 @@
       (Sort User)))
   (Folder "Logs")
   (PartMRUSelector
+    (09185407904
+      (FullPartName "09185407904.Normal")
+      (LibraryName
+         "C:\USERS\USEROOT\DOCUMENTS\GITHUB\DOSTI\CADENCEEMD\MAIN_LIBRARIES\CONNECTOR_DIN41612_42_09185407904.OLB")
+      (DeviceIndex "0"))
+    (ADG719BRTZ-REEL
+      (FullPartName "ADG719BRTZ-REEL.Normal")
+      (LibraryName
+         "C:\USERS\USEROOT\DOCUMENTS\GITHUB\DOSTI\CADENCEEMD\MAIN\SWITCHES_ANALOG_ADG719BRTZ-REEL.OLB")
+      (DeviceIndex "0"))
+    (74LCX125MTC
+      (FullPartName "74LCX125MTC.Normal")
+      (LibraryName
+         "C:\USERS\USEROOT\DOCUMENTS\GITHUB\DOSTI\CADENCEEMD\MAIN\LOGIC_BUFFER_74LCX125MTC.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (ASP-134603-01
+      (FullPartName "ASP-134603-01.Normal")
+      (LibraryName
+         "C:\USERS\USEROOT\DOCUMENTS\GITHUB\DOSTI\CADENCEEMD\MAIN\CONNECTOR_FMC_ASP-134603-01.OLB")
+      (DeviceIndex "0"))
+    (GRM319R71E473JA01D
+      (FullPartName "GRM319R71E473JA01D.Normal")
+      (LibraryName
+         "C:\USERS\USEROOT\DOCUMENTS\GITHUB\DOSTI\CADENCEEMD\REMAKE\GRM319R71E473JA01D.OLB")
+      (DeviceIndex "0"))
+    (SMM-115-02-S-D-LC-K-TR
+      (FullPartName "SMM-115-02-S-D-LC-K-TR.Normal")
+      (LibraryName
+         "C:\USERS\USEROOT\DOCUMENTS\GITHUB\DOSTI\CADENCEEMD\MAIN\HEADER_PIN_FEMALE_SMM-115-02-S-D-LC-K-TR.OLB")
+      (DeviceIndex "0"))
+    (CRGH1206F4K64
+      (FullPartName "CRGH1206F4K64.Normal")
+      (LibraryName
+         "C:\USERS\USEROOT\DOCUMENTS\GITHUB\DOSTI\CADENCEEMD\REMAKE\CRGH1206F4K64.OLB")
+      (DeviceIndex "0"))
     (XC7K325T-2FFG676C
       (FullPartName "XC7K325T-2FFG676C.Normal")
       (LibraryName
@@ -35,25 +73,23 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "C:\Users\useroot\Documents\GitHub\Me\ProjectScience\hardwarePCB\Kintex7\kintex7.dsn")
-      (Path "Design Resources" "Library"))
+      (Select "Design Resources" ".\kintex7.dsn"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 518"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 184 0 612"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 994 24 536")
-        (Scroll "1285 315")
-        (Zoom "120")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1271 24 630")
+        (Scroll "875 42")
+        (Zoom "160")
         (Occurrence "/"))
       (Path
          "C:\USERS\USEROOT\DOCUMENTS\GITHUB\ME\PROJECTSCIENCE\HARDWAREPCB\KINTEX7\KINTEX7.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PAGE1")))
   (LastUsedLibraryBrowseDirectory
-     "C:\Users\useroot\Documents\GitHub\DOSTI\CadenceEMD\FPGA"))
+     "C:\Users\useroot\Documents\GitHub\DOSTI\CadenceEMD\Main_Libraries"))
