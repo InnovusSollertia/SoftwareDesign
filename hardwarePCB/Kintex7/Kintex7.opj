@@ -1,6 +1,6 @@
 (ExpressProject "Kintex7"
   (ProjectVersion "19981106")
-  (SoftwareVersion "23.1 P001 (4147275)  [9/30/2023]-[03/16/24]")
+  (SoftwareVersion "23.1 P001 (4147275)  [9/30/2023]-[03/18/24]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
@@ -12,7 +12,7 @@
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
     (CompileFileAddedOrDeleted "x")
-    (Board_sim_option "Verilog_Flow"))
+    (Board_sim_option "VHDL_flow"))
   (Folder "Layout")
   (Folder "Outputs")
   (Folder "Referenced Projects")
@@ -84,26 +84,27 @@
       (LibraryName
          "C:\USERS\USEROOT\DOCUMENTS\GITHUB\DOSTI\CADENCEEMD\FPGA\XILINIX_KINTEX_XC7K325T-2FFG676C.OLB")
       (DeviceIndex "0")))
-  (MPSSessionName "useroot")
+  (MPSSessionName "Prometheus")
   (GlobalState
     (FileView
-      (Path "Design Resources"))
+      (Path "Design Resources")
+      (Path "Design Resources" ".\kintex7.dsn")
+      (Path "Design Resources" ".\kintex7.dsn" "SCHEMATIC1")
+      (Select "Design Resources" ".\kintex7.dsn" "SCHEMATIC1" "PAGE1"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 121 0 540"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 227 0 468"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1334 24 558")
-        (Scroll "202 282")
-        (Zoom "320")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1228 24 486")
+        (Scroll "-5 8")
+        (Zoom "40")
         (Occurrence "/"))
-      (Path
-         "C:\USERS\USEROOT\DOCUMENTS\GITHUB\ME\PROJECTSCIENCE\HARDWAREPCB\KINTEX7\KINTEX7.DSN")
+      (Path "D:\PROJECTS\PROJECTSCIENCE\HARDWAREPCB\KINTEX7\KINTEX7.DSN")
       (Schematic "SCHEMATIC1")
       (Page "PAGE1")))
-  (LastUsedLibraryBrowseDirectory
-     "C:\Users\useroot\Documents\GitHub\DOSTI\CadenceEMD\Main_Libraries"))
+  (LastUsedLibraryBrowseDirectory "D:\Projects\CadenceEMD\Main_Libraries"))

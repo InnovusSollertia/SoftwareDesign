@@ -1436,3 +1436,27 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64
 
 !ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-03-18 01:00:48.636
 !MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.equinox.p2.touchpoint.natives 2 0 2024-03-18 01:14:36.290
+!MESSAGE Could not remove temporary backup directory (it is safe to manually delete it and its contents): C:\Users\PROMET~1\AppData\Local\Temp\STM32CubeIDE_fda6bf5b-5cac-4bc4-8ecd-51c384a30062
+!SESSION 2024-03-18 01:14:52.080 -----------------------------------------------
+eclipse.buildId=Version 1.12.0
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data file:/D:/Projects/ProjectScience/softwareSTM32/
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2024-03-18 01:14:58.990
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.genuitec.eclipse.meexplorer/com.genuitec.eclipse.meexplorer.breadcrumb.e4.BreadCrumbContainer
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-03-18 01:14:59.583
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-03-18 01:14:59.584
+!MESSAGE Log4j2 initialized with config file D:\Projects\ProjectScience\softwareSTM32\.metadata\.log4j2.xml
+
+!ENTRY org.eclipse.e4.ui.workbench 2 0 2024-03-18 01:15:01.246
+!MESSAGE Removing PartDescriptorImpl with the "org.eclipse.ui.views.ResourceNavigator" id and the "Navigator (Deprecated)" label.It points to the non available "bundleclass://org.eclipse.ui.workbench/org.eclipse.ui.internal.e4.compatibility.CompatibilityView" class. Bundle might have been uninstalled
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-03-18 01:15:03.049
+!MESSAGE Started RMI Server, listening on port 41337
