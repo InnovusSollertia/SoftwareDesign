@@ -1,0 +1,49 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Dangling Line, Via and Antenna Report                            )
+(                                                                     )
+(    Drawing          : mps-3.brd                                     )
+(    Software Version : 23.1P001                                      )
+(    Date/Time        : Thu Feb  8 08:47:51 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Report methodology:
+  - Dangling lines have at least one end not connected.
+  - Dangling vias have one or no connection
+      - Plus are not a test, thieving or netshort property via.
+  - Antenna vias do not have connections on their start and end layers.
+      - Plus they are not a thieving vias.
+      - Optionally, VOLTAGE nets, testvias and through vias can be suppressed with
+        the environment variable report_antennavia.
+      - Section may be suppressed by variable report_noantennavia.
+  - Not part of the current partition.
+  - To suppress items in dangle report add the OK_DANGLE property to the via
+    or connect line.
+
+
+
+<< Dangling Vias >>
+  Net                  Padstack               Location            Layers
+  ---------------------------------------------------------------------------
+  NRST                 VIA                  (146.0500 123.1900) TOP/BOTTOM 
+  NRST                 VIA                  (149.8600 123.1900) TOP/BOTTOM 
+  PA2                  VIA                  (125.7300 90.1700) TOP/BOTTOM 
+  PA4_NSS              VIA                  (119.3800 83.8200) TOP/BOTTOM 
+  Not on a Net         VIA                  (139.1600 99.1400) TOP/BOTTOM 
+  Not on a Net         VIA                  (161.2900 120.6500) TOP/BOTTOM 
+
+
+<< Antenna Vias >>
+  Net                  Padstack               Location            Layers
+  ---------------------------------------------------------------------------
+  NRST                 VIA                  (146.0500 123.1900) TOP/BOTTOM 
+  NRST                 VIA                  (149.8600 123.1900) TOP/BOTTOM 
+  PA2                  VIA                  (125.7300 90.1700) TOP/BOTTOM 
+  PA4_NSS              VIA                  (119.3800 83.8200) TOP/BOTTOM 
+
+<< Summary >>
+  Total dangling lines:       0
+  Total dangling vias:        6
+  Total antenna vias:         4

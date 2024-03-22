@@ -1,0 +1,129 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  C:.../GITHUB/DOSTI/DEVELOPMENTPROJECTS/MPS V3/SCH&BRD/allegro/mps-3.brd     |
+|                                                    Sat Jan 20 22:57:32 2024  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ 22-03-2161_HDRV16W87P0X254_1X16
+ 26-60-4030_SHDR3W155P0X396_1X3_
+ 26-60-4030_SHDR3W155P0X396_1X_1
+ 26-60-4030_SHDR3W155P0X396_1X_2
+ 95C06A3RAT_95C06A3RAT_95C06A3RA
+ 0022232021_SHDR2W87P0X254_1X2_4
+ ABS07-32.768KHZ-4P-1-T_ABS07_32
+ AMS1117-3.3_SOT229P700X180-4N_A
+ BVSS138LT1G_SOT96P237X111-3N_BV
+ GRM319R71E473JA01D_CAPC3216X9_1
+ GRM319R71E473JA01D_CAPC3216X9_2
+ GRM319R71E473JA01D_CAPC3216X9_3
+ GRM319R71E473JA01D_CAPC3216X95N
+ STM32L052K8T6_QFP80P900X900X160
+ UJC-HP-L-G-5-MSMT-TR_UJCHPLG5MS
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  C:.../GITHUB/DOSTI/DEVELOPMENTPROJECTS/MPS V3/SCH&BRD/allegro/mps-3.brd     |
+|                                                    Sat Jan 20 22:57:32 2024  |
+|------------------------------------------------------------------------------|
+| COMPONENTS CHANGED from one device type to another in design                 |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        | new device type     |   x   |   y   |  old  device type  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1                  GRM319R71E473JA01D_CAPC3216X95N 88.9000 118.110 GRM319R71E473JA01D_CAPC3216X95N_100NF
+ C2                  GRM319R71E473JA01D_CAPC3216X95N 88.9000 115.570 GRM319R71E473JA01D_CAPC3216X95N_100NF
+ C3                  GRM319R71E473JA01D_CAPC3216X9_1 88.9000 113.030 GRM319R71E473JA01D_CAPC3216X95N_10UF
+ C4                  GRM319R71E473JA01D_CAPC3216X95N 88.9000 110.490 GRM319R71E473JA01D_CAPC3216X95N_100NF
+ C5                  GRM319R71E473JA01D_CAPC3216X9_1 88.9000 107.950 GRM319R71E473JA01D_CAPC3216X95N_10UF
+ C6                  GRM319R71E473JA01D_CAPC3216X9_2 88.9000 99.0600 GRM319R71E473JA01D_CAPC3216X95N_1.2PF
+ C7                  GRM319R71E473JA01D_CAPC3216X9_2 88.9000 101.600 GRM319R71E473JA01D_CAPC3216X95N_1.2PF
+ C8                  GRM319R71E473JA01D_CAPC3216X95N 101.600 120.650 GRM319R71E473JA01D_CAPC3216X95N_100NF
+ C9                  GRM319R71E473JA01D_CAPC3216X9_3 86.3600 90.1700 GRM319R71E473JA01D_CAPC3216X95N_1UF
+ C10                 GRM319R71E473JA01D_CAPC3216X95N 83.8200 100.330 GRM319R71E473JA01D_CAPC3216X95N_100NF
+ IC1                 STM32L052K8T6_QFP80P900X900X160 117.400 99.5000 STM32L052K8T6_QFP80P900X900X160-32N_STM32L052K8T6
+ IC2                 AMS1117-3.3_SOT229P700X180-4N_A 93.9800 92.7100 AMS1117-3.3_SOT229P700X180-4N_AMS1117-3.3
+ J3&J4               22-03-2161_HDRV16W87P0X254_1X16 130.810 120.650 22-03-2161_HDRV16W87P0X254_1X16_4039X236X1170P_22-03-2161
+ J1                  26-60-4030_SHDR3W155P0X396_1X3_ 100.330 114.300 26-60-4030_SHDR3W155P0X396_1X3_1173X1001X1536P_BOOT0
+ J5                  26-60-4030_SHDR3W155P0X396_1X_1 90.1700 81.2800 26-60-4030_SHDR3W155P0X396_1X3_1173X1001X1536P_VIN
+ J7                  26-60-4030_SHDR3W155P0X396_1X_2 163.830 85.0900 26-60-4030_SHDR3W155P0X396_1X3_1173X1001X1536P_M02LOCK
+ J9                  0022232021_SHDR2W87P0X254_1X2_4 148.590 83.8200 0022232021_SHDR2W87P0X254_1X2_493X635X1105P_VSS
+ J10                 UJC-HP-L-G-5-MSMT-TR_UJCHPLG5MS 113.030 73.6600 UJC-HP-L-G-5-MSMT-TR_UJCHPLG5MSMTTR_UJC-HP-L-G-5-MSMT-TR
+ Q2                  BVSS138LT1G_SOT96P237X111-3N_BV 162.560 113.030 BVSS138LT1G_SOT96P237X111-3N_BVSS138LT1G
+ S1                  95C06A3RAT_95C06A3RAT_95C06A3RA 114.300 118.110 95C06A3RAT_95C06A3RAT_95C06A3RAT
+ Y1                  ABS07-32.768KHZ-4P-1-T_ABS07_32 99.0600 100.330 ABS07-32.768KHZ-4P-1-T_ABS07_32.768KHZ
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  C:.../GITHUB/DOSTI/DEVELOPMENTPROJECTS/MPS V3/SCH&BRD/allegro/mps-3.brd     |
+|                                                    Sat Jan 20 22:57:32 2024  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1.2           88.9000 118.110 PRIM_FILE      .\pstchip.dat
+ C1.2           88.9000 118.110 XY             (480,70)
+ C2.2           88.9000 115.570 PRIM_FILE      .\pstchip.dat
+ C2.2           88.9000 115.570 XY             (530,70)
+ C3.2           88.9000 113.030 PRIM_FILE      .\pstchip.dat
+ C3.2           88.9000 113.030 XY             (580,70)
+ C4.2           88.9000 110.490 PRIM_FILE      .\pstchip.dat
+ C4.2           88.9000 110.490 XY             (670,70)
+ C5.2           88.9000 107.950 PRIM_FILE      .\pstchip.dat
+ C5.2           88.9000 107.950 XY             (720,70)
+ C6.2           88.9000 99.0600 PRIM_FILE      .\pstchip.dat
+ C6.2           88.9000 99.0600 XY             (60,590)
+ C7.2           88.9000 101.600 PRIM_FILE      .\pstchip.dat
+ C7.2           88.9000 101.600 XY             (60,530)
+ C8.2           101.600 120.650 PRIM_FILE      .\pstchip.dat
+ C8.2           101.600 120.650 XY             (1060,40)
+ C9.2           86.3600 90.1700 PRIM_FILE      .\pstchip.dat
+ C9.2           86.3600 90.1700 XY             (970,570)
+ C10.2          83.8200 100.330 PRIM_FILE      .\pstchip.dat
+ C10.2          83.8200 100.330 XY             (1070,570)
+ IC1.32         117.400 99.5000 PRIM_FILE      .\pstchip.dat
+ IC1.32         117.400 99.5000 XY             (260,480)
+ IC2.4          93.9800 92.7100 PRIM_FILE      .\pstchip.dat
+ IC2.4          93.9800 92.7100 XY             (1010,640)
+ J3&J4.9        130.810 120.650 PRIM_FILE      .\pstchip.dat
+ J3&J4.9        130.810 120.650 XY             (1030,190)
+ J1.3           100.330 114.300 PRIM_FILE      .\pstchip.dat
+ J1.3           100.330 114.300 XY             (280,180)
+ J5.3           90.1700 81.2800 PRIM_FILE      .\pstchip.dat
+ J5.3           90.1700 81.2800 XY             (810,590)
+ J7.3           163.830 85.0900 PRIM_FILE      .\pstchip.dat
+ J7.3           163.830 85.0900 XY             (860,410)
+ J9.2           148.590 83.8200 PRIM_FILE      .\pstchip.dat
+ J9.2           148.590 83.8200 XY             (930,410)
+ J10.B9         113.030 73.6600 PRIM_FILE      .\pstchip.dat
+ J10.B9         113.030 73.6600 XY             (290,50)
+ Q2.2           162.560 113.030 PRIM_FILE      .\pstchip.dat
+ Q2.2           162.560 113.030 XY             (660,570)
+ S1.T2          114.300 118.110 PRIM_FILE      .\pstchip.dat
+ S1.T2          114.300 118.110 XY             (150,260)
+ Y1.2           99.0600 100.330 PRIM_FILE      .\pstchip.dat
+ Y1.2           99.0600 100.330 XY             (90,560)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  C:.../GITHUB/DOSTI/DEVELOPMENTPROJECTS/MPS V3/SCH&BRD/allegro/mps-3.brd     |
+|                                                    Sat Jan 20 22:57:32 2024  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|------------------------------------------------------------------------------|
+|       Comp definitions added:      15                                        |
+|       Components changed    :      21                                        |
+|       Slot property added   :      42                                        |
+|                                                                              |
+|   Total ECO changes reported:      78                                        |
+|------------------------------------------------------------------------------|

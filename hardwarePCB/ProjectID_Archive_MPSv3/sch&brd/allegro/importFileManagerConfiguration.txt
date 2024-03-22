@@ -1,0 +1,13 @@
+# ENABLED ! FILE_TYPE ! FILE_EXTENSION ! FILE_SEARCH_PATH ! IMPORT_COMMAND ! IMPORT_LOG ! 
+
+
+YES ! LOGIC ! dat, cdsz !  ! netin !  netrev.lst !
+
+YES ! IPC2581 ! xml, cvg !  ! ipc2581 in !  ipc2581_in.log !
+
+YES ! IDX ! idx ! C:/Users/useroot/Documents/GitHub/DOSTI/DevelopmentProjects/MPS v3/sch&brd/allegro/mcad ! idx in !  idx_in.log !
+
+YES ! IDF ! bdf, emn !  ! idf in !  idf_in.log !
+
+YES ! DXF ! dxf !  ! dxf in !  dxf2a.log !
+

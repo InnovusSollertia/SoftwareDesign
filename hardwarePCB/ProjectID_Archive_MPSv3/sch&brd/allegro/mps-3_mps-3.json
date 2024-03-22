@@ -1,0 +1,33 @@
+{
+	"Gate Swap" : [],
+	"Ref Des" : [],
+	"Pin Swap" : [],
+	"Component Property" : [],
+	"Net Property" : [
+		{
+			"Name" : "VDDA",
+			"C_PATH" : "@\\mps-3\\.allsch(sch_1):vdda",
+			"PropName" : "VOLTAGE",
+			"Logical" : null,
+			"Physical" : "3.3 V"
+		},
+		{
+			"Name" : "VDD",
+			"C_PATH" : "@\\mps-3\\.allsch(sch_1):vdd",
+			"PropName" : "VOLTAGE",
+			"Logical" : null,
+			"Physical" : "5 V"
+		},
+		{
+			"Name" : "GND",
+			"C_PATH" : "@\\mps-3\\.allsch(sch_1):gnd",
+			"PropName" : "VOLTAGE",
+			"Logical" : null,
+			"Physical" : "0 V"
+		}
+	],
+	"Pin Property" : [],
+	"Component" : [],
+	"Net" : [],
+	"Connection" : []
+}
