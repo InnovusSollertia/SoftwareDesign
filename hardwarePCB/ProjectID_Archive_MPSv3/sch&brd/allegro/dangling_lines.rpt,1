@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : mps-3.brd                                     )
 (    Software Version : 23.1P001                                      )
-(    Date/Time        : Mon Dec 25 13:36:58 2023                      )
+(    Date/Time        : Thu Feb  8 08:47:51 2024                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -28,34 +28,22 @@ Report methodology:
   Net                  Padstack               Location            Layers
   ---------------------------------------------------------------------------
   NRST                 VIA                  (146.0500 123.1900) TOP/BOTTOM 
-  NRST                 VIA                  (146.0500 123.1900) TOP/BOTTOM 
   NRST                 VIA                  (149.8600 123.1900) TOP/BOTTOM 
-  NRST                 VIA                  (149.8600 123.1900) TOP/BOTTOM 
-  PA15_NSS             VIA                  (139.1600 99.1400) TOP/BOTTOM 
-  PA2                  VIA                  (125.7300 90.1700) TOP/BOTTOM 
   PA2                  VIA                  (125.7300 90.1700) TOP/BOTTOM 
   PA4_NSS              VIA                  (119.3800 83.8200) TOP/BOTTOM 
-  PA4_NSS              VIA                  (119.3800 83.8200) TOP/BOTTOM 
-  VSS                  VIA                  (161.2900 120.6500) TOP/BOTTOM 
-  VSS                  VIA                  (161.2900 120.6500) TOP/BOTTOM 
+  Not on a Net         VIA                  (139.1600 99.1400) TOP/BOTTOM 
+  Not on a Net         VIA                  (161.2900 120.6500) TOP/BOTTOM 
 
 
 << Antenna Vias >>
   Net                  Padstack               Location            Layers
   ---------------------------------------------------------------------------
   NRST                 VIA                  (146.0500 123.1900) TOP/BOTTOM 
-  NRST                 VIA                  (146.0500 123.1900) TOP/BOTTOM 
   NRST                 VIA                  (149.8600 123.1900) TOP/BOTTOM 
-  NRST                 VIA                  (149.8600 123.1900) TOP/BOTTOM 
-  PA15_NSS             VIA                  (139.1600 99.1400) TOP/BOTTOM 
-  PA2                  VIA                  (125.7300 90.1700) TOP/BOTTOM 
   PA2                  VIA                  (125.7300 90.1700) TOP/BOTTOM 
   PA4_NSS              VIA                  (119.3800 83.8200) TOP/BOTTOM 
-  PA4_NSS              VIA                  (119.3800 83.8200) TOP/BOTTOM 
-  VSS                  VIA                  (161.2900 120.6500) TOP/BOTTOM 
-  VSS                  VIA                  (161.2900 120.6500) TOP/BOTTOM 
 
 << Summary >>
   Total dangling lines:       0
-  Total dangling vias:       11
-  Total antenna vias:        11
+  Total dangling vias:        6
+  Total antenna vias:         4

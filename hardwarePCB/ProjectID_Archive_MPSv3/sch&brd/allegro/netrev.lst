@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : mps-3.brd                                     )
 (    Software Version : 23.1P001                                      )
-(    Date/Time        : Sat Jan 20 22:57:32 2024                      )
+(    Date/Time        : Fri Mar 22 22:04:41 2024                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -17,50 +17,65 @@ Ripup retain bondwire:       No
 Ripup symbols:               Always
 Missing symbol has error:    No
 DRC update:                  Yes
-Schematic directory:         '.'
-Design Directory:            'C:/Users/useroot/DOCUMENTS/GITHUB/DOSTI/DEVELOPMENTPROJECTS/MPS V3/SCH&BRD/allegro'
-Old design name:             'C:/Users/useroot/DOCUMENTS/GITHUB/DOSTI/DEVELOPMENTPROJECTS/MPS V3/SCH&BRD/allegro/mps-3.brd'
-New design name:             'C:/Users/useroot/DOCUMENTS/GITHUB/DOSTI/DEVELOPMENTPROJECTS/MPS V3/SCH&BRD/allegro/mps-3.brd'
+Schematic directory:         'd:\projects\projectscience\hardwarepcb\projectid_archive_mpsv3\sch&brd\allegro'
+Design Directory:            'D:/PROJECTS/PROJECTSCIENCE/HARDWAREPCB/PROJECTID_ARCHIVE_MPSV3/SCH&BRD/allegro'
+Old design name:             'D:/PROJECTS/PROJECTSCIENCE/HARDWAREPCB/PROJECTID_ARCHIVE_MPSV3/SCH&BRD/allegro/mps-3.brd'
+New design name:             'D:/PROJECTS/PROJECTSCIENCE/HARDWAREPCB/PROJECTID_ARCHIVE_MPSV3/SCH&BRD/allegro/mps-3.brd'
 
-CmdLine: netrev -y 1 -q netrev_constraint_report.xml C:/Users/useroot/DOCUMENTS/GITHUB/DOSTI/DEVELOPMENTPROJECTS/MPS V3/SCH&BRD/allegro/#Taaaacz28600.tmp
+CmdLine: netrev -u -v -y 1 -i d:\projects\projectscience\hardwarepcb\projectid_archive_mpsv3\sch&brd\allegro -q netrev_constraint_report.xml D:/PROJECTS/PROJECTSCIENCE/HARDWAREPCB/PROJECTID_ARCHIVE_MPSV3/SCH&BRD/allegro/#Taaaabh32184.tmp
 
 ------ Preparing to read pst files ------
 
-Starting to read ./pstchip.dat 
-   Finished reading ./pstchip.dat (00:00:00.02)
-Starting to read ./pstxprt.dat 
-   Finished reading ./pstxprt.dat (00:00:00.00)
-Starting to read ./pstxnet.dat 
-   Finished reading ./pstxnet.dat (00:00:00.00)
+Starting to read d:/projects/projectscience/hardwarepcb/projectid_archive_mpsv3/sch&brd/allegro/pstchip.dat 
+   Finished reading d:/projects/projectscience/hardwarepcb/projectid_archive_mpsv3/sch&brd/allegro/pstchip.dat (00:00:00.43)
+Starting to read d:/projects/projectscience/hardwarepcb/projectid_archive_mpsv3/sch&brd/allegro/pstxprt.dat 
+   Finished reading d:/projects/projectscience/hardwarepcb/projectid_archive_mpsv3/sch&brd/allegro/pstxprt.dat (00:00:00.00)
+Starting to read d:/projects/projectscience/hardwarepcb/projectid_archive_mpsv3/sch&brd/allegro/pstxnet.dat 
+   Finished reading d:/projects/projectscience/hardwarepcb/projectid_archive_mpsv3/sch&brd/allegro/pstxnet.dat (00:00:00.00)
 
 ------ Oversights/Warnings/Errors ------
 
 
+
+Note: SECTION property definition created
+
+
+
+===========================================================
+Start Constraint Diff3 Import
+	Constraint File:    d:/projects/projectscience/hardwarepcb/projectid_archive_mpsv3/sch&brd/allegro/pstcmdb.dat
+	Allegro Baseline:   C:/Users/PROMET~1/AppData/Local/Temp/#Taaaaaj01424.tmp
+	Start time: Fri Mar 22 22:04:41 2024
+===========================================================
+===========================================================
+Finished Constraint Update	Time: Fri Mar 22 22:04:41 2024
+===========================================================
+
 ------ Library Paths ------
 MODULEPATH =  . 
-           c:/cadence/spb_23.1/share/local/pcb/modules 
+           C:/Cadence/SPB_23.1/share/local/pcb/modules 
 
 PSMPATH =  . 
            symbols 
            .. 
            ../symbols 
-           c:/cadence/spb_23.1/share/local/pcb/symbols 
-           c:/cadence/spb_23.1/share/pcb/pcb_lib/symbols 
-           c:/cadence/spb_23.1/share/pcb/allegrolib/symbols 
+           C:/Cadence/SPB_23.1/share/local/pcb/symbols 
+           C:/Cadence/SPB_23.1/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_23.1/share/pcb/allegrolib/symbols 
 
 PADPATH =  . 
            symbols 
            .. 
            ../symbols 
-           c:/cadence/spb_23.1/share/local/pcb/padstacks 
-           c:/cadence/spb_23.1/share/pcb/pcb_lib/symbols 
-           c:/cadence/spb_23.1/share/pcb/allegrolib/symbols 
+           C:/Cadence/SPB_23.1/share/local/pcb/padstacks 
+           C:/Cadence/SPB_23.1/share/pcb/pcb_lib/symbols 
+           C:/Cadence/SPB_23.1/share/pcb/allegrolib/symbols 
 
 
 ------ Summary Statistics ------
 
 
-netrev run on Jan 20 22:57:32 2024
+netrev run on Mar 22 22:04:40 2024
    DESIGN NAME : 'MPS-3'
    PACKAGING ON Sep 29 2023 23:54:04
 
@@ -85,6 +100,6 @@ netrev run on Jan 20 22:57:32 2024
  No oversight detected
  No warning detected
 
-cpu time      0:00:25
-elapsed time  0:00:00
+cpu time      0:01:08
+elapsed time  0:00:01
 

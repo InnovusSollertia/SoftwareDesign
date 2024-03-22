@@ -4,7 +4,7 @@
 (                                                                     )
 (    Drawing          : mps-3.brd                                     )
 (    Software Version : 23.1P001                                      )
-(    Date/Time        : Sun Dec 24 19:47:58 2023                      )
+(    Date/Time        : Fri Mar 22 22:05:57 2024                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -20,7 +20,7 @@
  ========= check standalone text              0:00:00
  ========= check standalone rectangles        0:00:00
 
- ..... Total number of DRC errors  0
+ ..... Total number of DRC errors  6
 
  ..... DRC update completed, total CPU time   0:00:00
  *************************************************************************

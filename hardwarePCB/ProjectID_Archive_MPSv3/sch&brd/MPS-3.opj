@@ -1,53 +1,89 @@
 (ExpressProject "MPS-3"
   (ProjectVersion "19981106")
-  (SoftwareVersion "23.1 P001 (4147275)  [9/30/2023]-[01/19/24]")
+  (SoftwareVersion "23.1 P001 (4147275)  [9/30/2023]-[03/22/24]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library"
       (File
-         "c:\users\useroot\documents\github\dosti\cadenceemd\buttons\95c06a3rat.olb"
+         "d:\projects\cadenceemd\main_libraries\battery_management_stbc08pmr.olb"
         (Type "Schematic Library"))
       (File
-         "c:\users\useroot\documents\github\dosti\cadenceemd\buttons (power and pushbuttons)\tpb11cgpc004.olb"
+         "d:\projects\cadenceemd\main_libraries\capacitor_ceramic_smd_grm319r71e473ja01d.olb"
         (Type "Schematic Library"))
       (File
-         "c:\users\useroot\documents\github\dosti\cadenceemd\capacitors\grm319r71e473ja01d.olb"
+         "d:\projects\cadenceemd\main_libraries\connector_din41612_42_09185407904.olb"
         (Type "Schematic Library"))
       (File
-         "c:\users\useroot\documents\github\dosti\cadenceemd\connectors usb type-c\ujc-hp-l-g-5-msmt-tr.olb"
+         "d:\projects\cadenceemd\main_libraries\connector_fmc_asp-134603-01.olb"
         (Type "Schematic Library"))
       (File
-         "c:\users\useroot\documents\github\dosti\cadenceemd\headers_male horizontal\22-03-2161.olb"
+         "d:\projects\cadenceemd\main_libraries\connector_ubs_type_c_ujc-hp-l-g-5-msmt-tr.olb"
         (Type "Schematic Library"))
       (File
-         "c:\users\useroot\documents\github\dosti\cadenceemd\headers_male horizontal\22-23-2021.olb"
+         "d:\projects\cadenceemd\main_libraries\crystall_abs07-32.768khz-4-t.olb"
         (Type "Schematic Library"))
       (File
-         "c:\users\useroot\documents\github\dosti\cadenceemd\headers_male horizontal\26-60-4030.olb"
+         "d:\projects\cadenceemd\main_libraries\ferrite_beads_blm15eg221sz1d.olb"
         (Type "Schematic Library"))
       (File
-         "c:\users\useroot\documents\github\dosti\cadenceemd\headers_male horizontal\55917-2010.olb"
+         "d:\projects\cadenceemd\main_libraries\ferrite_beads_blm15hg601bh1d.olb"
         (Type "Schematic Library"))
       (File
-         "c:\users\useroot\documents\github\dosti\cadenceemd\leds\com-16346.olb"
+         "d:\projects\cadenceemd\main_libraries\fpga_kintex_xc7k325t-2ffg676c.olb"
         (Type "Schematic Library"))
       (File
-         "c:\users\useroot\documents\github\dosti\cadenceemd\microcontrollers\stm32g473met3.olb"
+         "d:\projects\cadenceemd\main_libraries\header_pin_female_20_0254_55917-2010.olb"
         (Type "Schematic Library"))
       (File
-         "c:\users\useroot\documents\github\dosti\cadenceemd\microcontrollers\stm32l052k8t6.olb"
+         "d:\projects\cadenceemd\main_libraries\header_pin_female_smm-115-02-s-d-lc-k-tr.olb"
         (Type "Schematic Library"))
       (File
-         "c:\users\useroot\documents\github\dosti\cadenceemd\oscillators\abs07-32.768khz-4-t.olb"
+         "d:\projects\cadenceemd\main_libraries\header_pin_male_2_0254_22-23-2021.olb"
         (Type "Schematic Library"))
       (File
-         "c:\users\useroot\documents\github\dosti\cadenceemd\resistors\crgh1206f4k64.olb"
+         "d:\projects\cadenceemd\main_libraries\header_pin_male_3_0254_26-60-4030.olb"
         (Type "Schematic Library"))
       (File
-         "c:\users\useroot\documents\github\dosti\cadenceemd\voltage regulators\bvss138lt1g.olb"
+         "d:\projects\cadenceemd\main_libraries\header_pin_male_16_0254_22-03-2161.olb"
+        (Type "Schematic Library"))
+      (File "d:\projects\cadenceemd\main_libraries\led_smd_com-16346.olb"
+        (Type "Schematic Library"))
+      (File "d:\projects\cadenceemd\main_libraries\led_smd_hsmd-c150.olb"
         (Type "Schematic Library"))
       (File
-         "c:\users\useroot\documents\github\dosti\cadenceemd\voltage regulators\lm1117mpx-3.3_nopb.olb"
+         "d:\projects\cadenceemd\main_libraries\logic_buffer_74lcx125mtc.olb"
+        (Type "Schematic Library"))
+      (File "d:\projects\cadenceemd\main_libraries\mcu_st_stm32g473met3.olb"
+        (Type "Schematic Library"))
+      (File "d:\projects\cadenceemd\main_libraries\mcu_st_stm32l052k8t6.olb"
+        (Type "Schematic Library"))
+      (File "d:\projects\cadenceemd\main_libraries\mcu_st_stm32l073rzt6tr.olb"
+        (Type "Schematic Library"))
+      (File "d:\projects\cadenceemd\main_libraries\mpu_st_stm32mp157fac1.olb"
+        (Type "Schematic Library"))
+      (File
+         "d:\projects\cadenceemd\main_libraries\power_management_fpf1320ucx.olb"
+        (Type "Schematic Library"))
+      (File
+         "d:\projects\cadenceemd\main_libraries\resistor_smd_crgh1206f4k64.olb"
+        (Type "Schematic Library"))
+      (File
+         "d:\projects\cadenceemd\main_libraries\switch_analog_adg719brtz-reel.olb"
+        (Type "Schematic Library"))
+      (File
+         "d:\projects\cadenceemd\main_libraries\switch_button_tactile_95c06a3rat.olb"
+        (Type "Schematic Library"))
+      (File
+         "d:\projects\cadenceemd\main_libraries\switch_pushbutton_tpb11cgpc004.olb"
+        (Type "Schematic Library"))
+      (File
+         "d:\projects\cadenceemd\main_libraries\transistor_mosfet_bvss138lt1g.olb"
+        (Type "Schematic Library"))
+      (File
+         "d:\projects\cadenceemd\main_libraries\voltage_refulators_lm1117mpx-3.3_nopb.olb"
+        (Type "Schematic Library"))
+      (File
+         "d:\projects\cadenceemd\main_libraries\voltage_regulator_tps627431yfpr.olb"
         (Type "Schematic Library")))
     ("Allegro Netlist Directory" "allegro")
     (DOCKED "TRUE")
@@ -90,7 +126,7 @@
     (DRC_Check_PCB_Footprint_Property "TRUE")
     (DRC_Check_Normal_Convert_View_Sync "TRUE")
     (DRC_Check_Incorrect_PinGroup_Assignment "TRUE")
-    (DRC_Check_High_Speed_Props_Syntax "TRUE")
+    (DRC_Check_High_Speed_Props_Syntax "FALSE")
     (DRC_Check_Missing_Pin_Numbers "TRUE")
     (DRC_Check_Device_With_No_Pins "TRUE")
     (DRC_Check_Power_Ground_Short "TRUE")
@@ -121,27 +157,46 @@
     ("Update Allegro Board" "FALSE")
     ("Allegro Netlist Remove Etch" "FALSE")
     ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
-    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Netlist Open Board in Allegro" "APD")
     ("Allegro Setup Backup Versions" "3")
     ("Allegro Setup Ignore Constraints" "FALSE")
     ("Allegro Setup Part Type Length" "255")
     ("Allegro Netlist Combine Property String" "PCB Footprint")
     ("Allegro Netlist Ignore Fixed Property" "FALSE")
-    ("Allegro Netlist User Defined Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "TRUE")
     (BOM_Scope "0")
     (BOM_Mode "0")
     (BOM_Report_File
-       "C:\USERS\USEROOT\DOCUMENTS\GITHUB\DOSTI\DEVELOPMENTPROJECTS\MPS-3\MPS-3.BOM")
+       "D:\Projects\ProjectScience\hardwarePCB\ProjectID_Archive_MPSv3\BOM_out.BOM")
     (BOM_Merge_Include "TRUE")
     (BOM_Property_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
     (BOM_Header "Item\tQuantity\tReference\tPart")
     (BOM_Include_File
-       "C:\USERS\USEROOT\DOCUMENTS\GITHUB\DOSTI\DEVELOPMENTPROJECTS\MPS-3\MPS-3.INC")
+       "D:\Projects\ProjectScience\hardwarePCB\ProjectID_Archive_MPSv3\BOM..INC")
     (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
     (BOM_One_Part_Per_Line "TRUE")
     (Open_BOM_in_Excel "TRUE")
     (BOM_View_Output "FALSE")
-    (Board_sim_option "VHDL_flow"))
+    (Board_sim_option "Verilog_Flow")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80")
+    (IREFReportFile
+       "D:\PROJECTS\PROJECTSCIENCE\HARDWAREPCB\PROJECTID_ARCHIVE_MPSV3\SCH&BRD\MPS-3.csv")
+    (IREFViewOutput "0"))
   (Folder "Layout"
     (File ".\allegro\mps-3.brd"
       (Type "Board File")
@@ -151,16 +206,11 @@
   (Folder "Outputs"
     (File ".\mps-3.drc"
       (Type "Report"))
-    (File ".\allegro\pstxnet.dat"
-      (Type "Report")
-      (DisplayName "pstxnet.dat"))
-    (File ".\allegro\pstxprt.dat"
-      (Type "Report")
-      (DisplayName "pstxprt.dat"))
-    (File ".\allegro\pstchip.dat"
-      (Type "Report")
-      (DisplayName "pstchip.dat"))
     (File ".\mps-3.bom"
+      (Type "Report"))
+    (File ".\mps-3.csv"
+      (Type "Report"))
+    (File "..\bom_out.bom"
       (Type "Report")))
   (Folder "Referenced Projects")
   (Folder "PSpice Resources"
@@ -175,19 +225,19 @@
     (File ".\allegro\netlist.log"
       (Type "Log File")
       (LogFile
-         "c:\users\useroot\documents\github\dosti\developmentprojects\mps v3\sch&brd\allegro\netlist.log"))
+         "d:\projects\projectscience\hardwarepcb\projectid_archive_mpsv3\sch&brd\allegro\netlist.log"))
     (File ".\allegro\netrev.lst"
       (Type "Log File")
       (LogFile
-         "c:\users\useroot\documents\github\dosti\developmentprojects\mps v3\sch&brd\allegro\netrev.lst"))
+         "d:\projects\projectscience\hardwarepcb\projectid_archive_mpsv3\sch&brd\allegro\netrev.lst"))
     (File ".\allegro\eco.txt"
       (Type "Log File")
       (LogFile
-         "c:\users\useroot\documents\github\dosti\developmentprojects\mps v3\sch&brd\allegro\eco.txt"))
+         "d:\projects\projectscience\hardwarepcb\projectid_archive_mpsv3\sch&brd\allegro\eco.txt"))
     (File ".\allegro\genfeed.log"
       (Type "Log File")
       (LogFile
-         "c:\users\useroot\documents\github\dosti\developmentprojects\mps v3\sch&brd\allegro\genfeed.log"))
+         "d:\projects\projectscience\hardwarepcb\projectid_archive_mpsv3\sch&brd\allegro\genfeed.log"))
     (File ".\allegro\swp.log"
       (Type "Log File")
       (LogFile
@@ -254,28 +304,27 @@
       (Path "Design Resources")
       (Path "Design Resources" ".\mps-3.dsn")
       (Path "Design Resources" ".\mps-3.dsn" "AllSch")
-      (Path "Design Resources" "Library")
       (Path "Layout")
       (Path "Outputs")
       (Path "Logs")
-      (Select "Design Resources" ".\mps-3.dsn" "AllSch" "1_MCU_L052"))
+      (Select "Design Resources" "Library"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 266 0 479"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 276 0 491"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1048 24 497")
-        (Scroll "0 216")
-        (Zoom "110")
+        (Placement "44 0 1 -1 -1 -1 -1 5 920 24 509")
+        (Scroll "-127 -4")
+        (Zoom "38")
         (Occurrence "/"))
       (Path
-         "C:\USERS\USEROOT\DOCUMENTS\GITHUB\DOSTI\DEVELOPMENTPROJECTS\MPS V3\SCH&BRD\MPS-3.DSN")
+         "D:\PROJECTS\PROJECTSCIENCE\HARDWAREPCB\PROJECTID_ARCHIVE_MPSV3\SCH&BRD\MPS-3.DSN")
       (Schematic "AllSch")
       (Page "1_MCU_L052")))
-  (MPSSessionName "useroot")
+  (MPSSessionName "Prometheus")
   (LastUsedLibraryBrowseDirectory "C:\Users\useroot\Downloads")
   (ISPCBBASICLICENSE "false"))
