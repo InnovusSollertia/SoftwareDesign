@@ -1829,3 +1829,24 @@ Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data file:/D:/Project
 
 !ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-03-24 15:11:54.663
 !MESSAGE Started RMI Server, listening on port 41337
+!SESSION 2024-03-29 16:45:54.511 -----------------------------------------------
+eclipse.buildId=Version 1.15.0
+java.version=17.0.8.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ru_RU
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2024-03-29 16:46:31.331
+!MESSAGE Unable to retrieve the bundle from the URI: bundleclass://com.genuitec.eclipse.meexplorer/com.genuitec.eclipse.meexplorer.breadcrumb.e4.BreadCrumbContainer
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2024-03-29 16:46:32.551
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2024-03-29 16:46:32.561
+!MESSAGE Log4j2 initialized with config file D:\Projects\ProjectScience\softwareSTM32\.metadata\.log4j2.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2024-03-29 16:46:38.263
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2024-03-29 16:50:57.039
+!MESSAGE Indexed 'MPSV2' (17 sources, 78 headers) in 2.65 sec: 3,643 declarations; 13,255 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.012%)
