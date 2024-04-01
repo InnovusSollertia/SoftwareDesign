@@ -1,0 +1,88 @@
+(ExpressProject "BFP740"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "23.1 P001 (4147275)  [9/30/2023]-[03/31/24]")
+  (ProjectType "Analog or A/D Mixed Mode")
+  (Folder "Design Resources"
+    (Folder "Library")
+    ("Allegro Netlist Directory" "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\bfp740.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Layout")
+  (Folder "Outputs")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (DefaultLibraryBrowseDirectory "library\PSpice")
+  (Folder "Logs")
+  (PartMRUSelector
+    (ABS07-32.768KHZ-4-T
+      (FullPartName "ABS07-32.768KHZ-4-T.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\CRYSTALL_ABS07-32.768KHZ-4-T.OLB")
+      (DeviceIndex "0"))
+    (UJC-HP-L-G-5-MSMT-TR
+      (FullPartName "UJC-HP-L-G-5-MSMT-TR.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\CONNECTOR_UBS_TYPE_C_UJC-HP-L-G-5-MSMT-TR.OLB")
+      (DeviceIndex "0"))
+    (ASP-134603-01
+      (FullPartName "ASP-134603-01.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\CONNECTOR_FMC_ASP-134603-01.OLB")
+      (DeviceIndex "0"))
+    (FH26W-25S-0.3SHW_97_
+      (FullPartName "FH26W-25S-0.3SHW_97_.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\CONNECTOR_FFC_FH26W-25S-0.3SHW_97_.OLB")
+      (DeviceIndex "0"))
+    (09185407904
+      (FullPartName "09185407904.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\CONNECTOR_DIN41612_42_09185407904.OLB")
+      (DeviceIndex "0"))
+    (MAL214256222E3
+      (FullPartName "MAL214256222E3.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\CAPACITOR_RADIAL_MAL214256222E3.OLB")
+      (DeviceIndex "0"))
+    (GRM319R71E473JA01D
+      (FullPartName "GRM319R71E473JA01D.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\CAPACITOR_CERAMIC_SMD_GRM319R71E473JA01D.OLB")
+      (DeviceIndex "0"))
+    (STBC08PMR
+      (FullPartName "STBC08PMR.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\BATTERY_MANAGEMENT_STBC08PMR.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "Prometheus")
+  (GlobalState
+    (FileView
+      (Path "Design Resources"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 529"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 996 24 547")
+        (Scroll "0 0")
+        (Zoom "100")
+        (Occurrence "/"))
+      (Path
+         "D:\PROJECTS\PROJECTSCIENCE\HARDWAREPCB\PROJECTID_BFP740\BFP740.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))

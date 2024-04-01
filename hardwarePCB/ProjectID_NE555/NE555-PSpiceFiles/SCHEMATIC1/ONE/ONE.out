@@ -1,0 +1,75 @@
+**** Analysis Setup ****
+
+**** 04/01/24 10:54:07 *** PSpice 23.1.0 (29 September 2023) ** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-ONE"  [ D:\Projects\ProjectScience\hardwarePCB\ProjectID_NE555\NE555-PSpiceFiles\SCHEMATIC1\ONE.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "ONE.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice/23.1.0/PSpice.ini file:
+.lib "nom.lib" 
+
+*Analysis directives: 
+.OP
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source NE555
+X_U1         N15947 N14737 N15075 0 N15947 0 OUTA 0 awb555 PARAMS:       
+X_U2         N15635 N14939 N16693 0 N15635 0 OUTB 0 awb555 PARAMS:       
+X_U3         N15773 N15021 N18192 0 N15773 0 OUTC 0 awb555 PARAMS:       
+X_U4         0 N15075 Sw_tClose PARAMS: tClose=0 ttran=1u Rclosed=0.01
++  Ropen=1Meg
+C_C1         0 N14737  0.01uF  TC=0,0 
+C_C2         0 N14939  0.01uF  TC=0,0 
+C_C3         0 N15021  0.01uF  TC=0,0 
+C_Ca         0 N15947  10uF  TC=0,0 
+C_Cb         0 N15635  4.7uF  TC=0,0 
+C_Cc         0 N15773  14.7uF  TC=0,0 
+R_RA         N15947 0  100k TC=0,0 
+R_RB         N15635 0  100k TC=0,0 
+R_RC         N15773 0  100k TC=0,0 
+C_C4         N16693 OUTA  0.001uF  TC=0,0 
+R_RA1         N16693 0  33k TC=0,0 
+C_C5         N18192 OUTB  0.001uF  TC=0,0 
+R_RA2         N18192 0  33k TC=0,0 
+
+**** RESUMING ONE.cir ****
+.END
+
+**** 04/01/24 10:54:07 *** PSpice 23.1.0 (29 September 2023) ** ID# 0 ********
+
+ ** Profile: "SCHEMATIC1-ONE"  [ D:\Projects\ProjectScience\hardwarePCB\ProjectID_NE555\NE555-PSpiceFiles\SCHEMATIC1\ONE.sim ] 
+
+
+ ****     Voltage Controlled Switch MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               X_U4.Smod       
+         RON     .01         
+        ROFF    1.000000E+06 
+         VON    1            
+        VOFF    0            
+
