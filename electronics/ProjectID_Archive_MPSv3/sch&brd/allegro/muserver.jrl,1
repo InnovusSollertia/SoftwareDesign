@@ -1,0 +1,29 @@
+\t (00:00:00) muserver 23.1 P001 Windows SPB 64-bit Edition
+\t (00:00:00)     Journal start - Sat Jan 20 22:54:20 2024
+\t (00:00:00)         Host=ZEPHYRUS-G14 User=useroot Pid=28176 CPUs=12
+\t (00:00:00) CmdLine= C:/Cadence/SPB_23.1/tools/bin/muserver.exe -port 4000-4005 C:/USERS/USEROOT/DOCUMENTS/GITHUB/DOSTI/DEVELOPMENTPROJECTS/MPS V3/SCH&BRD/allegro/mps-3.brd
+\t (00:00:00) 
+\d (00:00:00) Server Started - Listening on Port 4000
+\d (00:00:00) Opening: C:/USERS/USEROOT/DOCUMENTS/GITHUB/DOSTI/DEVELOPMENTPROJECTS/MPS V3/SCH&BRD/allegro/mps-3.brd
+\d (00:00:00) Opened: C:/USERS/USEROOT/DOCUMENTS/GITHUB/DOSTI/DEVELOPMENTPROJECTS/MPS V3/SCH&BRD/allegro/mps-3.brd
+\t (00:00:00) Max design UID reset from 105675 to 5683.
+\d (00:00:06) useroot[2] - Connected
+\d (00:00:06) useroot[2] - Client Version: 23.1-2023 P001 [4147275]
+\d (00:00:07) useroot[2] - User parameters not found.
+\d (00:00:07) useroot[2] - Session Joined
+\d (00:00:07) useroot[2] - Sent dbid range: [5684-105683]
+\e (00:00:21) Opening a new database will disconnect 1 user. Continue?
+\i (00:00:25) fillin yes 
+\e (00:00:32) Closing the Symphony server will disconnect 1 user. Continue?
+\i (00:00:34) fillin yes 
+\e (00:00:34) Do you want to save changes to mps-3.brd?
+\i (00:00:36) fillin yes 
+\d (00:00:36) Saving: C:/USERS/USEROOT/DOCUMENTS/GITHUB/DOSTI/DEVELOPMENTPROJECTS/MPS V3/SCH&BRD/allegro/mps-3.brd
+\d (00:00:36) Saved: C:/USERS/USEROOT/DOCUMENTS/GITHUB/DOSTI/DEVELOPMENTPROJECTS/MPS V3/SCH&BRD/allegro/mps-3.brd
+\d (00:00:36) Disconnecting 1 user.
+\d (00:00:36) Server Closing
+\d (00:00:36) Closing: C:/USERS/USEROOT/DOCUMENTS/GITHUB/DOSTI/DEVELOPMENTPROJECTS/MPS V3/SCH&BRD/allegro/mps-3.brd
+\d (00:00:36) Closed: C:/USERS/USEROOT/DOCUMENTS/GITHUB/DOSTI/DEVELOPMENTPROJECTS/MPS V3/SCH&BRD/allegro/mps-3.brd
+\d (00:00:36) Disconnecting 1 user.
+\d (00:00:36) useroot[2] - Disconnected
+\t (00:00:36)     Journal end - Sat Jan 20 22:54:57 2024
