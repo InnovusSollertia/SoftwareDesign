@@ -61,9 +61,9 @@
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 995 24 512")
-        (Scroll "254 144")
-        (Zoom "126")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1255 24 512")
+        (Scroll "-287 -1")
+        (Zoom "55")
         (Occurrence "/"))
       (Path
          "D:\PROJECTS\PROJECTSCIENCE\ELECTRONICS\PROJECTID_RS232TOUART\PROJECTID_RS232TOUART.DSN")
