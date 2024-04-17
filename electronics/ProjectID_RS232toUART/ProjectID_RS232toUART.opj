@@ -56,7 +56,7 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 494"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 471"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
