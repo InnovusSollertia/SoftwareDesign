@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project source="3.8.0" version="1.0">
+  This file is intended to be loaded by Logisim-evolution v3.8.0(https://github.com/logisim-evolution/).
+
+  <lib desc="#Wiring" name="0">
+    <tool name="Pin">
+      <a name="appearance" val="classic"/>
+    </tool>
+  </lib>
+  <lib desc="#Gates" name="1"/>
+  <lib desc="#Plexers" name="2"/>
+  <lib desc="#Arithmetic" name="3"/>
+  <lib desc="#Memory" name="4"/>
+  <lib desc="#I/O" name="5"/>
+  <lib desc="#TTL" name="6"/>
+  <lib desc="#TCL" name="7"/>
+  <lib desc="#Base" name="8"/>
+  <lib desc="#BFH-Praktika" name="9"/>
+  <lib desc="#Input/Output-Extra" name="10"/>
+  <lib desc="#Soc" name="11"/>
+  <main name="main"/>
+  <options>
+    <a name="gateUndefined" val="ignore"/>
+    <a name="simlimit" val="1000"/>
+    <a name="simrand" val="0"/>
+  </options>
+  <mappings>
+    <tool lib="8" map="Button2" name="Poke Tool"/>
+    <tool lib="8" map="Button3" name="Menu Tool"/>
+    <tool lib="8" map="Ctrl Button1" name="Menu Tool"/>
+  </mappings>
+  <toolbar>
+    <tool lib="8" name="Poke Tool"/>
+    <tool lib="8" name="Edit Tool"/>
+    <tool lib="8" name="Wiring Tool"/>
+    <tool lib="8" name="Text Tool"/>
+    <sep/>
+    <tool lib="0" name="Pin"/>
+    <tool lib="0" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+    </tool>
+    <sep/>
+    <tool lib="1" name="NOT Gate"/>
+    <tool lib="1" name="AND Gate"/>
+    <tool lib="1" name="OR Gate"/>
+    <tool lib="1" name="XOR Gate"/>
+    <tool lib="1" name="NAND Gate"/>
+    <tool lib="1" name="NOR Gate"/>
+    <sep/>
+    <tool lib="4" name="D Flip-Flop"/>
+    <tool lib="4" name="Register"/>
+  </toolbar>
+  <circuit name="main">
+    <a name="appearance" val="logisim_evolution"/>
+    <a name="circuit" val="main"/>
+    <a name="circuitnamedboxfixedsize" val="true"/>
+    <a name="simulationFrequency" val="1.0"/>
+    <comp lib="0" loc="(130,180)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="a"/>
+    </comp>
+    <comp lib="0" loc="(130,220)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="sel"/>
+    </comp>
+    <comp lib="0" loc="(130,300)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="label" val="b"/>
+    </comp>
+    <comp lib="0" loc="(440,240)" name="Pin">
+      <a name="appearance" val="NewPins"/>
+      <a name="facing" val="west"/>
+      <a name="label" val="F3"/>
+      <a name="output" val="true"/>
+    </comp>
+    <comp lib="1" loc="(200,220)" name="NOT Gate">
+      <a name="label" val="NOT1"/>
+    </comp>
+    <comp lib="1" loc="(330,200)" name="AND Gate">
+      <a name="label" val="AND1"/>
+    </comp>
+    <comp lib="1" loc="(330,280)" name="AND Gate">
+      <a name="label" val="AND2"/>
+    </comp>
+    <comp lib="1" loc="(420,240)" name="OR Gate">
+      <a name="label" val="OR1"/>
+    </comp>
+    <comp lib="8" loc="(139,405)" name="Text">
+      <a name="text" val="endmodule mux"/>
+    </comp>
+    <comp lib="8" loc="(149,484)" name="Text">
+      <a name="text" val="a x n_sel + b x sel"/>
+    </comp>
+    <comp lib="8" loc="(243,216)" name="Text">
+      <a name="font" val="SansSerif bold 10"/>
+      <a name="text" val="NEGATIVE_SEL"/>
+    </comp>
+    <comp lib="8" loc="(262,257)" name="Text">
+      <a name="text" val="SEL"/>
+    </comp>
+    <comp lib="8" loc="(270,70)" name="Text">
+      <a name="text" val="module mux (output logic F3, input logic a, sel, b);"/>
+    </comp>
+    <comp lib="8" loc="(271,176)" name="Text">
+      <a name="text" val="A"/>
+    </comp>
+    <comp lib="8" loc="(272,298)" name="Text">
+      <a name="text" val="B"/>
+    </comp>
+    <comp lib="8" loc="(288,320)" name="Text">
+      <a name="text" val="G2"/>
+    </comp>
+    <comp lib="8" loc="(299,166)" name="Text">
+      <a name="text" val="G1"/>
+    </comp>
+    <comp lib="8" loc="(340,342)" name="Text">
+      <a name="text" val="Функция G2 (and#1) -&gt; G2 (F2, B, SEL)"/>
+    </comp>
+    <comp lib="8" loc="(341,185)" name="Text">
+      <a name="text" val="F1"/>
+    </comp>
+    <comp lib="8" loc="(343,294)" name="Text">
+      <a name="text" val="F2"/>
+    </comp>
+    <comp lib="8" loc="(383,138)" name="Text">
+      <a name="text" val="Функция G1 (and#2) -&gt; G1 (F1, A, NEGATIVE_SEL)"/>
+    </comp>
+    <comp lib="8" loc="(389,275)" name="Text">
+      <a name="text" val="G3"/>
+    </comp>
+    <comp lib="8" loc="(511,208)" name="Text">
+      <a name="text" val="Функция G3 (or#1) -&gt; G3 (F3, F2, F1)"/>
+    </comp>
+    <wire from="(130,180)" to="(280,180)"/>
+    <wire from="(130,220)" to="(150,220)"/>
+    <wire from="(130,300)" to="(280,300)"/>
+    <wire from="(150,220)" to="(150,260)"/>
+    <wire from="(150,220)" to="(170,220)"/>
+    <wire from="(150,260)" to="(280,260)"/>
+    <wire from="(200,220)" to="(280,220)"/>
+    <wire from="(330,200)" to="(350,200)"/>
+    <wire from="(330,280)" to="(350,280)"/>
+    <wire from="(350,200)" to="(350,220)"/>
+    <wire from="(350,220)" to="(370,220)"/>
+    <wire from="(350,260)" to="(350,280)"/>
+    <wire from="(350,260)" to="(370,260)"/>
+    <wire from="(420,240)" to="(440,240)"/>
+  </circuit>
+</project>
