@@ -1,6 +1,6 @@
 (ExpressProject "Kintex7"
   (ProjectVersion "19981106")
-  (SoftwareVersion "23.1 P001 (4147275)  [9/30/2023]-[03/24/24]")
+  (SoftwareVersion "23.1 S003 (4178961)  [3/6/2024]-[04/22/24]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
@@ -12,7 +12,6 @@
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
     (CompileFileAddedOrDeleted "x")
-    (Board_sim_option "VHDL_flow")
     (DRC_Scope "0")
     (DRC_Action "0")
     (DRC_Create_Warnings "TRUE")
@@ -83,7 +82,8 @@
     ("Allegro Setup Part Type Length" "255")
     ("Allegro Netlist Combine Property String" "PCB Footprint")
     ("Allegro Netlist Ignore Fixed Property" "FALSE")
-    ("Allegro Netlist User Defined Property" "FALSE"))
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (Board_sim_option "Verilog_Flow"))
   (Folder "Layout")
   (Folder "Outputs")
   (Folder "Referenced Projects")
@@ -97,6 +97,25 @@
       (Sort User)))
   (Folder "Logs")
   (PartMRUSelector
+    (ADG719BRTZ-REEL
+      (FullPartName "ADG719BRTZ-REEL.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\SMD ANALOG VOLTAGE SWITCH\ADG719BRTZ-REEL.OLB")
+      (DeviceIndex "0"))
+    (PORTBOTH-R
+      (LibraryName "C:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTBOTH-L
+      (LibraryName "C:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTRIGHT-L
+      (LibraryName "C:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (SMM-115-02-S-D-LC-K-TR
+      (FullPartName "SMM-115-02-S-D-LC-K-TR.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\THT CONNECTOR HEADERPIN\SMM-115-02-S-D-LC-K-TR.OLB")
+      (DeviceIndex "0"))
     (09185407904
       (FullPartName "09185407904.Normal")
       (LibraryName
@@ -122,11 +141,6 @@
       (LibraryName
          "C:\USERS\USEROOT\DOCUMENTS\GITHUB\DOSTI\CADENCEEMD\MAIN_LIBRARIES\SWITCH_BUTTON_TACTILE_95C06A3RAT.OLB")
       (DeviceIndex "0"))
-    (ADG719BRTZ-REEL
-      (FullPartName "ADG719BRTZ-REEL.Normal")
-      (LibraryName
-         "C:\USERS\USEROOT\DOCUMENTS\GITHUB\DOSTI\CADENCEEMD\MAIN\SWITCHES_ANALOG_ADG719BRTZ-REEL.OLB")
-      (DeviceIndex "0"))
     (74LCX125MTC
       (FullPartName "74LCX125MTC.Normal")
       (LibraryName
@@ -145,11 +159,6 @@
       (LibraryName
          "C:\USERS\USEROOT\DOCUMENTS\GITHUB\DOSTI\CADENCEEMD\REMAKE\GRM319R71E473JA01D.OLB")
       (DeviceIndex "0"))
-    (SMM-115-02-S-D-LC-K-TR
-      (FullPartName "SMM-115-02-S-D-LC-K-TR.Normal")
-      (LibraryName
-         "C:\USERS\USEROOT\DOCUMENTS\GITHUB\DOSTI\CADENCEEMD\MAIN\HEADER_PIN_FEMALE_SMM-115-02-S-D-LC-K-TR.OLB")
-      (DeviceIndex "0"))
     (XC7K325T-2FFG676C
       (FullPartName "XC7K325T-2FFG676C.Normal")
       (LibraryName
@@ -159,30 +168,26 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources"
-         "D:\Projects\ProjectScience\hardwarePCB\ProjectID_Kintex7\kintex7.dsn")
-      (Path "Design Resources"
-         "D:\Projects\ProjectScience\hardwarePCB\ProjectID_Kintex7\kintex7.dsn"
-         "SCHEMATIC1")
-      (Select "Design Resources"
-         "D:\Projects\ProjectScience\hardwarePCB\ProjectID_Kintex7\kintex7.dsn"
-         "SCHEMATIC1" "PAGE1"))
+      (Path "Design Resources" ".\kintex7.dsn")
+      (Path "Design Resources" ".\kintex7.dsn" "SCHEMATIC")
+      (Select "Design Resources" ".\kintex7.dsn" "SCHEMATIC" "13_OLED"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 491"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 290 0 521"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1255 24 509")
-        (Scroll "0 0")
-        (Zoom "50")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1165 24 539")
+        (Scroll "-269 0")
+        (Zoom "20")
         (Occurrence "/"))
       (Path
-         "D:\PROJECTS\PROJECTSCIENCE\HARDWAREPCB\PROJECTID_KINTEX7\KINTEX7.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PAGE1")))
-  (LastUsedLibraryBrowseDirectory "D:\Projects\CadenceEMD\Main_Libraries")
+         "D:\PROJECTS\PROJECTSCIENCE\ELECTRONICS\PROJECTID_KINTEX7\KINTEX7.DSN")
+      (Schematic "SCHEMATIC")
+      (Page ".OLD")))
+  (LastUsedLibraryBrowseDirectory
+     "D:\Projects\CadenceEMD\Main_Libraries\SMD Analog Voltage Switch")
   (ISPCBBASICLICENSE "false"))

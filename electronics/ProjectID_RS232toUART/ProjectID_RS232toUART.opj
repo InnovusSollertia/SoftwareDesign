@@ -11,7 +11,8 @@
     (File ".\projectid_rs232touart.dsn"
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
-    (CompileFileAddedOrDeleted "x"))
+    (CompileFileAddedOrDeleted "x")
+    (Board_sim_option "VHDL_flow"))
   (Folder "Layout")
   (Folder "Outputs")
   (Folder "Referenced Projects")
@@ -56,19 +57,8 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 471"))
-      (Tab 0))
-    (Doc
-      (Type "COrSchematicDoc")
-      (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1255 24 512")
-        (Scroll "-287 -1")
-        (Zoom "55")
-        (Occurrence "/"))
-      (Path
-         "D:\PROJECTS\PROJECTSCIENCE\ELECTRONICS\PROJECTID_RS232TOUART\PROJECTID_RS232TOUART.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PAGE1")))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 521"))
+      (Tab 0)))
   (MPSSessionName "Prometheus")
   (LastUsedLibraryBrowseDirectory
      "D:\Projects\CadenceEMD\Main_Libraries\THT Diode"))
