@@ -1,303 +1,111 @@
-\t (00:00:06) allegro 23.1 S003 Windows SPB 64-bit Edition
-\t (00:00:06)     Journal start - Tue Apr 16 19:11:37 2024
-\t (00:00:06)         Host=DESKTOP-OU1R4S8 User=Prometheus Pid=16860 CPUs=12
-\t (00:00:06) CmdLine= C:\Cadence\SPB_23.1\tools\bin\allegro.exe
-\t (00:00:06) 
-   (00:00:06) Loading axlcore.cxt 
-\t (00:00:07) Opening existing design...
-\i (00:00:07) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "mps-3"
-\d (00:00:08) Design opened: D:/Projects/ProjectScience/electronics/ProjectID_Archive_MPSv3/sch&brd/allegro/mps-3.brd
-\i (00:00:08) trapsize 23190
-\i (00:00:09) trapsize 25420
-\i (00:00:10) trapsize 18692
-\i (00:00:10) trapsize 18692
-\t (00:00:10) > Sending response DoneOpenBoard
-\i (00:00:11) generaledit 
-\i (00:00:19) trapsize 11427
-\i (00:00:20) zoom in 1 
-\i (00:00:20) setwindow pcb
-\i (00:00:20) zoom in 130.3321 94.2217
-\i (00:00:20) trapsize 5714
-\i (00:00:20) zoom in 1 
-\i (00:00:20) setwindow pcb
-\i (00:00:20) zoom in 122.5615 104.2778
-\i (00:00:20) trapsize 2857
-\i (00:00:20) zoom in 1 
-\i (00:00:20) setwindow pcb
-\i (00:00:20) zoom in 121.8758 105.3635
-\i (00:00:20) trapsize 1428
-\i (00:00:20) zoom in 1 
-\i (00:00:20) setwindow pcb
-\i (00:00:20) zoom in 121.7901 105.2778
-\i (00:00:20) trapsize 714
-\i (00:00:20) zoom in 1 
-\i (00:00:20) setwindow pcb
-\i (00:00:20) zoom in 121.7329 105.1635
-\i (00:00:20) trapsize 357
-\i (00:00:21) zoom out 1 
-\i (00:00:21) setwindow pcb
-\i (00:00:21) zoom out 121.6615 104.4351
-\i (00:00:21) trapsize 714
-\i (00:00:21) roam start
-\i (00:00:21) roam x 16
-\i (00:00:21) roam x 48
-\i (00:00:21) roam y 16
-\i (00:00:22) roam x 32
-\i (00:00:22) roam x -16
-\i (00:00:22) roam x -64
-\i (00:00:22) roam y -32
-\i (00:00:22) roam x -48
-\i (00:00:22) roam y -32
-\i (00:00:22) roam y -16
-\i (00:00:22) roam x -16
-\i (00:00:22) roam x -16
-\i (00:00:22) roam y -32
-\i (00:00:22) roam x -16
-\i (00:00:22) roam y -16
-\i (00:00:22) roam x -32
-\i (00:00:22) roam y -48
-\i (00:00:22) roam x -16
-\i (00:00:22) roam y -16
-\i (00:00:22) roam x -16
-\i (00:00:22) roam y -16
-\i (00:00:22) roam x -16
-\i (00:00:22) roam y -16
-\i (00:00:22) roam x -32
-\i (00:00:22) roam y -16
-\i (00:00:22) roam x -16
-\i (00:00:22) roam y -32
-\i (00:00:22) roam x -16
-\i (00:00:22) roam y -32
-\i (00:00:22) roam x -48
-\i (00:00:22) roam y -32
-\i (00:00:22) roam x -32
-\i (00:00:22) roam y -32
-\i (00:00:22) roam x -32
-\i (00:00:22) roam y -32
-\i (00:00:22) roam x -48
-\i (00:00:22) roam y -16
-\i (00:00:22) roam x -48
-\i (00:00:22) roam y -32
-\i (00:00:23) roam x -128
-\i (00:00:23) roam y -32
-\i (00:00:23) roam x -48
-\i (00:00:23) roam y -16
-\i (00:00:23) roam x -48
-\i (00:00:23) roam x -48
-\i (00:00:23) roam x -48
-\i (00:00:23) roam x -32
-\i (00:00:23) roam x -48
-\i (00:00:23) roam x -32
-\i (00:00:23) roam x -16
-\i (00:00:23) roam x -16
-\i (00:00:23) roam x -16
-\i (00:00:23) roam x -32
-\i (00:00:23) roam x -48
-\i (00:00:23) roam x -80
-\i (00:00:23) roam y -16
-\i (00:00:23) roam x -112
-\i (00:00:23) roam x -32
-\i (00:00:23) roam x -16
-\i (00:00:23) roam x -96
-\i (00:00:23) roam x -48
-\i (00:00:23) roam x -16
-\i (00:00:23) roam x -16
-\i (00:00:23) roam y 16
-\i (00:00:24) roam x -16
-\i (00:00:24) roam x -16
-\i (00:00:24) roam y -32
-\i (00:00:24) roam y -64
-\i (00:00:24) roam x -16
-\i (00:00:24) roam y -32
-\i (00:00:24) roam y 16
-\i (00:00:24) roam y 32
-\i (00:00:24) roam y 16
-\i (00:00:24) roam y 16
-\i (00:00:24) roam y 48
-\i (00:00:24) roam x 16
-\i (00:00:24) roam y 16
-\i (00:00:24) roam x 16
-\i (00:00:24) roam y 16
-\i (00:00:24) roam x 16
-\i (00:00:24) roam y 32
-\i (00:00:24) roam y 32
-\i (00:00:24) roam y 32
-\i (00:00:25) roam y 16
-\i (00:00:25) roam y 16
-\i (00:00:25) roam x 16
-\i (00:00:25) roam y 16
-\i (00:00:25) roam y 16
-\i (00:00:25) roam end
-\i (00:00:25) zoom out 1 
-\i (00:00:25) setwindow pcb
-\i (00:00:25) zoom out 99.5494 108.3912
-\i (00:00:25) trapsize 1428
-\i (00:00:25) zoom out 1 
-\i (00:00:25) setwindow pcb
-\i (00:00:25) zoom out 99.5493 108.3913
-\i (00:00:25) trapsize 2857
-\i (00:00:26) roam start
-\i (00:00:26) roam x -16
-\i (00:00:26) roam y -16
-\i (00:00:26) roam x -48
-\i (00:00:26) roam y -16
-\i (00:00:26) roam x -32
-\i (00:00:26) roam y -48
-\i (00:00:26) roam x -32
-\i (00:00:26) roam y -32
-\i (00:00:26) roam x -16
-\i (00:00:26) roam y -32
-\i (00:00:26) roam end
-\i (00:00:26) zoom in 1 
-\i (00:00:26) setwindow pcb
-\i (00:00:26) zoom in 91.0217 116.9046
-\i (00:00:26) trapsize 1428
-\i (00:00:27) zoom in 1 
-\i (00:00:27) setwindow pcb
-\i (00:00:27) zoom in 90.9646 116.9046
-\i (00:00:27) trapsize 714
-\i (00:00:27) roam start
-\i (00:00:27) roam x -16
-\i (00:00:27) roam x -32
-\i (00:00:27) roam y -16
-\i (00:00:27) roam x -16
-\i (00:00:27) roam y -16
-\i (00:00:27) roam x -16
-\i (00:00:27) roam y -16
-\i (00:00:27) roam x -16
-\i (00:00:27) roam y -16
-\i (00:00:28) roam y -16
-\i (00:00:28) roam y -16
-\i (00:00:28) roam y -16
-\i (00:00:28) roam y -32
-\i (00:00:28) roam y -16
-\i (00:00:28) roam y -16
-\i (00:00:28) roam x -16
-\i (00:00:28) roam y -16
-\i (00:00:28) roam y -16
-\i (00:00:28) roam x -16
-\i (00:00:28) roam x -16
-\i (00:00:28) roam y -16
-\i (00:00:28) roam x -16
-\i (00:00:28) roam x 16
-\i (00:00:28) roam x 32
-\i (00:00:28) roam y -16
-\i (00:00:28) roam x 80
-\i (00:00:28) roam y -32
-\i (00:00:28) roam x 160
-\i (00:00:28) roam y -32
-\i (00:00:29) roam x 112
-\i (00:00:29) roam y -32
-\i (00:00:29) roam x 32
-\i (00:00:29) roam x 48
-\i (00:00:29) roam y -16
-\i (00:00:29) roam x 48
-\i (00:00:29) roam x 32
-\i (00:00:29) roam x 16
-\i (00:00:29) roam x 16
-\i (00:00:29) roam y 48
-\i (00:00:29) roam y 16
-\i (00:00:29) roam y 32
-\i (00:00:29) roam y 64
-\i (00:00:30) roam x -32
-\i (00:00:30) roam y 32
-\i (00:00:30) roam x -32
-\i (00:00:30) roam y 16
-\i (00:00:30) roam x -80
-\i (00:00:30) roam y 16
-\i (00:00:30) roam x -48
-\i (00:00:30) roam y 16
-\i (00:00:30) roam x -64
-\i (00:00:30) roam x -80
-\i (00:00:30) roam x -112
-\i (00:00:30) roam y -16
-\i (00:00:30) roam x -32
-\i (00:00:30) roam x -16
-\i (00:00:30) roam x -48
-\i (00:00:30) roam y 16
-\i (00:00:30) roam x -16
-\i (00:00:30) roam y 16
-\i (00:00:30) roam x -48
-\i (00:00:30) roam y 32
-\i (00:00:30) roam x -96
-\i (00:00:30) roam y 48
-\i (00:00:30) roam x -32
-\i (00:00:30) roam y 32
-\i (00:00:30) roam x -16
-\i (00:00:30) roam y 48
-\i (00:00:30) roam x -16
-\i (00:00:30) roam y 32
-\i (00:00:30) roam y 48
-\i (00:00:30) roam y 64
-\i (00:00:30) roam x 16
-\i (00:00:30) roam y 48
-\i (00:00:30) roam x 48
-\i (00:00:30) roam y 64
-\i (00:00:30) roam x 16
-\i (00:00:30) roam y 64
-\i (00:00:30) roam x 32
-\i (00:00:30) roam y 128
-\i (00:00:30) roam y 80
-\i (00:00:30) roam x -16
-\i (00:00:30) roam y 80
-\i (00:00:30) roam y 64
-\i (00:00:31) roam x -16
-\i (00:00:31) roam y 48
-\i (00:00:31) roam x -16
-\i (00:00:31) roam y 32
-\i (00:00:31) roam x -16
-\i (00:00:31) roam y 48
-\i (00:00:31) roam x -16
-\i (00:00:31) roam y 16
-\i (00:00:31) roam x -32
-\i (00:00:31) roam y 16
-\i (00:00:31) roam x -32
-\i (00:00:31) roam y 32
-\i (00:00:31) roam x -32
-\i (00:00:31) roam x -48
-\i (00:00:31) roam y 16
-\i (00:00:31) roam x -16
-\i (00:00:31) roam x -48
-\i (00:00:31) roam x -96
-\i (00:00:31) roam y -32
-\i (00:00:31) roam x -96
-\i (00:00:31) roam y -64
-\i (00:00:31) roam y -16
-\i (00:00:31) roam x -16
-\i (00:00:31) roam x -32
-\i (00:00:31) roam y 48
-\i (00:00:31) roam x -48
-\i (00:00:31) roam y 80
-\i (00:00:31) roam x -16
-\i (00:00:31) roam y 64
-\i (00:00:31) roam y 16
-\i (00:00:31) roam y 16
-\i (00:00:32) roam end
-\i (00:00:32) zoom in 1 
-\i (00:00:32) setwindow pcb
-\i (00:00:32) zoom in 81.0371 100.9635
-\i (00:00:32) trapsize 357
-\i (00:00:32) zoom in 1 
-\i (00:00:32) setwindow pcb
-\i (00:00:32) zoom in 82.2655 101.6277
-\i (00:00:32) trapsize 179
-\i (00:00:33) zoom out 1 
-\i (00:00:33) setwindow pcb
-\i (00:00:33) zoom out 82.2656 101.6277
-\i (00:00:33) trapsize 357
-\i (00:00:33) zoom out 1 
-\i (00:00:33) setwindow pcb
-\i (00:00:33) zoom out 82.2655 101.6277
-\i (00:00:33) trapsize 714
-\i (00:00:33) roam start
-\i (00:00:33) roam x 16
-\i (00:00:33) roam x 80
-\i (00:00:33) roam x 32
-\i (00:00:33) roam x 32
-\i (00:00:33) roam x 16
-\i (00:00:33) roam x 16
-\i (00:00:33) roam y -16
-\i (00:00:34) roam end
-\i (00:00:39) new 
-\i (00:01:18) newdrawfillin "CC2541.dra" "Package Symbol (Wizard)"
-\t (00:01:18)     Journal end - Tue Apr 16 19:12:50 2024
+\t (00:00:31) allegro 23.1 S003 Windows SPB 64-bit Edition
+\t (00:00:31)     Journal start - Thu Apr 25 08:26:06 2024
+\t (00:00:31)         Host=DESKTOP-OU1R4S8 User=Prometheus Pid=14836 CPUs=12
+\t (00:00:31) CmdLine= C:\Cadence\SPB_23.1\tools\bin\allegro.exe
+\t (00:00:31) 
+\d (00:00:31) Design opened: D:/Projects/ProjectScience/electronics/ProjectID_Archive_MPSv3/sch&brd/allegro/mps-3.brd
+\i (00:00:31) generaledit 
+\i (00:00:33) trapsize 21949
+\i (00:00:33) trapsize 21912
+\i (00:00:33) trapsize 21133
+\i (00:00:33) trapsize 20930
+\i (00:00:33) trapsize 19525
+\i (00:00:33) trapsize 17726
+\i (00:00:33) trapsize 16771
+\i (00:00:33) trapsize 16601
+\i (00:00:33) trapsize 16434
+\i (00:00:33) trapsize 15837
+\i (00:00:33) trapsize 15780
+\i (00:00:34) zoom in 1 
+\i (00:00:34) setwindow pcb
+\i (00:00:34) zoom in 83.1381 140.0609
+\i (00:00:34) trapsize 7890
+\i (00:00:35) zoom out 1 
+\i (00:00:35) setwindow pcb
+\i (00:00:35) zoom out 123.5345 97.4555
+\i (00:00:35) trapsize 15780
+\i (00:00:35) zoom in 1 
+\i (00:00:35) setwindow pcb
+\i (00:00:35) zoom in 148.1509 123.0187
+\i (00:00:35) trapsize 7890
+\i (00:02:07) pick grid 92.6060 143.0591
+\t (00:02:07) last pick:  92.7100 142.8750
+\i (00:02:09) 3dx 
+\i (00:02:14) QtSignal Allegro3DWindow Allegro3DWindow activate
+\i (00:02:14) QtSignal Allegro3DWindow Allegro3DWindow deactivate
+\i (00:02:14) QtSignal Allegro3DWindow Allegro3DWindow activate
+\i (00:02:14) updateport VisibilityPane
+\i (00:02:14) QtSignal Visibility3DCompWidget Visibility3DCompWidget refresh
+\i (00:02:14) QtSignal 3DSolderMaskOpacity 3DSolderMaskOpacitySlider valueChanged 90
+\i (00:02:14) QtSignal 3DSolderPasteOpacity 3DSolderPasteOpacitySlider valueChanged 50
+\i (00:02:14) QtSignal 3DSilkscreenOpacity 3DSilkscreenOpacitySlider valueChanged 50
+\i (00:02:14) QtSignal 3DCoverlayOpacity 3DCoverlayOpacitySlider valueChanged 90
+\i (00:02:14) QtSignal 3DDielectricOpacity 3DDielectricOpacitySlider valueChanged 25
+\i (00:02:14) QtSignal 3DPlatingOpacity 3DPlatingOpacitySlider valueChanged 100
+\i (00:02:14) QtSignal 3DDFABoundOpacity 3DDFABoundOpacitySlider valueChanged 75
+\i (00:02:14) QtSignal 3DPlaceBoundOpacity 3DPlaceBoundOpacitySlider valueChanged 75
+\i (00:02:14) QtSignal 3D3DModelsOpacity 3D3DModelsOpacitySlider valueChanged 75
+\i (00:02:14) QtSignal 3DInnerConductorOpacity 3DInnerConductorOpacitySlider valueChanged 50
+\i (00:02:14) QtSignal 3DOuterConductorOpacity 3DOuterConductorOpacitySlider valueChanged 50
+\i (00:02:14) QtSignal 3DGlobalOpacity 3DGlobalOpacitySlider valueChanged 90
+\i (00:02:14) QtSignal 3DHighlightOpacity 3DHighlightOpacitySlider valueChanged 65
+\i (00:02:14) QtSignal 3DSelectionOpacity 3DSelectionOpacitySlider valueChanged 60
+\i (00:02:14) QtSignal 3DDrcEnvelopesOpacity 3DDrcEnvelopesOpacitySlider valueChanged 50
+\i (00:02:14) generaledit 
+\i (00:02:15) QtSignal Allegro3DWindow Allegro3DWindow activate
+\i (00:02:22) QtSignal Algro3DViewCameraWidget Algro3DViewBottomIsoAction triggered
+\i (00:02:24) QtSignal Algro3DViewCameraWidget Algro3DViewTopIsoAction triggered
+\i (00:02:28) QtSignal Algro3DViewCameraWidget Algro3DViewTopAction triggered
+\i (00:02:41) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:02:41) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:02:41) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:02:41) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:02:41) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:02:41) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:02:41) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:02:41) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:02:41) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:02:41) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:02:42) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:02:42) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:02:42) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:02:42) QtSignal ADTableContainerWidget ComponentsTable selectionChanged
+\i (00:02:43) QtSignal Allegro3DWindow Allegro3DWindow close
+\i (00:02:43) QtSignal Allegro3DWindow Allegro3DWindow deactivate
+\i (00:02:52) export creoview 
+   (00:03:06) Loading cmds.cxt 
+\i (00:03:06) generaledit 
+\i (00:03:10) mcadx out 
+\e (00:03:10) IDX Baseline was already established.  Use command 'idx out' to continue or Clear IDX data.
+\i (00:03:12) fillin confirm
+\i (00:03:16) idx out 
+\i (00:03:20) setwindow form.idx_out
+\i (00:03:20) FORM idx_out execute  
+\t (00:03:20) Starting Collecting Incremental Data...
+\t (00:03:22) Opening existing design...
+\i (00:03:22) setwindow pcb
+\i (00:03:22) trapsize 7890
+\i (00:03:23) generaledit 
+\i (00:03:47) setwindow form.idxout_increment_filter
+\i (00:03:47) FORM idxout_increment_filter idxout_incrfilter_ok  
+\i (00:03:47) setwindow pcb
+\i (00:03:47) generaledit 
+\i (00:03:49) setwindow form.idx_out
+\i (00:03:49) FORM idx_out execute  
+\t (00:03:49) Starting Collecting Incremental Data...
+\t (00:03:50) Opening existing design...
+\i (00:03:50) setwindow pcb
+\i (00:03:50) trapsize 7890
+\i (00:03:51) generaledit 
+\i (00:03:54) setwindow form.idxout_increment_filter
+\i (00:03:54) FORM idxout_increment_filter idxout_incrfilter_ok  
+\i (00:03:54) setwindow pcb
+\i (00:03:54) generaledit 
+\i (00:03:55) setwindow form.idx_out
+\i (00:03:55) FORM idx_out cancel  
+\i (00:03:55) setwindow pcb
+\i (00:03:55) generaledit 
+\i (00:10:59) exit 
+\e (00:10:59) Do you want to save the changes you made to D:/Projects/ProjectScience/electronics/ProjectID_Archive_MPSv3/sch&brd/allegro/mps-3.brd?
+\i (00:11:00) fillin yes 
+\t (00:11:00)     Journal end - Thu Apr 25 08:36:36 2024
