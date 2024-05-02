@@ -168,20 +168,23 @@
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Path "Design Resources" ".\kintex7.dsn")
-      (Path "Design Resources" ".\kintex7.dsn" "SCHEMATIC")
-      (Select "Design Resources" ".\kintex7.dsn" "SCHEMATIC" "13_OLED"))
+      (Path "Design Resources"
+         "d:\projects\projectscience\electronics\projectid_kintex7\kintex7.dsn")
+      (Path "Design Resources"
+         "d:\projects\projectscience\electronics\projectid_kintex7\kintex7.dsn"
+         "SCHEMATIC")
+      (Select "Design Resources"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 290 0 521"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 521"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 1165 24 539")
-        (Scroll "-269 0")
+        (Placement "44 0 1 -1 -1 -1 -1 5 1255 24 539")
+        (Scroll "-314 0")
         (Zoom "20")
         (Occurrence "/"))
       (Path
