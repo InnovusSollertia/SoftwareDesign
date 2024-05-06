@@ -1,0 +1,53 @@
+(ExpressProject "ProjectID_HRE"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "23.1 S003 (4178961)  [3/6/2024]-[05/06/24]")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    ("Allegro Netlist Directory" "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\projectid_hre.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (Board_sim_option "VHDL_flow"))
+  (Folder "Layout")
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs")
+  (PartMRUSelector)
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "D:\Projects\ProjectScience\electronics\ProjectID_HRE\projectid_hre.dsn")
+      (Path "Design Resources"
+         "D:\Projects\ProjectScience\electronics\ProjectID_HRE\projectid_hre.dsn"
+         "SCHEMATIC1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 252 0 695"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 1203 24 713")
+        (Scroll "-127 -6")
+        (Zoom "78")
+        (Occurrence "/"))
+      (Path
+         "D:\PROJECTS\PROJECTSCIENCE\ELECTRONICS\PROJECTID_HRE\PROJECTID_HRE.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "MAIN"))))
