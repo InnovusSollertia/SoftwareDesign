@@ -283,14 +283,14 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 169 0 457"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 564"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1030 24 475")
-        (Scroll "511 625")
-        (Zoom "144")
+        (Placement "44 0 1 -1 -1 5 24 5 1255 24 582")
+        (Scroll "-237 0")
+        (Zoom "45")
         (Occurrence "/"))
       (Path
          "D:\PROJECTS\PROJECTSCIENCE\ELECTRONICS\PROJECTID_DOSTI_STLINK\STLINK.DSN")
