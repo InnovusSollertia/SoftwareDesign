@@ -1,0 +1,18 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    DBDOCTOR                                                         )
+(                                                                     )
+(    Drawing          : STLINK.brd                                    )
+(    Software Version : 23.1S004                                      )
+(    Date/Time        : Thu Jun 13 11:24:38 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+Regenerating DRC
+  Original DRC errors:   0
+  Updated DRC errors:    0
+  DRC elapsed time:      00:00:01
+
+0 warnings, 0 errors detected, 0 errors  fixed.

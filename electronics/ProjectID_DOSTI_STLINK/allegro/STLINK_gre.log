@@ -1,0 +1,48 @@
+! Log file started at 11:38:45 6/13/2024 
+INFO (SPGRE-16): Strategy file Date: May-16-2019
+INFO (SPGRE-16): Strategy file Version: 17.2
+WARNING (SPGRE-1): No route keepin found.
+WARNING (SPGRE-15): Constraint Set DEFAULT: Neck Gap on layer BOTTOM is 0. Primary Gap is 0.
+WARNING (SPGRE-15): Constraint Set DEFAULT: Neck Gap on layer TOP is 0. Primary Gap is 0.
+INFO (SPGRE-16): Status: Routing initialization completed successfully
+
+INFO (SPGRE-16): CommandStart AiDT ***********************************************
+INFO (SPGRE-16):  
+WARNING (SPGRE-31): Non-default min Width of 0.2540 on segment:(62.4800,129.7900)-(66.8820,129.7900) may limit timing throughput
+WARNING (SPGRE-31):        on Cline:(66.8820,129.7900)-(58.4200,128.2900),TOP, Net N00782: Default Width=0.1270
+INFO (SPGRE-16): Status: Auto Delay Tune completed normally
+INFO (SPGRE-16):   Number of rats scheduled = 1
+INFO (SPGRE-16):   Number of electrical violations on scheduled rats = 0
+INFO (SPGRE-16):   Number of timing constraints on scheduled rats = 0
+INFO (SPGRE-16):   Number of timing constraint violations on scheduled rats = 0
+INFO (SPGRE-16):   DiffPair Phase Mismatch = 0.0000 millimeters
+INFO (SPGRE-16):   Routed length of scheduled rats = 9.0833 millimeters
+INFO (SPGRE-16):   Execution time = 0 seconds
+INFO (SPGRE-16):   Memory currently in use = 516194 KB
+INFO (SPGRE-16):  
+INFO (SPGRE-16): Clines selected: 1, Rats processed: 1, Timing constraints: 0, Timing violations: 0, Outside ideal range: 0
+INFO (SPGRE-16):  
+INFO (SPGRE-16): Cline on net N00782 from Pin IC2.6(66.8820, 129.7900) - Pin Y1.2(58.4200, 128.2900) on TOP
+INFO (SPGRE-16):   ----: Rat IC2.6 - Y1.2 : No Timing Constraints
+INFO (SPGRE-16):  
+INFO (SPGRE-16): CommandEnd AiDT *************************************************
+INFO (SPGRE-16): CommandStart AiDT ***********************************************
+INFO (SPGRE-16):  
+WARNING (SPGRE-31): Non-default min Width of 0.2540 on segment:(62.1150,130.2900)-(66.8820,130.2900) may limit timing throughput
+WARNING (SPGRE-31):        on Cline:(66.8820,130.2900)-(58.4200,130.7900),TOP, Net N00775: Default Width=0.1270
+INFO (SPGRE-16): Status: Auto Delay Tune completed normally
+INFO (SPGRE-16):   Number of rats scheduled = 1
+INFO (SPGRE-16):   Number of electrical violations on scheduled rats = 0
+INFO (SPGRE-16):   Number of timing constraints on scheduled rats = 0
+INFO (SPGRE-16):   Number of timing constraint violations on scheduled rats = 0
+INFO (SPGRE-16):   DiffPair Phase Mismatch = 0.0000 millimeters
+INFO (SPGRE-16):   Routed length of scheduled rats = 8.6857 millimeters
+INFO (SPGRE-16):   Execution time = 0 seconds
+INFO (SPGRE-16):   Memory currently in use = 516194 KB
+INFO (SPGRE-16):  
+INFO (SPGRE-16): Clines selected: 1, Rats processed: 1, Timing constraints: 0, Timing violations: 0, Outside ideal range: 0
+INFO (SPGRE-16):  
+INFO (SPGRE-16): Cline on net N00775 from Pin IC2.5(66.8820, 130.2900) - Pin Y1.1(58.4200, 130.7900) on TOP
+INFO (SPGRE-16):   ----: Rat IC2.5 - Y1.1 : No Timing Constraints
+INFO (SPGRE-16):  
+INFO (SPGRE-16): CommandEnd AiDT *************************************************

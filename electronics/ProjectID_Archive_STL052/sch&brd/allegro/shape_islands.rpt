@@ -1,0 +1,21 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Shape Island Report                                              )
+(                                                                     )
+(    Drawing          : mps-3.brd                                     )
+(    Software Version : 23.1P001                                      )
+(    Date/Time        : Sun Dec 24 19:47:53 2023                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+  Total islands on design: 4
+
+
+  <<<  ETCH  >>>
+
+    Layer = TOP
+	Point on shape: (122.5027 98.8000)  Net: GND
+	Point on shape: (109.5341 99.4339)  Net: GND
+	Point on shape: (121.0297 85.4390)  Net: GND
+	Point on shape: (114.3181 75.7684)  Net: GND

@@ -1,0 +1,45 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    DesignTrue DFM Wizard                                            )
+(                                                                     )
+(    Drawing          : STLINK.brd                                    )
+(    Software Version : 23.1S004                                      )
+(    Date/Time        : Thu Jun 13 12:13:56 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+Loading rules for Allegro_Venture_PCB_Designer2
+
+
+Stackup: PRIMARY, Design Technology: Rigid
+                   TOP 0.030480 millimeters -> 1 oz 
+                BOTTOM 0.030480 millimeters -> 1 oz 
+
+Design For Fabrication Checks
+Rule file used: c:\cadence\spb_23.1/share/pcb/dfm/dt_wizard/dt_wizard_pcbdff_template.csv
+Number of Outline Rules generated: 130
+Number of Mask Rules generated: 4
+Number of Annular Ring Rules generated: 98
+Number of Hole Rules generated: 3
+Number of Copper Feature Rules generated: 20
+Number of Copper Spacing Rules generated: 464
+Number of Silkscreen Rules generated: 29
+
+Design For Assembly Checks
+Rule file used: c:\cadence\spb_23.1/share/pcb/dfm/dt_wizard/dt_wizard_pcbdfa_template.csv
+Number of Outline Rules generated: 10
+Number of PkgToPkg Spacing Rules generated: 0
+Number of Spacing Rules generated: 6
+Number of Component lead Rules generated: 4
+Number of Pastemask Rules generated: 6
+Number of Fiducial Rules generated: 0
+
+Design For Test Checks
+Rule file used: c:\cadence\spb_23.1/share/pcb/dfm/dt_wizard/dt_wizard_pcbdft_template.csv
+Number of Outline Rules generated: 2
+Number of Mask and Silkscreen Rules generated: 2
+Number of Spacing Rules generated: 24
+Number of Probe Rules generated: 3
+
+Wizard completed successfully

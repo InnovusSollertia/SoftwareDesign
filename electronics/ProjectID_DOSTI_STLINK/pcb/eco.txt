@@ -1,0 +1,511 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  D:.../ProjectScience/electronics/ProjectID_DOSTI_STLINK/allegro/STLINK.brd  |
+|                                                    Thu Jun 13 11:04:23 2024  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  0            pins ADDED TO this new net
+                                 J1.A1          J1.B12         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  +3V3         pins ADDED TO this new net
+                                 C7.2           C8.2           C9.2           
+                                 C10.2          C12.2          C13.2          
+                                 C14.2          C15.2          IC1.3          
+                                 IC2.9          IC2.24         IC2.36         
+                                 IC2.48         IC3.5          IC4.2          
+                                 LED5.2         Q1.1           R8.2           
+                                 R10.2          R12.1          R15.1          
+                                 R24.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  +5V          pins ADDED TO this new net
+                                 C11.2          D2.2           F1.1           
+                                 IC3.3          IC4.3          J3.1           
+                                 R7.1           R21.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  BOOT_0       pins ADDED TO this new net
+                                 IC2.44         R17.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  BOOT_1       pins ADDED TO this new net
+                                 IC2.20         R22.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DN           pins ADDED TO this new net
+                                 J1.A7          J1.B7          R11.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  DP           pins ADDED TO this new net
+                                 J1.A6          J1.B6          R13.2          
+                                 R14.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  FUSE         pins ADDED TO this new net
+                                 F1.2           J1.A4          J1.A9          
+                                 J1.B4          J1.B9          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  GND          pins ADDED TO this new net
+                                 C1.1           C2.1           C3.1           
+                                 C4.1           C5.1           C6.1           
+                                 C7.1           C8.1           C9.1           
+                                 C10.1          C11.1          C12.1          
+                                 C13.1          C14.1          C15.1          
+                                 IC2.8          IC2.23         IC2.35         
+                                 IC2.47         IC3.2          IC4.1          
+                                 J1.A12         J1.B1          J4.2           
+                                 J5.1           J6.1           J7.2           
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  D:.../ProjectScience/electronics/ProjectID_DOSTI_STLINK/allegro/STLINK.brd  |
+|                                                    Thu Jun 13 11:04:23 2024  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 J7.3           LED3.1         LED4.1         
+                                 R1.1           R3.1           R16.2          
+                                 R17.2          R18.2          R19.2          
+                                 R20.2          R22.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  LED_LINK     pins ADDED TO this new net
+                                 IC2.30         R25.2          R26.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00368       pins ADDED TO this new net
+                                 IC2.2          R3.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00410       pins ADDED TO this new net
+                                 IC2.3          R1.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00775       pins ADDED TO this new net
+                                 C1.2           IC2.5          Y1.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N00782       pins ADDED TO this new net
+                                 C2.2           IC2.6          Y1.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N01382       pins ADDED TO this new net
+                                 IC2.21         J6.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N02734       pins ADDED TO this new net
+                                 IC2.27         R9.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N04880       pins ADDED TO this new net
+                                 D2.1           J3.2           J4.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N05760       pins ADDED TO this new net
+                                 D1.2           J2.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N05764       pins ADDED TO this new net
+                                 D1.1           J2.2           J4.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N06309       pins ADDED TO this new net
+                                 J4.4           R2.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N06427       pins ADDED TO this new net
+                                 J4.7           R6.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N06431       pins ADDED TO this new net
+                                 J4.5           R4.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N06435       pins ADDED TO this new net
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  D:.../ProjectScience/electronics/ProjectID_DOSTI_STLINK/allegro/STLINK.brd  |
+|                                                    Thu Jun 13 11:04:23 2024  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+                                 J4.6           R5.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N06707       pins ADDED TO this new net
+                                 LED1.2         R8.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N06887       pins ADDED TO this new net
+                                 J4.9           Q1.3           R7.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N07180       pins ADDED TO this new net
+                                 LED2.1         R10.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N08768       pins ADDED TO this new net
+                                 LED3.2         R24.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N09917       pins ADDED TO this new net
+                                 LED4.2         R25.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N09921       pins ADDED TO this new net
+                                 LED5.1         R26.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N11997       pins ADDED TO this new net
+                                 C3.2           C4.2           IC3.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N13004       pins ADDED TO this new net
+                                 C6.2           IC3.4          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N27475       pins ADDED TO this new net
+                                 IC1.2          R14.2          R20.1          
+                                 R21.2          R23.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N30478       pins ADDED TO this new net
+                                 J1.B5          R19.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  N30510       pins ADDED TO this new net
+                                 J1.A5          R18.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  PA0          pins ADDED TO this new net
+                                 IC2.10         R15.2          R16.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RESET        pins ADDED TO this new net
+                                 IC2.18         R6.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  RST          pins ADDED TO this new net
+                                 C5.2           IC2.7          J7.1           
+                                 R12.2          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   4  |
+|------------------------------------------------------------------------------|
+|  D:.../ProjectScience/electronics/ProjectID_DOSTI_STLINK/allegro/STLINK.brd  |
+|                                                    Thu Jun 13 11:04:23 2024  |
+|------------------------------------------------------------------------------|
+| NET CHANGES                                                                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   net  name |  type of change |                net     pins                  |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+  RX           pins ADDED TO this new net
+                                 IC2.13         LED2.2         Q1.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SWCLK        pins ADDED TO this new net
+                                 IC2.15         IC2.26         R4.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SWCLK_IN     pins ADDED TO this new net
+                                 IC2.37         J5.3           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SWDIO        pins ADDED TO this new net
+                                 IC2.25         R2.2           R9.1           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SWDIO_IN     pins ADDED TO this new net
+                                 IC2.34         J5.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  SWO          pins ADDED TO this new net
+                                 IC2.31         R5.2           
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  TX           pins ADDED TO this new net
+                                 IC2.12         J4.8           LED1.1         
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  USB_DM       pins ADDED TO this new net
+                                 IC2.32         R11.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  USB_DP       pins ADDED TO this new net
+                                 IC2.33         R13.1          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  USB_RENUM    pins ADDED TO this new net
+                                 IC2.38         R23.2          
+ - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  
+  VBAT         pins ADDED TO this new net
+                                 IC2.1          
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   5  |
+|------------------------------------------------------------------------------|
+|  D:.../ProjectScience/electronics/ProjectID_DOSTI_STLINK/allegro/STLINK.brd  |
+|                                                    Thu Jun 13 11:04:23 2024  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ 2N7002_SOT96P240X120-3N_2N7002
+ 67996-100HLF_HDRV2W67P254_2X1_254X483X858P_JUMPER
+ 69167-103_SHDR3W64P0X254_1X3_762X516X980P_69167-103
+ 95278-401A10LF_95278401A10LF_95278-401A10LF
+ 219320-0001_2193200001_219320-0001
+ ABS07-32.768KHZ-T_ABS07_ABS07-32
+ CR0603-F_-1R00ELF_RESC1608X55N_1K5
+ CR0603-F_-1R00ELF_RESC1608X55N_1K
+ CR0603-F_-1R00ELF_RESC1608X55N_4K7
+ CR0603-F_-1R00ELF_RESC1608X55N_5.1K
+ CR0603-F_-1R00ELF_RESC1608X55N_10K
+ CR0603-F_-1R00ELF_RESC1608X55N_36K
+ CR0603-F_-1R00ELF_RESC1608X55N_100K
+ CR0603-F_-1R00ELF_RESC1608X55N_0
+ CR0603-F_-1R00ELF_RESC1608X55N_22
+ CR0603-F_-1R00ELF_RESC1608X55N_100
+ GRM033D70E105ME15D_CAPC0603X33N_1U
+ GRM033D70E105ME15D_CAPC0603X33N_10U
+ GRM033D70E105ME15D_CAPC0603X33N_20P
+ GRM033D70E105ME15D_CAPC0603X33N_22N
+ GRM033D70E105ME15D_CAPC0603X33N_100N
+ LM1117MPX-33NOPB_SOT230P700X180-4N_LM1117MPX-33NOPB
+ MBR0520LT3G_SOD3716X135N_MBR0520LT3G
+ MMS9013-L-TP_SOT95P237X125-3N_MMS9013-L-TP
+ RT9193-33GB_SOT94P279X130-5N_RT9193-33GB
+ SF-0402F050-2_FUSC1005X40N_SF-0402F050-2
+ SM0603GCL_LEDC1608X60N_SM0603GCL
+ SM0603SRC_SM0603SRC_SM0603SRC
+ STM32F103CBT6_QFP50P900X900X160-48N_STM32F103CBT6
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   6  |
+|------------------------------------------------------------------------------|
+|  D:.../ProjectScience/electronics/ProjectID_DOSTI_STLINK/allegro/STLINK.brd  |
+|                                                    Thu Jun 13 11:04:23 2024  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1                  GRM033D70E105ME15D_CAPC0603X33N_20P 
+ C2                  GRM033D70E105ME15D_CAPC0603X33N_20P 
+ C3                  GRM033D70E105ME15D_CAPC0603X33N_1U 
+ C4                  GRM033D70E105ME15D_CAPC0603X33N_100N 
+ C5                  GRM033D70E105ME15D_CAPC0603X33N_100N 
+ C6                  GRM033D70E105ME15D_CAPC0603X33N_22N 
+ C7                  GRM033D70E105ME15D_CAPC0603X33N_10U 
+ C8                  GRM033D70E105ME15D_CAPC0603X33N_100N 
+ C9                  GRM033D70E105ME15D_CAPC0603X33N_20P 
+ C10                 GRM033D70E105ME15D_CAPC0603X33N_20P 
+ C11                 GRM033D70E105ME15D_CAPC0603X33N_20P 
+ C12                 GRM033D70E105ME15D_CAPC0603X33N_100N 
+ C13                 GRM033D70E105ME15D_CAPC0603X33N_100N 
+ C14                 GRM033D70E105ME15D_CAPC0603X33N_100N 
+ C15                 GRM033D70E105ME15D_CAPC0603X33N_100N 
+ D1                  MBR0520LT3G_SOD3716X135N_MBR0520LT3G 
+ D2                  MBR0520LT3G_SOD3716X135N_MBR0520LT3G 
+ F1                  SF-0402F050-2_FUSC1005X40N_SF-0402F050-2 
+ IC1                 MMS9013-L-TP_SOT95P237X125-3N_MMS9013-L-TP 
+ IC2                 STM32F103CBT6_QFP50P900X900X160-48N_STM32F103CBT6 
+ IC3                 RT9193-33GB_SOT94P279X130-5N_RT9193-33GB 
+ IC4                 LM1117MPX-33NOPB_SOT230P700X180-4N_LM1117MPX-33NOPB 
+ J1                  219320-0001_2193200001_219320-0001 
+ J2                  67996-100HLF_HDRV2W67P254_2X1_254X483X858P_JUMPER 
+ J3                  67996-100HLF_HDRV2W67P254_2X1_254X483X858P_JUMPER 
+ J4                  95278-401A10LF_95278401A10LF_95278-401A10LF 
+ J5                  69167-103_SHDR3W64P0X254_1X3_762X516X980P_69167-103 
+ J6                  67996-100HLF_HDRV2W67P254_2X1_254X483X858P_JUMPER 
+ J7                  69167-103_SHDR3W64P0X254_1X3_762X516X980P_69167-103 
+ LED1                SM0603GCL_LEDC1608X60N_SM0603GCL 
+ LED2                SM0603SRC_SM0603SRC_SM0603SRC 
+ LED3                SM0603GCL_LEDC1608X60N_SM0603GCL 
+ LED4                SM0603GCL_LEDC1608X60N_SM0603GCL 
+ LED5                SM0603GCL_LEDC1608X60N_SM0603GCL 
+ Q1                  2N7002_SOT96P240X120-3N_2N7002 
+ R1                  CR0603-F_-1R00ELF_RESC1608X55N_10K 
+ R2                  CR0603-F_-1R00ELF_RESC1608X55N_22 
+ R3                  CR0603-F_-1R00ELF_RESC1608X55N_10K 
+ R4                  CR0603-F_-1R00ELF_RESC1608X55N_22 
+ R5                  CR0603-F_-1R00ELF_RESC1608X55N_22 
+ R6                  CR0603-F_-1R00ELF_RESC1608X55N_22 
+ R7                  CR0603-F_-1R00ELF_RESC1608X55N_1K 
+ R8                  CR0603-F_-1R00ELF_RESC1608X55N_1K 
+ R9                  CR0603-F_-1R00ELF_RESC1608X55N_100 
+ R10                 CR0603-F_-1R00ELF_RESC1608X55N_1K 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   7  |
+|------------------------------------------------------------------------------|
+|  D:.../ProjectScience/electronics/ProjectID_DOSTI_STLINK/allegro/STLINK.brd  |
+|                                                    Thu Jun 13 11:04:23 2024  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R11                 CR0603-F_-1R00ELF_RESC1608X55N_0 
+ R12                 CR0603-F_-1R00ELF_RESC1608X55N_100K 
+ R13                 CR0603-F_-1R00ELF_RESC1608X55N_0 
+ R14                 CR0603-F_-1R00ELF_RESC1608X55N_1K5 
+ R15                 CR0603-F_-1R00ELF_RESC1608X55N_4K7 
+ R16                 CR0603-F_-1R00ELF_RESC1608X55N_4K7 
+ R17                 CR0603-F_-1R00ELF_RESC1608X55N_10K 
+ R18                 CR0603-F_-1R00ELF_RESC1608X55N_5.1K 
+ R19                 CR0603-F_-1R00ELF_RESC1608X55N_5.1K 
+ R20                 CR0603-F_-1R00ELF_RESC1608X55N_36K 
+ R21                 CR0603-F_-1R00ELF_RESC1608X55N_10K 
+ R22                 CR0603-F_-1R00ELF_RESC1608X55N_10K 
+ R23                 CR0603-F_-1R00ELF_RESC1608X55N_100 
+ R24                 CR0603-F_-1R00ELF_RESC1608X55N_10K 
+ R25                 CR0603-F_-1R00ELF_RESC1608X55N_1K 
+ R26                 CR0603-F_-1R00ELF_RESC1608X55N_1K 
+ Y1                  ABS07-32.768KHZ-T_ABS07_ABS07-32 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   8  |
+|------------------------------------------------------------------------------|
+|  D:.../ProjectScience/electronics/ProjectID_DOSTI_STLINK/allegro/STLINK.brd  |
+|                                                    Thu Jun 13 11:04:23 2024  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ C1.2                           PRIM_FILE      .\pstchip.dat
+ C1.2                           XY             (940,670)
+ C2.2                           PRIM_FILE      .\pstchip.dat
+ C2.2                           XY             (1000,670)
+ C3.2                           PRIM_FILE      .\pstchip.dat
+ C3.2                           XY             (350,660)
+ C4.2                           PRIM_FILE      .\pstchip.dat
+ C4.2                           XY             (400,660)
+ C5.2                           PRIM_FILE      .\pstchip.dat
+ C5.2                           XY             (70,690)
+ C6.2                           PRIM_FILE      .\pstchip.dat
+ C6.2                           XY             (590,680)
+ C7.2                           PRIM_FILE      .\pstchip.dat
+ C7.2                           XY             (650,680)
+ C8.2                           PRIM_FILE      .\pstchip.dat
+ C8.2                           XY             (710,680)
+ C9.2                           PRIM_FILE      .\pstchip.dat
+ C9.2                           XY             (50,920)
+ C10.2                          PRIM_FILE      .\pstchip.dat
+ C10.2                          XY             (110,920)
+ C11.2                          PRIM_FILE      .\pstchip.dat
+ C11.2                          XY             (170,920)
+ C12.2                          PRIM_FILE      .\pstchip.dat
+ C12.2                          XY             (70,1060)
+ C13.2                          PRIM_FILE      .\pstchip.dat
+ C13.2                          XY             (120,1060)
+ C14.2                          PRIM_FILE      .\pstchip.dat
+ C14.2                          XY             (170,1060)
+ C15.2                          PRIM_FILE      .\pstchip.dat
+ C15.2                          XY             (220,1060)
+ D1.1                           PRIM_FILE      .\pstchip.dat
+ D1.1                           XY             (150,130)
+ D2.1                           PRIM_FILE      .\pstchip.dat
+ D2.1                           XY             (290,130)
+ F1.2                           PRIM_FILE      .\pstchip.dat
+ F1.2                           XY             (1535,120)
+ IC1.2                          PRIM_FILE      .\pstchip.dat
+ IC1.2                          XY             (870,160)
+ IC2.47                         PRIM_FILE      .\pstchip.dat
+ IC2.47                         XY             (1160,490)
+ IC3.5                          PRIM_FILE      .\pstchip.dat
+ IC3.5                          XY             (490,620)
+ IC4.4                          PRIM_FILE      .\pstchip.dat
+ IC4.4                          XY             (170,800)
+ J1.A6                          PRIM_FILE      .\pstchip.dat
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   9  |
+|------------------------------------------------------------------------------|
+|  D:.../ProjectScience/electronics/ProjectID_DOSTI_STLINK/allegro/STLINK.brd  |
+|                                                    Thu Jun 13 11:04:23 2024  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ J1.A6                          XY             (1290,50)
+ J2.2                           PRIM_FILE      .\pstchip.dat
+ J2.2                           XY             (150,40)
+ J3.2                           PRIM_FILE      .\pstchip.dat
+ J3.2                           XY             (290,40)
+ J4.9                           PRIM_FILE      .\pstchip.dat
+ J4.9                           XY             (380,170)
+ J5.3                           PRIM_FILE      .\pstchip.dat
+ J5.3                           XY             (40,280)
+ J6.2                           PRIM_FILE      .\pstchip.dat
+ J6.2                           XY             (1070,720)
+ J7.3                           PRIM_FILE      .\pstchip.dat
+ J7.3                           XY             (260,610)
+ LED1.1                         PRIM_FILE      .\pstchip.dat
+ LED1.1                         XY             (550,240)
+ LED2.2                         PRIM_FILE      .\pstchip.dat
+ LED2.2                         XY             (270,440)
+ LED3.1                         PRIM_FILE      .\pstchip.dat
+ LED3.1                         XY             (590,940)
+ LED4.1                         PRIM_FILE      .\pstchip.dat
+ LED4.1                         XY             (590,1010)
+ LED5.1                         PRIM_FILE      .\pstchip.dat
+ LED5.1                         XY             (590,1080)
+ Q1.2                           PRIM_FILE      .\pstchip.dat
+ Q1.2                           XY             (320,310)
+ R1.2                           PRIM_FILE      .\pstchip.dat
+ R1.2                           XY             (1030,495)
+ R2.2                           PRIM_FILE      .\pstchip.dat
+ R2.2                           XY             (570,185)
+ R3.2                           PRIM_FILE      .\pstchip.dat
+ R3.2                           XY             (1030,545)
+ R4.2                           PRIM_FILE      .\pstchip.dat
+ R4.2                           XY             (210,195)
+ R5.2                           PRIM_FILE      .\pstchip.dat
+ R5.2                           XY             (630,195)
+ R6.2                           PRIM_FILE      .\pstchip.dat
+ R6.2                           XY             (300,205)
+ R7.2                           PRIM_FILE      .\pstchip.dat
+ R7.2                           XY             (270,255)
+ R8.2                           PRIM_FILE      .\pstchip.dat
+ R8.2                           XY             (630,255)
+ R9.2                           PRIM_FILE      .\pstchip.dat
+ R9.2                           XY             (1370,645)
+ R10.2                          PRIM_FILE      .\pstchip.dat
+ R10.2                          XY             (285,370)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  10  |
+|------------------------------------------------------------------------------|
+|  D:.../ProjectScience/electronics/ProjectID_DOSTI_STLINK/allegro/STLINK.brd  |
+|                                                    Thu Jun 13 11:04:23 2024  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ R11.2                          PRIM_FILE      .\pstchip.dat
+ R11.2                          XY             (990,35)
+ R12.2                          PRIM_FILE      .\pstchip.dat
+ R12.2                          XY             (120,655)
+ R13.2                          PRIM_FILE      .\pstchip.dat
+ R13.2                          XY             (990,75)
+ R14.2                          PRIM_FILE      .\pstchip.dat
+ R14.2                          XY             (955,110)
+ R15.2                          PRIM_FILE      .\pstchip.dat
+ R15.2                          XY             (470,825)
+ R16.2                          PRIM_FILE      .\pstchip.dat
+ R16.2                          XY             (580,825)
+ R17.2                          PRIM_FILE      .\pstchip.dat
+ R17.2                          XY             (520,865)
+ R18.2                          PRIM_FILE      .\pstchip.dat
+ R18.2                          XY             (1245,250)
+ R19.2                          PRIM_FILE      .\pstchip.dat
+ R19.2                          XY             (1425,250)
+ R20.2                          PRIM_FILE      .\pstchip.dat
+ R20.2                          XY             (900,225)
+ R21.2                          PRIM_FILE      .\pstchip.dat
+ R21.2                          XY             (990,225)
+ R22.2                          PRIM_FILE      .\pstchip.dat
+ R22.2                          XY             (520,905)
+ R23.2                          PRIM_FILE      .\pstchip.dat
+ R23.2                          XY             (955,260)
+ R24.2                          PRIM_FILE      .\pstchip.dat
+ R24.2                          XY             (520,945)
+ R25.2                          PRIM_FILE      .\pstchip.dat
+ R25.2                          XY             (520,1015)
+ R26.2                          PRIM_FILE      .\pstchip.dat
+ R26.2                          XY             (520,1095)
+ Y1.2                           PRIM_FILE      .\pstchip.dat
+ Y1.2                           XY             (970,626)
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page  11  |
+|------------------------------------------------------------------------------|
+|  D:.../ProjectScience/electronics/ProjectID_DOSTI_STLINK/allegro/STLINK.brd  |
+|                                                    Thu Jun 13 11:04:23 2024  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|------------------------------------------------------------------------------|
+|       Nets changed          :     180                                        |
+|       Comp definitions added:      29                                        |
+|       Components added      :      62                                        |
+|       Slot property added   :     124                                        |
+|                                                                              |
+|   Total ECO changes reported:     395                                        |
+|------------------------------------------------------------------------------|

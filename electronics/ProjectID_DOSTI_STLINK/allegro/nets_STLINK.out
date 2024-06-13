@@ -1,0 +1,50 @@
+A!NET_NAME_SORT!NET_NAME!NET_PHYSICAL_TYPE!NET_SPACING_TYPE!ELECTRICAL_CONSTRAINT_SET!NET_DIFFERENTIAL_PAIR!NET_STUB_LENGTH!NET_MAX_VIA_COUNT!NET_MIN_LINE_WIDTH!NET_MAX_PARALLEL!NET_IMPEDANCE_AVERAGE!NO_TEST!NET_IMPEDANCE_MINIMUM!NET_IMPEDANCE_MAXIMUM!
+J!D:/Projects/ProjectScience/electronics/ProjectID_DOSTI_STLINK/allegro/STLINK.brd!Thu Jun 13 12:16:09 2024!0.0000!0.0000!297.0000!210.0000!0.0001!millimeters!STLINK!10.400000 mil!2!UP TO DATE!
+S!N 00007180!N07180!!!!!!!!!0.00 ohms!!60.00 ohms!60.00 ohms!
+S!N 00006887!N06887!!!!!!!!!0.00 ohms!!60.00 ohms!60.00 ohms!
+S!N 00027475!N27475!!!!!!!!!119.27 ohms!!60.00 ohms!119.27 ohms!
+S!N 00006707!N06707!!!!!!!!!0.00 ohms!!60.00 ohms!60.00 ohms!
+S!N 00006435!N06435!!!!!!!!!0.00 ohms!!60.00 ohms!60.00 ohms!
+S!N 00006431!N06431!!!!!!!!!0.00 ohms!!60.00 ohms!60.00 ohms!
+S!N 00006427!N06427!!!!!!!!!0.00 ohms!!60.00 ohms!60.00 ohms!
+S!DP!DP!!!!!!!!!119.27 ohms!!60.00 ohms!119.27 ohms!
+S!N 00006309!N06309!!!!!!!!!0.00 ohms!!60.00 ohms!60.00 ohms!
+S!N 00005764!N05764!!!!!!!!!0.00 ohms!!60.00 ohms!60.00 ohms!
+S!+3V 00000003!+3V3!!!!!!!!!119.27 ohms!!60.00 ohms!119.27 ohms!
+S!TX!TX!!!!!!!!!0.00 ohms!!60.00 ohms!60.00 ohms!
+S!RST!RST!!!!!!!!!119.27 ohms!!119.27 ohms!119.27 ohms!
+S!SWDIO_IN!SWDIO_IN!!!!!!!!!109.11 ohms!!100.41 ohms!119.27 ohms!
+S!+5V!+5V!!!!!!!!!119.27 ohms!!60.00 ohms!119.27 ohms!
+S!GND!GND!!!!!!!!!119.27 ohms!!60.00 ohms!119.27 ohms!
+S!USB_RENUM!USB_RENUM!!!!!!!!!119.27 ohms!!119.27 ohms!119.27 ohms!
+S!SWCLK_IN!SWCLK_IN!!!!!!!!!0.00 ohms!!60.00 ohms!60.00 ohms!
+S!RX!RX!!!!!!!!!0.00 ohms!!60.00 ohms!60.00 ohms!
+S!SWO!SWO!!!!!!!!!0.00 ohms!!60.00 ohms!60.00 ohms!
+S!USB_DM!USB_DM!!!!!!!!!119.27 ohms!!119.27 ohms!119.27 ohms!
+S!USB_DP!USB_DP!!!!!!!!!119.27 ohms!!119.27 ohms!119.27 ohms!
+S!N 00004880!N04880!!!!!!!!!119.27 ohms!!60.00 ohms!119.27 ohms!
+S!N 00002734!N02734!!!!!!!!!0.00 ohms!!60.00 ohms!60.00 ohms!
+S!FUSE!FUSE!!!!!!!!!0.00 ohms!!60.00 ohms!60.00 ohms!
+S! 00000000!0!!!!!!!!!0.00 ohms!!60.00 ohms!60.00 ohms!
+S!LED_LINK!LED_LINK!!!!!!!!!0.00 ohms!!60.00 ohms!60.00 ohms!
+S!BOOT_ 00000001!BOOT_1!!!!!!!!!0.00 ohms!!60.00 ohms!60.00 ohms!
+S!BOOT_ 00000000!BOOT_0!!!!!!!!!0.00 ohms!!60.00 ohms!60.00 ohms!
+S!SWDIO!SWDIO!!!!!!!!!0.00 ohms!!60.00 ohms!60.00 ohms!
+S!N 00013004!N13004!!!!!!!!!0.00 ohms!!60.00 ohms!60.00 ohms!
+S!N 00001382!N01382!!!!!!!!!119.27 ohms!!119.27 ohms!119.27 ohms!
+S!DN!DN!!!!!!!!!0.00 ohms!!60.00 ohms!60.00 ohms!
+S!PA 00000000!PA0!!!!!!!!!0.00 ohms!!60.00 ohms!60.00 ohms!
+S!N 00011997!N11997!!!!!!!!!0.00 ohms!!60.00 ohms!60.00 ohms!
+S!N 00000782!N00782!!!!!!!!!119.27 ohms!!119.27 ohms!119.27 ohms!
+S!N 00000775!N00775!!!!!!!!!119.27 ohms!!119.27 ohms!119.27 ohms!
+S!RESET!RESET!!!!!!!!!0.00 ohms!!60.00 ohms!60.00 ohms!
+S!N 00000410!N00410!!!!!!!!!0.00 ohms!!60.00 ohms!60.00 ohms!
+S!SWCLK!SWCLK!!!!!!!!!0.00 ohms!!60.00 ohms!60.00 ohms!
+S!N 00000368!N00368!!!!!!!!!0.00 ohms!!60.00 ohms!60.00 ohms!
+S!N 00009921!N09921!!!!!!!!!0.00 ohms!!60.00 ohms!60.00 ohms!
+S!N 00009917!N09917!!!!!!!!!0.00 ohms!!60.00 ohms!60.00 ohms!
+S!N 00005760!N05760!!!!!!!!!0.00 ohms!!60.00 ohms!60.00 ohms!
+S!VBAT!VBAT!!!!!!!!!0.00 ohms!!100000000000000005366162204393472.00 ohms!0.00 ohms!
+S!N 00030478!N30478!!!!!!!!!0.00 ohms!!60.00 ohms!60.00 ohms!
+S!N 00030510!N30510!!!!!!!!!0.00 ohms!!60.00 ohms!60.00 ohms!
+S!N 00008768!N08768!!!!!!!!!0.00 ohms!!60.00 ohms!60.00 ohms!

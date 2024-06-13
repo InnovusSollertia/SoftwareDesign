@@ -1,0 +1,18 @@
+UNITS=MM
+ID=6
+#
+#Num Features
+#
+F 1
+
+#
+#Layer features
+#
+S P 0;;ID=904
+OB 45.72 160.02 I
+OS 144.78 160.02
+OS 144.78 99.06
+OS 45.72 99.06
+OS 45.72 160.02
+OE
+SE

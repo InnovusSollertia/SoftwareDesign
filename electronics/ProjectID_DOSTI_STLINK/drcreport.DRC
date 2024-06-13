@@ -1,0 +1,109 @@
+Date and Time : 06/10/24 16:43:42
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+Checking Electrical Rules 
+
+Checking For Single Node Nets
+WARNING(ORCAP-1600): Net has fewer than two connections VBAT 
+                    SCHEMATIC1, PAGE1  (289.56, 137.16) 
+
+Checking For Unconnected Bus Nets
+
+Checking Off-Page Connections
+
+Checking Pin to Port Connections
+
+Reporting Off-Grid Objects
+    R21  -  PAGE1 (251.46, 57.15)
+    R22  -  PAGE1 (132.08, 229.87)
+    R4  -  PAGE1 (35.56, 49.53)
+    R2  -  PAGE1 (127.00, 46.99)
+    R16  -  PAGE1 (147.32, 209.55)
+    F1  -  PAGE1 (387.35, 27.94)
+    R9  -  PAGE1 (347.98, 163.83)
+    R5  -  PAGE1 (142.24, 49.53)
+    R15  -  PAGE1 (119.38, 209.55)
+    R7  -  PAGE1 (50.80, 64.77)
+    R18  -  PAGE1 (316.23, 63.50)
+    R14  -  PAGE1 (242.57, 27.94)
+    R11  -  PAGE1 (259.08, 8.89)
+    R6  -  PAGE1 (58.42, 52.07)
+    R1  -  PAGE1 (259.08, 125.73)
+    R10  -  PAGE1 (54.61, 93.98)
+    R12  -  PAGE1 (22.86, 166.37)
+    R3  -  PAGE1 (259.08, 138.43)
+    R8  -  PAGE1 (142.24, 64.77)
+    R26  -  PAGE1 (132.08, 278.13)
+    R23  -  PAGE1 (242.57, 66.04)
+    R13  -  PAGE1 (259.08, 19.05)
+    R19  -  PAGE1 (361.95, 63.50)
+    R24  -  PAGE1 (132.08, 240.03)
+    R17  -  PAGE1 (132.08, 219.71)
+    R20  -  PAGE1 (228.60, 57.15)
+    R25  -  PAGE1 (132.08, 257.81)
+    Y1  -  PAGE1 (246.38, 159.00)
+
+Reporting Ports
+
+Reporting Off-Page Connections
+
+Reporting Globals
+    +3V3
+    +5V
+    0
+    VBAT
+
+Checking Misleading Tap connection
+
+INFO(ORCAP-2207): Check Bus width mismatch
+
+Checking Physical Rules 
+
+
+Checking Pins and Pin Connections
+
+--------------------------------------------------
+Checking Schematic: SCHEMATIC1
+--------------------------------------------------
+
+INFO(ORCAP-2242): Checking Incorrect Pin Group Assignment
+
+Report for Invalid References
+
+Report for Duplicate References
+
+INFO(ORCAP-2209): Checking Visible Unconnected Power Pins
+
+--------------------------------------------------
+Checking Entire Design: STLINK 
+--------------------------------------------------
+
+Checking Power Pin Visibility  
+
+Checking Normal Convert View Sync  
+INFO(ORCAP-36105): Checking Missing Pin Numbers  
+
+Checking Device with Zero pins  
+INFO(ORCAP-36101): Checking Missing PCB Footprint Property  
+
+Checking Name Property for Hierarchical Instances  
+
+INFO(ORCAP-2211): Check High Speed Properties Syntax
+
+INFO(ORCAP-2212): Check Power Ground Mismatch
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. 0  0  GND  
+                    SCHEMATIC1, PAGE1  (45.72, 241.30) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. IC2,VSS_1  VSS_1  0
+                    SCHEMATIC1, PAGE1  (322.58, 182.88) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. IC2,VSSA  VSSA  0
+                    SCHEMATIC1, PAGE1  (289.56, 154.94) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. IC2,VDDA  VDDA  +3V3
+                    SCHEMATIC1, PAGE1  (289.56, 157.48) 
+WARNING(ORCAP-1589): Net has two or more aliases that might lead to a short. Ensure nets are not shorted together or nets do not have two or more aliases. This message is displayed because 'Report all net names' is set in Design Rules Check dialog. IC2,VDD_1  VDD_1  +3V3
+                    SCHEMATIC1, PAGE1  (325.12, 182.88) 
+
+Reporting Unused Refdes in multiple part packages
+Part	                       Quantity	                       Reference
+-----------------------------------------------------------------------------------------

@@ -1,0 +1,96 @@
+Reading layer conversion file "c:/cadence/spb_23.1/share/pcb/text/ecad_mcad.cnv" ...
+
+
+ALG:Comp8 / R1: Deleted / Filtered
+ALG:Comp18 / D1: Deleted / Filtered
+ALG:Comp9 / J8-J6: Deleted / Filtered
+ALG:Comp28 / C1: Deleted / Filtered
+ALG:Comp19 / C10: Deleted / Filtered
+ALG:Comp10 / J3&J4: Deleted / Filtered
+ALG:Comp20 / C9: Deleted / Filtered
+ALG:Comp11 / J10: Deleted / Filtered
+ALG:Comp21 / C8: Deleted / Filtered
+ALG:Comp12 / J9: Deleted / Filtered
+ALG:Comp22 / C7: Deleted / Filtered
+ALG:Comp13 / J7: Deleted / Filtered
+ALG:Comp23 / C6: Deleted / Filtered
+ALG:Comp14 / J5: Deleted / Filtered
+ALG:Comp24 / C5: Deleted / Filtered
+ALG:Comp15 / J1: Deleted / Filtered
+ALG:Comp25 / C4: Deleted / Filtered
+ALG:Comp16 / IC2: Deleted / Filtered
+ALG:Comp26 / C3: Deleted / Filtered
+ALG:Comp17 / IC1: Deleted / Filtered
+ALG:Comp27 / C2: Deleted / Filtered
+ALG:Comp1 / Q2: Deleted / Filtered
+ALG:Comp2 / Y1: Deleted / Filtered
+ALG:Comp3 / S1: Deleted / Filtered
+ALG:Comp4 / R7: Deleted / Filtered
+ALG:Comp5 / R6: Deleted / Filtered
+ALG:Comp6 / R3: Deleted / Filtered
+ALG:Comp7 / R2: Deleted / Filtered
+ALG:BoardOutline : Deleted / Filtered
+ALG:Hole5 : Deleted / Filtered
+ALG:Hole10 : Deleted / Filtered
+ALG:Hole1 : Deleted / Filtered
+ALG:Hole15 : Deleted / Filtered
+ALG:Hole6 : Deleted / Filtered
+ALG:Hole20 : Deleted / Filtered
+ALG:Hole11 : Deleted / Filtered
+ALG:Hole2 : Deleted / Filtered
+ALG:Hole25 : Deleted / Filtered
+ALG:Hole16 : Deleted / Filtered
+ALG:Hole7 : Deleted / Filtered
+ALG:Hole30 : Deleted / Filtered
+ALG:Hole21 : Deleted / Filtered
+ALG:Hole12 : Deleted / Filtered
+ALG:Hole3 : Deleted / Filtered
+ALG:Hole26 : Deleted / Filtered
+ALG:Hole17 : Deleted / Filtered
+ALG:Hole8 : Deleted / Filtered
+ALG:Hole31 : Deleted / Filtered
+ALG:Hole22 : Deleted / Filtered
+ALG:Hole13 : Deleted / Filtered
+ALG:Hole4 : Deleted / Filtered
+ALG:Hole27 : Deleted / Filtered
+ALG:Hole18 : Deleted / Filtered
+ALG:Hole9 : Deleted / Filtered
+ALG:Hole32 : Deleted / Filtered
+ALG:Hole23 : Deleted / Filtered
+ALG:Hole14 : Deleted / Filtered
+ALG:Hole28 : Deleted / Filtered
+ALG:Hole19 : Deleted / Filtered
+ALG:Hole33 : Deleted / Filtered
+ALG:Hole24 : Deleted / Filtered
+ALG:Hole29 : Deleted / Filtered
+ALG:Hole34 : Deleted / Filtered
+ALG:Hole35 : Deleted / Filtered
+ALG:Hole40 : Deleted / Filtered
+ALG:Hole45 : Deleted / Filtered
+ALG:Hole36 : Deleted / Filtered
+ALG:Hole50 : Deleted / Filtered
+ALG:Hole41 : Deleted / Filtered
+ALG:Hole55 : Deleted / Filtered
+ALG:Hole46 : Deleted / Filtered
+ALG:Hole37 : Deleted / Filtered
+ALG:Hole51 : Deleted / Filtered
+ALG:Hole42 : Deleted / Filtered
+ALG:Hole56 : Deleted / Filtered
+ALG:Hole47 : Deleted / Filtered
+ALG:Hole38 : Deleted / Filtered
+ALG:Hole52 : Deleted / Filtered
+ALG:Hole43 : Deleted / Filtered
+ALG:Hole48 : Deleted / Filtered
+ALG:Hole39 : Deleted / Filtered
+ALG:Hole53 : Deleted / Filtered
+ALG:Hole44 : Deleted / Filtered
+ALG:Hole49 : Deleted / Filtered
+ALG:Hole54 : Deleted / Filtered
+
+
+
+
+IDX file: D:/Projects/ProjectScience/electronics/ProjectID_Archive_MPSv3/sch&brd/allegro/MPS-3_INCREMENTAL_DATA.idx
+Design version: 3
+Design file: D:/Projects/ProjectScience/electronics/ProjectID_Archive_MPSv3/sch&brd/allegro/mps-3.brd
+idx_out complete.

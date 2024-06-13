@@ -1,0 +1,24 @@
+NAME!usage!drillToolSize!holeCounterType!holeCounterDiameter!holeCounterDepth!holeCounterTolerance!holeCounterAngle!drillNonStandard
+R190_110!Smd!!nil!0.0!0.0!0.0 0.0!0!nil!
+R95_90!Smd!!nil!0.0!0.0!0.0 0.0!0!nil!
+R155_65!Smd!!nil!0.0!0.0!0.0 0.0!0!nil!
+S80!Smd!!nil!0.0!0.0!0.0 0.0!0!nil!
+R95_80!Smd!!nil!0.0!0.0!0.0 0.0!0!nil!
+S165_H110!Through!!nil!0.0!0.0!0.0 0.0!0!nil!
+C165_H110!Through!!nil!0.0!0.0!0.0 0.0!0!nil!
+R254_127!Smd!!nil!0.0!0.0!0.0 0.0!0!nil!
+S172_5_H115!Through!!nil!0.0!0.0!0.0 0.0!0!nil!
+C172_5_H115!Through!!nil!0.0!0.0!0.0 0.0!0!nil!
+R85_30!Smd!!nil!0.0!0.0!0.0 0.0!0!nil!
+C30_H60!Mechanical_hole!!nil!0.0!0.0!0.0 0.0!0!nil!
+C58_5_H117!Mechanical_hole!!nil!0.0!0.0!0.0 0.0!0!nil!
+C110_H70!Through!!nil!0.0!0.0!0.0 0.0!0!nil!
+R175_95!Smd!!nil!0.0!0.0!0.0 0.0!0!nil!
+R320_175!Smd!!nil!0.0!0.0!0.0 0.0!0!nil!
+R125_65!Smd!!nil!0.0!0.0!0.0 0.0!0!nil!
+R147_5_30!Smd!!nil!0.0!0.0!0.0 0.0!0!nil!
+R115_60!Smd!!nil!0.0!0.0!0.0 0.0!0!nil!
+R76_62!Smd!!nil!0.0!0.0!0.0 0.0!0!nil!
+R115_80!Smd!!nil!0.0!0.0!0.0 0.0!0!nil!
+R46_42!Smd!!nil!0.0!0.0!0.0 0.0!0!nil!
+VIA!Through!!nil!0.0!0.0!0.0 0.0!0!nil!

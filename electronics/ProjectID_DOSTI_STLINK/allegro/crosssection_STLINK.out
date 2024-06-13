@@ -1,0 +1,13 @@
+Cross Section Report
+D:/Projects/ProjectScience/electronics/ProjectID_DOSTI_STLINK/allegro/STLINK.brd
+Thu Jun 13 12:16:09 2024
+
+Design Cross Section
+Subclass Name,Type,Material,Thickness (MM),Tol +,Tol -,Conductivity (mho/cm),Dielectric Constant,Loss Tangent,Negative Artwork,Shield,Width (MM),Unused Pin Pad Suppression,Unused Via Pad Suppression
+,SURFACE,AIR,,,,0,1,0,,,,,
+TOP,CONDUCTOR,COPPER,0.03048,0,0,596000,1,0,,,0.1270,,
+,DIELECTRIC,FR-4,0.2032,0,0,0,4.5,0.035,,,,,
+BOTTOM,CONDUCTOR,COPPER,0.03048,0,0,596000,1,0,,,0.1270,,
+,SURFACE,AIR,,,,0,1,0,,,,,
+
+Total Thickness: 0.26416 MM

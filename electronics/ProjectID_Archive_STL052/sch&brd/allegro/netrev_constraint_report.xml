@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet type="text/xsl" href="file:///C:/Cadence/SPB_23.1/share/pcb/consmgr/VDD/report/treeview.xsl"?>
+<ConstraintDifferenceReport Path="file:///C:/Cadence/SPB_23.1/share/pcb/consmgr/VDD/report/rc" Type="Constraint Difference Report">
+
+  <RptSummary Col1="Layout" Col2="Schematic">
+    <Entry Name="Report time">Fri Mar 22 22:04:41 2024
+</Entry>
+    <Entry Name="Software version">23.1 (P001)</Entry>
+    <Entry Name="Layout">D:\PROJECTS\PROJECTSCIENCE\HARDWAREPCB\PROJECTID_ARCHIVE_MPSV3\SCH&amp;BRD\allegro\mps-3.brd</Entry>
+    <Entry Name="Schematic">d:\projects\projectscience\hardwarepcb\projectid_archive_mpsv3\sch&amp;brd\allegro\pstcmdb.dat</Entry>
+    <Entry Name="Baseline File">C:\Users\PROMET~1\AppData\Local\Temp\#Taaaaaj01424.tmp</Entry>
+    <Entry Name="Destination design updated">Yes</Entry>
+    <Entry Name="Update Mode">Diff3</Entry>
+    <Entry Name="Constraint Information">Electrical, NetClasses, Properties</Entry>
+    <Entry Name="Objects with conflicts">0</Entry>
+  </RptSummary>
+
+  <Tree>
+    <Item Filter="0x5" Name="Summary" Ref="main-summary">
+      <Item Filter="0x4" Name="Nets [3]" Ref="4">
+        <Item Filter="0x4" Name="VDD_2" Ref="1"/>
+        <Item Filter="0x4" Name="VSS_1" Ref="2"/>
+        <Item Filter="0x4" Name="VSS_2" Ref="3"/>
+      </Item>
+    </Item>
+  </Tree>
+
+  <Summaries>
+    <MainSummary ID="main-summary">
+      <ChangedObject Filter="0x4" Name="Nets" ObjNumber="3" Ref="4"/>
+    </MainSummary>
+    <GroupSummary ID="4" Name="Nets">
+      <ChangedObject Attributes="1" Child="0" Filter="0x4" Membership="0" Name="VDD_2" Notes="0" Other="0" Ref="1" Reference="0"/>
+      <ChangedObject Attributes="1" Child="0" Filter="0x4" Membership="0" Name="VSS_1" Notes="0" Other="0" Ref="2" Reference="0"/>
+      <ChangedObject Attributes="1" Child="0" Filter="0x4" Membership="0" Name="VSS_2" Notes="0" Other="0" Ref="3" Reference="0"/>
+    </GroupSummary>
+    <ObjectSummary ID="1" Kind="Net" Name="VDD_2">
+      <Attributes Filter="0x4" Type="Attributes">
+        <Attribute Filter="0x4" Name="VOLTAGE" Status="" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst>1.5V</Dst>
+            <Src>3.3V</Src>
+            <Base>1.5V</Base>
+          </Value>
+        </Attribute>
+      </Attributes>
+    </ObjectSummary>
+    <ObjectSummary ID="2" Kind="Net" Name="VSS_1">
+      <Attributes Filter="0x4" Type="Attributes">
+        <Attribute Filter="0x4" Name="VOLTAGE" Status="" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst>0.0V</Dst>
+            <Src>3.3V</Src>
+            <Base>0.0V</Base>
+          </Value>
+        </Attribute>
+      </Attributes>
+    </ObjectSummary>
+    <ObjectSummary ID="3" Kind="Net" Name="VSS_2">
+      <Attributes Filter="0x4" Type="Attributes">
+        <Attribute Filter="0x4" Name="VOLTAGE" Status="" Taken="Src" Type="Scalar">
+          <Value>
+            <Dst>0.0V</Dst>
+            <Src>3.3V</Src>
+            <Base>0.0V</Base>
+          </Value>
+        </Attribute>
+      </Attributes>
+    </ObjectSummary>
+  </Summaries>
+
+  <Layers>
+    <Layer Name="TOP" Type="Conductor"/>
+    <Layer Name="BOTTOM" Type="Conductor"/>
+  </Layers>
+
+  <GenericLayers>
+    <Layer Name="Conductor"/>
+  </GenericLayers>
+
+</ConstraintDifferenceReport>

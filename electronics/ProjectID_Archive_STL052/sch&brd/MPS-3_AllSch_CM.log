@@ -1,0 +1,19 @@
+--------------------------------------------------------------------------------
+                               ORCAD CM MIGRATION
+--------------------------------------------------------------------------------
+D:\PROJECTS\PROJECTSCIENCE\HARDWAREPCB\PROJECTID_ARCHIVE_MPSV3\SCH&BRD\MPS-3.DSN
+2024-03-22 at 22:00:46                                                          
+--------------------------------------------------------------------------------
+	Number of DiffPair Migrated                                : 0
+	Number of XNET Migrated                                    : 2
+	Number of Pin Constraints Migrated                         : 0
+	Number of Net Constraints Migrated                         : 0
+	Number of Physical Class Added                             : 0
+	Number of Spacing Class Added                              : 0
+	Number of Electrical CSET Added                            : 0
+	Number of Warning Encountered                              : 0
+--------------------------------------------------------------------------------
+.XNET: 
+	BOOT0                                   BOOT0,N01236
+	J5TOVIN                                 C6TOPC15,C7TOPC14,J5TOVIN,MOSFET_BASE,PA8_MOS_G,PB1_VBUS_DET,VBUS,VSS
+--------------------------------------------------------------------------------
