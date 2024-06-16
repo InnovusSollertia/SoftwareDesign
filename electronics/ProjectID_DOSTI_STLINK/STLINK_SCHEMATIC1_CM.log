@@ -1,0 +1,22 @@
+--------------------------------------------------------------------------------
+                               ORCAD CM MIGRATION
+--------------------------------------------------------------------------------
+D:\PROJECTS\PROJECTSCIENCE\ELECTRONICS\PROJECTID_DOSTI_STLINK\STLINK.DSN        
+2024-06-15 at 09:34:30                                                          
+--------------------------------------------------------------------------------
+	Number of DiffPair Migrated                                : 0
+	Number of XNET Migrated                                    : 5
+	Number of Pin Constraints Migrated                         : 0
+	Number of Net Constraints Migrated                         : 0
+	Number of Physical Class Added                             : 0
+	Number of Spacing Class Added                              : 0
+	Number of Electrical CSET Added                            : 0
+	Number of Warning Encountered                              : 0
+--------------------------------------------------------------------------------
+.XNET: 
+	+5V                                     +5V,DP,N06887,N27475,USB_DP
+	DN                                      DN,USB_DM
+	LED_LINK                                LED_LINK,N09917,N09921
+	RESET                                   N06427,RESET
+	SWO                                     N06435,SWO
+--------------------------------------------------------------------------------

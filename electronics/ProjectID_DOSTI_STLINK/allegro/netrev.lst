@@ -2,9 +2,9 @@
 (                                                                     )
 (    Allegro Netrev Import Logic                                      )
 (                                                                     )
-(    Drawing          : STLINK.brd                                    )
+(    Drawing          : stlink.brd                                    )
 (    Software Version : 23.1S004                                      )
-(    Date/Time        : Thu Jun 13 11:09:34 2024                      )
+(    Date/Time        : Sat Jun 15 10:45:33 2024                      )
 (                                                                     )
 (---------------------------------------------------------------------)
 
@@ -19,20 +19,67 @@ Missing symbol has error:    No
 DRC update:                  Yes
 Schematic directory:         '.'
 Design Directory:            'D:/Projects/ProjectScience/electronics/ProjectID_DOSTI_STLINK/allegro'
-Old design name:             'D:/Projects/ProjectScience/electronics/ProjectID_DOSTI_STLINK/allegro/STLINK.brd'
-New design name:             'D:/Projects/ProjectScience/electronics/ProjectID_DOSTI_STLINK/allegro/STLINK.brd'
+Old design name:             'D:/Projects/ProjectScience/electronics/ProjectID_DOSTI_STLINK/allegro/stlink.brd'
+New design name:             'D:/Projects/ProjectScience/electronics/ProjectID_DOSTI_STLINK/allegro/stlink.brd'
 
-CmdLine: netrev -$ -i . -y 1 -h -z -q netrev_constraint_report.xml D:/Projects/ProjectScience/electronics/ProjectID_DOSTI_STLINK/allegro/#Taaaaaq17836.tmp
+CmdLine: netrev -y 1 -h -q netrev_constraint_report.xml D:/Projects/ProjectScience/electronics/ProjectID_DOSTI_STLINK/allegro/#Taaaagl05844.tmp
 
 ------ Preparing to read pst files ------
 
+Starting to read ./pstchip.dat 
+   Finished reading ./pstchip.dat (00:00:00.38)
+Starting to read ./pstxprt.dat 
+   Finished reading ./pstxprt.dat (00:00:00.00)
+Starting to read ./pstxnet.dat 
+   Finished reading ./pstxnet.dat (00:00:00.00)
 
-#1   ERROR(24) File not found
-     Packager files not found
+------ Oversights/Warnings/Errors ------
 
-#2   ERROR(102) Run stopped because errors were detected
 
-netrev run on Jun 13 11:09:34 2024
+
+
+===========================================================
+Start Constraint Diff3 Import
+	Constraint File:    ./pstcmdb.dat
+	Allegro Baseline:   C:/Users/PROMET~1/AppData/Local/Temp/#Taaaaaj17596.tmp
+	Start time: Sat Jun 15 10:45:33 2024
+===========================================================
+
+
+The constraint difference report file can be viewed using the following command:
+cdnFlowOOSMsg.exe -file file:///D:/Projects/ProjectScience/electronics/ProjectID_DOSTI_STLINK/allegro/netrev_constraint_report.xml
+
+===========================================================
+Finished Constraint Update	Time: Sat Jun 15 10:45:33 2024
+===========================================================
+
+------ Library Paths ------
+MODULEPATH =  . 
+           c:/cadence/spb_23.1/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           c:/cadence/spb_23.1/share/local/pcb/symbols 
+           c:/cadence/spb_23.1/share/pcb/pcb_lib/symbols 
+           c:/cadence/spb_23.1/share/pcb/allegrolib/symbols 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           c:/cadence/spb_23.1/share/local/pcb/padstacks 
+           c:/cadence/spb_23.1/share/pcb/pcb_lib/symbols 
+           c:/cadence/spb_23.1/share/pcb/allegrolib/symbols 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Jun 15 10:45:33 2024
+   DESIGN NAME : 'STLINK'
+   PACKAGING ON Apr 17 2024 22:27:39
 
    COMPILE 'logic'
    CHECK_PIN_NAMES OFF
@@ -51,10 +98,10 @@ netrev run on Jun 13 11:09:34 2024
    SUPPRESS   20
    WARNINGS ON
 
-  2 errors detected
+ No error detected
  No oversight detected
  No warning detected
 
-cpu time      0:00:19
+cpu time      0:01:18
 elapsed time  0:00:00
 

@@ -1,6 +1,6 @@
 (ExpressProject "STLINK"
   (ProjectVersion "19981106")
-  (SoftwareVersion "23.1 S004 (4189164)  [4/25/2024]-[06/13/24]")
+  (SoftwareVersion "23.1 S004 (4189164)  [4/25/2024]-[06/15/24]")
   (ProjectType "PCB")
   (Folder "Design Resources"
     (Folder "Library")
@@ -121,15 +121,6 @@
       (NetListPath ".\pcb")
       (ActiveBoard "1")))
   (Folder "Outputs"
-    (File ".\pcb\pstxnet.dat"
-      (Type "Report")
-      (DisplayName "pstxnet.dat"))
-    (File ".\pcb\pstxprt.dat"
-      (Type "Report")
-      (DisplayName "pstxprt.dat"))
-    (File ".\pcb\pstchip.dat"
-      (Type "Report")
-      (DisplayName "pstchip.dat"))
     (File ".\drcreport.drc"
       (Type "Report"))
     (File ".\stlink.bom"
@@ -155,7 +146,19 @@
     (File ".\pcb\eco.txt"
       (Type "Log File")
       (LogFile
-         "d:\projects\projectscience\electronics\projectid_dosti_stlink\pcb\eco.txt")))
+         "d:\projects\projectscience\electronics\projectid_dosti_stlink\pcb\eco.txt"))
+    (File ".\allegro\netlist.log"
+      (Type "Log File")
+      (LogFile
+         "d:\projects\projectscience\electronics\projectid_dosti_stlink\allegro\netlist.log"))
+    (File ".\allegro\netrev.lst"
+      (Type "Log File")
+      (LogFile
+         "d:\projects\projectscience\electronics\projectid_dosti_stlink\allegro\netrev.lst"))
+    (File ".\allegro\eco.txt"
+      (Type "Log File")
+      (LogFile
+         "d:\projects\projectscience\electronics\projectid_dosti_stlink\allegro\eco.txt")))
   (PartMRUSelector
     (PORTNO-R
       (LibraryName "C:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
@@ -278,19 +281,20 @@
          "SCHEMATIC1")
       (Path "Layout")
       (Path "Outputs")
-      (Path "Logs"))
+      (Path "Logs")
+      (Select "Design Resources"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 564"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 469"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 5 24 5 1255 24 582")
-        (Scroll "-237 0")
-        (Zoom "45")
+        (Placement "44 0 1 -1 -1 5 24 5 999 24 487")
+        (Scroll "-175 0")
+        (Zoom "37")
         (Occurrence "/"))
       (Path
          "D:\PROJECTS\PROJECTSCIENCE\ELECTRONICS\PROJECTID_DOSTI_STLINK\STLINK.DSN")

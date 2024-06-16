@@ -1,0 +1,28 @@
+Importer Log Report
+Project : STLINK.PrjPcb
+
+Section : Document - D:\Projects\ProjectScience\electronics\ProjectID_DOSTI_STLINK\STLINK.DSN
+
+    Section : Importing Sheet - PAGE1.SchDoc
+        Warning : Power Port of type 0 at (312.42mm,276.86mm) was replaced with Arrow style port
+        Warning : Power Port of type 0 at (370.84mm,264.16mm) was replaced with Arrow style port
+        Warning : Junction at (259.08mm,129.54mm) has been removed. It will be automatically calculated.
+        Warning : Junction at (337.82mm,127mm) has been removed. It will be automatically calculated.
+        Warning : Junction at (91.44mm,256.54mm) has been removed. It will be automatically calculated.
+        Warning : Junction at (55.88mm,256.54mm) has been removed. It will be automatically calculated.
+        Warning : Junction at (134.62mm,238.76mm) has been removed. It will be automatically calculated.
+        Warning : Junction at (88.9mm,226.06mm) has been removed. It will be automatically calculated.
+        Warning : Junction at (76.2mm,205.74mm) has been removed. It will be automatically calculated.
+        Warning : Junction at (76.2mm,162.56mm) has been removed. It will be automatically calculated.
+        Warning : Junction at (93.98mm,114.3mm) has been removed. It will be automatically calculated.
+        Warning : Junction at (106.68mm,114.3mm) has been removed. It will be automatically calculated.
+        Warning : Junction at (106.68mm,132.08mm) has been removed. It will be automatically calculated.
+        Warning : Junction at (185.42mm,129.54mm) has been removed. It will be automatically calculated.
+        Warning : Junction at (246.38mm,248.92mm) has been removed. It will be automatically calculated.
+        Warning : Junction at (314.96mm,271.78mm) has been removed. It will be automatically calculated.
+        Warning : Junction at (322.58mm,246.38mm) has been removed. It will be automatically calculated.
+        Warning : Junction at (55.88mm,129.54mm) has been removed. It will be automatically calculated.
+        Warning : Junction at (17.78mm,66.04mm) has been removed. It will be automatically calculated.
+        Warning : Junction at (251.46mm,109.22mm) has been removed. It will be automatically calculated.
+    EndSection
+EndSection
