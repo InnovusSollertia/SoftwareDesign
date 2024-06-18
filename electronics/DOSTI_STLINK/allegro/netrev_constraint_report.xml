@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml-stylesheet type="text/xsl" href="file:///c:/cadence/spb_23.1/share/pcb/consmgr/VDD/report/treeview.xsl"?>
+<ConstraintDifferenceReport Path="file:///c:/cadence/spb_23.1/share/pcb/consmgr/VDD/report/rc" Status="not-run" Type="Constraint Difference Report">
+
+  <RptSummary Col1="Layout" Col2="Schematic">
+    <Entry Name="Report time">Wed Jun 19 01:25:57 2024
+</Entry>
+    <Entry Name="Software version">23.1 (S004)</Entry>
+    <Entry Name="Layout">D:\PROJECTS\PROJECTSCIENCE\ELECTRONICS\DOSTI_STLINK\allegro\stlink.brd</Entry>
+    <Entry Name="Schematic">D:\PROJECTS\PROJECTSCIENCE\ELECTRONICS\DOSTI_STLINK\allegro\pstcmdb.dat</Entry>
+    <Entry Name="Baseline File">C:\Users\PROMET~1\AppData\Local\Temp\#Taaaaaj00976.tmp</Entry>
+    <Entry Name="Status">Diff3 not run. Input file and Baseline file having matching keys.</Entry>
+  </RptSummary>
+
+  <Tree>
+    <Item Filter="0x1" Name="Summary" Ref="main-summary"/>
+  </Tree>
+
+  <Summaries>
+    <MainSummary ID="main-summary"/>
+  </Summaries>
+
+  <Notes>
+    <Note Text="Diff3 not run. Input file and Baseline file having matching keys." Type="Warning"/>
+  </Notes>
+
+  <Layers>
+    <Layer Name="TOP" Type="Conductor"/>
+    <Layer Name="BOTTOM" Type="Conductor"/>
+  </Layers>
+
+  <GenericLayers>
+    <Layer Name="Conductor"/>
+  </GenericLayers>
+
+</ConstraintDifferenceReport>

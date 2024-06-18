@@ -1,0 +1,60 @@
+(ExpressProject "ultima"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "23.1 S004 (4189164)  [4/25/2024]-[06/18/24]")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    ("Allegro Netlist Directory" "allegro")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\ultima.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x"))
+  (Folder "Layout")
+  (Folder "Outputs")
+  (Folder "Referenced Projects")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs")
+  (PartMRUSelector
+    (XC7K420T-3FFG1156E
+      (FullPartName "XC7K420T-3FFG1156E.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\FPGA\XC7K420T-3FFG1156E.OLB")
+      (DeviceIndex "0")))
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "D:\Projects\ProjectScience\electronics\Ultima\ultima.dsn")
+      (Path "Design Resources"
+         "D:\Projects\ProjectScience\electronics\Ultima\ultima.dsn" "MAIN")
+      (Select "Design Resources"
+         "D:\Projects\ProjectScience\electronics\Ultima\ultima.dsn" "MAIN"
+         "DEVICE3"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 208 0 529"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 974 24 547")
+        (Scroll "3072 21989")
+        (Zoom "512")
+        (Occurrence "/"))
+      (Path "D:\PROJECTS\PROJECTSCIENCE\ELECTRONICS\ULTIMA\ULTIMA.DSN")
+      (Schematic "MAIN")
+      (Page "DEVICE1")))
+  (MPSSessionName "Prometheus")
+  (LastUsedLibraryBrowseDirectory "D:\Projects\CadenceEMD\Main_Libraries\FPGA"))

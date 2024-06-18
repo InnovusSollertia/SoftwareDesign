@@ -1,4 +1,0 @@
-{ Using PSTWRITER 23.1.0 d001Mar-24-2024 at 20:16:42 }
-
-#1 ERROR(ORCAP-36044): Illegal character "!" found in net "?!". Rename the net for correct netlisting.
-#2 ERROR(ORCAP-36018): Netlisting cannot complete because of the errors listed above in the session log. Correct the errors and netlist design.

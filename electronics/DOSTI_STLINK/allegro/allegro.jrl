@@ -1,0 +1,2116 @@
+\t (00:00:04) allegro 23.1 S004 Windows SPB 64-bit Edition
+\t (00:00:04)     Journal start - Wed Jun 19 01:01:31 2024
+\t (00:00:04)         Host=DESKTOP-OU1R4S8 User=Prometheus Pid=5032 CPUs=12
+\t (00:00:04) CmdLine= C:\Cadence\SPB_23.1\tools\bin\allegro.exe -mpssession Prometheus -proj D:\PROJECTS\PROJECTSCIENCE\ELECTRONICS\DOSTI_STLINK\STLINK.opj D:\PROJECTS\PROJECTSCIENCE\ELECTRONICS\DOSTI_STLINK\allegro\stlink.brd
+\t (00:00:04) 
+   (00:00:05) Loading axlcore.cxt 
+\t (00:00:05) Opening existing design...
+\i (00:00:05) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged stlink
+\d (00:00:05) Design opened: D:/PROJECTS/PROJECTSCIENCE/ELECTRONICS/DOSTI_STLINK/allegro/stlink.brd
+\t (00:00:06) Grids are drawn 20.00, 20.00 apart for enhanced viewing.
+\i (00:00:06) trapsize 1581
+\i (00:00:06) trapsize 1652
+\i (00:00:06) trapsize 1673
+\t (00:00:06) Grids are drawn 20.00, 20.00 apart for enhanced viewing.
+\i (00:00:06) trapsize 1854
+\i (00:00:06) trapsize 1854
+\t (00:00:06) > Sending response DoneOpenBoard
+\t (00:00:06) Loading NV GPU Plugin
+\t (00:00:06) Grids are drawn 10.00, 10.00 apart for enhanced viewing.
+\i (00:00:06) trapsize 1097
+\i (00:00:07) placementedit 
+\i (00:00:28) zoom in 1 
+\i (00:00:28) setwindow pcb
+\i (00:00:28) zoom in 4943.11 10683.78
+\i (00:00:28) trapsize 548
+\i (00:00:29) zoom in 1 
+\i (00:00:29) setwindow pcb
+\i (00:00:29) zoom in 5059.35 10489.68
+\i (00:00:29) trapsize 274
+\i (00:00:29) zoom in 1 
+\i (00:00:29) setwindow pcb
+\i (00:00:29) zoom in 5059.35 10485.85
+\i (00:00:29) trapsize 137
+\i (00:00:29) zoom out 1 
+\i (00:00:29) setwindow pcb
+\i (00:00:29) zoom out 5056.88 10476.25
+\i (00:00:29) trapsize 274
+\i (00:00:30) zoom out 1 
+\i (00:00:30) setwindow pcb
+\i (00:00:30) zoom out 5056.88 10476.26
+\i (00:00:30) trapsize 548
+\i (00:00:39) zoom out 1 
+\i (00:00:39) setwindow pcb
+\i (00:00:39) zoom out 5254.28 10693.38
+\i (00:00:39) trapsize 1097
+\i (00:00:39) zoom out 1 
+\i (00:00:39) setwindow pcb
+\i (00:00:39) zoom out 5254.27 10691.19
+\t (00:00:39) Grids are drawn 20.00, 20.00 apart for enhanced viewing.
+\i (00:00:39) trapsize 2193
+\i (00:00:39) zoom in 1 
+\i (00:00:39) setwindow pcb
+\i (00:00:39) zoom in 5460.43 10897.34
+\t (00:00:39) Grids are drawn 10.00, 10.00 apart for enhanced viewing.
+\i (00:00:39) trapsize 1097
+\i (00:00:40) zoom in 1 
+\i (00:00:40) setwindow pcb
+\i (00:00:40) zoom in 5820.11 10943.40
+\i (00:00:40) trapsize 548
+\i (00:00:40) zoom in 1 
+\i (00:00:40) setwindow pcb
+\i (00:00:40) zoom in 5868.37 10907.21
+\i (00:00:40) trapsize 274
+\i (00:00:40) zoom in 1 
+\i (00:00:40) setwindow pcb
+\i (00:00:40) zoom in 5827.79 10811.81
+\i (00:00:40) trapsize 137
+\i (00:00:41) zoom out 1 
+\i (00:00:41) setwindow pcb
+\i (00:00:41) zoom out 5795.17 10777.55
+\i (00:00:41) trapsize 274
+\i (00:00:42) zoom out 1 
+\i (00:00:42) setwindow pcb
+\i (00:00:42) zoom out 5772.15 10724.36
+\i (00:00:42) trapsize 548
+\i (00:00:43) zoom in 1 
+\i (00:00:43) setwindow pcb
+\i (00:00:43) zoom in 5746.94 10551.09
+\i (00:00:43) trapsize 274
+\i (00:00:43) zoom in 1 
+\i (00:00:43) setwindow pcb
+\i (00:00:43) zoom in 5739.81 10552.19
+\i (00:00:43) trapsize 137
+\i (00:00:47) pop dyn_option_select 'Application Mode@:@Etch Edit' 
+\i (00:00:47) etchedit 
+\i (00:00:52) prepopup 5600.55 10677.76
+\i (00:00:54) pop dyn_option_select @:@Delete 
+\i (00:00:54) delete 
+\i (00:00:54) etchedit 
+\i (00:00:55) prepopup 5591.77 10673.37
+\i (00:00:57) pop dyn_option_select '@:@Add connect' 
+\i (00:00:57) add connect 
+\t (00:00:57) Pick first element.
+\t (00:00:57) last pick:  5596.08 10675.00
+\i (00:00:58) mouse_pos 5712.67 10672.82
+\i (00:00:59) mouse_pos 5710.48 10673.92
+\i (00:01:00) prepopup 5678.13 10670.63
+\i (00:01:01) oops 
+\t (00:01:01) Pick first element.
+\i (00:01:01) etchedit 
+\i (00:01:03) undo 
+\i (00:01:03) trapsize 137
+\i (00:01:03) etchedit 
+\i (00:01:04) undo 
+\i (00:01:04) trapsize 137
+\i (00:01:04) etchedit 
+\i (00:01:06) pick grid 5707.46 10570.56
+\t (00:01:06) last pick:  5700.00 10575.00
+\i (00:01:06) zoom out 1 
+\i (00:01:06) setwindow pcb
+\i (00:01:06) zoom out 5655.92 10582.35
+\i (00:01:06) trapsize 274
+\i (00:01:07) zoom out 1 
+\i (00:01:07) setwindow pcb
+\i (00:01:07) zoom out 5633.45 10564.81
+\i (00:01:07) trapsize 548
+\i (00:01:07) zoom out 1 
+\i (00:01:07) setwindow pcb
+\i (00:01:07) zoom out 5618.09 10529.72
+\i (00:01:07) trapsize 1097
+\i (00:01:11) pick grid 5703.63 11102.14
+\t (00:01:11) last pick:  5700.00 11100.00
+\i (00:01:11) add connect 
+\t (00:01:11) Pick first element.
+\t (00:01:11) last pick:  5850.00 11000.00
+\i (00:01:12) zoom out 1 
+\i (00:01:12) setwindow pcb
+\i (00:01:12) zoom out 5677.31 11233.73
+\i (00:01:12) trapsize 2193
+\i (00:01:12) zoom out 1 
+\i (00:01:12) setwindow pcb
+\i (00:01:12) zoom out 5677.31 11233.73
+\t (00:01:12) Grids are drawn 50.00, 50.00 apart for enhanced viewing.
+\i (00:01:12) trapsize 4386
+\i (00:01:12) zoom out 1 
+\i (00:01:12) setwindow pcb
+\i (00:01:12) zoom out 4764.95 11593.41
+\t (00:01:12) Grids are drawn 100.00, 100.00 apart for enhanced viewing.
+\i (00:01:12) trapsize 8773
+\i (00:01:13) zoom in 1 
+\i (00:01:13) setwindow pcb
+\i (00:01:13) zoom in 3824.90 12400.50
+\t (00:01:13) Grids are drawn 50.00, 50.00 apart for enhanced viewing.
+\i (00:01:13) trapsize 4386
+\i (00:01:13) zoom in 1 
+\i (00:01:13) setwindow pcb
+\i (00:01:13) zoom in 3456.44 12523.32
+\i (00:01:13) trapsize 2193
+\i (00:01:13) zoom in 1 
+\i (00:01:13) setwindow pcb
+\i (00:01:13) zoom in 3254.68 12637.37
+\i (00:01:13) trapsize 1097
+\i (00:01:14) zoom in 1 
+\i (00:01:14) setwindow pcb
+\i (00:01:14) zoom in 3265.65 12639.57
+\i (00:01:14) trapsize 548
+\i (00:01:16) prepopup 3550.76 12632.99
+\i (00:01:17) oops 
+\t (00:01:17) Pick first element.
+\i (00:01:17) etchedit 
+\i (00:01:20) pop dyn_option_select 'Application Mode@:@Placement Edit' 
+\i (00:01:21) placementedit 
+\i (00:01:22) pick grid 3232.75 12691.11
+\t (00:01:22) last pick:  3235.00 12690.00
+\i (00:01:22) move 
+\t (00:01:22) last pick:  3200.00 12700.00
+\t (00:01:23) Moving R15 / CR0603-F_-1R00ELF_RESC1608X55N_DISCRETE_4K7 / RESC1608X55N.
+\t (00:01:23) Pick new location for the element(s).
+\i (00:01:24) pick grid 3995.98 12410.38
+\t (00:01:24) last pick:  3995.00 12410.00
+\i (00:01:24) placementedit 
+\i (00:01:25) pick grid 3404.92 12708.65
+\t (00:01:25) last pick:  3405.00 12710.00
+\i (00:01:25) move 
+\t (00:01:25) last pick:  3400.00 12700.00
+\t (00:01:25) Moving R16 / CR0603-F_-1R00ELF_RESC1608X55N_DISCRETE_4K7 / RESC1608X55N.
+\t (00:01:25) Pick new location for the element(s).
+\i (00:01:28) pick grid 4139.63 12408.19
+\t (00:01:28) last pick:  4140.00 12410.00
+\i (00:01:28) placementedit 
+\i (00:01:30) pick grid 3260.17 12613.25
+\t (00:01:30) last pick:  3260.00 12615.00
+\i (00:01:30) move 
+\t (00:01:30) last pick:  3200.00 12600.00
+\t (00:01:30) Moving R17 / CR0603-F_-1R00ELF_RESC1608X55N_DISCRETE_10K / RESC1608X55N.
+\t (00:01:30) Pick new location for the element(s).
+\i (00:01:31) pick grid 3838.07 12414.77
+\t (00:01:31) last pick:  3840.00 12415.00
+\i (00:01:31) placementedit 
+\i (00:01:32) pick grid 3418.07 12603.38
+\t (00:01:32) last pick:  3420.00 12605.00
+\i (00:01:32) move 
+\t (00:01:32) last pick:  3400.00 12600.00
+\t (00:01:32) Moving R18 / CR0603-F_-1R00ELF_RESC1608X55N_DISCRETE_5.1K / RESC1608X55N.
+\t (00:01:32) Pick new location for the element(s).
+\i (00:01:34) pick grid 3646.17 12314.98
+\t (00:01:34) last pick:  3645.00 12315.00
+\i (00:01:34) placementedit 
+\i (00:01:34) drag_start grid 3708.67 12554.03
+\i (00:01:36) drag_stop 4332.63 12374.19
+\i (00:01:37) pick grid 3964.18 12405.99
+\t (00:01:37) last pick:  3965.00 12405.00
+\i (00:01:37) move 
+\t (00:01:37) last pick:  3995.00 12410.00
+\t (00:01:37) Moving R15 / CR0603-F_-1R00ELF_RESC1608X55N_DISCRETE_4K7 / RESC1608X55N.
+\t (00:01:37) Pick new location for the element(s).
+\i (00:01:38) pick grid 3983.91 12392.84
+\t (00:01:38) last pick:  3985.00 12395.00
+\i (00:01:38) placementedit 
+\i (00:01:39) drag_start grid 3676.87 12566.10
+\i (00:01:39) drag_stop 4225.16 12368.71
+\i (00:01:40) prepopup 4026.68 12384.06
+\i (00:01:43) move 
+\i (00:01:45) pick grid 4103.44 12199.84
+\t (00:01:45) last pick:  4105.00 12200.00
+\t (00:01:45) Moving R17 / CR0603-F_-1R00ELF_RESC1608X55N_DISCRETE_10K / RESC1608X55N.
+\t (00:01:45) Moving R15 / CR0603-F_-1R00ELF_RESC1608X55N_DISCRETE_4K7 / RESC1608X55N.
+\t (00:01:45) Moving R16 / CR0603-F_-1R00ELF_RESC1608X55N_DISCRETE_4K7 / RESC1608X55N.
+\t (00:01:45) Pick new location for the element(s).
+\i (00:01:46) zoom out 1 
+\i (00:01:46) setwindow pcb
+\i (00:01:46) zoom out 4289.86 12115.40
+\t (00:01:46) Grids are drawn 10.00, 10.00 apart for enhanced viewing.
+\i (00:01:46) trapsize 1097
+\i (00:01:46) pick grid 4164.85 12242.60
+\t (00:01:46) last pick:  4165.00 12245.00
+\i (00:01:46) placementedit 
+\i (00:01:47) undo 
+\i (00:01:47) trapsize 548
+\i (00:01:47) placementedit 
+\i (00:01:48) pick grid 3802.98 12637.37
+\t (00:01:48) last pick:  3805.00 12635.00
+\i (00:01:49) drag_start grid 3765.69 12577.06
+\i (00:01:50) drag_stop 4222.97 12355.55
+\i (00:01:51) prepopup 4011.33 12389.55
+\i (00:01:52) move 
+\i (00:01:52) pick grid 4149.50 12174.62
+\t (00:01:52) last pick:  4150.00 12175.00
+\t (00:01:52) Moving R17 / CR0603-F_-1R00ELF_RESC1608X55N_DISCRETE_10K / RESC1608X55N.
+\t (00:01:52) Moving R15 / CR0603-F_-1R00ELF_RESC1608X55N_DISCRETE_4K7 / RESC1608X55N.
+\t (00:01:52) Moving R16 / CR0603-F_-1R00ELF_RESC1608X55N_DISCRETE_4K7 / RESC1608X55N.
+\t (00:01:52) Pick new location for the element(s).
+\i (00:01:53) zoom out 1 
+\i (00:01:53) setwindow pcb
+\i (00:01:53) zoom out 4086.99 12217.38
+\i (00:01:53) trapsize 1097
+\i (00:01:53) zoom out 1 
+\i (00:01:53) setwindow pcb
+\i (00:01:53) zoom out 4240.52 12114.30
+\t (00:01:53) Grids are drawn 20.00, 20.00 apart for enhanced viewing.
+\i (00:01:53) trapsize 2193
+\i (00:01:53) zoom out 1 
+\i (00:01:53) setwindow pcb
+\i (00:01:53) zoom out 4240.52 12109.92
+\t (00:01:53) Grids are drawn 40.00, 40.00 apart for enhanced viewing.
+\i (00:01:53) trapsize 4386
+\i (00:01:53) zoom out 1 
+\i (00:01:53) setwindow pcb
+\i (00:01:53) zoom out 8377.93 11771.47
+\t (00:01:53) Grids are drawn 80.00, 80.00 apart for enhanced viewing.
+\i (00:01:53) trapsize 8773
+\i (00:01:54) zoom in 1 
+\i (00:01:54) setwindow pcb
+\i (00:01:54) zoom in 5316.26 11350.38
+\t (00:01:54) Grids are drawn 40.00, 40.00 apart for enhanced viewing.
+\i (00:01:54) trapsize 4386
+\i (00:01:55) zoom in 1 
+\i (00:01:55) setwindow pcb
+\i (00:01:55) zoom in 5816.30 10341.52
+\t (00:01:55) Grids are drawn 20.00, 20.00 apart for enhanced viewing.
+\i (00:01:55) trapsize 2193
+\i (00:01:55) zoom in 1 
+\i (00:01:55) setwindow pcb
+\i (00:01:55) zoom in 5711.03 10525.75
+\t (00:01:55) Grids are drawn 10.00, 10.00 apart for enhanced viewing.
+\i (00:01:55) trapsize 1097
+\i (00:01:55) zoom in 1 
+\i (00:01:55) setwindow pcb
+\i (00:01:55) zoom in 5555.32 10611.28
+\i (00:01:55) trapsize 548
+\i (00:01:57) pick grid 5953.39 10272.44
+\t (00:01:57) last pick:  5955.00 10270.00
+\i (00:01:57) placementedit 
+\i (00:01:58) pick grid 5489.53 10367.84
+\t (00:01:58) last pick:  5490.00 10370.00
+\i (00:01:59) zoom in 1 
+\i (00:01:59) setwindow pcb
+\i (00:01:59) zoom in 5407.29 10525.75
+\i (00:01:59) trapsize 274
+\i (00:02:01) pick grid 5644.70 10530.69
+\t (00:02:01) last pick:  5645.00 10530.00
+\i (00:02:01) move 
+\t (00:02:01) last pick:  5645.00 10510.00
+\t (00:02:01) Moving R17 / CR0603-F_-1R00ELF_RESC1608X55N_DISCRETE_10K / RESC1608X55N.
+\t (00:02:01) Pick new location for the element(s).
+\i (00:02:04) pick grid 5562.45 10484.08
+\t (00:02:04) last pick:  5560.00 10485.00
+\i (00:02:04) placementedit 
+\i (00:02:04) prepopup 5559.71 10485.18
+\i (00:02:06) pop dyn_option_select @:@Rotate 
+\i (00:02:06) spin 
+\t (00:02:06) Moving R17 / CR0603-F_-1R00ELF_RESC1608X55N_DISCRETE_10K / RESC1608X55N.
+\i (00:02:08) iangle -180.000
+\t (00:02:08) last angle:  180.000 Degrees
+\i (00:02:09) placementedit 
+\i (00:02:09) prepopup 5544.36 10489.56
+\i (00:02:11) pop dyn_option_select @:@Rotate 
+\i (00:02:11) spin 
+\t (00:02:11) Moving R17 / CR0603-F_-1R00ELF_RESC1608X55N_DISCRETE_10K / RESC1608X55N.
+\i (00:02:12) iangle 90.000
+\t (00:02:12) last angle:  270.000 Degrees
+\i (00:02:12) placementedit 
+\i (00:02:13) prepopup 5567.39 10490.66
+\i (00:02:14) pop dyn_option_select @:@Move 
+\i (00:02:14) move 
+\t (00:02:14) last pick:  5565.00 10490.00
+\t (00:02:14) last pick:  5560.00 10485.00
+\t (00:02:14) Moving R17 / CR0603-F_-1R00ELF_RESC1608X55N_DISCRETE_10K / RESC1608X55N.
+\t (00:02:14) Pick new location for the element(s).
+\i (00:02:19) pick grid 5528.46 10442.96
+\t (00:02:19) last pick:  5530.00 10445.00
+\i (00:02:19) placementedit 
+\i (00:02:19) pick grid 5702.27 10430.35
+\t (00:02:19) last pick:  5700.00 10430.00
+\i (00:02:21) pick grid 5794.38 10492.85
+\t (00:02:21) last pick:  5795.00 10495.00
+\i (00:02:21) move 
+\t (00:02:21) last pick:  5790.00 10490.00
+\t (00:02:21) Moving R15 / CR0603-F_-1R00ELF_RESC1608X55N_DISCRETE_4K7 / RESC1608X55N.
+\t (00:02:21) Pick new location for the element(s).
+\i (00:02:22) zoom out 1 
+\i (00:02:22) setwindow pcb
+\i (00:02:22) zoom out 5812.47 10617.31
+\i (00:02:22) trapsize 548
+\i (00:02:22) zoom out 1 
+\i (00:02:22) setwindow pcb
+\i (00:02:22) zoom out 5812.48 10617.32
+\i (00:02:22) trapsize 1097
+\i (00:02:22) zoom out 1 
+\i (00:02:22) setwindow pcb
+\i (00:02:22) zoom out 5812.49 10617.33
+\t (00:02:22) Grids are drawn 20.00, 20.00 apart for enhanced viewing.
+\i (00:02:22) trapsize 2193
+\i (00:02:23) zoom in 1 
+\i (00:02:23) setwindow pcb
+\i (00:02:23) zoom in 5628.26 11134.91
+\t (00:02:23) Grids are drawn 10.00, 10.00 apart for enhanced viewing.
+\i (00:02:23) trapsize 1097
+\i (00:02:23) zoom in 1 
+\i (00:02:23) setwindow pcb
+\i (00:02:23) zoom in 5744.50 11088.85
+\i (00:02:23) trapsize 548
+\i (00:02:23) zoom in 1 
+\i (00:02:23) setwindow pcb
+\i (00:02:23) zoom in 5891.45 10818.00
+\i (00:02:23) trapsize 274
+\i (00:02:25) zoom out 1 
+\i (00:02:25) setwindow pcb
+\i (00:02:25) zoom out 5890.35 10839.38
+\i (00:02:25) trapsize 548
+\i (00:02:26) pick grid 5912.29 11081.74
+\t (00:02:26) last pick:  5910.00 11080.00
+\i (00:02:26) placementedit 
+\i (00:02:28) zoom out 1 
+\i (00:02:28) setwindow pcb
+\i (00:02:28) zoom out 5969.31 10936.99
+\i (00:02:28) trapsize 1097
+\i (00:02:29) zoom in 1 
+\i (00:02:29) setwindow pcb
+\i (00:02:29) zoom in 6133.80 11099.28
+\i (00:02:29) trapsize 548
+\i (00:02:29) zoom in 1 
+\i (00:02:29) setwindow pcb
+\i (00:02:29) zoom in 6025.24 10930.41
+\i (00:02:29) trapsize 274
+\i (00:02:30) prepopup 5913.93 11069.13
+\i (00:02:32) pop dyn_option_select @:@Rotate 
+\i (00:02:32) spin 
+\t (00:02:32) Moving R15 / CR0603-F_-1R00ELF_RESC1608X55N_DISCRETE_4K7 / RESC1608X55N.
+\i (00:02:34) iangle -180.000
+\t (00:02:34) last angle:  180.000 Degrees
+\i (00:02:34) placementedit 
+\i (00:02:36) pick grid 5960.54 10928.22
+\t (00:02:36) last pick:  5960.00 10930.00
+\i (00:02:39) pop dyn_option_select 'Application Mode@:@Etch Edit' 
+\i (00:02:39) etchedit 
+\i (00:02:40) prepopup 5849.24 10954.53
+\i (00:02:42) pop dyn_option_select @:@Delete 
+\i (00:02:42) delete 
+\i (00:02:42) etchedit 
+\i (00:02:43) prepopup 5834.98 10877.77
+\i (00:02:45) pop dyn_option_select @:@Delete 
+\i (00:02:45) delete 
+\i (00:02:45) etchedit 
+\i (00:02:46) prepopup 5800.44 10966.05
+\i (00:02:47) pop dyn_option_select @:@Delete 
+\i (00:02:47) delete 
+\i (00:02:47) etchedit 
+\i (00:02:48) prepopup 5797.70 10921.64
+\i (00:02:49) prepopup 5788.92 10907.93
+\i (00:02:49) prepopup 5783.99 10910.12
+\i (00:02:50) prepopup 5734.64 10906.28
+\i (00:02:51) pick grid 5732.45 10907.38
+\t (00:02:51) last pick:  5725.00 10900.00
+\i (00:02:51) add connect 
+\t (00:02:51) Selected item not valid for current operation, ignored: Pin "Ic2.11 (Dummy Net)"
+\t (00:02:51) No valid items selected for the current operation, exiting.
+\i (00:02:51) etchedit 
+\i (00:02:53) prepopup 5788.38 10906.83
+\i (00:02:54) pop dyn_option_select @:@Delete 
+\i (00:02:54) delete 
+\i (00:02:54) etchedit 
+\i (00:02:56) undo 
+\i (00:02:56) trapsize 274
+\i (00:02:56) etchedit 
+\i (00:02:57) undo 
+\i (00:02:57) trapsize 274
+\i (00:02:57) etchedit 
+\i (00:02:58) undo 
+\i (00:02:58) trapsize 274
+\i (00:02:58) etchedit 
+\i (00:02:59) pick grid 5760.41 11063.10
+\t (00:02:59) last pick:  5750.00 11075.00
+\i (00:02:59) zoom in 1 
+\i (00:02:59) setwindow pcb
+\i (00:02:59) zoom in 5786.18 10928.76
+\i (00:02:59) trapsize 137
+\i (00:03:00) drag_start grid 5729.44 11020.88
+\i (00:03:01) drag_stop 5844.85 10853.93
+\i (00:03:02) prepopup 5792.49 10870.92
+\i (00:03:03) pop dyn_option_select @:@Delete 
+\i (00:03:03) delete 
+\t (00:03:03) Selected item not valid for current operation, ignored: Ratsnest "Tx, Ic2.12:J4.8"
+\t (00:03:03) Selected item not valid for current operation, ignored: Ratsnest "N01382, J6.2:Ic2.21"
+\t (00:03:03) Selected item not valid for current operation, ignored: Pin "Ic2.10 (Pa0)"
+\t (00:03:03) Selected item not valid for current operation, ignored: Pin "Ic2.11 (Dummy Net)"
+\t (00:03:03) Selected item not valid for current operation, ignored: Pin "Ic2.12 (Tx)"
+\t (00:03:03) Selected item not valid for current operation, ignored: Ratsnest "Pa0, Ic2.10:R15.2"
+\i (00:03:03) etchedit 
+\i (00:03:04) zoom out 1 
+\i (00:03:04) setwindow pcb
+\i (00:03:04) zoom out 5798.80 10867.08
+\i (00:03:04) trapsize 274
+\i (00:03:04) zoom out 1 
+\i (00:03:04) setwindow pcb
+\i (00:03:04) zoom out 5800.99 10870.38
+\i (00:03:04) trapsize 548
+\i (00:03:05) pick grid 5834.98 10955.91
+\t (00:03:05) last pick:  5825.00 10950.00
+\i (00:03:08) zoom out 1 
+\i (00:03:08) setwindow pcb
+\i (00:03:08) zoom out 5453.37 10857.22
+\i (00:03:08) trapsize 1097
+\i (00:03:09) zoom in 1 
+\i (00:03:09) setwindow pcb
+\i (00:03:09) zoom in 5394.16 10692.73
+\i (00:03:09) trapsize 548
+\i (00:03:09) zoom in 1 
+\i (00:03:09) setwindow pcb
+\i (00:03:09) zoom in 5421.58 10732.21
+\i (00:03:09) trapsize 274
+\i (00:03:10) drag_start grid 5417.20 10802.40
+\i (00:03:10) move 
+\t (00:03:10) last pick:  5425.00 10800.00
+\t (00:03:10) Element has no origin, using pick.
+\t (00:03:10) Pick new location for the element(s).
+\i (00:03:11) drag_stop grid 5558.11 10903.83
+\i (00:03:11) etchedit 
+\i (00:03:12) undo 
+\i (00:03:12) trapsize 274
+\i (00:03:12) etchedit 
+\i (00:03:13) pick grid 5743.43 10864.35
+\t (00:03:13) last pick:  5750.00 10875.00
+\i (00:03:14) drag_start grid 5447.35 10825.97
+\i (00:03:14) move 
+\t (00:03:14) last pick:  5450.00 10825.00
+\t (00:03:14) Element has no origin, using pick.
+\t (00:03:14) Pick new location for the element(s).
+\i (00:03:14) drag_stop grid 5466.54 10850.65
+\i (00:03:14) etchedit 
+\i (00:03:15) undo 
+\i (00:03:15) trapsize 274
+\i (00:03:15) etchedit 
+\i (00:03:16) drag_start grid 5472.03 10849.55
+\i (00:03:16) move 
+\t (00:03:16) last pick:  5475.00 10850.00
+\t (00:03:16) Element has no origin, using pick.
+\t (00:03:16) Pick new location for the element(s).
+\i (00:03:17) roam x 16
+\i (00:03:17) roam x 16
+\i (00:03:18) drag_stop grid 5846.41 10850.65
+\i (00:03:18) etchedit 
+\i (00:03:20) drag_start grid 5436.29 10828.17
+\i (00:03:21) drag_stop 5581.59 10926.31
+\i (00:03:23) prepopup 5490.57 10903.83
+\i (00:03:24) pop dyn_option_select @:@Delete 
+\i (00:03:24) delete 
+\t (00:03:24) Selected item not valid for current operation, ignored: Ratsnest "Tx, Ic2.12:J4.8"
+\t (00:03:24) Selected item not valid for current operation, ignored: Ratsnest "Rx, Ic2.13:Led2.2"
+\t (00:03:24) Selected item not valid for current operation, ignored: Ratsnest "Reset, Ic2.18:R6.1"
+\t (00:03:24) Selected item not valid for current operation, ignored: Ratsnest "Rst, Ic2.7:R12.2"
+\t (00:03:24) Selected item not valid for current operation, ignored: Pin "Ic2.13 (Rx)"
+\t (00:03:24) Selected item not valid for current operation, ignored: Pin "Ic2.14 (Dummy Net)"
+\t (00:03:24) Selected item not valid for current operation, ignored: Pin "Ic2.15 (Swclk)"
+\t (00:03:24) Selected item not valid for current operation, ignored: Pin "Ic2.16 (Dummy Net)"
+\t (00:03:24) Selected item not valid for current operation, ignored: Pin "Ic2.17 (Dummy Net)"
+\t (00:03:24) Selected item not valid for current operation, ignored: Pin "Ic2.18 (Reset)"
+\t (00:03:24) Selected item not valid for current operation, ignored: Pin "Ic2.19 (Dummy Net)"
+\t (00:03:24) Selected item not valid for current operation, ignored: Pin "Ic2.20 (Boot_1)"
+\t (00:03:24) Selected item not valid for current operation, ignored: Pin "Ic2.21 (N01382)"
+\t (00:03:24) Selected item not valid for current operation, ignored: Pin "Ic2.22 (Dummy Net)"
+\t (00:03:24) Selected item not valid for current operation, ignored: Pin "Ic2.23 (Gnd)"
+\t (00:03:24) Selected item not valid for current operation, ignored: Pin "Ic2.24 (+3V3)"
+\i (00:03:24) etchedit 
+\i (00:03:26) pick grid 5431.36 10830.36
+\t (00:03:26) last pick:  5425.00 10825.00
+\i (00:03:26) drag_start grid 5428.07 10835.29
+\i (00:03:28) drag_stop 5443.42 10854.48
+\i (00:03:28) drag_start grid 5443.97 10824.33
+\i (00:03:29) drag_stop 5457.13 10953.18
+\i (00:03:30) prepopup 5449.45 10931.79
+\i (00:03:31) pop dyn_option_select @:@Delete 
+\i (00:03:31) delete 
+\t (00:03:31) Selected item not valid for current operation, ignored: Ratsnest "N01382, J6.2:Ic2.21"
+\t (00:03:31) Selected item not valid for current operation, ignored: Ratsnest "Rx, Ic2.13:Led2.2"
+\t (00:03:31) Selected item not valid for current operation, ignored: Ratsnest "Reset, Ic2.18:R6.1"
+\t (00:03:31) Selected item not valid for current operation, ignored: Pin "Ic2.18 (Reset)"
+\t (00:03:31) Selected item not valid for current operation, ignored: Pin "Ic2.19 (Dummy Net)"
+\t (00:03:31) Selected item not valid for current operation, ignored: Pin "Ic2.20 (Boot_1)"
+\t (00:03:31) Selected item not valid for current operation, ignored: Pin "Ic2.21 (N01382)"
+\t (00:03:31) Selected item not valid for current operation, ignored: Pin "Ic2.22 (Dummy Net)"
+\t (00:03:31) Selected item not valid for current operation, ignored: Pin "Ic2.23 (Gnd)"
+\t (00:03:31) Selected item not valid for current operation, ignored: Pin "Ic2.24 (+3V3)"
+\i (00:03:31) etchedit 
+\i (00:03:32) zoom out 1 
+\i (00:03:32) setwindow pcb
+\i (00:03:32) zoom out 5508.12 10786.50
+\i (00:03:32) trapsize 548
+\i (00:03:32) zoom out 1 
+\i (00:03:32) setwindow pcb
+\i (00:03:32) zoom out 5534.44 10703.15
+\i (00:03:32) trapsize 1097
+\i (00:03:34) pick grid 5806.39 10977.31
+\t (00:03:34) last pick:  5800.00 10975.00
+\i (00:03:35) drag_start grid 5749.36 10990.47
+\i (00:03:35) move 
+\t (00:03:35) last pick:  5750.00 11000.00
+\t (00:03:35) Element has no origin, using pick.
+\t (00:03:35) Pick new location for the element(s).
+\i (00:03:38) drag_stop grid 5385.30 10997.04
+\i (00:03:38) etchedit 
+\i (00:03:38) pick grid 5527.85 11238.29
+\t (00:03:38) last pick:  5525.00 11250.00
+\i (00:03:39) zoom in 1 
+\i (00:03:39) setwindow pcb
+\i (00:03:39) zoom in 5817.35 11036.52
+\i (00:03:39) trapsize 548
+\i (00:03:40) zoom in 1 
+\i (00:03:40) setwindow pcb
+\i (00:03:40) zoom in 5945.66 10915.90
+\i (00:03:40) trapsize 274
+\i (00:03:40) zoom out 1 
+\i (00:03:40) setwindow pcb
+\i (00:03:40) zoom out 5946.20 10909.33
+\i (00:03:40) trapsize 548
+\i (00:03:40) zoom out 1 
+\i (00:03:40) setwindow pcb
+\i (00:03:40) zoom out 5936.34 10873.13
+\i (00:03:40) trapsize 1097
+\i (00:03:41) zoom in 1 
+\i (00:03:41) setwindow pcb
+\i (00:03:41) zoom in 5927.58 10820.50
+\i (00:03:41) trapsize 548
+\i (00:03:41) zoom in 1 
+\i (00:03:41) setwindow pcb
+\i (00:03:41) zoom in 5927.58 10820.51
+\i (00:03:41) trapsize 274
+\i (00:03:44) pop dyn_option_select 'Application Mode@:@Placement Edit' 
+\i (00:03:44) placementedit 
+\i (00:03:45) pick grid 5918.80 11073.27
+\t (00:03:45) last pick:  5920.00 11075.00
+\i (00:03:45) move 
+\t (00:03:45) last pick:  5910.00 11080.00
+\t (00:03:45) Moving R15 / CR0603-F_-1R00ELF_RESC1608X55N_DISCRETE_4K7 / RESC1608X55N.
+\t (00:03:45) Pick new location for the element(s).
+\i (00:03:50) pick grid 5882.07 10869.31
+\t (00:03:50) last pick:  5880.00 10870.00
+\i (00:03:50) placementedit 
+\i (00:03:51) pick grid 5946.22 10960.88
+\t (00:03:51) last pick:  5945.00 10960.00
+\i (00:03:52) zoom out 1 
+\i (00:03:52) setwindow pcb
+\i (00:03:52) zoom out 5928.12 10920.30
+\i (00:03:52) trapsize 548
+\i (00:03:52) zoom out 1 
+\i (00:03:52) setwindow pcb
+\i (00:03:52) zoom out 5924.84 10852.32
+\i (00:03:52) trapsize 1097
+\i (00:03:53) zoom out 1 
+\i (00:03:53) setwindow pcb
+\i (00:03:53) zoom out 5940.20 10589.13
+\t (00:03:53) Grids are drawn 20.00, 20.00 apart for enhanced viewing.
+\i (00:03:53) trapsize 2193
+\i (00:03:53) zoom in 1 
+\i (00:03:53) setwindow pcb
+\i (00:03:53) zoom in 5913.89 10453.16
+\t (00:03:53) Grids are drawn 10.00, 10.00 apart for enhanced viewing.
+\i (00:03:53) trapsize 1097
+\i (00:03:53) zoom in 1 
+\i (00:03:53) setwindow pcb
+\i (00:03:53) zoom in 5933.63 10457.55
+\i (00:03:53) trapsize 548
+\i (00:03:53) zoom in 1 
+\i (00:03:53) setwindow pcb
+\i (00:03:53) zoom in 5944.60 10461.94
+\i (00:03:53) trapsize 274
+\i (00:03:54) pick grid 5942.95 10492.10
+\t (00:03:54) last pick:  5945.00 10490.00
+\i (00:03:54) move 
+\t (00:03:54) last pick:  5945.00 10505.00
+\t (00:03:54) Moving R16 / CR0603-F_-1R00ELF_RESC1608X55N_DISCRETE_4K7 / RESC1608X55N.
+\t (00:03:54) Pick new location for the element(s).
+\i (00:03:55) zoom out 1 
+\i (00:03:55) setwindow pcb
+\i (00:03:55) zoom out 5958.30 10582.57
+\i (00:03:55) trapsize 548
+\i (00:03:55) zoom out 1 
+\i (00:03:55) setwindow pcb
+\i (00:03:55) zoom out 5940.77 10601.21
+\i (00:03:55) trapsize 1097
+\i (00:03:55) zoom in 1 
+\i (00:03:55) setwindow pcb
+\i (00:03:55) zoom in 5811.36 11011.34
+\i (00:03:55) trapsize 548
+\i (00:03:55) zoom in 1 
+\i (00:03:55) setwindow pcb
+\i (00:03:55) zoom in 5884.84 10947.74
+\i (00:03:55) trapsize 274
+\i (00:03:57) pick grid 5880.45 10941.16
+\t (00:03:57) last pick:  5880.00 10940.00
+\i (00:03:57) placementedit 
+\i (00:03:59) pick grid 6012.59 10957.61
+\t (00:03:59) last pick:  6015.00 10960.00
+\i (00:04:00) zoom out 1 
+\i (00:04:00) setwindow pcb
+\i (00:04:00) zoom out 5759.28 10858.37
+\i (00:04:00) trapsize 548
+\i (00:04:01) zoom out 1 
+\i (00:04:01) setwindow pcb
+\i (00:04:01) zoom out 5742.83 10836.44
+\i (00:04:01) trapsize 1097
+\i (00:04:02) zoom in 1 
+\i (00:04:02) setwindow pcb
+\i (00:04:02) zoom in 5731.87 10924.16
+\i (00:04:02) trapsize 548
+\i (00:04:02) zoom in 1 
+\i (00:04:02) setwindow pcb
+\i (00:04:02) zoom in 5731.87 10908.81
+\i (00:04:02) trapsize 274
+\i (00:04:02) zoom in 1 
+\i (00:04:02) setwindow pcb
+\i (00:04:02) zoom in 5730.78 10879.75
+\i (00:04:02) trapsize 137
+\i (00:04:04) zoom out 1 
+\i (00:04:04) setwindow pcb
+\i (00:04:04) zoom out 5621.39 10870.71
+\i (00:04:04) trapsize 274
+\i (00:04:04) zoom out 1 
+\i (00:04:04) setwindow pcb
+\i (00:04:04) zoom out 5621.40 10870.71
+\i (00:04:04) trapsize 548
+\i (00:04:04) zoom out 1 
+\i (00:04:04) setwindow pcb
+\i (00:04:04) zoom out 5621.40 10868.51
+\i (00:04:04) trapsize 1097
+\i (00:04:05) zoom out 1 
+\i (00:04:05) setwindow pcb
+\i (00:04:05) zoom out 5617.01 10807.10
+\t (00:04:05) Grids are drawn 20.00, 20.00 apart for enhanced viewing.
+\i (00:04:05) trapsize 2193
+\i (00:04:05) zoom out 1 
+\i (00:04:05) setwindow pcb
+\i (00:04:05) zoom out 5546.82 10754.46
+\t (00:04:05) Grids are drawn 40.00, 40.00 apart for enhanced viewing.
+\i (00:04:05) trapsize 4386
+\i (00:04:05) zoom out 1 
+\i (00:04:05) setwindow pcb
+\i (00:04:05) zoom out 5178.37 10473.74
+\t (00:04:05) Grids are drawn 80.00, 80.00 apart for enhanced viewing.
+\i (00:04:05) trapsize 8773
+\i (00:04:06) zoom in 1 
+\i (00:04:06) setwindow pcb
+\i (00:04:06) zoom in 2963.32 10227.48
+\t (00:04:06) Grids are drawn 40.00, 40.00 apart for enhanced viewing.
+\i (00:04:06) trapsize 4386
+\i (00:04:06) zoom in 1 
+\i (00:04:06) setwindow pcb
+\i (00:04:06) zoom in 3849.37 10578.38
+\t (00:04:06) Grids are drawn 20.00, 20.00 apart for enhanced viewing.
+\i (00:04:06) trapsize 2193
+\i (00:04:07) zoom in 1 
+\i (00:04:07) setwindow pcb
+\i (00:04:07) zoom in 4099.40 9973.07
+\t (00:04:07) Grids are drawn 10.00, 10.00 apart for enhanced viewing.
+\i (00:04:07) trapsize 1097
+\i (00:04:11) zoom in 1 
+\i (00:04:11) setwindow pcb
+\i (00:04:11) zoom in 3614.71 9913.85
+\i (00:04:11) trapsize 548
+\i (00:04:11) zoom in 1 
+\i (00:04:11) setwindow pcb
+\i (00:04:11) zoom in 3625.68 9877.67
+\i (00:04:11) trapsize 274
+\i (00:04:13) zoom out 1 
+\i (00:04:13) setwindow pcb
+\i (00:04:13) zoom out 3665.16 9886.44
+\i (00:04:13) trapsize 548
+\i (00:04:14) zoom out 1 
+\i (00:04:14) setwindow pcb
+\i (00:04:14) zoom out 3665.15 9886.44
+\i (00:04:14) trapsize 1097
+\i (00:04:17) zoom out 1 
+\i (00:04:17) setwindow pcb
+\i (00:04:17) zoom out 3930.53 9752.66
+\t (00:04:17) Grids are drawn 20.00, 20.00 apart for enhanced viewing.
+\i (00:04:17) trapsize 2193
+\i (00:04:17) zoom in 1 
+\i (00:04:17) setwindow pcb
+\i (00:04:17) zoom in 3825.26 9436.85
+\t (00:04:17) Grids are drawn 10.00, 10.00 apart for enhanced viewing.
+\i (00:04:17) trapsize 1097
+\i (00:04:18) zoom in 1 
+\i (00:04:18) setwindow pcb
+\i (00:04:18) zoom in 3816.49 9425.89
+\i (00:04:18) trapsize 548
+\i (00:04:18) zoom out 1 
+\i (00:04:18) setwindow pcb
+\i (00:04:18) zoom out 3818.69 9454.41
+\i (00:04:18) trapsize 1097
+\i (00:04:20) drag_start grid 3687.10 10463.26
+\i (00:04:21) drag_stop 4459.10 9417.12
+\i (00:04:21) pick grid 4388.91 9489.49
+\t (00:04:21) last pick:  4390.00 9490.00
+\i (00:04:21) move 
+\t (00:04:21) last pick:  4155.00 9685.00
+\t (00:04:21) Moving J4 / 95278-401A10LF_95278401A10LF_95278-401A10LF / 95278401A10LF.
+\t (00:04:21) Pick new location for the element(s).
+\i (00:04:23) pick grid 4182.76 9592.57
+\t (00:04:23) last pick:  4185.00 9595.00
+\i (00:04:23) placementedit 
+\i (00:04:23) undo 
+\i (00:04:23) trapsize 1097
+\i (00:04:23) placementedit 
+\i (00:04:24) drag_start grid 3601.56 10555.38
+\i (00:04:25) drag_stop 4487.61 9397.38
+\i (00:04:26) drag_start grid tgl 5224.51 9976.38
+\i (00:04:27) drag_stop tgl 5770.61 9456.60
+\i (00:04:29) prepopup 4329.70 9739.52
+\i (00:04:31) move 
+\i (00:04:32) pick grid 4342.86 10195.70
+\t (00:04:32) last pick:  4345.00 10195.00
+\t (00:04:32) Moving Q1 / 2N7002_SOT96P240X120-3N_2N7002 / SOT96P240X120-3N.
+\t (00:04:32) Moving J4 / 95278-401A10LF_95278401A10LF_95278-401A10LF / 95278401A10LF.
+\t (00:04:32) Moving R7 / CR0603-F_-1R00ELF_RESC1608X55N_DISCRETE_1K / RESC1608X55N.
+\t (00:04:32) Moving R6 / CR0603-F_-1R00ELF_RESC1608X55N_DISCRETE_22 / RESC1608X55N.
+\t (00:04:32) Moving LED2 / SM0603SRC_SM0603SRC_SM0603SRC / SM0603SRC.
+\t (00:04:32) Moving R10 / CR0603-F_-1R00ELF_RESC1608X55N_DISCRETE_1K / RESC1608X55N.
+\t (00:04:32) Moving R4 / CR0603-F_-1R00ELF_RESC1608X55N_DISCRETE_22 / RESC1608X55N.
+\t (00:04:32) Pick new location for the element(s).
+\i (00:04:32) zoom out 1 
+\i (00:04:32) setwindow pcb
+\i (00:04:32) zoom out 4040.20 10520.29
+\t (00:04:32) Grids are drawn 20.00, 20.00 apart for enhanced viewing.
+\i (00:04:32) trapsize 2193
+\i (00:04:32) zoom out 1 
+\i (00:04:32) setwindow pcb
+\i (00:04:32) zoom out 4084.06 10476.42
+\t (00:04:32) Grids are drawn 40.00, 40.00 apart for enhanced viewing.
+\i (00:04:33) trapsize 4386
+\i (00:04:35) pick grid 7312.42 11125.60
+\t (00:04:35) last pick:  7310.00 11125.00
+\i (00:04:35) placementedit 
+\i (00:04:35) pick grid 6882.55 8537.65
+\t (00:04:35) last pick:  6885.00 8540.00
+\i (00:04:36) zoom in 1 
+\i (00:04:36) setwindow pcb
+\i (00:04:36) zoom in 6636.92 11380.00
+\t (00:04:36) Grids are drawn 20.00, 20.00 apart for enhanced viewing.
+\i (00:04:36) trapsize 2193
+\i (00:04:37) zoom in 1 
+\i (00:04:37) setwindow pcb
+\i (00:04:37) zoom in 4062.13 10164.98
+\t (00:04:37) Grids are drawn 10.00, 10.00 apart for enhanced viewing.
+\i (00:04:37) trapsize 1097
+\i (00:04:38) zoom out 1 
+\i (00:04:38) setwindow pcb
+\i (00:04:38) zoom out 4448.13 10000.49
+\t (00:04:38) Grids are drawn 20.00, 20.00 apart for enhanced viewing.
+\i (00:04:38) trapsize 2193
+\i (00:04:38) zoom out 1 
+\i (00:04:38) setwindow pcb
+\i (00:04:38) zoom out 4448.13 10000.50
+\t (00:04:38) Grids are drawn 40.00, 40.00 apart for enhanced viewing.
+\i (00:04:38) trapsize 4386
+\i (00:04:38) zoom in 1 
+\i (00:04:38) setwindow pcb
+\i (00:04:38) zoom in 6106.17 10825.13
+\t (00:04:38) Grids are drawn 20.00, 20.00 apart for enhanced viewing.
+\i (00:04:38) trapsize 2193
+\i (00:04:39) zoom in 1 
+\i (00:04:39) setwindow pcb
+\i (00:04:39) zoom in 4825.36 11018.13
+\t (00:04:39) Grids are drawn 10.00, 10.00 apart for enhanced viewing.
+\i (00:04:39) trapsize 1097
+\i (00:04:39) zoom in 1 
+\i (00:04:39) setwindow pcb
+\i (00:04:39) zoom in 5663.16 10579.50
+\i (00:04:39) trapsize 548
+\i (00:04:40) zoom in 1 
+\i (00:04:40) setwindow pcb
+\i (00:04:40) zoom in 5677.41 10932.60
+\i (00:04:40) trapsize 274
+\i (00:04:41) zoom out 1 
+\i (00:04:41) setwindow pcb
+\i (00:04:41) zoom out 5742.66 10834.46
+\i (00:04:41) trapsize 548
+\i (00:04:41) zoom out 1 
+\i (00:04:41) setwindow pcb
+\i (00:04:41) zoom out 5742.66 10834.46
+\i (00:04:41) trapsize 1097
+\i (00:04:42) zoom in 1 
+\i (00:04:42) setwindow pcb
+\i (00:04:42) zoom in 5433.42 11141.50
+\i (00:04:42) trapsize 548
+\i (00:04:42) zoom in 1 
+\i (00:04:42) setwindow pcb
+\i (00:04:42) zoom in 5449.87 11136.01
+\i (00:04:42) trapsize 274
+\i (00:04:45) zoom out 1 
+\i (00:04:45) setwindow pcb
+\i (00:04:45) zoom out 5326.51 11119.57
+\i (00:04:45) trapsize 548
+\i (00:04:45) zoom out 1 
+\i (00:04:45) setwindow pcb
+\i (00:04:45) zoom out 5272.77 11201.81
+\i (00:04:45) trapsize 1097
+\i (00:04:45) zoom out 1 
+\i (00:04:45) setwindow pcb
+\i (00:04:45) zoom out 5250.84 11228.13
+\t (00:04:45) Grids are drawn 20.00, 20.00 apart for enhanced viewing.
+\i (00:04:45) trapsize 2193
+\i (00:04:49) undo 
+\t (00:04:49) Grids are drawn 10.00, 10.00 apart for enhanced viewing.
+\i (00:04:49) trapsize 1097
+\i (00:04:49) placementedit 
+\i (00:04:50) pick grid 3630.08 9759.25
+\t (00:04:50) last pick:  3630.00 9760.00
+\i (00:04:51) zoom out 1 
+\i (00:04:51) setwindow pcb
+\i (00:04:51) zoom out 3684.90 10206.66
+\t (00:04:51) Grids are drawn 20.00, 20.00 apart for enhanced viewing.
+\i (00:04:51) trapsize 2193
+\i (00:04:51) zoom out 1 
+\i (00:04:51) setwindow pcb
+\i (00:04:51) zoom out 3680.52 10206.66
+\t (00:04:51) Grids are drawn 40.00, 40.00 apart for enhanced viewing.
+\i (00:04:51) trapsize 4386
+\i (00:04:52) zoom out 1 
+\i (00:04:52) setwindow pcb
+\i (00:04:52) zoom out 2408.49 12496.34
+\t (00:04:52) Grids are drawn 80.00, 80.00 apart for enhanced viewing.
+\i (00:04:52) trapsize 8773
+\i (00:04:53) zoom in 1 
+\i (00:04:53) setwindow pcb
+\i (00:04:53) zoom in 1349.15 12829.71
+\t (00:04:53) Grids are drawn 40.00, 40.00 apart for enhanced viewing.
+\i (00:04:53) trapsize 4386
+\i (00:04:53) zoom in 1 
+\i (00:04:53) setwindow pcb
+\i (00:04:53) zoom in 1542.15 12759.53
+\t (00:04:53) Grids are drawn 20.00, 20.00 apart for enhanced viewing.
+\i (00:04:53) trapsize 2193
+\i (00:04:53) zoom in 1 
+\i (00:04:53) setwindow pcb
+\i (00:04:53) zoom in 1844.81 12641.10
+\t (00:04:53) Grids are drawn 10.00, 10.00 apart for enhanced viewing.
+\i (00:04:53) trapsize 1097
+\i (00:04:54) zoom in 1 
+\i (00:04:54) setwindow pcb
+\i (00:04:54) zoom in 2415.04 12461.26
+\i (00:04:54) trapsize 548
+\i (00:04:57) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Setup
+\i (00:04:57) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Setup
+\i (00:04:58) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Setup Grids
+\i (00:04:58) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Setup Grids
+\i (00:04:58) define grid 
+\t (00:04:58) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:05:14) setwindow form.grid
+\i (00:05:14) FORM grid top subclass_x_grids 15 
+\i (00:05:16) FORM grid top subclass_y_grids 15 
+\i (00:05:16) FORM grid bottom subclass_x_grids 15 
+\i (00:05:17) FORM grid bottom subclass_y_grids 15 
+\i (00:05:18) FORM grid non_etch non_etch_x_grids 15 
+\i (00:05:19) FORM grid non_etch non_etch_y_grids 15 
+\i (00:05:21) FORM grid apply  
+\i (00:05:22) FORM grid done  
+\i (00:05:23) setwindow pcb
+\i (00:05:23) pick grid 2431.49 12229.88
+\t (00:05:23) last pick:  2430.00 12225.00
+\i (00:05:23) move 
+\t (00:05:23) last pick:  2400.00 12200.00
+\t (00:05:23) Moving IC1 / MMS9013-L-TP_SOT95P237X125-3N_MMS9013-L-TP / SOT95P237X125-3N.
+\t (00:05:23) Pick new location for the element(s).
+\i (00:05:26) pick grid 2395.31 12203.56
+\t (00:05:26) last pick:  2400.00 12210.00
+\i (00:05:26) placementedit 
+\i (00:05:29) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Setup Grids
+\i (00:05:29) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Setup Grids
+\i (00:05:29) define grid 
+\t (00:05:29) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:05:34) setwindow form.grid
+\i (00:05:34) FORM grid non_etch non_etch_x_grids 10 
+\i (00:05:34) FORM grid non_etch non_etch_y_grids 10 
+\i (00:05:35) FORM grid top subclass_x_grids 10 
+\i (00:05:36) FORM grid top subclass_y_grids 10 
+\i (00:05:36) FORM grid bottom subclass_x_grids 10 
+\i (00:05:37) FORM grid bottom subclass_y_grids 10 
+\i (00:05:38) FORM grid apply  
+\i (00:05:39) FORM grid done  
+\i (00:05:40) setwindow pcb
+\i (00:05:40) zoom in 1 
+\i (00:05:40) setwindow pcb
+\i (00:05:40) zoom in 2281.26 12175.05
+\i (00:05:40) trapsize 274
+\i (00:05:40) zoom in 1 
+\i (00:05:40) setwindow pcb
+\i (00:05:40) zoom in 2266.46 12165.18
+\i (00:05:40) trapsize 137
+\i (00:05:41) pick grid 2370.37 12209.87
+\t (00:05:41) last pick:  2370.00 12210.00
+\i (00:05:41) move 
+\t (00:05:41) last pick:  2400.00 12210.00
+\t (00:05:41) Moving IC1 / MMS9013-L-TP_SOT95P237X125-3N_MMS9013-L-TP / SOT95P237X125-3N.
+\t (00:05:41) Pick new location for the element(s).
+\i (00:05:43) pick grid 2385.99 12200.28
+\t (00:05:43) last pick:  2390.00 12200.00
+\i (00:05:43) placementedit 
+\i (00:05:43) pick grid 2331.44 12118.58
+\t (00:05:43) last pick:  2330.00 12120.00
+\i (00:05:44) zoom out 1 
+\i (00:05:44) setwindow pcb
+\i (00:05:44) zoom out 2315.81 12111.45
+\i (00:05:44) trapsize 274
+\i (00:05:44) zoom out 1 
+\i (00:05:44) setwindow pcb
+\i (00:05:44) zoom out 2306.49 12114.20
+\i (00:05:44) trapsize 548
+\i (00:05:44) zoom out 1 
+\i (00:05:44) setwindow pcb
+\i (00:05:44) zoom out 2304.30 12113.11
+\i (00:05:44) trapsize 1097
+\i (00:05:44) zoom out 1 
+\i (00:05:44) setwindow pcb
+\i (00:05:44) zoom out 2304.31 12113.10
+\t (00:05:44) Grids are drawn 20.00, 20.00 apart for enhanced viewing.
+\i (00:05:44) trapsize 2193
+\i (00:06:07) xNet +3V3 
+\i (00:06:07) xrefdes R1 
+\i (00:06:07) xNet N00782 
+\i (00:06:07) xNet Gnd 
+\i (00:06:07) xNet N02734 
+\i (00:06:07) xNet N01382 
+\i (00:06:07) xNet Tx 
+\i (00:06:07) xNet Swdio 
+\i (00:06:07) xNet Led_Link 
+\i (00:06:07) xrefdes R9 
+\i (00:06:07) xNet N00775 
+\i (00:06:07) xNet N00368 
+\i (00:06:07) xrefdes C1 
+\i (00:06:07) xNet Swclk 
+\i (00:06:07) xrefdes R3 
+\i (00:06:07) xNet Swo 
+\i (00:06:07) xrefdes J6 
+\i (00:06:07) xNet Reset 
+\i (00:06:07) xNet Boot_1 
+\i (00:06:07) xNet Usb_Dm 
+\i (00:06:07) xNet Usb_Renum 
+\i (00:06:07) xNet N00410 
+\i (00:06:07) xNet Pa0 
+\i (00:06:07) xNet Usb_Dp 
+\i (00:06:07) xrefdes Ic2 
+\i (00:06:07) xrefdes Y1 
+\i (00:06:07) xNet Swdio_In 
+\i (00:06:07) xNet Swclk_In 
+\i (00:06:07) xNet Boot_0 
+\i (00:06:07) xNet Rst 
+\i (00:06:07) xrefdes C2 
+\i (00:06:07) xNet Rx 
+\i (00:06:07) xname_flush 
+\i (00:06:08) xNet '!' +3V3 
+\i (00:06:08) xrefdes '!' R1 
+\i (00:06:08) xNet '!' N00782 
+\i (00:06:08) xNet '!' Gnd 
+\i (00:06:08) xNet '!' N02734 
+\i (00:06:08) xNet '!' N01382 
+\i (00:06:08) xNet '!' Tx 
+\i (00:06:08) xNet '!' Swdio 
+\i (00:06:08) xNet '!' Led_Link 
+\i (00:06:08) xrefdes '!' R9 
+\i (00:06:08) xNet '!' N00775 
+\i (00:06:08) xNet '!' N00368 
+\i (00:06:08) xrefdes '!' C1 
+\i (00:06:08) xNet '!' Swclk 
+\i (00:06:08) xrefdes '!' R3 
+\i (00:06:08) xNet '!' Swo 
+\i (00:06:08) xrefdes '!' J6 
+\i (00:06:08) xNet '!' Reset 
+\i (00:06:08) xNet '!' Boot_1 
+\i (00:06:08) xNet '!' Usb_Dm 
+\i (00:06:08) xNet '!' Usb_Renum 
+\i (00:06:08) xNet '!' N00410 
+\i (00:06:08) xNet '!' Pa0 
+\i (00:06:08) xNet '!' Usb_Dp 
+\i (00:06:08) xrefdes '!' Ic2 
+\i (00:06:08) xrefdes '!' Y1 
+\i (00:06:08) xNet '!' Swdio_In 
+\i (00:06:08) xNet '!' Swclk_In 
+\i (00:06:08) xNet '!' Boot_0 
+\i (00:06:08) xNet '!' Rst 
+\i (00:06:08) xrefdes '!' C2 
+\i (00:06:08) xNet '!' Rx 
+\i (00:06:08) xname_flush '!' 
+\i (00:06:39) xNet Gnd 
+\i (00:06:39) xNet Swdio_In 
+\i (00:06:39) xrefdes J5 
+\i (00:06:39) xNet Swclk_In 
+\i (00:06:39) xname_flush 
+\t (00:06:39) Grids are drawn 40.00, 40.00 apart for enhanced viewing.
+\i (00:06:39) trapsize 3173
+\i (00:06:48) xrefdes '!' J5 
+\i (00:06:48) xname_flush '!' 
+\i (00:07:08) xNet Gnd 
+\i (00:07:08) xNet Swdio_In 
+\i (00:07:08) xrefdes J5 
+\i (00:07:08) xNet Swclk_In 
+\i (00:07:08) xname_flush 
+\i (00:07:08) trapsize 3173
+\i (00:07:11) xNet '!' Gnd 
+\i (00:07:11) xNet '!' Swdio_In 
+\i (00:07:11) xrefdes '!' J5 
+\i (00:07:11) xNet '!' Swclk_In 
+\i (00:07:11) xname_flush '!' 
+\i (00:07:20) xNet Gnd 
+\i (00:07:20) xname_flush 
+\i (00:07:20) trapsize 3173
+\i (00:07:21) xNet '!' Gnd 
+\i (00:07:21) xname_flush '!' 
+\i (00:07:34) xname_flush 
+\i (00:07:35) xname_flush '!' 
+\i (00:07:42) xname_flush 
+\i (00:07:47) xname_flush '!' 
+\i (00:07:47) xname_flush 
+\i (00:07:50) xname_flush '!' 
+\i (00:07:51) xname_flush 
+\i (00:07:51) xname_flush '!' 
+\i (00:07:58) xname_flush 
+\i (00:07:58) xname_flush '!' 
+\i (00:08:28) xrefdes R20 
+\i (00:08:28) xNet N27475 
+\i (00:08:28) xNet Dp 
+\i (00:08:28) xNet Usb_Renum 
+\i (00:08:28) xNet Usb_Dm 
+\i (00:08:28) xNet Dn 
+\i (00:08:28) xNet Usb_Dp 
+\i (00:08:28) xrefdes R14 
+\i (00:08:28) xrefdes R13 
+\i (00:08:28) xrefdes R21 
+\i (00:08:28) xrefdes R23 
+\i (00:08:28) xrefdes Ic1 
+\i (00:08:28) xNet +5V 
+\i (00:08:28) xNet Gnd 
+\i (00:08:28) xrefdes R11 
+\i (00:08:28) xNet +3V3 
+\i (00:08:28) xname_flush 
+\i (00:08:28) trapsize 3173
+\i (00:08:38) xNet N27475 
+\i (00:08:39) xname_flush 
+\t (00:08:39) Grids are drawn 20.00, 20.00 apart for enhanced viewing.
+\i (00:08:39) trapsize 1640
+\i (00:08:41) xrefdes '!' R20 
+\i (00:08:41) xNet '!' N27475 
+\i (00:08:41) xNet '!' Dp 
+\i (00:08:41) xNet '!' Usb_Renum 
+\i (00:08:41) xNet '!' Usb_Dm 
+\i (00:08:41) xNet '!' Dn 
+\i (00:08:41) xNet '!' Usb_Dp 
+\i (00:08:41) xrefdes '!' R14 
+\i (00:08:41) xrefdes '!' R13 
+\i (00:08:41) xrefdes '!' R21 
+\i (00:08:41) xrefdes '!' R23 
+\i (00:08:41) xrefdes '!' Ic1 
+\i (00:08:41) xNet '!' +5V 
+\i (00:08:41) xNet '!' Gnd 
+\i (00:08:41) xrefdes '!' R11 
+\i (00:08:41) xNet '!' +3V3 
+\i (00:08:41) xname_flush '!' 
+\i (00:08:43) xname_flush 
+\i (00:08:49) xname_flush 
+\i (00:08:50) xname_flush '!' 
+\i (00:09:16) xNet +5V 
+\i (00:09:16) xNet Fuse 
+\i (00:09:16) xrefdes F1 
+\i (00:09:16) xname_flush 
+\t (00:09:16) Grids are drawn 40.00, 40.00 apart for enhanced viewing.
+\i (00:09:16) trapsize 2828
+\i (00:09:23) xNet '!' +5V 
+\i (00:09:23) xNet '!' Fuse 
+\i (00:09:23) xrefdes '!' F1 
+\i (00:09:23) xname_flush '!' 
+\i (00:09:24) xNet +5V 
+\i (00:09:24) xNet Fuse 
+\i (00:09:24) xrefdes F1 
+\i (00:09:24) xname_flush 
+\i (00:09:24) trapsize 2828
+\i (00:09:27) xNet '!' +5V 
+\i (00:09:27) xNet '!' Fuse 
+\i (00:09:27) xrefdes '!' F1 
+\i (00:09:27) xname_flush '!' 
+\i (00:09:29) xNet Fuse 
+\i (00:09:29) xrefdes J1 
+\i (00:09:29) xNet Gnd 
+\i (00:09:29) xNet N30510 
+\i (00:09:29) xNet Dp 
+\i (00:09:29) xNet Dn 
+\i (00:09:29) xNet N30478 
+\i (00:09:29) xrefdes R19 
+\i (00:09:29) xrefdes R18 
+\i (00:09:29) xname_flush 
+\i (00:09:29) trapsize 3173
+\i (00:09:33) xrefdes '!' J1 
+\i (00:09:33) xrefdes '!' R19 
+\i (00:09:33) xrefdes '!' R18 
+\i (00:09:33) xname_flush '!' 
+\i (00:09:38) xNet Fuse 
+\i (00:09:38) xrefdes J1 
+\i (00:09:38) xNet Gnd 
+\i (00:09:38) xNet N30510 
+\i (00:09:38) xNet Dp 
+\i (00:09:38) xNet Dn 
+\i (00:09:38) xNet N30478 
+\i (00:09:38) xrefdes R19 
+\i (00:09:38) xrefdes R18 
+\i (00:09:38) xname_flush 
+\i (00:09:38) trapsize 3173
+\i (00:09:47) xNet '!' Fuse 
+\i (00:09:47) xrefdes '!' J1 
+\i (00:09:47) xNet '!' Gnd 
+\i (00:09:47) xNet '!' N30510 
+\i (00:09:47) xNet '!' Dp 
+\i (00:09:47) xNet '!' Dn 
+\i (00:09:47) xNet '!' N30478 
+\i (00:09:47) xrefdes '!' R19 
+\i (00:09:47) xrefdes '!' R18 
+\i (00:09:47) xname_flush '!' 
+\i (00:09:48) xrefdes R20 
+\i (00:09:48) xNet +3V3 
+\i (00:09:48) xrefdes R1 
+\i (00:09:48) xNet Gnd 
+\i (00:09:48) xNet N00782 
+\i (00:09:48) xNet Swdio_In 
+\i (00:09:48) xNet N02734 
+\i (00:09:48) xNet N27475 
+\i (00:09:48) xNet Dp 
+\i (00:09:48) xNet N01382 
+\i (00:09:48) xNet Usb_Dm 
+\i (00:09:48) xNet Tx 
+\i (00:09:48) xNet Swdio 
+\i (00:09:48) xNet Led_Link 
+\i (00:09:48) xNet Dn 
+\i (00:09:48) xrefdes R9 
+\i (00:09:48) xNet N00775 
+\i (00:09:48) xNet N00368 
+\i (00:09:48) xrefdes C1 
+\i (00:09:48) xNet Usb_Dp 
+\i (00:09:48) xNet Swclk 
+\i (00:09:48) xrefdes R3 
+\i (00:09:48) xNet Swo 
+\i (00:09:48) xrefdes J6 
+\i (00:09:48) xrefdes R14 
+\i (00:09:48) xNet Reset 
+\i (00:09:48) xNet Boot_1 
+\i (00:09:48) xrefdes R13 
+\i (00:09:48) xNet Usb_Renum 
+\i (00:09:48) xNet N00410 
+\i (00:09:48) xNet Pa0 
+\i (00:09:48) xrefdes R21 
+\i (00:09:48) xrefdes Ic2 
+\i (00:09:48) xrefdes Y1 
+\i (00:09:48) xrefdes R23 
+\i (00:09:48) xrefdes Ic1 
+\i (00:09:48) xNet Swclk_In 
+\i (00:09:48) xrefdes J5 
+\i (00:09:48) xNet Boot_0 
+\i (00:09:48) xNet Rst 
+\i (00:09:48) xNet +5V 
+\i (00:09:48) xrefdes C2 
+\i (00:09:48) xNet Rx 
+\i (00:09:48) xrefdes R11 
+\i (00:09:48) xname_flush 
+\i (00:09:50) xrefdes '!' R20 
+\i (00:09:50) xNet '!' +3V3 
+\i (00:09:50) xrefdes '!' R1 
+\i (00:09:50) xNet '!' Gnd 
+\i (00:09:50) xNet '!' N00782 
+\i (00:09:50) xNet '!' Swdio_In 
+\i (00:09:50) xNet '!' N02734 
+\i (00:09:50) xNet '!' N27475 
+\i (00:09:50) xNet '!' Dp 
+\i (00:09:50) xNet '!' N01382 
+\i (00:09:50) xNet '!' Usb_Dm 
+\i (00:09:50) xNet '!' Tx 
+\i (00:09:50) xNet '!' Swdio 
+\i (00:09:50) xNet '!' Led_Link 
+\i (00:09:50) xNet '!' Dn 
+\i (00:09:50) xrefdes '!' R9 
+\i (00:09:50) xNet '!' N00775 
+\i (00:09:50) xNet '!' N00368 
+\i (00:09:50) xrefdes '!' C1 
+\i (00:09:50) xNet '!' Usb_Dp 
+\i (00:09:50) xNet '!' Swclk 
+\i (00:09:50) xrefdes '!' R3 
+\i (00:09:50) xNet '!' Swo 
+\i (00:09:50) xrefdes '!' J6 
+\i (00:09:50) xrefdes '!' R14 
+\i (00:09:50) xNet '!' Reset 
+\i (00:09:50) xNet '!' Boot_1 
+\i (00:09:50) xrefdes '!' R13 
+\i (00:09:50) xNet '!' Usb_Renum 
+\i (00:09:50) xNet '!' N00410 
+\i (00:09:50) xNet '!' Pa0 
+\i (00:09:50) xrefdes '!' R21 
+\i (00:09:50) xrefdes '!' Ic2 
+\i (00:09:50) xrefdes '!' Y1 
+\i (00:09:50) xrefdes '!' R23 
+\i (00:09:50) xrefdes '!' Ic1 
+\i (00:09:50) xNet '!' Swclk_In 
+\i (00:09:50) xrefdes '!' J5 
+\i (00:09:50) xNet '!' Boot_0 
+\i (00:09:50) xNet '!' Rst 
+\i (00:09:50) xNet '!' +5V 
+\i (00:09:50) xrefdes '!' C2 
+\i (00:09:50) xNet '!' Rx 
+\i (00:09:50) xrefdes '!' R11 
+\i (00:09:50) xname_flush '!' 
+\i (00:09:51) xNet Fuse 
+\i (00:09:51) xrefdes J1 
+\i (00:09:51) xNet Gnd 
+\i (00:09:51) xNet N30510 
+\i (00:09:51) xNet Dp 
+\i (00:09:51) xNet Dn 
+\i (00:09:51) xNet N30478 
+\i (00:09:51) xrefdes R19 
+\i (00:09:51) xrefdes R18 
+\i (00:09:51) xname_flush 
+\i (00:09:51) trapsize 3173
+\i (00:09:55) xNet '!' Fuse 
+\i (00:09:55) xrefdes '!' J1 
+\i (00:09:55) xNet '!' Gnd 
+\i (00:09:55) xNet '!' N30510 
+\i (00:09:55) xNet '!' Dp 
+\i (00:09:55) xNet '!' Dn 
+\i (00:09:55) xNet '!' N30478 
+\i (00:09:55) xrefdes '!' R19 
+\i (00:09:55) xrefdes '!' R18 
+\i (00:09:55) xname_flush '!' 
+\i (00:09:58) xNet Fuse 
+\i (00:09:58) xrefdes J1 
+\i (00:09:58) xNet Gnd 
+\i (00:09:58) xNet N30510 
+\i (00:09:58) xNet Dp 
+\i (00:09:58) xNet Dn 
+\i (00:09:58) xNet N30478 
+\i (00:09:58) xrefdes R19 
+\i (00:09:58) xrefdes R18 
+\i (00:09:58) xname_flush 
+\i (00:09:58) trapsize 3173
+\i (00:10:02) xNet '!' Fuse 
+\i (00:10:02) xrefdes '!' J1 
+\i (00:10:02) xNet '!' Gnd 
+\i (00:10:02) xNet '!' N30510 
+\i (00:10:02) xNet '!' Dp 
+\i (00:10:02) xNet '!' Dn 
+\i (00:10:02) xNet '!' N30478 
+\i (00:10:02) xrefdes '!' R19 
+\i (00:10:02) xrefdes '!' R18 
+\i (00:10:02) xname_flush '!' 
+\i (00:10:26) xname_flush 
+\i (00:10:28) xname_flush '!' 
+\i (00:10:28) xname_flush 
+\i (00:10:30) xname_flush '!' 
+\i (00:10:36) xname_flush 
+\i (00:10:38) xname_flush '!' 
+\i (00:10:38) xname_flush 
+\i (00:10:39) xname_flush '!' 
+\i (00:10:39) xname_flush 
+\i (00:10:40) xname_flush '!' 
+\i (00:11:06) xNet Dn 
+\i (00:11:06) xname_flush 
+\i (00:11:06) trapsize 917
+\i (00:11:07) xNet '!' Dn 
+\i (00:11:07) xname_flush '!' 
+\i (00:11:07) xNet Dn 
+\i (00:11:07) xname_flush 
+\i (00:11:07) trapsize 917
+\i (00:11:08) xNet '!' Dn 
+\i (00:11:08) xname_flush '!' 
+\i (00:11:13) xname_flush 
+\i (00:11:15) xname_flush '!' 
+\i (00:11:15) xname_flush 
+\i (00:11:17) xNet '!' Dn 
+\i (00:11:17) xname_flush '!' 
+\i (00:11:17) xNet Dn 
+\i (00:11:17) xname_flush 
+\i (00:11:17) trapsize 917
+\i (00:11:18) xNet '!' Dn 
+\i (00:11:18) xname_flush '!' 
+\i (00:11:27) xname_flush 
+\i (00:11:29) xname_flush 
+\i (00:11:33) xNet Gnd 
+\i (00:11:33) xname_flush 
+\i (00:11:33) trapsize 3173
+\i (00:11:34) xNet '!' Gnd 
+\i (00:11:34) xname_flush '!' 
+\i (00:11:35) xNet Gnd 
+\i (00:11:35) xname_flush 
+\i (00:11:35) trapsize 3173
+\i (00:11:36) xNet '!' Gnd 
+\i (00:11:36) xname_flush '!' 
+\i (00:11:41) xname_flush 
+\i (00:11:46) xname_flush 
+\i (00:11:49) xname_flush '!' 
+\i (00:11:49) xname_flush 
+\i (00:11:50) xNet '!' Gnd 
+\i (00:11:50) xname_flush '!' 
+\i (00:11:50) xNet Gnd 
+\i (00:11:50) xname_flush 
+\i (00:11:50) trapsize 3173
+\i (00:11:50) xNet '!' Gnd 
+\i (00:11:50) xname_flush '!' 
+\i (00:12:11) xrefdes R17 
+\i (00:12:11) xNet Gnd 
+\i (00:12:11) xNet Boot_0 
+\i (00:12:11) xname_flush 
+\i (00:12:11) trapsize 3173
+\i (00:12:18) xNet Boot_1 
+\i (00:12:18) xrefdes R17 
+\i (00:12:18) xNet Gnd 
+\i (00:12:18) xrefdes R22 
+\i (00:12:18) xNet Boot_0 
+\i (00:12:18) xname_flush 
+\i (00:12:18) trapsize 3173
+\i (00:12:26) xNet '!' Gnd 
+\i (00:12:26) xNet '!' Boot_1 
+\i (00:12:26) xNet '!' Boot_0 
+\i (00:12:26) xname_flush '!' 
+\i (00:12:27) xNet Gnd 
+\i (00:12:27) xNet Boot_0 
+\i (00:12:27) xname_flush 
+\i (00:12:27) trapsize 3173
+\i (00:12:32) xname_flush '!' 
+\i (00:12:37) xNet Boot_1 
+\i (00:12:37) xNet Gnd 
+\i (00:12:37) xname_flush 
+\i (00:12:37) trapsize 3173
+\i (00:12:39) xNet '!' Boot_1 
+\i (00:12:39) xNet '!' Gnd 
+\i (00:12:39) xname_flush '!' 
+\i (00:12:39) xNet Gnd 
+\i (00:12:39) xname_flush 
+\i (00:12:39) trapsize 3173
+\i (00:12:43) xNet '!' Gnd 
+\i (00:12:43) xname_flush '!' 
+\i (00:12:45) xname_flush 
+\i (00:12:45) xname_flush '!' 
+\i (00:12:58) xNet Boot_1 
+\i (00:12:58) xNet Gnd 
+\i (00:12:58) xname_flush 
+\i (00:12:58) trapsize 3173
+\i (00:13:02) xNet '!' Boot_1 
+\i (00:13:02) xNet '!' Gnd 
+\i (00:13:02) xname_flush '!' 
+\i (00:13:08) xname_flush 
+\i (00:13:08) xname_flush '!' 
+\i (00:13:09) xname_flush 
+\i (00:13:09) xname_flush '!' 
+\i (00:13:10) xname_flush 
+\i (00:13:11) xname_flush '!' 
+\i (00:13:13) xNet Gnd 
+\i (00:13:13) xname_flush 
+\i (00:13:13) trapsize 3173
+\i (00:13:18) xNet '!' Gnd 
+\i (00:13:18) xname_flush '!' 
+\i (00:13:20) xname_flush 
+\i (00:13:22) xname_flush '!' 
+\i (00:13:42) xNet N09921 
+\i (00:13:42) xNet Led_Link 
+\i (00:13:42) xrefdes Led4 
+\i (00:13:42) xNet Gnd 
+\i (00:13:42) xrefdes Led5 
+\i (00:13:42) xrefdes R26 
+\i (00:13:42) xrefdes R25 
+\i (00:13:42) xNet +3V3 
+\i (00:13:42) xNet N09917 
+\i (00:13:42) xname_flush 
+\i (00:13:42) trapsize 3353
+\i (00:13:56) xNet '!' Led_Link 
+\i (00:13:56) xNet '!' Gnd 
+\i (00:13:56) xNet '!' +3V3 
+\i (00:13:56) xname_flush '!' 
+\i (00:14:01) xname_flush 
+\i (00:14:02) xname_flush '!' 
+\i (00:14:02) xname_flush 
+\i (00:14:03) xname_flush '!' 
+\i (00:14:05) xNet Gnd 
+\i (00:14:05) xNet +3V3 
+\i (00:14:05) xname_flush 
+\i (00:14:05) trapsize 3173
+\i (00:14:08) xNet '!' Gnd 
+\i (00:14:08) xNet '!' +3V3 
+\i (00:14:08) xname_flush '!' 
+\i (00:14:10) xname_flush 
+\i (00:14:11) xname_flush '!' 
+\i (00:14:11) xname_flush 
+\i (00:14:13) xname_flush '!' 
+\i (00:14:38) xNet +5V 
+\i (00:14:38) xNet Fuse 
+\i (00:14:38) xrefdes F1 
+\i (00:14:38) xname_flush 
+\i (00:14:38) trapsize 2828
+\i (00:14:43) xNet '!' +5V 
+\i (00:14:43) xNet '!' Fuse 
+\i (00:14:43) xname_flush '!' 
+\i (00:15:00) xrefdes R12 
+\i (00:15:00) xNet Rst 
+\i (00:15:00) xNet +3V3 
+\i (00:15:00) xNet Gnd 
+\i (00:15:00) xrefdes C5 
+\i (00:15:00) xrefdes J7 
+\i (00:15:00) xname_flush 
+\i (00:15:00) trapsize 3173
+\i (00:15:12) xname_flush '!' 
+\i (00:15:23) xname_flush 
+\i (00:15:23) xname_flush '!' 
+\i (00:15:23) xname_flush 
+\i (00:15:24) xname_flush 
+\i (00:15:24) xname_flush '!' 
+\i (00:15:26) xNet Gnd 
+\i (00:15:26) xname_flush 
+\i (00:15:26) trapsize 3173
+\i (00:15:26) xNet '!' Gnd 
+\i (00:15:26) xname_flush '!' 
+\i (00:15:29) xNet Gnd 
+\i (00:15:29) xname_flush 
+\i (00:15:29) trapsize 3173
+\i (00:15:29) xNet '!' Gnd 
+\i (00:15:29) xname_flush '!' 
+\i (00:15:41) xrefdes Y1 
+\i (00:15:41) xname_flush 
+\i (00:15:41) trapsize 360
+\i (00:15:42) xrefdes '!' Y1 
+\i (00:15:42) xname_flush '!' 
+\i (00:15:49) xname_flush 
+\i (00:15:50) xname_flush '!' 
+\i (00:15:54) xNet +3V3 
+\i (00:15:54) xNet Gnd 
+\i (00:15:54) xname_flush 
+\i (00:15:54) trapsize 3173
+\i (00:15:56) xNet '!' +3V3 
+\i (00:15:56) xNet '!' Gnd 
+\i (00:15:56) xname_flush '!' 
+\i (00:15:58) xNet +3V3 
+\i (00:15:58) xNet Gnd 
+\i (00:15:58) xname_flush 
+\i (00:15:58) trapsize 3173
+\i (00:16:01) xNet '!' +3V3 
+\i (00:16:01) xNet '!' Gnd 
+\i (00:16:01) xname_flush '!' 
+\i (00:16:11) xNet Pa0 
+\i (00:16:11) xNet Gnd 
+\i (00:16:11) xNet +3V3 
+\i (00:16:11) xrefdes R15 
+\i (00:16:11) xrefdes R16 
+\i (00:16:11) xname_flush 
+\i (00:16:11) trapsize 3173
+\i (00:16:25) xNet '!' +3V3 
+\i (00:16:25) xNet '!' Pa0 
+\i (00:16:25) xNet '!' Gnd 
+\i (00:16:25) xname_flush '!' 
+\i (00:16:35) xname_flush 
+\i (00:16:36) xname_flush '!' 
+\i (00:16:36) xname_flush 
+\i (00:16:38) xname_flush '!' 
+\i (00:16:38) xname_flush 
+\i (00:16:38) xname_flush '!' 
+\i (00:16:38) xname_flush 
+\i (00:16:40) xname_flush '!' 
+\i (00:16:44) xname_flush 
+\i (00:16:45) xname_flush '!' 
+\i (00:16:52) xNet Gnd 
+\i (00:16:52) xname_flush 
+\i (00:16:52) trapsize 3173
+\i (00:16:53) xNet '!' Gnd 
+\i (00:16:53) xname_flush '!' 
+\i (00:16:53) xNet Gnd 
+\i (00:16:53) xname_flush 
+\i (00:16:53) trapsize 3173
+\i (00:16:53) xNet '!' Gnd 
+\i (00:16:53) xname_flush '!' 
+\i (00:16:57) xNet +3V3 
+\i (00:16:57) xNet Gnd 
+\i (00:16:57) xname_flush 
+\i (00:16:57) trapsize 3173
+\i (00:17:01) xNet '!' +3V3 
+\i (00:17:01) xNet '!' Gnd 
+\i (00:17:01) xname_flush '!' 
+\i (00:17:18) xNet +3V3 
+\i (00:17:18) xNet +5V 
+\i (00:17:18) xNet Swo 
+\i (00:17:18) xNet N05764 
+\i (00:17:18) xNet Gnd 
+\i (00:17:18) xNet N06427 
+\i (00:17:18) xNet N04880 
+\i (00:17:18) xNet N06707 
+\i (00:17:18) xrefdes R8 
+\i (00:17:18) xNet N05760 
+\i (00:17:18) xrefdes J4 
+\i (00:17:18) xNet N06887 
+\i (00:17:18) xNet N06431 
+\i (00:17:18) xNet Tx 
+\i (00:17:18) xrefdes D1 
+\i (00:17:18) xNet N06435 
+\i (00:17:18) xrefdes R6 
+\i (00:17:18) xrefdes Led1 
+\i (00:17:18) xNet Swdio 
+\i (00:17:18) xrefdes R7 
+\i (00:17:18) xrefdes R4 
+\i (00:17:18) xrefdes J3 
+\i (00:17:18) xNet Swclk 
+\i (00:17:18) xNet N06309 
+\i (00:17:18) xNet Reset 
+\i (00:17:18) xrefdes R2 
+\i (00:17:18) xNet N07180 
+\i (00:17:18) xrefdes Q1 
+\i (00:17:18) xNet Rx 
+\i (00:17:18) xrefdes R10 
+\i (00:17:18) xrefdes D2 
+\i (00:17:18) xrefdes R5 
+\i (00:17:18) xrefdes J2 
+\i (00:17:18) xrefdes Led2 
+\i (00:17:18) xname_flush 
+\i (00:17:23) xNet '!' +5V 
+\i (00:17:23) xNet '!' Swo 
+\i (00:17:23) xNet '!' Tx 
+\i (00:17:23) xNet '!' +3V3 
+\i (00:17:23) xNet '!' Swdio 
+\i (00:17:23) xNet '!' Swclk 
+\i (00:17:23) xNet '!' Gnd 
+\i (00:17:23) xNet '!' Rx 
+\i (00:17:23) xNet '!' Reset 
+\i (00:17:23) xname_flush '!' 
+\i (00:17:45) xNet +5V 
+\i (00:17:45) xNet Swo 
+\i (00:17:45) xNet Tx 
+\i (00:17:45) xNet +3V3 
+\i (00:17:45) xNet Swdio 
+\i (00:17:45) xNet Swclk 
+\i (00:17:45) xNet Gnd 
+\i (00:17:45) xNet Rx 
+\i (00:17:45) xNet Reset 
+\i (00:17:45) xname_flush 
+\i (00:17:45) trapsize 3181
+\i (00:17:50) xNet '!' +5V 
+\i (00:17:50) xNet '!' Swo 
+\i (00:17:50) xNet '!' Tx 
+\i (00:17:50) xNet '!' +3V3 
+\i (00:17:50) xNet '!' Swdio 
+\i (00:17:50) xNet '!' Swclk 
+\i (00:17:50) xNet '!' Gnd 
+\i (00:17:50) xNet '!' Rx 
+\i (00:17:50) xNet '!' Reset 
+\i (00:17:50) xname_flush '!' 
+\i (00:18:17) xname_flush 
+\i (00:18:20) xname_flush '!' 
+\i (00:18:20) xname_flush 
+\i (00:18:20) xname_flush '!' 
+\i (00:18:20) xname_flush 
+\i (00:18:21) xname_flush '!' 
+\i (00:18:26) xname_flush 
+\i (00:18:28) xname_flush '!' 
+\i (00:18:28) xname_flush 
+\i (00:18:29) xname_flush '!' 
+\i (00:18:29) xname_flush 
+\i (00:18:31) xname_flush '!' 
+\i (00:18:35) xname_flush 
+\i (00:18:36) xname_flush '!' 
+\i (00:18:45) xname_flush 
+\i (00:18:46) xname_flush '!' 
+\i (00:18:48) xname_flush 
+\i (00:18:49) xname_flush '!' 
+\i (00:19:03) xname_flush 
+\i (00:19:05) xname_flush '!' 
+\i (00:19:05) xname_flush 
+\i (00:19:06) xname_flush '!' 
+\i (00:19:06) xname_flush 
+\i (00:19:06) xname_flush '!' 
+\i (00:19:09) xname_flush 
+\i (00:19:09) xname_flush '!' 
+\i (00:19:29) xname_flush 
+\i (00:19:36) xname_flush '!' 
+\i (00:19:36) xname_flush 
+\i (00:19:36) xname_flush '!' 
+\i (00:19:36) xname_flush 
+\i (00:19:37) xname_flush '!' 
+\i (00:19:38) xNet Gnd 
+\i (00:19:38) xname_flush 
+\i (00:19:38) trapsize 3173
+\i (00:19:41) xNet '!' Gnd 
+\i (00:19:41) xname_flush '!' 
+\i (00:19:49) xNet Gnd 
+\i (00:19:49) xname_flush 
+\i (00:19:49) trapsize 3173
+\i (00:19:50) xNet '!' Gnd 
+\i (00:19:50) xname_flush '!' 
+\i (00:19:50) xNet Gnd 
+\i (00:19:50) xname_flush 
+\i (00:19:50) trapsize 3173
+\i (00:19:50) xNet '!' Gnd 
+\i (00:19:50) xname_flush '!' 
+\i (00:19:59) xname_flush 
+\i (00:20:00) xname_flush '!' 
+\i (00:20:03) xname_flush 
+\i (00:20:06) xname_flush 
+\i (00:20:07) xname_flush '!' 
+\i (00:20:07) xname_flush 
+\i (00:20:07) xname_flush '!' 
+\i (00:20:07) xname_flush 
+\i (00:20:08) xname_flush '!' 
+\i (00:20:08) xname_flush 
+\i (00:20:08) xname_flush '!' 
+\i (00:20:16) xNet Gnd 
+\i (00:20:16) xNet +3V3 
+\i (00:20:16) xname_flush 
+\i (00:20:16) trapsize 3173
+\i (00:20:19) xNet '!' Gnd 
+\i (00:20:19) xNet '!' +3V3 
+\i (00:20:19) xname_flush '!' 
+\i (00:20:20) xname_flush 
+\i (00:20:23) xname_flush '!' 
+\i (00:20:23) xname_flush 
+\i (00:20:24) xname_flush '!' 
+\i (00:20:24) xname_flush 
+\i (00:20:25) xname_flush '!' 
+\i (00:20:26) xname_flush 
+\i (00:20:28) xname_flush '!' 
+\i (00:20:38) xname_flush 
+\i (00:20:39) xname_flush '!' 
+\i (00:21:11) xname_flush 
+\i (00:21:12) xname_flush '!' 
+\i (00:21:12) xname_flush 
+\i (00:21:14) xname_flush '!' 
+\i (00:21:14) xname_flush 
+\i (00:21:15) xname_flush '!' 
+\i (00:21:15) xname_flush 
+\i (00:21:15) xname_flush '!' 
+\i (00:21:18) xname_flush 
+\i (00:21:18) xname_flush '!' 
+\i (00:21:20) xname_flush 
+\i (00:21:23) xname_flush '!' 
+\i (00:21:43) xname_flush 
+\i (00:21:44) xname_flush '!' 
+\i (00:21:44) xname_flush 
+\i (00:21:47) xname_flush '!' 
+\i (00:21:47) xname_flush 
+\i (00:21:50) xname_flush '!' 
+\i (00:21:50) xname_flush 
+\i (00:21:51) xname_flush '!' 
+\i (00:21:55) xname_flush 
+\i (00:21:56) xname_flush '!' 
+\i (00:22:30) xname_flush 
+\i (00:22:32) xname_flush '!' 
+\i (00:22:32) xname_flush 
+\i (00:22:34) xname_flush '!' 
+\i (00:22:34) xname_flush 
+\i (00:22:35) xname_flush '!' 
+\i (00:22:39) xname_flush 
+\i (00:22:39) xname_flush '!' 
+\i (00:22:56) xname_flush 
+\i (00:22:58) xname_flush '!' 
+\i (00:22:58) xname_flush 
+\i (00:23:02) xname_flush '!' 
+\i (00:23:02) xname_flush 
+\i (00:23:03) xname_flush '!' 
+\i (00:23:03) xname_flush 
+\i (00:23:04) xname_flush '!' 
+\i (00:23:07) xname_flush 
+\i (00:23:07) xname_flush '!' 
+\i (00:23:27) xrefdes Led3 
+\i (00:23:27) xNet N08768 
+\i (00:23:27) xNet Gnd 
+\i (00:23:27) xNet +3V3 
+\i (00:23:27) xrefdes R24 
+\i (00:23:27) xname_flush 
+\i (00:23:27) trapsize 3173
+\i (00:23:35) xrefdes '!' Led3 
+\i (00:23:35) xNet '!' N08768 
+\i (00:23:35) xNet '!' Gnd 
+\i (00:23:35) xNet '!' +3V3 
+\i (00:23:35) xrefdes '!' R24 
+\i (00:23:35) xname_flush '!' 
+\i (00:23:38) xNet Gnd 
+\i (00:23:38) xNet N11997 
+\i (00:23:38) xNet N13004 
+\i (00:23:38) xNet +5V 
+\i (00:23:38) xrefdes C3 
+\i (00:23:38) xrefdes C6 
+\i (00:23:38) xrefdes Ic3 
+\i (00:23:38) xrefdes C8 
+\i (00:23:38) xNet +3V3 
+\i (00:23:38) xrefdes C4 
+\i (00:23:38) xrefdes C7 
+\i (00:23:38) xname_flush 
+\i (00:23:38) trapsize 3191
+\i (00:23:41) xNet '!' Gnd 
+\i (00:23:41) xNet '!' N11997 
+\i (00:23:41) xNet '!' N13004 
+\i (00:23:41) xNet '!' +5V 
+\i (00:23:41) xrefdes '!' C3 
+\i (00:23:41) xrefdes '!' C6 
+\i (00:23:41) xrefdes '!' Ic3 
+\i (00:23:41) xrefdes '!' C8 
+\i (00:23:41) xNet '!' +3V3 
+\i (00:23:41) xrefdes '!' C4 
+\i (00:23:41) xrefdes '!' C7 
+\i (00:23:41) xname_flush '!' 
+\i (00:23:43) xNet Gnd 
+\i (00:23:43) xNet N11997 
+\i (00:23:43) xrefdes C9 
+\i (00:23:43) xNet N13004 
+\i (00:23:43) xrefdes C13 
+\i (00:23:43) xNet +5V 
+\i (00:23:43) xNet +3V3 
+\i (00:23:43) xrefdes C3 
+\i (00:23:43) xrefdes C6 
+\i (00:23:43) xrefdes C15 
+\i (00:23:43) xrefdes C11 
+\i (00:23:43) xrefdes Ic3 
+\i (00:23:43) xrefdes C8 
+\i (00:23:43) xrefdes Led3 
+\i (00:23:43) xNet N08768 
+\i (00:23:43) xrefdes C12 
+\i (00:23:43) xrefdes Ic4 
+\i (00:23:43) xrefdes C4 
+\i (00:23:43) xrefdes C14 
+\i (00:23:43) xrefdes R24 
+\i (00:23:43) xrefdes C10 
+\i (00:23:43) xrefdes C7 
+\i (00:23:43) xname_flush 
+\i (00:23:46) xNet '!' Gnd 
+\i (00:23:46) xNet '!' N11997 
+\i (00:23:46) xrefdes '!' C9 
+\i (00:23:46) xNet '!' N13004 
+\i (00:23:46) xrefdes '!' C13 
+\i (00:23:46) xNet '!' +5V 
+\i (00:23:46) xNet '!' +3V3 
+\i (00:23:46) xrefdes '!' C3 
+\i (00:23:46) xrefdes '!' C6 
+\i (00:23:46) xrefdes '!' C15 
+\i (00:23:46) xrefdes '!' C11 
+\i (00:23:46) xrefdes '!' Ic3 
+\i (00:23:46) xrefdes '!' C8 
+\i (00:23:46) xrefdes '!' Led3 
+\i (00:23:46) xNet '!' N08768 
+\i (00:23:46) xrefdes '!' C12 
+\i (00:23:46) xrefdes '!' Ic4 
+\i (00:23:46) xrefdes '!' C4 
+\i (00:23:46) xrefdes '!' C14 
+\i (00:23:46) xrefdes '!' R24 
+\i (00:23:46) xrefdes '!' C10 
+\i (00:23:46) xrefdes '!' C7 
+\i (00:23:46) xname_flush '!' 
+\i (00:24:24) design sync eco 
+\t (00:24:24) > Requesting Capture to open design
+\t (00:24:24) > Response received OpenDesign is done by remote tool
+\t (00:24:24) Design opened successfully
+\t (00:24:24) > Requesting Capture to generate logical netlist
+\t (00:24:24) > Requesting Capture to open design
+\t (00:24:25) > Response received LogicalNetlistGeneration is done by remote tool
+\t (00:24:25) Logical netlist generated successfully at d:\projects\projectscience\electronics\dosti_stlink\pcb
+\t (00:24:25) > Requesting Capture to generate logical netlist
+\t (00:24:25) > Response received OpenDesign is done by remote tool
+\t (00:24:25) Design opened successfully
+\t (00:24:25) > Generating Physical Netlist
+\t (00:24:25) Starting genfeedformat...
+\t (00:24:27) > Generating Physical Netlist successful
+\t (00:24:27) > Generating Differences
+\t (00:24:27) > Generating Differences successful
+\t (00:24:27) > Displaying differences output
+\t (00:24:27) > Displaying differences output successful
+\t (00:24:27) > Response received LogicalNetlistGeneration is done by remote tool
+\t (00:24:27) Logical netlist generated successfully at d:\projects\projectscience\electronics\dosti_stlink\pcb
+\i (00:24:28) QtSignal DesignSyncDialog sync_button clicked
+\t (00:24:28) > Sending response DoneOpenBoard
+\t (00:24:28) Starting Cadence Logic Import...
+\t (00:24:30) Opening existing design...
+\t (00:24:30) Grids are drawn 10240.00, 10240.00 apart for enhanced viewing.
+\t (00:24:30) Grids are drawn 40.00, 40.00 apart for enhanced viewing.
+\i (00:24:30) trapsize 3191
+\i (00:24:30) placementedit 
+\i (00:24:34) pick grid 5943.54 11958.25
+\t (00:24:34) last pick:  5940.00 11960.00
+\i (00:24:34) zoom in 1 
+\i (00:24:34) setwindow pcb
+\i (00:24:34) zoom in 5918.01 10994.52
+\t (00:24:34) Grids are drawn 20.00, 20.00 apart for enhanced viewing.
+\i (00:24:34) trapsize 1596
+\i (00:24:34) zoom in 1 
+\i (00:24:34) setwindow pcb
+\i (00:24:34) zoom in 5895.67 10713.69
+\i (00:24:34) trapsize 798
+\i (00:24:35) zoom in 1 
+\i (00:24:35) setwindow pcb
+\i (00:24:35) zoom in 5894.08 10702.52
+\i (00:24:35) trapsize 399
+\i (00:24:36) zoom out 1 
+\i (00:24:36) setwindow pcb
+\i (00:24:36) zoom out 5731.33 10949.05
+\i (00:24:36) trapsize 798
+\i (00:24:36) zoom out 1 
+\i (00:24:36) setwindow pcb
+\i (00:24:36) zoom out 5731.33 10949.04
+\i (00:24:36) trapsize 1596
+\i (00:24:37) zoom out 1 
+\i (00:24:37) setwindow pcb
+\i (00:24:37) zoom out 5731.33 10945.85
+\t (00:24:37) Grids are drawn 40.00, 40.00 apart for enhanced viewing.
+\i (00:24:37) trapsize 3191
+\i (00:24:37) zoom out 1 
+\i (00:24:37) setwindow pcb
+\i (00:24:37) zoom out 5731.32 10945.85
+\t (00:24:37) Grids are drawn 80.00, 80.00 apart for enhanced viewing.
+\i (00:24:37) trapsize 6382
+\i (00:24:38) pick grid 5310.13 12298.91
+\t (00:24:38) last pick:  5310.00 12300.00
+\i (00:24:38) zoom in 1 
+\i (00:24:38) setwindow pcb
+\i (00:24:38) zoom in 4812.30 11622.38
+\t (00:24:38) Grids are drawn 40.00, 40.00 apart for enhanced viewing.
+\i (00:24:38) trapsize 3191
+\i (00:24:38) zoom in 1 
+\i (00:24:38) setwindow pcb
+\i (00:24:38) zoom in 4812.30 11622.39
+\t (00:24:38) Grids are drawn 20.00, 20.00 apart for enhanced viewing.
+\i (00:24:38) trapsize 1596
+\i (00:24:38) zoom in 1 
+\i (00:24:38) setwindow pcb
+\i (00:24:38) zoom in 4812.31 11622.39
+\i (00:24:38) trapsize 798
+\i (00:24:38) zoom in 1 
+\i (00:24:38) setwindow pcb
+\i (00:24:38) zoom in 4812.31 11622.39
+\i (00:24:38) trapsize 399
+\i (00:24:38) zoom in 1 
+\i (00:24:38) setwindow pcb
+\i (00:24:38) zoom in 4812.31 11622.39
+\i (00:24:38) trapsize 199
+\i (00:24:39) zoom out 1 
+\i (00:24:39) setwindow pcb
+\i (00:24:39) zoom out 4812.31 11622.39
+\i (00:24:39) trapsize 399
+\i (00:24:39) zoom out 1 
+\i (00:24:39) setwindow pcb
+\i (00:24:39) zoom out 4812.32 11622.39
+\i (00:24:39) trapsize 798
+\i (00:24:39) zoom out 1 
+\i (00:24:39) setwindow pcb
+\i (00:24:39) zoom out 4812.31 11622.38
+\i (00:24:39) trapsize 1596
+\i (00:24:40) pick grid 5166.53 11631.96
+\t (00:24:40) last pick:  5170.00 11630.00
+\i (00:24:42) drag_start grid 6522.78 11571.33
+\i (00:24:42) drag_stop 4336.83 9991.71
+\i (00:24:43) zoom out 1 
+\i (00:24:43) setwindow pcb
+\i (00:24:43) zoom out 4761.26 10473.57
+\t (00:24:43) Grids are drawn 40.00, 40.00 apart for enhanced viewing.
+\i (00:24:43) trapsize 3191
+\i (00:24:43) zoom out 1 
+\i (00:24:43) setwindow pcb
+\i (00:24:43) zoom out 4856.98 10537.40
+\t (00:24:43) Grids are drawn 80.00, 80.00 apart for enhanced viewing.
+\i (00:24:43) trapsize 6382
+\i (00:24:43) zoom out 1 
+\i (00:24:43) setwindow pcb
+\i (00:24:43) zoom out 4856.99 10537.40
+\t (00:24:43) Grids are drawn 160.00, 160.00 apart for enhanced viewing.
+\i (00:24:43) trapsize 12409
+\i (00:24:43) zoom out 1 
+\i (00:24:43) setwindow pcb
+\i (00:24:43) zoom out 9331.39 4566.42
+\i (00:24:43) trapsize 12409
+\i (00:24:43) zoom out 1 
+\i (00:24:43) setwindow pcb
+\i (00:24:43) zoom out 9331.39 4566.42
+\i (00:24:43) trapsize 12409
+\i (00:24:43) zoom out 1 
+\i (00:24:43) setwindow pcb
+\i (00:24:43) zoom out 9256.93 4417.52
+\i (00:24:43) trapsize 12409
+\i (00:24:43) pick grid 7147.44 9604.38
+\t (00:24:43) last pick:  7150.00 9600.00
+\i (00:24:44) drag_start grid 1836.50 13798.54
+\i (00:24:45) drag_stop 7470.07 9132.85
+\i (00:24:46) prepopup 4268.61 10051.09
+\i (00:24:48) pop dyn_option_select '@:@Unplace component' 
+\i (00:24:48) unplace component 
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "+3V3, Ic4.2:C12.2"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "+5V, Ic3.3:Ic4.3"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Gnd, Ic4.1:Ic2.23"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "+5V, C11.2:Ic3.3"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Gnd, Ic3.2:Ic2.23"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "N11997, C3.2:Ic3.1"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Gnd, Led3.1:Ic2.23"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "N08768, Led3.2:R24.2"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "+3V3, Ic3.5:C12.2"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "N27475, R23.1:Ic1.2"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "N13004, C6.2:Ic3.4"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Gnd, Led4.1:Ic2.23"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Tx, J4.8:Led1.1"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "N09921, Led5.1:R26.1"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "+3V3, Ic1.3:C12.2"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "N09917, Led4.2:R25.1"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "+3V3, Led5.2:C12.2"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "N06707, R8.1:Led1.2"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "+5V, R21.1:C11.2"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Gnd, C11.1:Ic2.23"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Gnd, C10.1:Ic2.23"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "+3V3, C13.2:C12.2"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Gnd, C13.1:Ic2.23"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Gnd, C12.1:Ic2.23"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Gnd, C3.1:Ic2.23"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "+3V3, C14.2:C12.2"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Gnd, C14.1:Ic2.23"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Gnd, C4.1:Ic2.23"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "+3V3, C15.2:C12.2"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Gnd, C15.1:Ic2.23"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "+3V3, C9.2:C12.2"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "+3V3, C10.2:C12.2"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Gnd, C9.1:Ic2.23"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "+3V3, C7.2:C12.2"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "+3V3, C8.2:C12.2"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Gnd, C7.1:Ic2.23"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Gnd, C8.1:Ic2.23"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "N11997, C3.2:C4.2"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Gnd, C5.1:Ic2.23"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Rst, R12.2:C5.2"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Gnd, C6.1:Ic2.23"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "+3V3, R12.1:C12.2"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "N27475, R21.2:R23.1"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Gnd, R22.2:Ic2.23"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "N30478, J1.B5:R19.1"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Boot_1, Ic2.20:R22.1"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Gnd, R19.2:Ic2.23"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "N06309, R2.1:J4.4"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Rst, Ic2.7:R12.2"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Led_Link, Ic2.30:R25.2"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Led_Link, R25.2:R26.2"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "+5V, R7.1:R21.1"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "+3V3, R24.1:C12.2"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "N27475, R14.2:R21.2"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "N27475, R21.2:R20.1"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "N06435, R5.1:J4.6"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Gnd, R20.2:Ic2.23"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "+3V3, R8.2:C12.2"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Swo, Ic2.31:R5.2"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "N30510, J1.A5:R18.1"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Gnd, R18.2:Ic2.23"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "N06887, Q1.3:R7.2"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "+5V, J3.1:R7.1"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "+3V3, Q1.1:C12.2"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Rx, Led2.2:Q1.2"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Tx, Ic2.12:J4.8"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Reset, Ic2.18:R6.1"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "+3V3, R10.2:C12.2"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "N07180, Led2.1:R10.1"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Rx, Ic2.13:Led2.2"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Gnd, J4.2:Ic2.23"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Rst, Ic2.7:J7.1"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Swdio_In, Ic2.34:J5.2"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Dp, R14.1:J1.A6"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Dp, R14.1:R13.2"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Dn, R11.2:J1.A7"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Usb_Dp, Ic2.33:R13.1"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Usb_Dm, Ic2.32:R11.1"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Swclk, Ic2.26:R4.1"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "+3V3, Ic2.36:C12.2"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Gnd, Ic2.35:Ic2.23"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Swclk_In, Ic2.37:J5.3"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "+3V3, Ic2.24:C12.2"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Swdio, Ic2.25:R2.2"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Dp, J1.A6:J1.B6"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Dn, J1.A7:J1.B7"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Gnd, R17.2:Ic2.23"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Boot_0, Ic2.44:R17.1"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Usb_Renum, Ic2.38:R23.2"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Swclk, Ic2.15:R4.1"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "N01382, J6.2:Ic2.21"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Gnd, J1.B1:Ic2.23"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "+3V3, Ic2.48:C12.2"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Gnd, Ic2.47:Ic2.23"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "+3V3, Ic2.9:C12.2"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Gnd, Ic2.8:Ic2.23"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Pa0, Ic2.10:R15.2"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "+3V3, R15.1:C12.2"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Gnd, R16.2:Ic2.23"
+\t (00:24:48) Selected item not valid for current operation, ignored: Ratsnest "Pa0, R15.2:R16.1"
+\i (00:24:49) setwindow form.mini
+\i (00:24:49) FORM mini tree  'Components by refdes' 
+\i (00:24:49) setwindow pcb
+\i (00:24:49) placementedit 
+\i (00:24:49) zoom in 1 
+\i (00:24:49) setwindow pcb
+\i (00:24:49) zoom in 1439.42 11515.33
+\t (00:24:49) Grids are drawn 80.00, 80.00 apart for enhanced viewing.
+\i (00:24:49) trapsize 6204
+\i (00:24:50) zoom in 1 
+\i (00:24:50) setwindow pcb
+\i (00:24:50) zoom in 3040.15 11639.42
+\t (00:24:50) Grids are drawn 40.00, 40.00 apart for enhanced viewing.
+\i (00:24:50) trapsize 3102
+\i (00:24:52) pop dyn_option_select 'Application Mode@:@Etch Edit' 
+\i (00:24:52) etchedit 
+\i (00:24:53) drag_start grid 3592.34 11397.46
+\i (00:24:53) drag_stop 7879.57 8804.02
+\i (00:24:55) prepopup 5546.72 9802.93
+\i (00:24:57) pop dyn_option_select @:@Delete 
+\i (00:24:57) delete 
+\i (00:24:57) etchedit 
+\i (00:24:58) zoom in 1 
+\i (00:24:58) setwindow pcb
+\i (00:24:58) zoom in 4616.06 10708.77
+\t (00:24:58) Grids are drawn 20.00, 20.00 apart for enhanced viewing.
+\i (00:24:58) trapsize 1551
+\i (00:24:58) zoom in 1 
+\i (00:24:58) setwindow pcb
+\i (00:24:58) zoom in 4616.06 10708.77
+\i (00:24:58) trapsize 776
+\i (00:25:00) pop dyn_option_select 'Application Mode@:@Placement Edit' 
+\i (00:25:00) placementedit 
+\i (00:25:00) setwindow form.mini
+\i (00:25:00) FORM mini tree  'Components by refdes' 
+\i (00:25:01) setwindow pcb
+\i (00:25:01) zoom in 1 
+\i (00:25:01) setwindow pcb
+\i (00:25:01) zoom in 4927.83 10673.10
+\i (00:25:01) trapsize 388
+\i (00:25:01) zoom in 1 
+\i (00:25:01) setwindow pcb
+\i (00:25:01) zoom in 4926.28 10672.32
+\i (00:25:01) trapsize 194
+\i (00:25:01) zoom in 1 
+\i (00:25:01) setwindow pcb
+\i (00:25:01) zoom in 4926.28 10672.32
+\i (00:25:01) trapsize 97
+\i (00:25:05) setwindow form.mini
+\i (00:25:05) FORM mini plcman_button  
+\i (00:25:05) setwindow pcb
+\i (00:25:05) placementedit 
+\i (00:25:05) place manual 
+\i (00:25:05) setwindow form.plc_manual
+\i (00:25:05) FORM plc_manual tree  'Components by refdes' 
+\i (00:25:10) FORM plc_manual place_net_name YES 
+\i (00:25:12) FORM plc_manual net_name_browse  
+\i (00:25:19) fillin "menu_cancel"
+\i (00:25:21) setwindow pcb
+\i (00:25:21) refdes '!' R20 
+\i (00:25:21) refdes '!' C9 
+\i (00:25:21) refdes '!' C13 
+\i (00:25:21) refdes '!' C3 
+\i (00:25:21) refdes '!' C6 
+\i (00:25:21) refdes '!' C15 
+\i (00:25:21) refdes '!' C11 
+\i (00:25:21) refdes '!' Ic3 
+\i (00:25:21) refdes '!' C8 
+\i (00:25:21) refdes '!' Led3 
+\i (00:25:21) refdes '!' R21 
+\i (00:25:21) refdes '!' C12 
+\i (00:25:21) refdes '!' R23 
+\i (00:25:21) refdes '!' Ic1 
+\i (00:25:21) refdes '!' R19 
+\i (00:25:21) refdes '!' Ic4 
+\i (00:25:21) refdes '!' C4 
+\i (00:25:21) refdes '!' C14 
+\i (00:25:21) refdes '!' R24 
+\i (00:25:21) refdes '!' C10 
+\i (00:25:21) refdes '!' C7 
+\i (00:25:21) xname_flush '!' 
+\i (00:25:29) setwindow form.plc_manual
+\i (00:25:29) FORM plc_manual cancel  
+\i (00:25:29) setwindow form.mini
+\i (00:25:29) FORM mini tree  'Components by refdes' 
+\i (00:25:29) setwindow pcb
+\i (00:25:29) placementedit 
+\i (00:25:32) exit 
+\e (00:25:32) Do you want to save the changes you made to D:/PROJECTS/PROJECTSCIENCE/ELECTRONICS/DOSTI_STLINK/allegro/stlink.brd?
+\i (00:25:33) fillin yes 
+\t (00:25:33)     Journal end - Wed Jun 19 01:27:00 2024

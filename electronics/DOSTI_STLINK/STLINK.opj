@@ -1,0 +1,298 @@
+(ExpressProject "STLINK"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "23.1 S004 (4189164)  [4/25/2024]-[06/19/24]")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    ("Allegro Netlist Directory" "pcb")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (NoModify)
+    (File ".\stlink.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "0")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80")
+    (Netlist_TAB "0")
+    ("Create Allegro Netlist" "TRUE")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File" ".\allegro\stlink.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "255")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "TRUE")
+    (DRC_View_Output "TRUE")
+    (DRC_View_Output_Type "2")
+    (DRC_Preserved_Waived "FALSE")
+    (RUN_Online_Rules "TRUE")
+    (DRC_Run_Electrical_Rules "TRUE")
+    (DRC_Check_Single_Node_Nets "TRUE")
+    (DRC_Check_No_Driving_Source "TRUE")
+    (DRC_Check_Duplicate_NetNames "TRUE")
+    (DRC_Check_Off-Page_Connectors "TRUE")
+    (DRC_Check_Ports "TRUE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_Floating_Pins "TRUE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Check_Single_Node_Nets_Online "TRUE")
+    (DRC_Check_No_Driving_Source_Online "FALSE")
+    (DRC_Check_Duplicate_NetNames_Online "TRUE")
+    (DRC_Check_Off-Page_Connectors_Online "FALSE")
+    (DRC_Check_Ports_Online "FALSE")
+    (DRC_Check_Unconnected_Nets_Online "FALSE")
+    (DRC_Check_Floating_Pins_Online "FALSE")
+    (DRC_Run_Electrical_Reports "TRUE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_Report_Off-grid_Objects "TRUE")
+    (DRC_Report_Ports_and_Off-page_Connectors "TRUE")
+    (DRC_Check_for_Misleading_TAP "TRUE")
+    (DRC_Run_Physical_Rules "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility "TRUE")
+    (DRC_Check_PCB_Footprint_Property "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync "TRUE")
+    (DRC_Check_Incorrect_PinGroup_Assignment "TRUE")
+    (DRC_Check_High_Speed_Props_Syntax "TRUE")
+    (DRC_Check_Missing_Pin_Numbers "TRUE")
+    (DRC_Check_Device_With_No_Pins "TRUE")
+    (DRC_Check_Power_Ground_Short "TRUE")
+    (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility_Online "FALSE")
+    (DRC_Check_PCB_Footprint_Property_Online "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync_Online "FALSE")
+    (DRC_Check_Incorrect_PinGroup_Assignment_Online "TRUE")
+    (DRC_Check_Missing_Pin_Numbers_Online "TRUE")
+    (DRC_Check_Device_With_No_Pins_Online "FALSE")
+    (DRC_Check_Power_Ground_Short_Online "FALSE")
+    (DRC_Check_Name_Prop_For_HierBlocks_Online "FALSE")
+    (DRC_Run_Physical_Reports "TRUE")
+    (DRC_Visible_Power_pins "TRUE")
+    (DRC_Report_Unused_Part_Packages "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Run_Simulation_Rules "FALSE")
+    (DRC_Check_Pspice_Model_Lib_Path_Online "FALSE")
+    (DRC_Run_Custom_Rules "FALSE")
+    (DRC_Report_File
+       "d:\projects\projectscience\electronics\projectid_stlink\drcreport.DRC")
+    (Display_Online_DRC_Results "TRUE")
+    (Board_sim_option "VHDL_flow")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File
+       "D:\PROJECTS\PROJECTSCIENCE\ELECTRONICS\PROJECTID_DOSTI_STLINK\STLINK.BOM")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_Header "Item\tQuantity\tReference\tPart")
+    (BOM_Include_File
+       "D:\PROJECTS\PROJECTSCIENCE\ELECTRONICS\PROJECTID_DOSTI_STLINK\STLINK.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "TRUE")
+    (BOM_View_Output "FALSE"))
+  (Folder "Layout"
+    (File ".\allegro\stlink.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\stlink.brd")
+      (NetListPath ".\pcb")
+      (ActiveBoard "1")))
+  (Folder "Outputs"
+    (File ".\drcreport.drc"
+      (Type "Report"))
+    (File ".\stlink.bom"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs"
+    (File ".\pcb\netlist.log"
+      (Type "Log File")
+      (LogFile
+         "d:\projects\projectscience\electronics\projectid_dosti_stlink\pcb\netlist.log"))
+    (File ".\pcb\netrev.lst"
+      (Type "Log File")
+      (LogFile
+         "d:\projects\projectscience\electronics\projectid_dosti_stlink\pcb\netrev.lst"))
+    (File ".\pcb\eco.txt"
+      (Type "Log File")
+      (LogFile
+         "d:\projects\projectscience\electronics\projectid_dosti_stlink\pcb\eco.txt"))
+    (File ".\allegro\netlist.log"
+      (Type "Log File")
+      (LogFile
+         "d:\projects\projectscience\electronics\projectid_dosti_stlink\allegro\netlist.log"))
+    (File ".\allegro\netrev.lst"
+      (Type "Log File")
+      (LogFile
+         "d:\projects\projectscience\electronics\projectid_dosti_stlink\allegro\netrev.lst"))
+    (File ".\allegro\eco.txt"
+      (Type "Log File")
+      (LogFile
+         "d:\projects\projectscience\electronics\projectid_dosti_stlink\allegro\eco.txt")))
+  (PartMRUSelector
+    (PORTNO-R
+      (LibraryName "C:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTNO-L
+      (LibraryName "C:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTBOTH-L
+      (LibraryName "C:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTRIGHT-L
+      (LibraryName "C:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (PORTLEFT-L
+      (LibraryName "C:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (MMS9013-L-TP
+      (FullPartName "MMS9013-L-TP.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\TRANSISTOR\MMS9013-L-TP.OLB")
+      (DeviceIndex "0"))
+    (219320-0001
+      (FullPartName "219320-0001.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\CONNECTOR USB TYPE C\219320-0001.OLB")
+      (DeviceIndex "0"))
+    (SF-0402F050-2
+      (FullPartName "SF-0402F050-2.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\FUSE\SF-0402F050-2.OLB")
+      (DeviceIndex "0"))
+    (LM1117MPX-33NOPB
+      (FullPartName "LM1117MPX-33NOPB.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\VOLTAGE REGULATOR\LM1117MPX-33NOPB.OLB")
+      (DeviceIndex "0"))
+    (RT9193-33GB
+      (FullPartName "RT9193-33GB.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\VOLTAGE REGULATOR\RT9193-33GB.OLB")
+      (DeviceIndex "0"))
+    (TPB11CGPC004
+      (FullPartName "TPB11CGPC004.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\SWITCH PUSH-BUTTON\TPB11CGPC004.OLB")
+      (DeviceIndex "0"))
+    (69167-103
+      (FullPartName "69167-103.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\CONNECTOR HEADERPIN\69167-103.OLB")
+      (DeviceIndex "0"))
+    (SM0603SRC
+      (FullPartName "SM0603SRC.Normal")
+      (LibraryName "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\LED\SM0603SRC.OLB")
+      (DeviceIndex "0"))
+    (2N7002
+      (FullPartName "2N7002.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\TRANSISTOR\2N7002.OLB")
+      (DeviceIndex "0"))
+    (SM0603GCL
+      (FullPartName "SM0603GCL.Normal")
+      (LibraryName "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\LED\SM0603GCL.OLB")
+      (DeviceIndex "0"))
+    (VCC_ARROW
+      (LibraryName "C:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VCC_BAR
+      (LibraryName "C:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (MBR0520LT3G
+      (FullPartName "MBR0520LT3G.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\DIODE\MBR0520LT3G.OLB")
+      (DeviceIndex "0"))
+    (95278-401A10LF
+      (FullPartName "95278-401A10LF.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\CONNECTOR HEADERPIN\95278-401A10LF.OLB")
+      (DeviceIndex "0"))
+    (67996-100HLF
+      (FullPartName "67996-100HLF.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\CONNECTOR HEADERPIN\67996-100HLF.OLB")
+      (DeviceIndex "0"))
+    (KC2520Z8.00000C1KX00
+      (FullPartName "KC2520Z8.00000C1KX00.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\OSCILLATORS\KC2520Z8.00000C1KX00.OLB")
+      (DeviceIndex "0"))
+    (GRM033D70E105ME15D
+      (FullPartName "GRM033D70E105ME15D.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\CAPACITOR\GRM033D70E105ME15D.OLB")
+      (DeviceIndex "0"))
+    (ABS07-32.768KHZ-T
+      (FullPartName "ABS07-32.768KHZ-T.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\OSCILLATORS\ABS07-32.768KHZ-T.OLB")
+      (DeviceIndex "0"))
+    (0
+      (LibraryName "C:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (CR0603-F_-1R00ELF
+      (FullPartName "CR0603-F_-1R00ELF.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\RESISTOR\CR0603-F_-1R00ELF.OLB")
+      (DeviceIndex "0")))
+  (MPSSessionName "Prometheus")
+  (LastUsedLibraryBrowseDirectory
+     "D:\Projects\CadenceEMD\Main_Libraries\Transistor")
+  (ISPCBBASICLICENSE "false")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources" ".\stlink.dsn")
+      (Path "Design Resources" ".\stlink.dsn" "SCHEMATIC1")
+      (Path "Layout")
+      (Path "Outputs")
+      (Path "Logs")
+      (Select "Design Resources" ".\stlink.dsn" "SCHEMATIC1" "PAGE1"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 529"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 5 982 24 547")
+        (Scroll "845 390")
+        (Zoom "84")
+        (Occurrence "/"))
+      (Path "D:\PROJECTS\PROJECTSCIENCE\ELECTRONICS\DOSTI_STLINK\STLINK.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "PAGE1"))))
