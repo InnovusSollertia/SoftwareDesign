@@ -3,7 +3,44 @@
   (SoftwareVersion "23.1 S004 (4189164)  [4/25/2024]-[06/19/24]")
   (ProjectType "PCB")
   (Folder "Design Resources"
-    (Folder "Library")
+    (Folder "Library"
+      (File "d:\projects\cadenceemd\main_libraries\pcbruler\ap7384-33sa-7.olb"
+        (Type "Schematic Library"))
+      (File "d:\projects\cadenceemd\main_libraries\pcbruler\bc817-25w.olb"
+        (Type "Schematic Library"))
+      (File "d:\projects\cadenceemd\main_libraries\pcbruler\irfr010pbf-be3.olb"
+        (Type "Schematic Library"))
+      (File
+         "d:\projects\cadenceemd\main_libraries\pcbruler\mcp1799t-5002h_db.olb"
+        (Type "Schematic Library"))
+      (File "d:\projects\cadenceemd\main_libraries\pcbruler\mmbt3904t-7-f.olb"
+        (Type "Schematic Library"))
+      (File
+         "d:\projects\cadenceemd\main_libraries\pcbruler\tps76901sdbvtep.olb"
+        (Type "Schematic Library"))
+      (File
+         "d:\projects\cadenceemd\main_libraries\pcbruler\74lvc1g123dc_125.olb"
+        (Type "Schematic Library"))
+      (File "d:\projects\cadenceemd\main_libraries\pcbruler\ap7381-50y-13.olb"
+        (Type "Schematic Library"))
+      (File "d:\projects\cadenceemd\main_libraries\pcbruler\irfs7530trl7pp.olb"
+        (Type "Schematic Library"))
+      (File
+         "d:\projects\cadenceemd\main_libraries\pcbruler\ltc2439-1ign#pbf.olb"
+        (Type "Schematic Library"))
+      (File
+         "d:\projects\cadenceemd\main_libraries\pcbruler\mma02040e1001bb300.olb"
+        (Type "Schematic Library"))
+      (File
+         "d:\projects\cadenceemd\main_libraries\pcbruler\ncv5662dsadjr4g.olb"
+        (Type "Schematic Library"))
+      (File "d:\projects\cadenceemd\main_libraries\pcbruler\smcj100a-q.olb"
+        (Type "Schematic Library"))
+      (File
+         "d:\projects\cadenceemd\main_libraries\pcbruler\xpgdwt-q1-0000-00xpp.olb"
+        (Type "Schematic Library"))
+      (File "d:\projects\cadenceemd\main_libraries\pcbruler\zm4748a_l0.olb"
+        (Type "Schematic Library")))
     ("Allegro Netlist Directory" "allegro")
     (DOCKED "TRUE")
     (DOCKING_POSITION "59420")
@@ -11,9 +48,38 @@
     (File ".\pcb_ruler.dsn"
       (Type "Schematic Design"))
     (BuildFileAddedOrDeleted "x")
-    (CompileFileAddedOrDeleted "x"))
-  (Folder "Layout")
-  (Folder "Outputs")
+    (CompileFileAddedOrDeleted "x")
+    (Netlist_TAB "0")
+    ("Create Allegro Netlist" "TRUE")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "FALSE")
+    ("Allegro Netlist Output Board File" ".\allegro\pcb_ruler.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ALLEGRO")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "255")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE"))
+  (Folder "Layout"
+    (File ".\allegro\pcb_ruler.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\pcb_ruler.brd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "1")))
+  (Folder "Outputs"
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat")))
   (Folder "Referenced Projects")
   (Folder "PSpice Resources"
     (Folder "Simulation Profiles")
@@ -23,12 +89,111 @@
       (Sort User))
     (Folder "Include Files"
       (Sort User)))
-  (Folder "Logs")
-  (PartMRUSelector)
+  (Folder "Logs"
+    (File ".\allegro\netlist.log"
+      (Type "Log File")
+      (LogFile
+         "D:\Projects\ProjectScience\electronics\DOSTI_PCBruler\allegro\netlist.log"))
+    (File ".\allegro\netrev.lst"
+      (Type "Log File")
+      (LogFile
+         "D:\Projects\ProjectScience\electronics\DOSTI_PCBruler\allegro\netrev.lst"))
+    (File ".\allegro\eco.txt"
+      (Type "Log File")
+      (LogFile
+         "D:\Projects\ProjectScience\electronics\DOSTI_PCBruler\allegro\eco.txt"))
+    (File ".\allegro\genfeed.log"
+      (Type "Log File")
+      (LogFile
+         "d:\projects\projectscience\electronics\dosti_pcbruler\allegro\genfeed.log")))
+  (PartMRUSelector
+    (LTC2439-1IGN#PBF
+      (FullPartName "LTC2439-1IGN#PBF.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\PCBRULER\LTC2439-1IGN#PBF.OLB")
+      (DeviceIndex "0"))
+    (IRFS7530TRL7PP
+      (FullPartName "IRFS7530TRL7PP.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\PCBRULER\IRFS7530TRL7PP.OLB")
+      (DeviceIndex "0"))
+    (NCV5662DSADJR4G
+      (FullPartName "NCV5662DSADJR4G.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\PCBRULER\NCV5662DSADJR4G.OLB")
+      (DeviceIndex "0"))
+    (SMCJ100A-Q
+      (FullPartName "SMCJ100A-Q.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\PCBRULER\SMCJ100A-Q.OLB")
+      (DeviceIndex "0"))
+    (AP7381-50Y-13
+      (FullPartName "AP7381-50Y-13.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\PCBRULER\AP7381-50Y-13.OLB")
+      (DeviceIndex "0"))
+    (XPGDWT-Q1-0000-00XPP
+      (FullPartName "XPGDWT-Q1-0000-00XPP.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\PCBRULER\XPGDWT-Q1-0000-00XPP.OLB")
+      (DeviceIndex "0"))
+    (ZM4748A_L0
+      (FullPartName "ZM4748A_L0.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\PCBRULER\ZM4748A_L0.OLB")
+      (DeviceIndex "0"))
+    (MMA02040E1001BB300
+      (FullPartName "MMA02040E1001BB300.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\PCBRULER\MMA02040E1001BB300.OLB")
+      (DeviceIndex "0"))
+    (74LVC1G123DC,125
+      (FullPartName "74LVC1G123DC,125.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\PCBRULER\74LVC1G123DC_125.OLB")
+      (DeviceIndex "0"))
+    (TPS76901SDBVTEP
+      (FullPartName "TPS76901SDBVTEP.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\PCBRULER\TPS76901SDBVTEP.OLB")
+      (DeviceIndex "0"))
+    (MMBT3904T-7-F
+      (FullPartName "MMBT3904T-7-F.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\PCBRULER\MMBT3904T-7-F.OLB")
+      (DeviceIndex "0"))
+    (MCP1799T-5002H_DB
+      (FullPartName "MCP1799T-5002H_DB.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\PCBRULER\MCP1799T-5002H_DB.OLB")
+      (DeviceIndex "0"))
+    (IRFR010PBF-BE3
+      (FullPartName "IRFR010PBF-BE3.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\PCBRULER\IRFR010PBF-BE3.OLB")
+      (DeviceIndex "0"))
+    (BC817-25W
+      (FullPartName "BC817-25W.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\PCBRULER\BC817-25W.OLB")
+      (DeviceIndex "0"))
+    (AP7384-33SA-7
+      (FullPartName "AP7384-33SA-7.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\PCBRULER\AP7384-33SA-7.OLB")
+      (DeviceIndex "0"))
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName "C:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
+      (DeviceIndex "0")))
   (GlobalState
     (FileView
       (Path "Design Resources")
-      (Select "Design Resources"))
+      (Path "Design Resources" "Library")
+      (Path "Layout")
+      (Path "Outputs")
+      (Path "Logs")
+      (Select "Design Resources" "Library"))
     (HierarchyView)
     (Doc
       (Type "COrCapturePMDoc")
@@ -39,10 +204,12 @@
       (Type "COrSchematicDoc")
       (Frame
         (Placement "44 0 1 -1 -1 -1 -1 5 982 24 547")
-        (Scroll "0 0")
-        (Zoom "100")
+        (Scroll "241 114")
+        (Zoom "120")
         (Occurrence "/"))
       (Path
          "D:\PROJECTS\PROJECTSCIENCE\ELECTRONICS\DOSTI_PCBRULER\PCB_RULER.DSN")
-      (Schematic "SCHEMATIC1")
-      (Page "PAGE1"))))
+      (Schematic "SCH")
+      (Page "MAIN")))
+  (MPSSessionName "Prometheus")
+  (ISPCBBASICLICENSE "false"))

@@ -1,0 +1,64 @@
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   1  |
+|------------------------------------------------------------------------------|
+|  D:.../ProjectScience/electronics/DOSTI_PCBruler/allegro/PCB_RULER.brd       |
+|                                                    Wed Jun 19 02:30:11 2024  |
+|------------------------------------------------------------------------------|
+| COMPONENT DEFINITION added to design                                         |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    device type                                                               |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ AP7384-33SA-7_SOT96P240X110-3N_AP7384-33SA-7
+ BC817-25W_BC81725W_BC817-25W
+ IRFR010PBF-BE3_SQD30N0520L_GE3_IRFR010PBF-BE3
+ MCP1799T-5002H_DB_SOT230P700X180-4N_MCP1799T-5002H_DB
+ MMBT3904T-7-F_SOT50P160X90-3N_MMBT3904T-7-F
+ TPS76901SDBVTEP_SOT95P280X145-5N_TPS76901SDBVTEP
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   2  |
+|------------------------------------------------------------------------------|
+|  D:.../ProjectScience/electronics/DOSTI_PCBruler/allegro/PCB_RULER.brd       |
+|                                                    Wed Jun 19 02:30:11 2024  |
+|------------------------------------------------------------------------------|
+| COMPONENTS ADDED to design                                                   |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|    ref des        |    device type                                           |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ IC1                 AP7384-33SA-7_SOT96P240X110-3N_AP7384-33SA-7 
+ IC2                 MCP1799T-5002H_DB_SOT230P700X180-4N_MCP1799T-5002H_DB 
+ IC3                 TPS76901SDBVTEP_SOT95P280X145-5N_TPS76901SDBVTEP 
+ Q1                  BC817-25W_BC81725W_BC817-25W 
+ Q2                  IRFR010PBF-BE3_SQD30N0520L_GE3_IRFR010PBF-BE3 
+ Q3                  MMBT3904T-7-F_SOT50P160X90-3N_MMBT3904T-7-F 
+|------------------------------------------------------------------------------|
+|                                 ECO   REPORT                                 |
+|                                                                    Page   3  |
+|------------------------------------------------------------------------------|
+|  D:.../ProjectScience/electronics/DOSTI_PCBruler/allegro/PCB_RULER.brd       |
+|                                                    Wed Jun 19 02:30:11 2024  |
+|------------------------------------------------------------------------------|
+| SLOT PROPERTIES added to design                                              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+|   slot_id    |   x   |   y   |   property   |             value              |
+|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
+ IC1.2                          PRIM_FILE      .\pstchip.dat
+ IC1.2                          XY             (450,130)
+ IC2.3                          PRIM_FILE      .\pstchip.dat
+ IC2.3                          XY             (450,220)
+ IC3.3                          PRIM_FILE      .\pstchip.dat
+ IC3.3                          XY             (450,40)
+ Q1.2                           PRIM_FILE      .\pstchip.dat
+ Q1.2                           XY             (440,390)
+ Q2.3                           PRIM_FILE      .\pstchip.dat
+ Q2.3                           XY             (140,30)
+ Q3.2                           PRIM_FILE      .\pstchip.dat
+ Q3.2                           XY             (440,300)
+|------------------------------------------------------------------------------|
+|       Comp definitions added:       6                                        |
+|       Components added      :       6                                        |
+|       Slot property added   :      12                                        |
+|                                                                              |
+|   Total ECO changes reported:      24                                        |
+|------------------------------------------------------------------------------|

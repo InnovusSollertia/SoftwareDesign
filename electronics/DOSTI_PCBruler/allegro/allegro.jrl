@@ -1,0 +1,393 @@
+\t (00:00:03) allegro 23.1 S004 Windows SPB 64-bit Edition
+\t (00:00:03)     Journal start - Wed Jun 19 10:42:32 2024
+\t (00:00:03)         Host=DESKTOP-OU1R4S8 User=Prometheus Pid=20884 CPUs=12
+\t (00:00:03) CmdLine= C:\Cadence\SPB_23.1\tools\bin\allegro.exe -mpssession Prometheus -proj d:\projects\projectscience\electronics\dosti_pcbruler\pcb_ruler.opj d:/projects/projectscience/electronics/dosti_pcbruler/allegro/pcb_ruler.brd
+\t (00:00:03) 
+   (00:00:03) Loading axlcore.cxt 
+\t (00:00:04) Opening existing design...
+\i (00:00:04) QtSignal SPBFoldDockArea FoldAreaTabWidget currentChanged "pcb_ruler"
+\d (00:00:04) Design opened: d:/projects/projectscience/electronics/dosti_pcbruler/allegro/pcb_ruler.brd
+\i (00:00:04) trapsize 1420
+\i (00:00:04) trapsize 1484
+\i (00:00:04) trapsize 1503
+\i (00:00:04) trapsize 1665
+\i (00:00:04) trapsize 1665
+\t (00:00:05) > Sending response DoneOpenBoard
+\t (00:00:05) Loading NV GPU Plugin
+\i (00:00:05) trapsize 985
+\t (00:00:05) > DoPullSchematic message received
+\t (00:00:05) > Pulling schematic...
+\t (00:00:05) Starting Cadence Logic Import...
+\t (00:00:05) Opening existing design...
+\t (00:00:05) Grids are drawn 40.0000, 40.0000 apart for enhanced viewing.
+\i (00:00:05) trapsize 985
+\t (00:00:05) > Sending response DonePullSchematic
+\t (00:00:05) > Schematic pulled successfully
+\i (00:00:06) xdehilite 
+\i (00:00:06) xrefdes Ic7 
+\t (00:00:06) Can not select unplaced component IC7.
+\t (00:00:06) Can not select unplaced component IC7.
+\i (00:00:06) xname_flush 
+\i (00:00:06) done 
+\i (00:00:06) generaledit 
+\i (00:00:11) xrefdes Q4 
+\t (00:00:11) Can not select unplaced component Q4.
+\t (00:00:11) Can not select unplaced component Q4.
+\i (00:00:11) xname_flush 
+\i (00:00:13) xrefdes '!' Q4 
+\t (00:00:13) Can not select unplaced component Q4.
+\t (00:00:13) Can not select unplaced component Q4.
+\i (00:00:13) xname_flush '!' 
+\i (00:00:19) xrefdes Ic7 
+\t (00:00:19) Can not select unplaced component IC7.
+\t (00:00:19) Can not select unplaced component IC7.
+\i (00:00:19) xname_flush 
+\i (00:00:22) xrefdes '!' Ic7 
+\t (00:00:22) Can not select unplaced component IC7.
+\t (00:00:22) Can not select unplaced component IC7.
+\i (00:00:22) xname_flush '!' 
+\i (00:00:31) save 
+\i (00:00:32) fillin yes 
+\t (00:00:32) > Sending response DoneOpenBoard
+\i (00:00:32) generaledit 
+\i (00:00:33) zoom out 1 
+\i (00:00:33) setwindow pcb
+\i (00:00:33) zoom out 109.5704 168.8209
+\i (00:00:33) trapsize 1970
+\i (00:00:34) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Setup
+\i (00:00:34) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Setup
+\i (00:00:35) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged "Database Preparation"
+\i (00:00:35) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked "Database Preparation"
+\i (00:00:37) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Placement
+\i (00:00:37) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Placement
+\i (00:00:38) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged "Database Preparation"
+\i (00:00:38) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked "Database Preparation"
+\i (00:00:38) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Setup
+\i (00:00:38) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Setup
+\i (00:00:39) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Placement Manual
+\i (00:00:39) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Placement Manual
+\i (00:00:39) place manual 
+\i (00:00:39) setwindow form.plc_manual
+\i (00:00:39) FORM plc_manual tree  'Components by refdes' 
+\i (00:00:40) FORM plc_manual tree  D1 'Components by refdes' 
+\i (00:00:41) FORM plc_manual tree 'MULTISEL YES' D1 'Components by refdes' 
+\t (00:00:41) Placing D1 / ZM4748A_L0_ZM4748AL0_ZM4748A_L0 / ZM4748AL0 on Top.
+\i (00:00:44) setwindow pcb
+\i (00:00:44) zoom in 1 
+\i (00:00:44) setwindow pcb
+\i (00:00:44) zoom in 110.5553 168.3089
+\i (00:00:44) trapsize 985
+\i (00:00:44) zoom in 1 
+\i (00:00:44) setwindow pcb
+\i (00:00:44) zoom in 110.5553 168.3089
+\i (00:00:44) trapsize 492
+\i (00:00:44) zoom in 1 
+\i (00:00:44) setwindow pcb
+\i (00:00:44) zoom in 110.5553 168.3187
+\i (00:00:44) trapsize 246
+\i (00:00:44) zoom in 1 
+\i (00:00:44) setwindow pcb
+\i (00:00:44) zoom in 110.5553 168.3187
+\i (00:00:44) trapsize 123
+\i (00:00:44) zoom out 1 
+\i (00:00:44) setwindow pcb
+\i (00:00:44) zoom out 110.5381 168.3163
+\i (00:00:44) trapsize 246
+\i (00:00:45) zoom out 1 
+\i (00:00:45) setwindow pcb
+\i (00:00:45) zoom out 110.5332 168.3163
+\i (00:00:45) trapsize 492
+\i (00:00:45) zoom out 1 
+\i (00:00:45) setwindow pcb
+\i (00:00:45) zoom out 110.5332 168.3163
+\i (00:00:45) trapsize 985
+\i (00:00:45) zoom out 1 
+\i (00:00:45) setwindow pcb
+\i (00:00:45) zoom out 110.0999 168.6314
+\i (00:00:45) trapsize 1970
+\i (00:00:47) zoom out 1 
+\i (00:00:47) setwindow pcb
+\i (00:00:47) zoom out 108.8392 172.5713
+\i (00:00:47) trapsize 3940
+\i (00:00:48) zoom in 1 
+\i (00:00:48) setwindow pcb
+\i (00:00:48) zoom in 116.4823 177.8505
+\i (00:00:48) trapsize 1970
+\i (00:00:50) setwindow form.plc_manual
+\i (00:00:50) FORM plc_manual cancel  
+\i (00:00:50) setwindow pcb
+\i (00:00:50) generaledit 
+\i (00:00:52) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Setup
+\i (00:00:52) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Setup
+\i (00:00:53) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Setup Grids
+\i (00:00:53) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Setup Grids
+\i (00:00:53) define grid 
+\t (00:00:53) Spacing fields allow simple equations to aid calculations; prefix with =
+\i (00:01:07) setwindow form.grid
+\i (00:01:07) FORM grid non_etch non_etch_x_grids 0.254 
+\i (00:01:09) FORM grid non_etch non_etch_y_grids 0.254 
+\i (00:01:09) FORM grid apply  
+\i (00:01:10) FORM grid done  
+\i (00:01:12) setwindow pcb
+\i (00:01:12) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Setup
+\i (00:01:12) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Setup
+\i (00:01:12) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Setup
+\i (00:01:12) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Setup
+\i (00:01:13) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Placement Manual
+\i (00:01:13) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Placement Manual
+\i (00:01:13) place manual 
+\i (00:01:14) setwindow form.plc_manual
+\i (00:01:14) FORM plc_manual tree  'Components by refdes' 
+\i (00:01:16) setwindow pcb
+\i (00:01:16) trapsize 1973
+\i (00:01:16) trapsize 2029
+\i (00:01:16) trapsize 2027
+\i (00:01:16) trapsize 2004
+\i (00:01:16) trapsize 1985
+\i (00:01:16) trapsize 1970
+\i (00:01:19) setwindow form.plc_manual
+\i (00:01:19) FORM plc_manual tree  D1 'Components by refdes' 
+\i (00:01:25) FORM plc_manual hide  
+\i (00:01:27) setwindow pcb
+\i (00:01:27) QtSignal CWorkFlowWidget CWorkFlowWidget_tree selectionChanged Placement Manual
+\i (00:01:27) QtSignal CWorkFlowWidget CWorkFlowWidget_tree clicked Placement Manual
+\i (00:01:27) place manual 
+\i (00:01:27) setwindow form.plc_manual
+\i (00:01:27) FORM plc_manual tree  'Components by refdes' 
+\i (00:01:30) FORM plc_manual tree  D1 'Components by refdes' 
+\i (00:01:30) FORM plc_manual tree 'MULTISEL YES' D1 'Components by refdes' 
+\t (00:01:30) Placing D1 / ZM4748A_L0_ZM4748AL0_ZM4748A_L0 / ZM4748AL0 on Top.
+\i (00:01:34) setwindow pcb
+\i (00:01:34) pick grid 97.6898 175.8807
+\t (00:01:34) last pick:  97.7900 175.7680
+\i (00:01:35) setwindow form.plc_manual
+\i (00:01:35) FORM plc_manual tree  D2 'Components by refdes' 
+\i (00:01:38) FORM plc_manual tree  'Components by refdes' 
+\i (00:01:38) FORM plc_manual tree 'MULTISEL YES' 'Components by refdes' 
+\t (00:01:38) last pick:  97.7900 175.7680
+\t (00:01:38) Placing D1 / ZM4748A_L0_ZM4748AL0_ZM4748A_L0 / ZM4748AL0 on Top.
+\i (00:01:40) setwindow pcb
+\i (00:01:40) pick grid 97.8868 175.8019
+\t (00:01:40) last pick:  97.7900 175.7680
+\t (00:01:40) Placing D2 / SMCJ100A-Q_DIOM7959X262N_SMCJ100A-Q / DIOM7959X262N on Top.
+\i (00:01:41) zoom in 1 
+\i (00:01:41) setwindow pcb
+\i (00:01:41) zoom in 103.9934 177.1020
+\i (00:01:41) trapsize 985
+\i (00:01:42) zoom out 1 
+\i (00:01:42) setwindow pcb
+\i (00:01:42) zoom out 103.7176 177.0035
+\i (00:01:42) trapsize 1970
+\i (00:01:43) roam y -96 
+\i (00:01:43) roam y -96
+\i (00:01:43) roam y -96 
+\i (00:01:43) roam y -96
+\i (00:01:44) roam y -96 
+\i (00:01:44) roam y -96
+\i (00:01:44) roam y -96 
+\i (00:01:44) roam y -96
+\i (00:01:47) pick grid 98.4383 181.8598
+\t (00:01:47) last pick:  98.5520 181.8640
+\t (00:01:47) Placing IC4 / 74LVC1G123DC,125_SOP50P310X100-8N_74LVC1G123DC_125 / SOP50P310X100-8N on Top.
+\i (00:01:49) pick grid 96.1139 186.9815
+\t (00:01:49) last pick:  96.0120 186.9440
+\t (00:01:49) Placing IC5 / AP7381-50Y-13_AP738133Y13_AP7381-50Y-13 / AP738133Y13 on Top.
+\i (00:01:51) pick grid 101.9447 187.8088
+\t (00:01:51) last pick:  101.8540 187.7060
+\t (00:01:51) Placing IC6 / NCV5662DSADJR4G_NCP5663DSADJR4G_NCV5662DSADJR4G / NCP5663DSADJR4G on Top.
+\i (00:01:52) zoom out 1 
+\i (00:01:52) setwindow pcb
+\i (00:01:52) zoom out 102.6933 183.9872
+\t (00:01:52) Grids are drawn 0.5080, 0.5080 apart for enhanced viewing.
+\i (00:01:52) trapsize 3940
+\i (00:01:53) roam x 96 
+\i (00:01:53) roam x 96
+\i (00:01:53) zoom in 1 
+\i (00:01:53) setwindow pcb
+\i (00:01:53) zoom in 111.2593 180.3627
+\i (00:01:53) trapsize 1970
+\i (00:01:55) pick grid 106.7679 178.8262
+\t (00:01:55) last pick:  106.6800 178.8160
+\t (00:01:55) Placing IC7 / LTC2439-1IGN#PBF_SOP64P601X175-28N_LTC2439-1IGN#PBF / SOP64P601X175-28N on Top.
+\i (00:01:55) roam x 96 
+\i (00:01:55) roam x 96
+\i (00:01:56) roam x 96 
+\i (00:01:56) roam x 96
+\i (00:01:56) roam x 96 
+\i (00:01:56) roam x 96
+\i (00:01:56) zoom out 1 
+\i (00:01:56) setwindow pcb
+\i (00:01:56) zoom out 119.2963 182.8448
+\i (00:01:56) trapsize 3940
+\i (00:01:56) roam x 96 
+\i (00:01:56) roam x 96
+\i (00:01:57) zoom in 1 
+\i (00:01:57) setwindow pcb
+\i (00:01:57) zoom in 127.2547 177.8019
+\i (00:01:57) trapsize 1970
+\i (00:01:59) pick grid 126.7426 179.9294
+\t (00:01:59) last pick:  126.7460 179.8320
+\t (00:01:59) Placing LED1 / XPGDWT-Q1-0000-00XPP_XPGDWTQ1000000XPP_XPGDWT-Q1-0000-00XPP / XPGDWTQ1000000XPP on Top.
+\i (00:01:59) zoom out 1 
+\i (00:01:59) setwindow pcb
+\i (00:01:59) zoom out 127.7275 175.1229
+\i (00:01:59) trapsize 3940
+\i (00:01:59) roam x 96 
+\i (00:01:59) roam x 96
+\i (00:02:00) roam x -96 
+\i (00:02:00) roam x -96
+\i (00:02:00) zoom in 1 
+\i (00:02:00) setwindow pcb
+\i (00:02:00) zoom in 117.5628 170.0012
+\i (00:02:00) trapsize 1970
+\i (00:02:00) roam x -96 
+\i (00:02:00) roam x -96
+\i (00:02:00) zoom in 1 
+\i (00:02:00) setwindow pcb
+\i (00:02:00) zoom in 112.4805 169.8437
+\i (00:02:00) trapsize 985
+\i (00:02:01) roam x -96 
+\i (00:02:01) roam x -96
+\i (00:02:01) zoom out 1 
+\i (00:02:01) setwindow pcb
+\i (00:02:01) zoom out 110.1163 169.7846
+\i (00:02:01) trapsize 1970
+\i (00:02:01) roam x 96 
+\i (00:02:01) roam x 96
+\i (00:02:02) roam y 96 
+\i (00:02:02) roam y 96
+\i (00:02:02) roam y 96 
+\i (00:02:02) roam y 96
+\i (00:02:02) roam x 96 
+\i (00:02:02) roam x 96
+\i (00:02:02) zoom in 1 
+\i (00:02:02) setwindow pcb
+\i (00:02:02) zoom in 122.9208 162.0034
+\i (00:02:02) trapsize 985
+\i (00:02:04) pick grid 122.5466 161.6291
+\t (00:02:04) last pick:  122.4280 161.5440
+\t (00:02:04) Placing Q4 / IRFS7530TRL7PP_IRFS7530TRL7PP_IRFS7530TRL7PP / IRFS7530TRL7PP on Top.
+\i (00:02:04) zoom out 1 
+\i (00:02:04) setwindow pcb
+\i (00:02:04) zoom out 125.2453 168.1494
+\i (00:02:04) trapsize 1970
+\i (00:02:04) roam x 96 
+\i (00:02:04) roam x 96
+\i (00:02:05) roam x 96 
+\i (00:02:05) roam x 96
+\i (00:02:05) zoom out 1 
+\i (00:02:05) setwindow pcb
+\i (00:02:05) zoom out 132.6127 165.9826
+\i (00:02:05) trapsize 3940
+\i (00:02:05) roam y -96 
+\i (00:02:05) roam y -96
+\i (00:02:06) roam x 96 
+\i (00:02:06) roam x 96
+\i (00:02:06) zoom in 1 
+\i (00:02:06) setwindow pcb
+\i (00:02:06) zoom in 140.6500 172.7197
+\i (00:02:06) trapsize 1970
+\i (00:02:06) roam y -96 
+\i (00:02:06) roam y -96
+\i (00:02:07) zoom in 1 
+\i (00:02:07) setwindow pcb
+\i (00:02:07) zoom in 138.3255 175.6744
+\i (00:02:07) trapsize 985
+\i (00:02:07) roam x -96 
+\i (00:02:07) roam x -96
+\i (00:02:08) pick grid 137.5371 175.5365
+\t (00:02:08) last pick:  137.4140 175.5140
+\t (00:02:08) Placing R1 / MMA02040E1001BB300_MMA02040E1001BB300_MMA02040E1001BB300 / MMA02040E1001BB300 on Top.
+\i (00:02:09) roam x 96 
+\i (00:02:09) roam x 96
+\i (00:02:09) zoom out 1 
+\i (00:02:09) setwindow pcb
+\i (00:02:09) zoom out 139.1524 175.0440
+\i (00:02:09) trapsize 1970
+\i (00:02:09) roam y 96 
+\i (00:02:09) roam y 96
+\i (00:02:09) zoom out 1 
+\i (00:02:09) setwindow pcb
+\i (00:02:09) zoom out 138.5615 170.5921
+\i (00:02:09) trapsize 3940
+\i (00:02:09) roam x -96 
+\i (00:02:09) roam x -96
+\i (00:02:09) zoom in 1 
+\i (00:02:09) setwindow pcb
+\i (00:02:09) zoom in 125.6788 167.0463
+\i (00:02:09) trapsize 1970
+\i (00:02:10) roam x -96 
+\i (00:02:10) roam x -96
+\i (00:02:10) roam x -96 
+\i (00:02:10) roam x -96
+\i (00:02:10) roam x -96 
+\i (00:02:10) roam x -96
+\i (00:02:10) roam x -96 
+\i (00:02:10) roam x -96
+\i (00:02:11) roam x -96 
+\i (00:02:11) roam x -96
+\i (00:02:11) zoom in 1 
+\i (00:02:11) setwindow pcb
+\i (00:02:11) zoom in 101.8825 169.1737
+\i (00:02:11) trapsize 985
+\i (00:02:11) zoom in 1 
+\i (00:02:11) setwindow pcb
+\i (00:02:11) zoom in 104.1084 169.5480
+\i (00:02:11) trapsize 492
+\i (00:02:12) roam x 96 
+\i (00:02:12) roam x 96
+\i (00:02:14) pick grid 106.0678 169.5480
+\t (00:02:14) last pick:  106.1720 169.6720
+\i (00:02:14) roam x 96 
+\i (00:02:14) roam x 96
+\i (00:02:14) zoom out 1 
+\i (00:02:14) setwindow pcb
+\i (00:02:14) zoom out 106.7671 169.3018
+\i (00:02:14) trapsize 985
+\i (00:02:14) roam x 96 
+\i (00:02:14) roam x 96
+\i (00:02:14) zoom out 1 
+\i (00:02:14) setwindow pcb
+\i (00:02:14) zoom out 108.6188 169.3017
+\i (00:02:14) trapsize 1970
+\i (00:02:15) roam x 96 
+\i (00:02:15) roam x 96
+\i (00:02:15) roam x 96 
+\i (00:02:15) roam x 96
+\i (00:02:15) roam y -96 
+\i (00:02:15) roam y -96
+\i (00:02:15) roam y -96 
+\i (00:02:15) roam y -96
+\i (00:02:16) roam y -96 
+\i (00:02:16) roam y -96
+\i (00:02:16) roam x 96 
+\i (00:02:16) roam x 96
+\i (00:02:16) roam y -96 
+\i (00:02:16) roam y -96
+\i (00:02:17) setwindow form.plc_manual
+\i (00:02:17) FORM plc_manual done  
+\i (00:02:17) setwindow pcb
+\i (00:02:17) generaledit 
+\i (00:02:19) save 
+\i (00:02:20) fillin yes 
+\t (00:02:20) > Sending response DoneOpenBoard
+\i (00:02:20) generaledit 
+\i (00:02:20) zoom out 1 
+\i (00:02:20) setwindow pcb
+\i (00:02:20) zoom out 128.4359 179.8892
+\i (00:02:20) trapsize 3940
+\i (00:02:21) zoom out 1 
+\i (00:02:21) setwindow pcb
+\i (00:02:21) zoom out 128.4359 179.8892
+\t (00:02:21) Grids are drawn 1.0160, 1.0160 apart for enhanced viewing.
+\i (00:02:21) trapsize 7880
+\i (00:02:22) save 
+\i (00:02:23) fillin yes 
+\t (00:02:23) > Sending response DoneOpenBoard
+\i (00:02:23) generaledit 
+\i (00:02:27) save 
+\i (00:02:28) fillin yes 
+\t (00:02:28) > Sending response DoneOpenBoard
+\i (00:02:28) generaledit 
+\i (00:02:28) exit 
+\t (00:02:29)     Journal end - Wed Jun 19 10:44:58 2024

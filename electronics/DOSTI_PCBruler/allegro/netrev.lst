@@ -1,0 +1,90 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    Allegro Netrev Import Logic                                      )
+(                                                                     )
+(    Drawing          : pcb_ruler.brd                                 )
+(    Software Version : 23.1S004                                      )
+(    Date/Time        : Wed Jun 19 10:42:34 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+------ Directives ------------
+
+Ripup etch:                  No
+Ripup delete first segment:  No
+Ripup retain bondwire:       No
+Ripup symbols:               Always
+Missing symbol has error:    No
+DRC update:                  Yes
+Schematic directory:         'd:\projects\projectscience\electronics\dosti_pcbruler\allegro'
+Design Directory:            'd:/projects/projectscience/electronics/dosti_pcbruler/allegro'
+Old design name:             'd:/projects/projectscience/electronics/dosti_pcbruler/allegro/pcb_ruler.brd'
+New design name:             'd:/projects/projectscience/electronics/dosti_pcbruler/allegro/pcb_ruler.brd'
+
+CmdLine: netrev -y 1 -i d:\projects\projectscience\electronics\dosti_pcbruler\allegro -q netrev_constraint_report.xml d:/projects/projectscience/electronics/dosti_pcbruler/allegro/#Taaaaai20884.tmp
+
+------ Preparing to read pst files ------
+
+Starting to read d:/projects/projectscience/electronics/dosti_pcbruler/allegro/pstchip.dat 
+   Finished reading d:/projects/projectscience/electronics/dosti_pcbruler/allegro/pstchip.dat (00:00:00.05)
+Starting to read d:/projects/projectscience/electronics/dosti_pcbruler/allegro/pstxprt.dat 
+   Finished reading d:/projects/projectscience/electronics/dosti_pcbruler/allegro/pstxprt.dat (00:00:00.00)
+Starting to read d:/projects/projectscience/electronics/dosti_pcbruler/allegro/pstxnet.dat 
+   Finished reading d:/projects/projectscience/electronics/dosti_pcbruler/allegro/pstxnet.dat (00:00:00.00)
+
+------ Oversights/Warnings/Errors ------
+
+
+------ Library Paths ------
+MODULEPATH =  . 
+           c:/cadence/spb_23.1/share/local/pcb/modules 
+
+PSMPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           c:/cadence/spb_23.1/share/local/pcb/symbols 
+           c:/cadence/spb_23.1/share/pcb/pcb_lib/symbols 
+           c:/cadence/spb_23.1/share/pcb/allegrolib/symbols 
+
+PADPATH =  . 
+           symbols 
+           .. 
+           ../symbols 
+           c:/cadence/spb_23.1/share/local/pcb/padstacks 
+           c:/cadence/spb_23.1/share/pcb/pcb_lib/symbols 
+           c:/cadence/spb_23.1/share/pcb/allegrolib/symbols 
+
+
+------ Summary Statistics ------
+
+
+netrev run on Jun 19 10:42:34 2024
+   DESIGN NAME : 'PCB_RULER'
+   PACKAGING ON Apr 17 2024 22:27:39
+
+   COMPILE 'logic'
+   CHECK_PIN_NAMES OFF
+   CROSS_REFERENCE OFF
+   FEEDBACK OFF
+   INCREMENTAL OFF
+   INTERFACE_TYPE PHYSICAL
+   MAX_ERRORS 500
+   MERGE_MINIMUM 5
+   NET_NAME_CHARS '#%&()*+-./:=>?@[]^_`|'
+   NET_NAME_LENGTH 24
+   OVERSIGHTS ON
+   REPLACE_CHECK OFF
+   SINGLE_NODE_NETS ON
+   SPLIT_MINIMUM 0
+   SUPPRESS   20
+   WARNINGS ON
+
+ No error detected
+ No oversight detected
+ No warning detected
+
+cpu time      0:00:35
+elapsed time  0:00:00
+

@@ -1,0 +1,23 @@
+A!NET_NAME!REFDES!PIN_NUMBER!FUNC_LOGICAL_PATH!COMP_DEVICE_TYPE!FUNC_SCH_SIZE!FUNC_HAS_FIXED_SIZE!FUNC_DES!PIN_NET_SHORT!PIN_NO_SWAP_PIN!PIN_NO_PIN_ESCAPE!PIN_CDS_PINID!PIN_XNET_PINS!PIN_PIN_ESCAPE!PIN_PIN_SIGNAL_MODEL!PIN_NO_DRC!PIN_NO_SHAPE_CONNECT!
+J!d:/projects/projectscience/electronics/dosti_pcbruler/allegro/pcb_ruler.brd!Wed Jun 19 10:42:22 2024!0.0000!0.0000!533.4000!431.8000!0.0001!millimeters!PCB_RULER!10.400000 mil!2!UP TO DATE!
+S!!IC1!3!@pcb_ruler.sch(sch_1):ins67@\ap7384-33sa-7\.\ap7384-33sa-7.normal\(chips)!AP7384-33SA-7_SOT96P240X110-3N_AP7384-33SA-7!!!TF-6!!!!!!!!!!
+S!!IC1!1!@pcb_ruler.sch(sch_1):ins67@\ap7384-33sa-7\.\ap7384-33sa-7.normal\(chips)!AP7384-33SA-7_SOT96P240X110-3N_AP7384-33SA-7!!!TF-6!!!!!!!!!!
+S!!IC1!2!@pcb_ruler.sch(sch_1):ins67@\ap7384-33sa-7\.\ap7384-33sa-7.normal\(chips)!AP7384-33SA-7_SOT96P240X110-3N_AP7384-33SA-7!!!TF-6!!!!!!!!!!
+S!!IC2!2!@pcb_ruler.sch(sch_1):ins192@\mcp1799t-5002h_db\.\mcp1799t-5002h_db.normal\(chips)!MCP1799T-5002H_DB_SOT230P700X180-4N_MCP1799T-5002H_DB!!!TF-5!!!!!!!!!!
+S!!IC2!4!@pcb_ruler.sch(sch_1):ins192@\mcp1799t-5002h_db\.\mcp1799t-5002h_db.normal\(chips)!MCP1799T-5002H_DB_SOT230P700X180-4N_MCP1799T-5002H_DB!!!TF-5!!!!!!!!!!
+S!!IC2!1!@pcb_ruler.sch(sch_1):ins192@\mcp1799t-5002h_db\.\mcp1799t-5002h_db.normal\(chips)!MCP1799T-5002H_DB_SOT230P700X180-4N_MCP1799T-5002H_DB!!!TF-5!!!!!!!!!!
+S!!IC2!3!@pcb_ruler.sch(sch_1):ins192@\mcp1799t-5002h_db\.\mcp1799t-5002h_db.normal\(chips)!MCP1799T-5002H_DB_SOT230P700X180-4N_MCP1799T-5002H_DB!!!TF-5!!!!!!!!!!
+S!!IC3!2!@pcb_ruler.sch(sch_1):ins274@tps76901sdbvtep.\tps76901sdbvtep.normal\(chips)!TPS76901SDBVTEP_SOT95P280X145-5N_TPS76901SDBVTEP!!!TF-4!!!!!!!!!!
+S!!IC3!1!@pcb_ruler.sch(sch_1):ins274@tps76901sdbvtep.\tps76901sdbvtep.normal\(chips)!TPS76901SDBVTEP_SOT95P280X145-5N_TPS76901SDBVTEP!!!TF-4!!!!!!!!!!
+S!!IC3!4!@pcb_ruler.sch(sch_1):ins274@tps76901sdbvtep.\tps76901sdbvtep.normal\(chips)!TPS76901SDBVTEP_SOT95P280X145-5N_TPS76901SDBVTEP!!!TF-4!!!!!!!!!!
+S!!IC3!5!@pcb_ruler.sch(sch_1):ins274@tps76901sdbvtep.\tps76901sdbvtep.normal\(chips)!TPS76901SDBVTEP_SOT95P280X145-5N_TPS76901SDBVTEP!!!TF-4!!!!!!!!!!
+S!!IC3!3!@pcb_ruler.sch(sch_1):ins274@tps76901sdbvtep.\tps76901sdbvtep.normal\(chips)!TPS76901SDBVTEP_SOT95P280X145-5N_TPS76901SDBVTEP!!!TF-4!!!!!!!!!!
+S!!Q1!1!@pcb_ruler.sch(sch_1):ins102@\bc817-25w\.\bc817-25w.normal\(chips)!BC817-25W_BC81725W_BC817-25W!!!TF-3!!!!!!!!!!
+S!!Q1!3!@pcb_ruler.sch(sch_1):ins102@\bc817-25w\.\bc817-25w.normal\(chips)!BC817-25W_BC81725W_BC817-25W!!!TF-3!!!!!!!!!!
+S!!Q1!2!@pcb_ruler.sch(sch_1):ins102@\bc817-25w\.\bc817-25w.normal\(chips)!BC817-25W_BC81725W_BC817-25W!!!TF-3!!!!!!!!!!
+S!!Q2!2!@pcb_ruler.sch(sch_1):ins149@\irfr010pbf-be3\.\irfr010pbf-be3.normal\(chips)!IRFR010PBF-BE3_SQD30N0520L_GE3_IRFR010PBF-BE3!!!TF-2!!!!!!!!!!
+S!!Q2!1!@pcb_ruler.sch(sch_1):ins149@\irfr010pbf-be3\.\irfr010pbf-be3.normal\(chips)!IRFR010PBF-BE3_SQD30N0520L_GE3_IRFR010PBF-BE3!!!TF-2!!!!!!!!!!
+S!!Q2!3!@pcb_ruler.sch(sch_1):ins149@\irfr010pbf-be3\.\irfr010pbf-be3.normal\(chips)!IRFR010PBF-BE3_SQD30N0520L_GE3_IRFR010PBF-BE3!!!TF-2!!!!!!!!!!
+S!!Q3!1!@pcb_ruler.sch(sch_1):ins229@\mmbt3904t-7-f\.\mmbt3904t-7-f.normal\(chips)!MMBT3904T-7-F_SOT50P160X90-3N_MMBT3904T-7-F!!!TF-1!!!!!!!!!!
+S!!Q3!3!@pcb_ruler.sch(sch_1):ins229@\mmbt3904t-7-f\.\mmbt3904t-7-f.normal\(chips)!MMBT3904T-7-F_SOT50P160X90-3N_MMBT3904T-7-F!!!TF-1!!!!!!!!!!
+S!!Q3!2!@pcb_ruler.sch(sch_1):ins229@\mmbt3904t-7-f\.\mmbt3904t-7-f.normal\(chips)!MMBT3904T-7-F_SOT50P160X90-3N_MMBT3904T-7-F!!!TF-1!!!!!!!!!!
