@@ -3,91 +3,32 @@
 |                                                                    Page   1  |
 |------------------------------------------------------------------------------|
 |  d:.../projectscience/electronics/dosti_pcbruler/allegro/pcb_ruler.brd       |
-|                                                    Wed Jun 19 10:42:34 2024  |
+|                                                    Wed Jun 19 15:11:57 2024  |
 |------------------------------------------------------------------------------|
-| COMPONENT DEFINITION added to design                                         |
+| COMPONENTS DELETED from design                                               |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    device type                                                               |
+|    ref des        |    device type      |   x   |   y                        |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- 74LVC1G123DC,125_SOP50P310X100-8N_74LVC1G123DC_125
- AP7381-50Y-13_AP738133Y13_AP7381-50Y-13
- IRFS7530TRL7PP_IRFS7530TRL7PP_IRFS7530TRL7PP
- LTC2439-1IGN#PBF_SOP64P601X175-28N_LTC2439-1IGN#PBF
- MMA02040E1001BB300_MMA02040E1001BB300_MMA02040E1001BB300
- NCV5662DSADJR4G_NCP5663DSADJR4G_NCV5662DSADJR4G
- SMCJ100A-Q_DIOM7959X262N_SMCJ100A-Q
- XPGDWT-Q1-0000-00XPP_XPGDWTQ1000000XPP_XPGDWT-Q1-0000-00XPP
- ZM4748A_L0_ZM4748AL0_ZM4748A_L0
+ IC15                EFM8LB12F64E-C-QFP32_QFP80P900X900X120-32N_EFM8LB12F64E-C-QFP32                
+ IC16                EFM32G232F128G-E-QFP64R_QFP50P1200X1200X120-64N_EFM32G232F128G-E-QFP64R                
 |------------------------------------------------------------------------------|
 |                                 ECO   REPORT                                 |
 |                                                                    Page   2  |
 |------------------------------------------------------------------------------|
 |  d:.../projectscience/electronics/dosti_pcbruler/allegro/pcb_ruler.brd       |
-|                                                    Wed Jun 19 10:42:34 2024  |
-|------------------------------------------------------------------------------|
-| COMPONENTS ADDED to design                                                   |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|    ref des        |    device type                                           |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- D1                  ZM4748A_L0_ZM4748AL0_ZM4748A_L0 
- D2                  SMCJ100A-Q_DIOM7959X262N_SMCJ100A-Q 
- IC4                 74LVC1G123DC,125_SOP50P310X100-8N_74LVC1G123DC_125 
- IC5                 AP7381-50Y-13_AP738133Y13_AP7381-50Y-13 
- IC6                 NCV5662DSADJR4G_NCP5663DSADJR4G_NCV5662DSADJR4G 
- IC7                 LTC2439-1IGN#PBF_SOP64P601X175-28N_LTC2439-1IGN#PBF 
- LED1                XPGDWT-Q1-0000-00XPP_XPGDWTQ1000000XPP_XPGDWT-Q1-0000-00XPP 
- Q4                  IRFS7530TRL7PP_IRFS7530TRL7PP_IRFS7530TRL7PP 
- R1                  MMA02040E1001BB300_MMA02040E1001BB300_MMA02040E1001BB300 
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   3  |
-|------------------------------------------------------------------------------|
-|  d:.../projectscience/electronics/dosti_pcbruler/allegro/pcb_ruler.brd       |
-|                                                    Wed Jun 19 10:42:34 2024  |
+|                                                    Wed Jun 19 15:11:57 2024  |
 |------------------------------------------------------------------------------|
 | SLOT PROPERTIES added to design                                              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
 |   slot_id    |   x   |   y   |   property   |             value              |
 |- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
- D1.1                           PRIM_FILE      .\pstchip.dat
- D1.1                           XY             (560,340)
- D2.1                           PRIM_FILE      .\pstchip.dat
- D2.1                           XY             (958,50)
- IC1.2          109.450 165.020 XY             (200,130)
- IC2.3          115.800 163.115 XY             (200,220)
- IC3.3          109.450 160.575 XY             (200,40)
- IC4.8                          PRIM_FILE      .\pstchip.dat
- IC4.8                          XY             (200,500)
- IC5.1                          PRIM_FILE      .\pstchip.dat
- IC5.1                          XY             (550,420)
- IC6.4                          PRIM_FILE      .\pstchip.dat
- IC6.4                          XY             (550,130)
- IC7.9                          PRIM_FILE      .\pstchip.dat
- IC7.9                          XY             (910,280)
- LED1.1                         PRIM_FILE      .\pstchip.dat
- LED1.1                         XY             (560,510)
- Q1.2           105.005 165.020 XY             (190,390)
- Q2.3           98.0200 161.210 XY             (570,30)
- Q3.2           105.005 160.575 XY             (190,300)
- Q4.7                           PRIM_FILE      .\pstchip.dat
- Q4.7                           XY             (940,140)
- R1.2                           PRIM_FILE      .\pstchip.dat
- R1.2                           XY             (570,255)
-|------------------------------------------------------------------------------|
-|                                 ECO   REPORT                                 |
-|                                                                    Page   4  |
+ IC11.29        279.908 172.720 XY             (460,640)
+ IC12.6         266.700 171.196 XY             (850,620)
+ J2.9           119.380 179.324 XY             (150,690)
+ J3.9           104.394 179.197 XY             (150,610)
 |------------------------------------------------------------------------------|
-|  d:.../projectscience/electronics/dosti_pcbruler/allegro/pcb_ruler.brd       |
-|                                                    Wed Jun 19 10:42:34 2024  |
-|------------------------------------------------------------------------------|
-| SLOT PROPERTIES added to design                                              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|   slot_id    |   x   |   y   |   property   |             value              |
-|- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - |
-|------------------------------------------------------------------------------|
-|       Comp definitions added:       9                                        |
-|       Components added      :       9                                        |
-|       Slot property added   :      24                                        |
+|       Components deleted    :       2                                        |
+|       Slot property added   :       4                                        |
 |                                                                              |
-|   Total ECO changes reported:      42                                        |
+|   Total ECO changes reported:       6                                        |
 |------------------------------------------------------------------------------|

@@ -40,6 +40,39 @@
          "d:\projects\cadenceemd\main_libraries\pcbruler\xpgdwt-q1-0000-00xpp.olb"
         (Type "Schematic Library"))
       (File "d:\projects\cadenceemd\main_libraries\pcbruler\zm4748a_l0.olb"
+        (Type "Schematic Library"))
+      (File
+         "d:\projects\cadenceemd\main_libraries\connector usb type c\219320-0001.olb"
+        (Type "Schematic Library"))
+      (File
+         "d:\projects\cadenceemd\main_libraries\connector headerpin\95278-401a10lf.olb"
+        (Type "Schematic Library"))
+      (File "d:\projects\cadenceemd\main_libraries\pcbruler\5m240zm100c5n.olb"
+        (Type "Schematic Library"))
+      (File "d:\projects\cadenceemd\main_libraries\pcbruler\avr64du32-i_pt.olb"
+        (Type "Schematic Library"))
+      (File
+         "d:\projects\cadenceemd\main_libraries\pcbruler\efm8lb12f64e-c-qfp32.olb"
+        (Type "Schematic Library"))
+      (File
+         "d:\projects\cadenceemd\main_libraries\pcbruler\efm32g232f128g-e-qfp64r.olb"
+        (Type "Schematic Library"))
+      (File
+         "d:\projects\cadenceemd\main_libraries\pcbruler\pic16f15276-i_pt.olb"
+        (Type "Schematic Library"))
+      (File
+         "d:\projects\cadenceemd\main_libraries\pcbruler\pic32mm0256gpm028-i_ml.olb"
+        (Type "Schematic Library"))
+      (File
+         "d:\projects\cadenceemd\main_libraries\pcbruler\pic32mm0256gpm028-i_ml1.olb"
+        (Type "Schematic Library"))
+      (File
+         "d:\projects\cadenceemd\main_libraries\pcbruler\r7fa2l1ab2dfp#ha0.olb"
+        (Type "Schematic Library"))
+      (File "d:\projects\cadenceemd\main_libraries\pcbruler\stm32h562rgt6.olb"
+        (Type "Schematic Library"))
+      (File
+         "d:\projects\cadenceemd\main_libraries\pcbruler\stm32l072czt6tr.olb"
         (Type "Schematic Library")))
     ("Allegro Netlist Directory" "allegro")
     (DOCKED "TRUE")
@@ -107,6 +140,66 @@
       (LogFile
          "d:\projects\projectscience\electronics\dosti_pcbruler\allegro\genfeed.log")))
   (PartMRUSelector
+    (PIC32MM0256GPM028-I_ML
+      (FullPartName "PIC32MM0256GPM028-I_ML.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\PCBRULER\PIC32MM0256GPM028-I_ML1.OLB")
+      (DeviceIndex "0"))
+    (R7FA2L1AB2DFP#HA0
+      (FullPartName "R7FA2L1AB2DFP#HA0.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\PCBRULER\R7FA2L1AB2DFP#HA0.OLB")
+      (DeviceIndex "0"))
+    (EFM32G232F128G-E-QFP64R
+      (FullPartName "EFM32G232F128G-E-QFP64R.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\PCBRULER\EFM32G232F128G-E-QFP64R.OLB")
+      (DeviceIndex "0"))
+    (EFM8LB12F64E-C-QFP32
+      (FullPartName "EFM8LB12F64E-C-QFP32.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\PCBRULER\EFM8LB12F64E-C-QFP32.OLB")
+      (DeviceIndex "0"))
+    (TLP293-4_V4GBTPE
+      (FullPartName "TLP293-4_V4GBTPE.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\PCBRULER\TLP293-4_V4GBTPE.OLB")
+      (DeviceIndex "0"))
+    (5M240ZM100C5N
+      (FullPartName "5M240ZM100C5N.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\PCBRULER\5M240ZM100C5N.OLB")
+      (DeviceIndex "0"))
+    (AVR64DU32-I_PT
+      (FullPartName "AVR64DU32-I_PT.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\PCBRULER\AVR64DU32-I_PT.OLB")
+      (DeviceIndex "0"))
+    (PIC16F15276-I_PT
+      (FullPartName "PIC16F15276-I_PT.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\PCBRULER\PIC16F15276-I_PT.OLB")
+      (DeviceIndex "0"))
+    (STM32L072CZT6TR
+      (FullPartName "STM32L072CZT6TR.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\PCBRULER\STM32L072CZT6TR.OLB")
+      (DeviceIndex "0"))
+    (STM32H562RGT6
+      (FullPartName "STM32H562RGT6.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\PCBRULER\STM32H562RGT6.OLB")
+      (DeviceIndex "0"))
+    (95278-401A10LF
+      (FullPartName "95278-401A10LF.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\CONNECTOR HEADERPIN\95278-401A10LF.OLB")
+      (DeviceIndex "0"))
+    (219320-0001
+      (FullPartName "219320-0001.Normal")
+      (LibraryName
+         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\CONNECTOR USB TYPE C\219320-0001.OLB")
+      (DeviceIndex "0"))
     (LTC2439-1IGN#PBF
       (FullPartName "LTC2439-1IGN#PBF.Normal")
       (LibraryName
@@ -171,20 +264,6 @@
       (FullPartName "IRFR010PBF-BE3.Normal")
       (LibraryName
          "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\PCBRULER\IRFR010PBF-BE3.OLB")
-      (DeviceIndex "0"))
-    (BC817-25W
-      (FullPartName "BC817-25W.Normal")
-      (LibraryName
-         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\PCBRULER\BC817-25W.OLB")
-      (DeviceIndex "0"))
-    (AP7384-33SA-7
-      (FullPartName "AP7384-33SA-7.Normal")
-      (LibraryName
-         "D:\PROJECTS\CADENCEEMD\MAIN_LIBRARIES\PCBRULER\AP7384-33SA-7.OLB")
-      (DeviceIndex "0"))
-    ("CAP NP"
-      (FullPartName "CAP NP.Normal")
-      (LibraryName "C:\CADENCE\SPB_23.1\TOOLS\CAPTURE\LIBRARY\DISCRETE.OLB")
       (DeviceIndex "0")))
   (GlobalState
     (FileView
@@ -198,18 +277,20 @@
     (Doc
       (Type "COrCapturePMDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 529"))
+        (Placement "44 0 1 -1 -1 -1 -1 0 213 0 385"))
       (Tab 0))
     (Doc
       (Type "COrSchematicDoc")
       (Frame
-        (Placement "44 0 1 -1 -1 -1 -1 5 982 24 547")
-        (Scroll "241 114")
-        (Zoom "120")
+        (Placement "44 0 1 -1 -1 -1 -1 5 747 24 403")
+        (Scroll "262 66")
+        (Zoom "80")
         (Occurrence "/"))
       (Path
          "D:\PROJECTS\PROJECTSCIENCE\ELECTRONICS\DOSTI_PCBRULER\PCB_RULER.DSN")
       (Schematic "SCH")
       (Page "MAIN")))
   (MPSSessionName "Prometheus")
-  (ISPCBBASICLICENSE "false"))
+  (ISPCBBASICLICENSE "false")
+  (LastUsedLibraryBrowseDirectory
+     "D:\Projects\CadenceEMD\Main_Libraries\PCBRULER"))

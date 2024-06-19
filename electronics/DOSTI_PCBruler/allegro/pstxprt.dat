@@ -1,5 +1,5 @@
 FILE_TYPE = EXPANDEDPARTLIST;
-{ Using PSTWRITER 23.1.0 d001Jun-19-2024 at 10:42:34 }
+{ Using PSTWRITER 23.1.0 d001Jun-19-2024 at 15:11:56 }
 DIRECTIVES
  PST_VERSION='PST_HDL_CENTRIC_VERSION_0';
  ROOT_DRAWING='PCB_RULER';
@@ -38,6 +38,72 @@ SECTION_NUMBER 1
  P_PATH='@pcb_ruler.sch(sch_1):page1_ins67@\ap7384-33sa-7\.\ap7384-33sa-7.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
  XY='(200,130)',
+ SECTION='';
+
+PART_NAME
+ IC10 'STM32L072CZT6TR_QFP50P900X900X160-48N_STM32L072CZT6TR':;
+
+SECTION_NUMBER 1
+ '@PCB_RULER.SCH(SCH_1):INS3572@STM32L072CZT6TR.STM32L072CZT6TR.NORMAL(CHIPS)':
+ C_PATH='@pcb_ruler.sch(sch_1):ins3572@stm32l072czt6tr.\stm32l072czt6tr.normal\(chips)',
+ P_PATH='@pcb_ruler.sch(sch_1):page1_ins3572@stm32l072czt6tr.\stm32l072czt6tr.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(820,1090)',
+ SECTION='';
+
+PART_NAME
+ IC11 'PIC16F15276-I_PT_QFP80P1200X1200X120-44N_PIC16F15276-I_PT':;
+
+SECTION_NUMBER 1
+ '@PCB_RULER.SCH(SCH_1):INS3773@PIC16F15276-I_PT.PIC16F15276-I_PT.NORMAL(CHIPS)':
+ C_PATH='@pcb_ruler.sch(sch_1):ins3773@\pic16f15276-i_pt\.\pic16f15276-i_pt.normal\(chips)',
+ P_PATH='@pcb_ruler.sch(sch_1):page1_ins3773@\pic16f15276-i_pt\.\pic16f15276-i_pt.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(460,640)',
+ SECTION='';
+
+PART_NAME
+ IC12 'AVR64DU32-I_PT_QFP80P900X900X120-32N_AVR64DU32-I_PT':;
+
+SECTION_NUMBER 1
+ '@PCB_RULER.SCH(SCH_1):INS3942@AVR64DU32-I_PT.AVR64DU32-I_PT.NORMAL(CHIPS)':
+ C_PATH='@pcb_ruler.sch(sch_1):ins3942@\avr64du32-i_pt\.\avr64du32-i_pt.normal\(chips)',
+ P_PATH='@pcb_ruler.sch(sch_1):page1_ins3942@\avr64du32-i_pt\.\avr64du32-i_pt.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(850,620)',
+ SECTION='';
+
+PART_NAME
+ IC13 '5M240ZM100C5N_BGA100C50P11X11_600X600X120_5M240ZM100C5N':;
+
+SECTION_NUMBER 1
+ '@PCB_RULER.SCH(SCH_1):INS4223@5M240ZM100C5N.5M240ZM100C5N.NORMAL(CHIPS)':
+ C_PATH='@pcb_ruler.sch(sch_1):ins4223@\5m240zm100c5n\.\5m240zm100c5n.normal\(chips)',
+ P_PATH='@pcb_ruler.sch(sch_1):page1_ins4223@\5m240zm100c5n\.\5m240zm100c5n.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(120,1300)',
+ SECTION='A';
+
+PART_NAME
+ IC14 'TLP293-4_V4GBTPE_SOIC127P700X230-16N_TLP293-4_V4GBTPE':;
+
+SECTION_NUMBER 1
+ '@PCB_RULER.SCH(SCH_1):INS4472@TLP293-4_V4GBTPE.TLP293-4_V4GBTPE.NORMAL(CHIPS)':
+ C_PATH='@pcb_ruler.sch(sch_1):ins4472@\tlp293-4_v4gbtpe\.\tlp293-4_v4gbtpe.normal\(chips)',
+ P_PATH='@pcb_ruler.sch(sch_1):page1_ins4472@\tlp293-4_v4gbtpe\.\tlp293-4_v4gbtpe.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(900,460)',
+ SECTION='';
+
+PART_NAME
+ IC17 'R7FA2L1AB2DFP#HA0_QFP50P1600X1600X170-100N_R7FA2L1AB2DFP#HA0':;
+
+SECTION_NUMBER 1
+ '@PCB_RULER.SCH(SCH_1):INS5139@R7FA2L1AB2DFP#HA0.R7FA2L1AB2DFP#HA0.NORMAL(CHIPS)':
+ C_PATH='@pcb_ruler.sch(sch_1):ins5139@\r7fa2l1ab2dfp#ha0\.\r7fa2l1ab2dfp#ha0.normal\(chips)',
+ P_PATH='@pcb_ruler.sch(sch_1):page1_ins5139@\r7fa2l1ab2dfp#ha0\.\r7fa2l1ab2dfp#ha0.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(780,1400)',
  SECTION='';
 
 PART_NAME
@@ -103,7 +169,40 @@ SECTION_NUMBER 1
  C_PATH='@pcb_ruler.sch(sch_1):ins1177@\ltc2439-1ign#pbf\.\ltc2439-1ign#pbf.normal\(chips)',
  P_PATH='@pcb_ruler.sch(sch_1):page1_ins1177@\ltc2439-1ign#pbf\.\ltc2439-1ign#pbf.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(910,280)',
+ XY='(910,250)',
+ SECTION='';
+
+PART_NAME
+ IC8 'STM32H562RGT6_QFP50P1200X1200X160-64N_STM32H562RGT6':;
+
+SECTION_NUMBER 1
+ '@PCB_RULER.SCH(SCH_1):INS3198@STM32H562RGT6.STM32H562RGT6.NORMAL(CHIPS)':
+ C_PATH='@pcb_ruler.sch(sch_1):ins3198@stm32h562rgt6.\stm32h562rgt6.normal\(chips)',
+ P_PATH='@pcb_ruler.sch(sch_1):page1_ins3198@stm32h562rgt6.\stm32h562rgt6.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(510,900)',
+ SECTION='';
+
+PART_NAME
+ J2 '95278-401A10LF_95278401A10LF_95278-401A10LF':;
+
+SECTION_NUMBER 1
+ '@PCB_RULER.SCH(SCH_1):INS1677@95278-401A10LF.95278-401A10LF.NORMAL(CHIPS)':
+ C_PATH='@pcb_ruler.sch(sch_1):ins1677@\95278-401a10lf\.\95278-401a10lf.normal\(chips)',
+ P_PATH='@pcb_ruler.sch(sch_1):page1_ins1677@\95278-401a10lf\.\95278-401a10lf.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(150,690)',
+ SECTION='';
+
+PART_NAME
+ J3 '95278-401A10LF_95278401A10LF_95278-401A10LF':;
+
+SECTION_NUMBER 1
+ '@PCB_RULER.SCH(SCH_1):INS1955@95278-401A10LF.95278-401A10LF.NORMAL(CHIPS)':
+ C_PATH='@pcb_ruler.sch(sch_1):ins1955@\95278-401a10lf\.\95278-401a10lf.normal\(chips)',
+ P_PATH='@pcb_ruler.sch(sch_1):page1_ins1955@\95278-401a10lf\.\95278-401a10lf.normal\(chips)',
+ PRIM_FILE='.\pstchip.dat',
+ XY='(150,610)',
  SECTION='';
 
 PART_NAME
@@ -158,7 +257,7 @@ SECTION_NUMBER 1
  C_PATH='@pcb_ruler.sch(sch_1):ins1090@irfs7530trl7pp.\irfs7530trl7pp.normal\(chips)',
  P_PATH='@pcb_ruler.sch(sch_1):page1_ins1090@irfs7530trl7pp.\irfs7530trl7pp.normal\(chips)',
  PRIM_FILE='.\pstchip.dat',
- XY='(940,140)',
+ XY='(940,130)',
  SECTION='';
 
 PART_NAME

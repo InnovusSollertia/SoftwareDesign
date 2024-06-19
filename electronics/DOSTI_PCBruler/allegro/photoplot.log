@@ -1,0 +1,150 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    ARTWORK LOG                                                      )
+(                                                                     )
+(    Drawing          : pcb_ruler.brd                                 )
+(    Software Version : 23.1S004                                      )
+(    Date/Time        : Wed Jun 19 14:31:56 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+ ---- Photoplot outline rectangle not found; using drawing extents.
+
+
+
+Results from parameter file ...
+    DEVICE-TYPE           GERBER_RS274X
+    OUTPUT-UNITS          MM
+    FILM-SIZE             2400000 1600000
+    FORMAT                5.5
+    ABORT-ON-ERROR        NO
+    SCALE                 1
+    SUPPRESS-LEAD-ZEROES  YES
+    SUPPRESS-TRAIL-ZEROES NO
+    SUPPRESS-EQUAL        YES
+    UNDEF-APT-CONT        NO
+
+
+
+================================================================
+     PROCESSING FILM < TOP >
+     TO FILE < d:/projects/projectscience/electronics/dosti_pcbruler/allegro/TOP.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+    WARNING: Film contains objects with associated DRCs (1).
+           In the design editor view this film and enable visibility for the
+           associated DRC layer. Verify the DRCs are approved exceptions to your rules.
+
+
+  APERTURES USED:
+  ---------------------------------------------------------
+  TYPE       SIZE/NAME                   ROT   MIRROR MODE 
+  ---------------------------------------------------------
+  CIRCLE     0.12700                                  DARK 
+  CIRCLE     0.25400                                  DARK 
+  CIRCLE     0.29000                                  DARK 
+  CIRCLE     0.50800                                  DARK 
+  CIRCLE     0.63500                                  DARK 
+  CIRCLE     1.00000                                  DARK 
+  CIRCLE     1.27000                                  DARK 
+  CIRCLE     1.78000                                  DARK 
+  CIRCLE     2.00000                                  DARK 
+  RECTANGLE  0.30000     x 0.85000      90.000 NO     DARK 
+  RECTANGLE  0.30000     x 1.45000       0.000 NO     DARK 
+  RECTANGLE  0.30000     x 1.45000      90.000 NO     DARK 
+  RECTANGLE  0.30000     x 1.47500       0.000 NO     DARK 
+  RECTANGLE  0.30000     x 1.47500      90.000 NO     DARK 
+  RECTANGLE  0.40000     x 0.89990       0.000 NO     DARK 
+  RECTANGLE  0.43500     x 1.52600      90.000 NO     DARK 
+  RECTANGLE  0.50000     x 3.30000       0.000 NO     DARK 
+  RECTANGLE  0.54990     x 0.59990       0.000 NO     DARK 
+  RECTANGLE  0.55000     x 1.30000       0.000 NO     DARK 
+  RECTANGLE  0.55880     x 1.27000      90.000 NO     DARK 
+  RECTANGLE  0.60000     x 1.45000       0.000 NO     DARK 
+  RECTANGLE  0.60000     x 1.45000      90.000 NO     DARK 
+  RECTANGLE  0.60000     x 1.47500       0.000 NO     DARK 
+  RECTANGLE  0.60000     x 1.47500      90.000 NO     DARK 
+  RECTANGLE  0.65000     x 1.10010      90.000 NO     DARK 
+  RECTANGLE  0.65000     x 1.65000      90.000 NO     DARK 
+  RECTANGLE  0.80000     x 1.47500       0.000 NO     DARK 
+  RECTANGLE  0.80000     x 4.60000       0.000 NO     DARK 
+  RECTANGLE  0.95000     x 1.75010      90.000 NO     DARK 
+  RECTANGLE  1.01600     x 3.05000       0.000 NO     DARK 
+  RECTANGLE  1.20000     x 1.60000       0.000 NO     DARK 
+  RECTANGLE  1.27000     x 2.54000       0.000 NO     DARK 
+  RECTANGLE  1.30000     x 3.30000       0.000 NO     DARK 
+  RECTANGLE  1.39700     x 2.28600      90.000 NO     DARK 
+  RECTANGLE  1.50000     x 2.70000       0.000 NO     DARK 
+  RECTANGLE  1.75010     x 3.19990       0.000 NO     DARK 
+  RECTANGLE  1.85000     x 3.12500       0.000 NO     DARK 
+  RECTANGLE  2.20000     x 3.15000       0.000 NO     DARK 
+  RECTANGLE  5.69010     x 6.18010      90.000 NO     DARK 
+  RECTANGLE  8.38000     x 10.66000     90.000 NO     DARK 
+  RECTANGLE  9.40000     x 10.80000     90.000 NO     DARK 
+
+     TOP created with warnings
+
+
+================================================================
+     PROCESSING FILM < BOTTOM >
+     TO FILE < d:/projects/projectscience/electronics/dosti_pcbruler/allegro/BOTTOM.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:  NONE
+     BOTTOM created.
+
+
+================================================================
+     PROCESSING FILM < OUTLINE >
+     TO FILE < d:/projects/projectscience/electronics/dosti_pcbruler/allegro/OUTLINE.art > ...
+================================================================
+
+  FILM PARAMETERS :
+  ---------------------------------------------------------
+  Undefined line width                0.0000
+  Mirror code                         NONE
+  Rotate angle                        NONE
+  Offset x:                           0.0000
+  Offset y:                           0.0000
+  Plot negative                       NO
+  Suppress unconnected internal pads  NO
+  Draw holes only                     NO
+
+
+
+  APERTURES USED:  NONE
+     OUTLINE created.
+
+
+------------------------------------------------------
+ SUMMARY:
+        TOP created with warnings
+        BOTTOM created.
+        OUTLINE created.
+
+ ARTWORK had warnings

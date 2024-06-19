@@ -1,0 +1,24 @@
+{
+	"Gate Swap" : [],
+	"Ref Des" : [],
+	"Pin Swap" : [],
+	"Component Property" : [],
+	"Net Property" : [],
+	"Pin Property" : [],
+	"Component" : [
+		{
+			"Name" : "IC15",
+			"C_PATH" : "@pcb_ruler.sch(sch_1):ins4585@\\efm8lb12f64e-c-qfp32\\.\\efm8lb12f64e-c-qfp32.normal\\(chips)",
+			"Logical" : null,
+			"Physical" : "IC15"
+		},
+		{
+			"Name" : "IC16",
+			"C_PATH" : "@pcb_ruler.sch(sch_1):ins4794@\\efm32g232f128g-e-qfp64r\\.\\efm32g232f128g-e-qfp64r.normal\\(chips)",
+			"Logical" : null,
+			"Physical" : "IC16"
+		}
+	],
+	"Net" : [],
+	"Connection" : []
+}
