@@ -1,0 +1,29 @@
+(---------------------------------------------------------------------)
+(                                                                     )
+(    STEP Export                                                      )
+(                                                                     )
+(    Software Version : 23.1S004                                      )
+(    Date/Time        : Sun Jun 23 16:34:35 2024                      )
+(                                                                     )
+(---------------------------------------------------------------------)
+
+
+
+
+STEP file: pcb_ruler
+Design file: d:/projects/projectscience/electronics/dosti_pcbruler/allegro/pcb_ruler.brd
+Export units: Millimeter
+STEP protocol: AP-214
+Source identification: allegro_23.1S004
+Export selected and highlighted parts?: NO
+Export secondary parts?: NO
+Export parts with mapped STEP Models?: YES
+Ignore STEP definitions for mapped parts?: NO
+Export parts without mapped STEP Models?: YES
+Export assemblies and enclosures parts?: NO
+Export mechanical drills?: YES
+Export electrical through pin drills?: NO
+Export electrical through via drills?: NO
+Export bare board only?: NO
+Export external copper?: NO
+step_out complete.
