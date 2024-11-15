@@ -1,0 +1,10 @@
+11:41:58 **** Incremental Build of configuration Debug for project ES2023_TP16_MB1_Solution ****
+make -j12 all 
+arm-none-eabi-size  ES2023_TP16_MB1_Solution.elf 
+   text	   data	    bss	    dec	    hex	filename
+  45640	    136	   4824	  50600	   c5a8	ES2023_TP16_MB1_Solution.elf
+Finished building: default.size.stdout
+ 
+
+11:41:59 Build Finished. 0 errors, 0 warnings. (took 568ms)
+

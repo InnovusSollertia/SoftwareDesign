@@ -1,0 +1,8 @@
+*.uvguix.*
+*.uvoptx
+*.uvprojx
+*.lst
+Listings/
+Objects/
+RTE/
+DebugConfig/

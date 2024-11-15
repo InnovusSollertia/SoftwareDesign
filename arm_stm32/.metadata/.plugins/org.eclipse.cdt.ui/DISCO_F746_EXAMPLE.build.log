@@ -1,0 +1,10 @@
+10:04:02 **** Incremental Build of configuration Debug for project DISCO_F746_EXAMPLE ****
+make -j12 all 
+arm-none-eabi-size  DISCO_F746_EXAMPLE.elf 
+   text	   data	    bss	    dec	    hex	filename
+  81152	    448	  39992	 121592	  1daf8	DISCO_F746_EXAMPLE.elf
+Finished building: default.size.stdout
+ 
+
+10:04:03 Build Finished. 0 errors, 0 warnings. (took 730ms)
+
