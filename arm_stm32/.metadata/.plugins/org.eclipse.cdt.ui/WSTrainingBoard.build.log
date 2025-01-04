@@ -1,0 +1,10 @@
+12:58:09 **** Incremental Build of configuration Debug for project WSTrainingBoard ****
+make -j12 all 
+arm-none-eabi-size  WSTrainingBoard.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5316	     12	   1572	   6900	   1af4	WSTrainingBoard.elf
+Finished building: default.size.stdout
+ 
+
+12:58:10 Build Finished. 0 errors, 0 warnings. (took 207ms)
+
