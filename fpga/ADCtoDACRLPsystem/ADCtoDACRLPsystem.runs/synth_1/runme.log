@@ -1,0 +1,52 @@
+
+*** Running vivado
+    with args -log radar_processing_tb.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source radar_processing_tb.tcl
+
+
+
+****** Vivado v2024.1.1 (64-bit)
+  **** SW Build 5094488 on Fri Jun 14 08:59:21 MDT 2024
+  **** IP Build 5091682 on Fri Jun 14 16:55:04 MDT 2024
+  **** SharedData Build 5094118 on Fri Jun 14 01:09:43 MDT 2024
+  **** Start of session at: Thu Feb 20 23:36:39 2025
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source radar_processing_tb.tcl -notrace
+create_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 631.047 ; gain = 200.332
+Command: read_checkpoint -auto_incremental -incremental D:/Projects/SoftwareDesign/fpga/ADCtoDACRLPsystem/ADCtoDACRLPsystem.srcs/utils_1/imports/synth_1/main.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from D:/Projects/SoftwareDesign/fpga/ADCtoDACRLPsystem/ADCtoDACRLPsystem.srcs/utils_1/imports/synth_1/main.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top radar_processing_tb -part xczu21dr-ffvd1156-2-e
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xczu21dr'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu21dr'
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 17156
+---------------------------------------------------------------------------------
+Starting Synthesize : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 1030.344 ; gain = 388.332
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'radar_processing_tb' [D:/Projects/SoftwareDesign/fpga/ADCtoDACRLPsystem/ADCtoDACRLPsystem.srcs/sources_1/new/main.v:1]
+WARNING: [Synth 8-11581] system task call 'dumpfile' not supported [D:/Projects/SoftwareDesign/fpga/ADCtoDACRLPsystem/ADCtoDACRLPsystem.srcs/sources_1/new/main.v:23]
+WARNING: [Synth 8-11581] system task call 'dumpvars' not supported [D:/Projects/SoftwareDesign/fpga/ADCtoDACRLPsystem/ADCtoDACRLPsystem.srcs/sources_1/new/main.v:24]
+INFO: [Synth 8-251] ADC Input: X=512, Y=256, Z=128 [D:/Projects/SoftwareDesign/fpga/ADCtoDACRLPsystem/ADCtoDACRLPsystem.srcs/sources_1/new/main.v:36]
+INFO: [Synth 8-251] ADC Input: X=600, Y=300, Z=150 [D:/Projects/SoftwareDesign/fpga/ADCtoDACRLPsystem/ADCtoDACRLPsystem.srcs/sources_1/new/main.v:39]
+INFO: [Synth 8-251] ADC Input: X=700, Y=400, Z=200 [D:/Projects/SoftwareDesign/fpga/ADCtoDACRLPsystem/ADCtoDACRLPsystem.srcs/sources_1/new/main.v:42]
+INFO: [Synth 8-251] ADC Input: X=800, Y=500, Z=250 [D:/Projects/SoftwareDesign/fpga/ADCtoDACRLPsystem/ADCtoDACRLPsystem.srcs/sources_1/new/main.v:45]
+INFO: [Synth 8-251] ADC Input: X=900, Y=600, Z=300 [D:/Projects/SoftwareDesign/fpga/ADCtoDACRLPsystem/ADCtoDACRLPsystem.srcs/sources_1/new/main.v:48]
+INFO: [Synth 8-251] Checksum: x [D:/Projects/SoftwareDesign/fpga/ADCtoDACRLPsystem/ADCtoDACRLPsystem.srcs/sources_1/new/main.v:51]
+INFO: [Synth 8-251] Encrypted Data (AES-2048): xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx [D:/Projects/SoftwareDesign/fpga/ADCtoDACRLPsystem/ADCtoDACRLPsystem.srcs/sources_1/new/main.v:52]
+INFO: [Synth 8-251] Final Data Sent to PCI-E Buffer: x [D:/Projects/SoftwareDesign/fpga/ADCtoDACRLPsystem/ADCtoDACRLPsystem.srcs/sources_1/new/main.v:54]
+WARNING: [Synth 8-11581] system task call 'finish' not supported [D:/Projects/SoftwareDesign/fpga/ADCtoDACRLPsystem/ADCtoDACRLPsystem.srcs/sources_1/new/main.v:55]
+ERROR: [Synth 8-439] module 'radar_processing' not found [D:/Projects/SoftwareDesign/fpga/ADCtoDACRLPsystem/ADCtoDACRLPsystem.srcs/sources_1/new/main.v:9]
+ERROR: [Synth 8-6156] failed synthesizing module 'radar_processing_tb' [D:/Projects/SoftwareDesign/fpga/ADCtoDACRLPsystem/ADCtoDACRLPsystem.srcs/sources_1/new/main.v:1]
+---------------------------------------------------------------------------------
+Finished Synthesize : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1115.887 ; gain = 473.875
+---------------------------------------------------------------------------------
+synthesize failed
+INFO: [Common 17-83] Releasing license: Synthesis
+16 Infos, 3 Warnings, 0 Critical Warnings and 3 Errors encountered.
+synth_design failed
+ERROR: [Common 17-69] Command failed: Vivado Synthesis failed
+INFO: [Common 17-206] Exiting Vivado at Thu Feb 20 23:37:01 2025...
