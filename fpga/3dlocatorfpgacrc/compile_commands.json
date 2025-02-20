@@ -1,0 +1,26 @@
+[
+  {
+    "directory": "D:\\Projects\\SoftwareDesign\\fpga\\3dlocatorfpgacrc",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\common\\technology\\autopilot",
+      "",
+      "-c",
+      "D:\\Projects\\SoftwareDesign\\fpga\\3dlocatorfpgacrc\\main.cpp"
+    ],
+    "file": "D:\\Projects\\SoftwareDesign\\fpga\\3dlocatorfpgacrc\\main.cpp"
+  },
+  {
+    "directory": "D:\\Projects\\SoftwareDesign\\fpga\\3dlocatorfpgacrc",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
+      "-fhls-tb",
+      "-hls-sim-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\include",
+      "",
+      "-c",
+      "D:\\Projects\\SoftwareDesign\\fpga\\3dlocatorfpgacrc\\testbench.cpp"
+    ],
+    "file": "D:\\Projects\\SoftwareDesign\\fpga\\3dlocatorfpgacrc\\testbench.cpp"
+  }
+]
