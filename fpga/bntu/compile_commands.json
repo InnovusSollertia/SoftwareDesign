@@ -1,0 +1,14 @@
+[
+  {
+    "directory": "D:\\Projects\\SoftwareDesign\\fpga\\bntu",
+    "arguments": [
+      "C:\\Xilinx\\Vitis_HLS\\2024.1\\vcxx\\libexec\\clang++.exe",
+      "-fhls",
+      "-hls-syn-headers-dir=C:\\Xilinx\\Vitis_HLS\\2024.1\\common\\technology\\autopilot",
+      "",
+      "-c",
+      "D:\\Projects\\SoftwareDesign\\fpga\\bntu\\bntu.cpp"
+    ],
+    "file": "D:\\Projects\\SoftwareDesign\\fpga\\bntu\\bntu.cpp"
+  }
+]

@@ -1,11 +1,11 @@
 {
-  "name": "3dlocatorfpgacrc",
+  "name": "bntu",
   "type": "HLS",
   "configuration": {
     "componentType": "HLS",
     "configFiles": [
       "hls_config.cfg"
     ],
-    "work_dir": "3dlocatorfpgacrc"
+    "work_dir": "bntu"
   }
 }

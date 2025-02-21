@@ -1,7 +1,9 @@
 {
   "workspaceRoot": "D:\\Projects\\SoftwareDesign\\fpga",
   "mapping": {
+    "bntu\\bntu.cpp": "bntu",
     "3dlocatorfpgacrc\\testbench.cpp": "3dlocatorfpgacrc",
-    "3dlocatorfpgacrc\\main.cpp": "3dlocatorfpgacrc"
+    "3dlocatorfpgacrc\\main.cpp": "3dlocatorfpgacrc",
+    "bntu\\main.cpp": "bntu"
   }
 }
